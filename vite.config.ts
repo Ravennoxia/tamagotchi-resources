@@ -6,6 +6,6 @@ export default defineConfig(({command}) => {
     const isProduction = command === "build"
     return {
         plugins: [react()],
-        base: isProduction ? "/tamagotchi-resources/" : "/"
+        base: isProduction ? "/tamagotchi-resources/" : "./"
     }
 })
