@@ -79,7 +79,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Tamatchi_sprite.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Tamatchi_sprite.png"
@@ -116,7 +116,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f3/Kuchitamatchi_sprite_v3.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f3/Kuchitamatchi_sprite_v3.png"
@@ -171,6 +171,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/SpMameNew.PNG"
       },
       {
+        "version": "v4.5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/SpMameNew.PNG"
+      },
+      {
         "version": "chu",
         "stage": "Adult",
         "gender": "Male",
@@ -178,6 +184,12 @@
       },
       {
         "version": "v5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/SpMameNew.PNG"
+      },
+      {
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/SpMameNew.PNG"
@@ -396,6 +408,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
       },
       {
+        "version": "v4.5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
+      },
+      {
         "version": "chu",
         "stage": "Adult",
         "gender": "Male",
@@ -403,6 +421,12 @@
       },
       {
         "version": "v5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d6/SpKuchiNew.PNG"
+      },
+      {
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d6/SpKuchiNew.PNG"
@@ -621,6 +645,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0d/Oyajitchi_sprite.png"
       },
       {
+        "version": "v4.5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0d/Oyajitchi_sprite.png"
+      },
+      {
         "version": "plusColor",
         "stage": "Adult",
         "gender": "Male",
@@ -740,7 +770,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9a/Hashitamatchi_sprite_v3.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9a/Hashitamatchi_sprite_v3.png"
@@ -778,6 +808,12 @@
       },
       {
         "version": "v4",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
+      },
+      {
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
@@ -1309,6 +1345,12 @@
         "stage": "Baby",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Tsubutchi_sprite.png"
+      },
+      {
+        "version": "v4.5",
+        "stage": "Baby",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Tsubutchi_sprite.png"
       }
     ]
   },
@@ -1413,7 +1455,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/bc/Hikotchi_sprite_v3.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Hikotchi_sprite_v4p5.png"
@@ -1527,7 +1569,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/UFOtchi_sprite_v2.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/18/UFOtchi_sprite_v4p5.png"
@@ -1793,7 +1835,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Kuribotchi_akai_sprite.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Kuribotchi_sprite.png"
@@ -1868,6 +1910,12 @@
       },
       {
         "version": "v4",
+        "stage": "Senior",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c9/Ojitchi_sprite.png"
+      },
+      {
+        "version": "v4.5",
         "stage": "Senior",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c9/Ojitchi_sprite.png"
@@ -1961,6 +2009,12 @@
       },
       {
         "version": "v4",
+        "stage": "Senior",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8f/Otokitchi_sprite.png"
+      },
+      {
+        "version": "v4.5",
         "stage": "Senior",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8f/Otokitchi_sprite.png"
@@ -2079,6 +2133,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
       },
       {
+        "version": "v4.5",
+        "stage": "Teen",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
+      },
+      {
         "version": "chu",
         "stage": "Teen",
         "gender": "Female",
@@ -2086,6 +2146,12 @@
       },
       {
         "version": "v5",
+        "stage": "Teen",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
@@ -2239,6 +2305,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
       },
       {
+        "version": "v4.5",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
+      },
+      {
         "version": "chu",
         "stage": "Adult",
         "gender": "Female",
@@ -2246,6 +2318,12 @@
       },
       {
         "version": "v5",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
+      },
+      {
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
@@ -2477,6 +2555,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/75/V1_Gozarutchi.png"
       },
       {
+        "version": "v4.5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/75/V1_Gozarutchi.png"
+      },
+      {
         "version": "v5",
         "stage": "Adult",
         "gender": "Male",
@@ -2563,6 +2647,12 @@
       },
       {
         "version": "v4",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Violetchi_sprite.png"
+      },
+      {
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Violetchi_sprite.png"
@@ -2786,7 +2876,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Hitodetchi_sprite.png"
       },
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Hitodetchi_sprite.png"
@@ -3059,7 +3149,7 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Paparatchi_sprite.png"
       },
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Paparatchi_sprite.png"
@@ -3998,7 +4088,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/82/Ura_mameotchi_sprite.png"
@@ -4011,7 +4101,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b5/Ura_mamekotchi.png"
@@ -4024,7 +4114,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Shippotchi_sprite.png"
@@ -4037,7 +4127,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/27/Shippokotchi_sprite.png"
@@ -4050,7 +4140,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/53/UraYoungMametchi_V4.5_sprite.png"
@@ -4063,7 +4153,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/da/Crackertchi_V4.5_sprite.png"
@@ -4076,7 +4166,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/53/Zouritchi_V4.5_sprite.png"
@@ -4089,7 +4179,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/16/UraYoungMarotchi_V4.5_sprite.png"
@@ -4102,7 +4192,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5a/UraMametchi_V4.5_sprite.png"
@@ -4121,7 +4211,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7a/Samuraitchi_V4.5_sprite.png"
@@ -4134,7 +4224,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ee/Matsuritchi_V4.5_sprite.png"
@@ -4147,7 +4237,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5b/Horoyotchi_V4.5_sprite.png"
@@ -4160,7 +4250,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d7/Tsukkomitchi_V4.5_sprite.png"
@@ -4173,7 +4263,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/60/UraZukyutchi_V4.5_sprite.png"
@@ -4186,7 +4276,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4c/Hyottokotchi_V4.5_sprite.png"
@@ -4199,7 +4289,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/3a/Ura_memeotchi.png"
@@ -4212,7 +4302,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a7/Ura_memeputchi_sprite.png"
@@ -4225,7 +4315,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4d/Haneotchi_sprite.png"
@@ -4238,7 +4328,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/07/Hanekotchi_sprite.png"
@@ -4251,7 +4341,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8c/Daiyatchi_V4.5_sprite.png"
@@ -4270,7 +4360,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f6/Kujakutchi_V4.5_sprite.png"
@@ -4289,7 +4379,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/36/UraYoungMemetchi_V4.5_sprite.png"
@@ -4302,7 +4392,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/db/UraYoungVioletchi_V4.5_sprite.png"
@@ -4315,7 +4405,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c1/Celebtchi_V4.5_sprite.png"
@@ -4328,7 +4418,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/59/Yasaguretchi_V4.5_sprite.png"
@@ -4341,7 +4431,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/93/UraTogetchi_V4.5_sprite.png"
@@ -4354,7 +4444,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/53/Primatchi_V4.5_sprite.png"
@@ -4367,7 +4457,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/86/UraMemetchi_V4.5_sprite.png"
@@ -4380,7 +4470,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/31/UraVioletchi_V4.5_sprite.png"
@@ -4393,7 +4483,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fa/Hanagatatchi_V4.5_sprite.png"
@@ -4406,7 +4496,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8d/Ura_kuchiotchi_sprite.png"
@@ -4419,7 +4509,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b8/Ura_kuchikotchi.png"
@@ -4432,7 +4522,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f6/Tsunootchi_sprite.png"
@@ -4445,7 +4535,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fb/Tsunokotchi_sprite.png"
@@ -4458,7 +4548,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/24/Kometchi_V4.5_sprite.png"
@@ -4471,7 +4561,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/bb/Boxertchi_V4.5_sprite.png"
@@ -4484,7 +4574,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c7/UraYoungYattatchi_V4.5_sprite.png"
@@ -4497,7 +4587,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/66/Yakantchi_V4.5_sprite.png"
@@ -4510,7 +4600,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/14/Tenpatchi_V4.5_sprite.png"
@@ -4523,7 +4613,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c2/Tougyutchi_V4.5_sprite.png"
@@ -4536,7 +4626,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d0/UraKuchipatchi_V4.5_sprite.png"
@@ -4549,7 +4639,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fb/UraDebatchi_V4.5_sprite.png"
@@ -4562,7 +4652,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/UraYattatchi_V4.5_sprite.png"
@@ -4575,7 +4665,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/64/Shitekitchi_V4.5_sprite.png"
@@ -4588,7 +4678,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/62/Mukimukitchi_V4.5_sprite.png"
@@ -4601,7 +4691,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Baby",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5b/Bikkuritchi_sprite.png"
@@ -4614,7 +4704,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Tsuetchi_sprite.png"
@@ -4627,7 +4717,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Makigamitchi_sprite.png"
@@ -4640,7 +4730,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/84/Mokutchi_sprite.png"
@@ -4653,7 +4743,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/46/Kabotchi_sprite.png"
@@ -4666,7 +4756,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b1/Benzatchi_sprite.png"
@@ -4679,7 +4769,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Teen",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/89/Gorogorotchi_sprite.png"
@@ -4692,7 +4782,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/eb/Gosutchi_sprite.png"
@@ -4705,7 +4795,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/ca/Washikitchi_sprite.png"
@@ -4718,7 +4808,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/Rainbowtchi_sprite.png"
@@ -4731,7 +4821,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Senior",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1d/Ura_ojitchi_sprite.png"
@@ -4744,7 +4834,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Senior",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c7/Ura_otokitchi_sprite.png"
@@ -4757,7 +4847,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v4",
+        "version": "v4.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/bb/Ura_oyajitchi_sprite.png"
@@ -4851,6 +4941,12 @@
         "stage": "Baby",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/67/Mimifuwatchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Baby",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/67/Mimifuwatchi_sprite.png"
       }
     ]
   },
@@ -4864,6 +4960,12 @@
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0c/Mousetchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Child",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0c/Mousetchi_sprite.png"
       }
     ]
   },
@@ -4874,6 +4976,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Sakuramotchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Sakuramotchi_sprite.png"
@@ -4899,6 +5007,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Teen",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2b/Mamekatchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2b/Mamekatchi_sprite.png"
@@ -4956,6 +5070,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9d/Chantotchi_sprite.png"
       },
       {
+        "version": "v5.5",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9d/Chantotchi_sprite.png"
+      },
+      {
         "version": "v6",
         "stage": "Adult",
         "gender": "Female",
@@ -4970,6 +5090,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Adult",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/97/Kuromametchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/97/Kuromametchi_sprite.png"
@@ -5022,6 +5148,12 @@
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/aa/Papamametchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Parent",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/aa/Papamametchi_sprite.png"
       }
     ]
   },
@@ -5035,6 +5167,12 @@
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/Papakurotchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Parent",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/Papakurotchi_sprite.png"
       }
     ]
   },
@@ -5045,6 +5183,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Parent",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Mamametchi_fami_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Mamametchi_fami_sprite.png"
@@ -5082,6 +5226,12 @@
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/97/Omututchi_sprite.png"
       },
       {
+        "version": "v5.5",
+        "stage": "Baby",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/97/Omututchi_sprite.png"
+      },
+      {
         "version": "iD",
         "stage": "Baby",
         "gender": "Male",
@@ -5096,6 +5246,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4a/Ahirukutchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4a/Ahirukutchi_sprite.png"
@@ -5133,6 +5289,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c2/Belltchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c2/Belltchi_sprite.png"
@@ -5315,6 +5477,12 @@
         "stage": "Baby",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Futabatchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Baby",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Futabatchi_sprite.png"
       }
     ]
   },
@@ -5325,6 +5493,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": "Male",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b6/Mattaritchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b6/Mattaritchi_sprite.png"
@@ -5350,6 +5524,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d0/Tororotchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d0/Tororotchi_sprite.png"
@@ -5394,6 +5574,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Teen",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2c/Shelltchi_Sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2c/Shelltchi_Sprite.png"
@@ -5451,6 +5637,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2c/HotTeatchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2c/HotTeatchi_sprite.png"
@@ -5538,6 +5730,12 @@
         "stage": "Baby",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/Iwatchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
+        "stage": "Baby",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/Iwatchi_sprite.png"
       }
     ]
   },
@@ -5548,6 +5746,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Child",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6c/Hoshitchi_fami_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Child",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6c/Hoshitchi_fami_sprite.png"
@@ -5573,6 +5777,12 @@
     "versions": [
       {
         "version": "v5",
+        "stage": "Teen",
+        "gender": null,
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d1/Mikazukitchi_sprite.png"
+      },
+      {
+        "version": "v5.5",
         "stage": "Teen",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d1/Mikazukitchi_sprite.png"
@@ -5810,7 +6020,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/68/Chamametchi_familitchi_sprite.png"
@@ -5871,7 +6081,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6b/Tamastatchi_sprite.png"
@@ -5884,7 +6094,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/Pharaotchi_sprite.png"
@@ -5897,7 +6107,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e7/Megamitchi_ver_5_sprite.png"
@@ -5910,7 +6120,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cd/Rosetchi_sprite.png"
@@ -5923,7 +6133,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/84/Eiyuutchi_sprite.png"
@@ -5936,7 +6146,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Tonotchi_sprite.png"
@@ -5949,7 +6159,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/ff/Teitokutchi_sprite.png"
@@ -5962,7 +6172,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7f/Tennyotchi_sprite.png"
@@ -5975,7 +6185,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a6/SpKikiTeen.PNG"
@@ -6048,7 +6258,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Kinbatchi_sprite.png"
@@ -6061,7 +6271,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5c/Magictchi_sprite.png"
@@ -6074,7 +6284,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/15/Princess_tamako_sprite.png"
@@ -6093,7 +6303,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/33/Anesantchi_sprite.png"
@@ -6106,7 +6316,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c9/Antoinetchi_ver_5_sprite.png"
@@ -6131,7 +6341,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/MaharajatchiChar.png"
@@ -6144,7 +6354,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/91/Jyooubatchi_sprite.png"
@@ -6157,7 +6367,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/41/Mememamatchi_sprite.png"
@@ -6170,7 +6380,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a4/Elizabethtchi_sprite.png"
@@ -6183,7 +6393,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/df/Nonopotchi_Teenager_Sprite.png"
@@ -6220,7 +6430,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b4/Prince_tamahiko_sprite.png"
@@ -6239,7 +6449,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8e/Glasstchi_sprite.png"
@@ -6252,7 +6462,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b1/V5.5_Uranaitchi.png"
@@ -6265,7 +6475,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/82/Chandelitchi_sprite.png"
@@ -6278,7 +6488,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/69/Gulasantchi_sprite.png"
@@ -6291,7 +6501,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0a/Papapatchi_sprite.png"
@@ -6304,7 +6514,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/41/Crystaltchi_Chart.png"
@@ -6317,7 +6527,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1d/Jeweltchi_Sprite.png"
@@ -6330,7 +6540,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/94/Jewelboxtchi_Sprite.png"
@@ -6343,7 +6553,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d9/Puddingtchi_sprite.png"
@@ -6368,7 +6578,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e3/Alamodetchi_sprite.png"
@@ -6381,7 +6591,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Adult",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0f/Modeltchi_sprite.png"
@@ -6394,7 +6604,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c4/Towertchi_sprite.png"
@@ -6407,7 +6617,7 @@
     "gender": null,
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": null,
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/Scooptchi_sprite.png"
@@ -6420,7 +6630,7 @@
     "gender": "Male",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Male",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9a/Gotchiking_sprite.png"
@@ -6433,7 +6643,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Parent",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f3/GotchiQueen_sprite.png"
@@ -6446,7 +6656,7 @@
     "gender": "Female",
     "versions": [
       {
-        "version": "v5",
+        "version": "v5.5",
         "stage": "Teen",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/87/V5.5_tamakoko.png"
