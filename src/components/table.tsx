@@ -123,7 +123,7 @@ export default function GridExample() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch("/tamagotchi-data.json")
+                const response = await fetch(import.meta.env.BASE_URL + "tamagotchi-data.json")
                 if (!response.ok) {
                     // noinspection ExceptionCaughtLocallyJS
                     throw new Error(response.status.toString())
