@@ -7,7 +7,7 @@
       {
         "version": "original",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Babytchi_sprite.png"
       },
       {
@@ -19,7 +19,7 @@
       {
         "version": "pac-man",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Babytchi_sprite.png"
       }
     ]
@@ -32,25 +32,25 @@
       {
         "version": "original",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ee/Marutchi_sprite.png"
       },
       {
         "version": "v1",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ee/Marutchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ee/Marutchi_sprite.png"
       },
       {
         "version": "mini",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/30/Marutchi_sprite_mini.png"
       },
       {
@@ -69,19 +69,19 @@
       {
         "version": "original",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Tamatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Tamatchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Tamatchi_sprite.png"
       },
       {
@@ -106,19 +106,19 @@
       {
         "version": "original",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/04/Kuchitamatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f3/Kuchitamatchi_sprite_v3.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f3/Kuchitamatchi_sprite_v3.png"
       },
       {
@@ -137,31 +137,31 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Mametchi_Sprite.png"
       },
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Mametchi_Sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Mametchi_Sprite.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c1/Chibi_Tama_Mametchi.PNG"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/SpMameNew.PNG"
       },
       {
@@ -245,7 +245,7 @@
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ac/MamePac.png"
       },
       {
@@ -275,7 +275,7 @@
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/44/Mametchi_neutral.png"
       }
     ]
@@ -288,25 +288,25 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7d/Ginjirotchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c0/Ginjirotchi_sprite_v2.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a3/Ginjirotchi_sprite_mini.png"
       },
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/09/GinjiroPac.png"
       },
       {
@@ -331,19 +331,19 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/58/Maskutchi_Sprite.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/28/Maskutchi_chibi_sprite.png"
       },
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/48/MaskuPac.png"
       },
       {
@@ -362,31 +362,31 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
       },
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/Chibi_Tama_Kuchipatchi.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Kuchipatchi_Sprite.png"
       },
       {
@@ -470,7 +470,7 @@
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4c/KuchipaPac.png"
       },
       {
@@ -507,19 +507,19 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/64/Nyorotchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/64/Nyorotchi_sprite.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/55/Nyorotchi_sprite_mini.png"
       },
       {
@@ -538,25 +538,25 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Tarakotchi_sprite.png"
       },
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Tarakotchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Tarakotchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Tarakotchi_sprite.png"
       },
       {
@@ -587,7 +587,7 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cd/Oyajitchi_sprite_p1.png"
       },
       {
@@ -605,7 +605,7 @@
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b7/Oyajitchi_sprite_mini.png"
       },
       {
@@ -649,24 +649,24 @@
   "Bill": {
     "link": "https://tamagotchi.fandom.com/wiki/Bill",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/cb/Bill.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9c/Bill_Sprite.png"
       },
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/99/Bill_sprite_mini.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9c/Bill_Sprite.png"
       }
     ]
@@ -679,7 +679,7 @@
       {
         "version": "original",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/85/Shirobabytchi_sprite.png"
       },
       {
@@ -691,7 +691,7 @@
       {
         "version": "pac-man",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1b/Shirobabytchi_sprite_pmt.png"
       }
     ]
@@ -699,12 +699,12 @@
   "Tonmarutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tonmarutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f6/Tonmarutchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c9/Tonmarutchi_sprite.png"
       }
     ]
@@ -712,12 +712,12 @@
   "Tongaritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tongaritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Tongaritchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/83/Tongaritchi_sprite.png"
       }
     ]
@@ -730,13 +730,13 @@
       {
         "version": "original",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e3/Hashitamatchi_sprite_p2.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9a/Hashitamatchi_sprite_v3.png"
       },
       {
@@ -755,25 +755,25 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
       },
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Mimitchi_sprite.png"
       },
       {
@@ -797,7 +797,7 @@
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/ca/MimiPac.png"
       },
       {
@@ -840,19 +840,19 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Pochitchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7a/Pochitchi_sprite_v2.png"
       },
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/19/PochiPac.png"
       },
       {
@@ -872,12 +872,12 @@
   "Nyatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Nyatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c4/Nyatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fc/Adult-Nyatchi.PNG"
       }
     ]
@@ -885,24 +885,24 @@
   "Zuccitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Zuccitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/ZucchitchiScan.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Zuccitchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/12/Zuccitchi_sprite_v2.png"
       },
       {
         "version": "pac-man",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ae/ZucciPac.png"
       }
     ]
@@ -910,18 +910,18 @@
   "Hashizoutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Hashizoutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/HashizoutchiModern.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d0/Hashizoutchi_Sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d0/Hashizoutchi_Sprite.png"
       }
     ]
@@ -934,13 +934,13 @@
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/94/Kusatchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/94/Kusatchi_sprite.png"
       },
       {
@@ -954,18 +954,18 @@
   "Takotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Takotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/78/TakotchiScan.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Takotchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cc/Takotchi_sprite_v2.png"
       }
     ]
@@ -973,18 +973,18 @@
   "Sekitoritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Sekitoritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e7/Sekitoritchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Sekitoritchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Sekitoritchi_sprite.png"
       }
     ]
@@ -992,12 +992,12 @@
   "Charitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Charitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e0/CharitchiScan.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e0/Charitchi_sprite.png"
       }
     ]
@@ -1005,12 +1005,12 @@
   "Zatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Zatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/09/Zatchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/95/Zatchi_sprite.png"
       }
     ]
@@ -1018,12 +1018,12 @@
   "Kuritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kuritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/be/Kuritchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/98/Kuritchi_sprite.png"
       }
     ]
@@ -1031,24 +1031,24 @@
   "Mohitamatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mohitamatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Mohitamatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/93/Mohitamatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/93/Mohitamatchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/93/Mohitamatchi_sprite.png"
       }
     ]
@@ -1067,7 +1067,7 @@
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/21/Teen-Obotchi.PNG"
       },
       {
@@ -1117,7 +1117,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/32/Pyonchitchi_sprite.png"
       },
       {
@@ -1142,13 +1142,13 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f2/Kiwitchi_sprite.png"
       },
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c6/Kiwitchi_Paradise_small_sprite.png"
       }
     ]
@@ -1167,7 +1167,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Sprite_bunbuntchi.png"
       }
     ]
@@ -1186,7 +1186,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/62/Megatchi_sprite.png"
       }
     ]
@@ -1243,7 +1243,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b0/Pyonkotchi_sprite.png"
       },
       {
@@ -1296,18 +1296,18 @@
   "Tsubutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tsubutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/Tsubutchi.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Tsubutchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Tsubutchi_sprite.png"
       }
     ]
@@ -1315,18 +1315,18 @@
   "Teletchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Teletchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7b/Shiroteletchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/00/Shiroteletchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c9/Teletchi_sprite.png"
       }
     ]
@@ -1334,12 +1334,12 @@
   "Kakutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kakutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0e/Kakutchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/Kakutchi_sprite.png"
       }
     ]
@@ -1352,7 +1352,7 @@
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/17/Hyurutchi_sprite.png"
       },
       {
@@ -1366,18 +1366,18 @@
   "Puchitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Puchitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0b/Puchitchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ea/Puchitchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ea/Puchitchi_sprite.png"
       }
     ]
@@ -1385,12 +1385,12 @@
   "Currypantchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Currypantchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Currypantchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/3d/Currypantchi_sprite.png"
       }
     ]
@@ -1409,7 +1409,7 @@
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/bc/Hikotchi_sprite_v3.png"
       },
       {
@@ -1447,7 +1447,7 @@
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a5/Piroriroritchi_sprite.png"
       }
     ]
@@ -1466,7 +1466,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Hiratchi_sprite.png"
       }
     ]
@@ -1485,7 +1485,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2b/Marumimitchi_sprite.png"
       }
     ]
@@ -1504,7 +1504,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c5/Adult-Billotchi.PNG"
       }
     ]
@@ -1523,7 +1523,7 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/UFOtchi_sprite_v2.png"
       },
       {
@@ -1599,7 +1599,7 @@
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0a/Chibi_Mikotchi.gif"
       }
     ]
@@ -1620,12 +1620,12 @@
   "PetitChocotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/PetitChocotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/31/PuchiChocotchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b5/Petitchocotchi_sprite.png"
       }
     ]
@@ -1633,24 +1633,24 @@
   "Mizutamatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mizutamatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Mizutamatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/Mizutamatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/Mizutamatchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/Mizutamatchi_sprite.png"
       }
     ]
@@ -1669,7 +1669,7 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/08/Propellertchi_sprite.png"
       }
     ]
@@ -1688,7 +1688,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8f/Kabutchi_sprite.png"
       }
     ]
@@ -1707,7 +1707,7 @@
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/49/Patapatatchi_sprite.png"
       }
     ]
@@ -1726,7 +1726,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/89/Pipotchi_2.png"
       },
       {
@@ -1740,12 +1740,12 @@
   "PuchiTeletchi": {
     "link": "https://tamagotchi.fandom.com/wiki/PuchiTeletchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e0/PuchiTeletchi_tah.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/13/Petiteletchi_sprite.png"
       }
     ]
@@ -1753,18 +1753,18 @@
   "Harutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Harutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/62/Harutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0e/Harutchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0e/Harutchi_sprite.png"
       }
     ]
@@ -1783,19 +1783,19 @@
       {
         "version": "v2",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Kuribotchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Kuribotchi_akai_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Kuribotchi_sprite.png"
       },
       {
@@ -1832,7 +1832,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Chomametchi_sprite.png"
       }
     ]
@@ -1925,7 +1925,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/df/Chohimetchi_sprite.png"
       }
     ]
@@ -1994,12 +1994,12 @@
   "Debutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Debutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f4/Debutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "osuMesu",
         "stage": null,
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f9/Debutchi_sprite.png"
       }
     ]
@@ -2033,18 +2033,18 @@
   "Kinakomotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kinakomotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/32/Kinakomotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v1",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e6/Kinakomotchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e6/Kinakomotchi_sprite.png"
       }
     ]
@@ -2057,19 +2057,19 @@
       {
         "version": "v1",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
       },
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/50/Ichigotchi_Sprite.png"
       },
       {
@@ -2124,19 +2124,19 @@
       {
         "version": "v1",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/77/YoungMimitchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/77/YoungMimitchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/77/YoungMimitchi_sprite.png"
       },
       {
@@ -2155,19 +2155,19 @@
       {
         "version": "v1",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Hinotamatchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Hinotamatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5f/Hinotamatchi_sprite.png"
       },
       {
@@ -2192,13 +2192,13 @@
       {
         "version": "v1",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/Oniontchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/Oniontchi_sprite.png"
       },
       {
@@ -2217,19 +2217,19 @@
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/SpMeme.PNG"
       },
       {
@@ -2344,19 +2344,19 @@
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Hanatchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Hanatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Hanatchi_sprite.png"
       },
       {
@@ -2375,19 +2375,19 @@
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/14/Androtchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/14/Androtchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/14/Androtchi_sprite.png"
       },
       {
@@ -2418,19 +2418,19 @@
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e5/Masktchi_sprite.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e5/Masktchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e5/Masktchi_sprite.png"
       },
       {
@@ -2455,19 +2455,19 @@
       {
         "version": "v1",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/75/V1_Gozarutchi.png"
       },
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/75/V1_Gozarutchi.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/75/V1_Gozarutchi.png"
       },
       {
@@ -2552,13 +2552,13 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Violetchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/Violetchi_sprite.png"
       },
       {
@@ -2650,12 +2650,12 @@
   "Flowertchi v2": {
     "link": "https://tamagotchi.fandom.com/wiki/Flowertchi_(Version_2)",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7e/Flowertchi_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7e/Flowertchi_sprite.png"
       }
     ]
@@ -2663,12 +2663,12 @@
   "Kaerutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kaerutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Kaerutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Kaerutchi.png"
       }
     ]
@@ -2676,12 +2676,12 @@
   "Toratchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Toratchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/Toratchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/Toratchi.png"
       }
     ]
@@ -2694,7 +2694,7 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/45/Butterflytchi.png"
       },
       {
@@ -2714,12 +2714,12 @@
   "Whaletchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Whaletchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/ae/Whaletchi_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ae/Whaletchi_sprite.png"
       }
     ]
@@ -2782,13 +2782,13 @@
       {
         "version": "v2",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Hitodetchi_sprite.png"
       },
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/Hitodetchi_sprite.png"
       },
       {
@@ -2807,13 +2807,13 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fd/Ringotchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fd/Ringotchi_sprite.png"
       },
       {
@@ -2862,13 +2862,13 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0f/Teen-YanguMametchi.PNG"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0f/Teen-YanguMametchi.PNG"
       },
       {
@@ -2899,13 +2899,13 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Nikatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Nikatchi_sprite.png"
       },
       {
@@ -2924,13 +2924,13 @@
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fe/YoungOyajitchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/df/Young_oyajitchi_akai_sprite.png"
       },
       {
@@ -2944,18 +2944,18 @@
   "Hinatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Hinatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/31/Hinatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fc/Hinatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/fc/Hinatchi_sprite.png"
       }
     ]
@@ -2968,13 +2968,13 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c4/Adult-Debatchi.PNG"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c4/Adult-Debatchi.PNG"
       },
       {
@@ -2999,13 +2999,13 @@
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2d/Dorotchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2d/Dorotchi_sprite.png"
       },
       {
@@ -3025,18 +3025,18 @@
   "Kurokotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kurokotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/85/Kurokotchi2.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/84/Kurokotchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/84/Kurokotchi_sprite.png"
       }
     ]
@@ -3044,24 +3044,24 @@
   "Paparatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Paparatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0d/Paparatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v2",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Paparatchi_sprite.png"
       },
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Paparatchi_sprite.png"
       },
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Paparatchi_sprite.png"
       }
     ]
@@ -3074,7 +3074,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/95/Wooltchi_sprite.png"
       },
       {
@@ -3094,12 +3094,12 @@
   "Lucky Untchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Lucky_Untchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/4b/LuckyUntchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/LuckyUntchi_sprite_mini.png"
       }
     ]
@@ -3107,18 +3107,18 @@
   "Darumatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Darumatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/06/Darumatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "mini",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/Darumatchi_sprite_kainen.png"
       },
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Darumatchi_sprite.png"
       }
     ]
@@ -3152,12 +3152,12 @@
   "Cheritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Cheritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/6f/Cherrytchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Cherrytchi_sprite.png"
       }
     ]
@@ -3165,12 +3165,12 @@
   "Tomatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tomatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/8d/Tomatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e7/Tomatchi_sprite.png"
       }
     ]
@@ -3183,7 +3183,7 @@
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/34/Ribotchi_sprite.png"
       },
       {
@@ -3197,12 +3197,12 @@
   "Tengutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tengutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d6/Tengutchi.gif",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Tengutchi_sprite.png"
       }
     ]
@@ -3210,12 +3210,12 @@
   "Mimiyoritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mimiyoritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a1/Mimiyoritchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4f/Adult-Mimiyoritchi.PNG"
       }
     ]
@@ -3223,12 +3223,12 @@
   "Tsunotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tsunotchi_(2006)",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f9/Tsunotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ac/Tsunotchi_sprite.png"
       }
     ]
@@ -3236,12 +3236,12 @@
   "Decotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Decotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/78/Decotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7b/Decotchi_sprite.png"
       }
     ]
@@ -3249,12 +3249,12 @@
   "Hidatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Hidatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/27/Hidatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2d/Hidatchi_sprite.png"
       }
     ]
@@ -3262,12 +3262,12 @@
   "Teketchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Teketchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Teketchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8c/Teketchi_sprite.png"
       }
     ]
@@ -3275,12 +3275,12 @@
   "Warusotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Warusotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1c/Warusotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v3",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/ce/Warusotchi_Sprite.png"
       }
     ]
@@ -3859,12 +3859,12 @@
   "Hatenatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Hatenatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/41/Hatenatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Hatenatchi_sprite.png"
       }
     ]
@@ -3872,12 +3872,12 @@
   "Meganetchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Meganetchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f5/Meganetchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/09/Meganetchi_sprite.png"
       }
     ]
@@ -3885,12 +3885,12 @@
   "Getatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Getatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c7/Getatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Getatchi_sprite.png"
       }
     ]
@@ -3898,12 +3898,12 @@
   "Okutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Okutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d6/Okutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/bf/Okutchi_sprite.png"
       }
     ]
@@ -3911,12 +3911,12 @@
   "Ohigetchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Ohigetchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/19/Ohigetchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Ohigetchi_sprite.png"
       }
     ]
@@ -3924,12 +3924,12 @@
   "Rakugotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Rakugotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Rakugotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6a/Rakugotchi_sprite.png"
       }
     ]
@@ -3937,12 +3937,12 @@
   "Shiripuritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Shiripuritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/57/Shiripuritchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/87/Shiripuritchi_sprite.png"
       }
     ]
@@ -3955,7 +3955,7 @@
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/51/Entama_neckietchi.PNG"
       },
       {
@@ -3974,7 +3974,7 @@
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5d/Kabukitchi_sprite.png"
       }
     ]
@@ -3982,12 +3982,12 @@
   "Ashitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Ashitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/77/Ashitchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/Ashitchi_sprite.png"
       }
     ]
@@ -4598,12 +4598,12 @@
   "Bikkuritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Bikkuritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/58/Bikkuritchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5b/Bikkuritchi_sprite.png"
       }
     ]
@@ -4611,12 +4611,12 @@
   "Tsuetchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tsuetchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/6a/Tsuetchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Tsuetchi_sprite.png"
       }
     ]
@@ -4624,12 +4624,12 @@
   "Makigamitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Makigamitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/da/Makigamitchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Makigamitchi_sprite.png"
       }
     ]
@@ -4637,12 +4637,12 @@
   "Mokutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mokutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/35/Mokutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/84/Mokutchi_sprite.png"
       }
     ]
@@ -4650,12 +4650,12 @@
   "Kabotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Kabotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1f/Kabotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/46/Kabotchi_sprite.png"
       }
     ]
@@ -4663,12 +4663,12 @@
   "Benzatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Benzatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0d/Benzatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b1/Benzatchi_sprite.png"
       }
     ]
@@ -4676,12 +4676,12 @@
   "Gorogorotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Gorogorotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/43/Gorogorotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/89/Gorogorotchi_sprite.png"
       }
     ]
@@ -4689,12 +4689,12 @@
   "Gothtchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Gothtchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Gosutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/eb/Gosutchi_sprite.png"
       }
     ]
@@ -4702,12 +4702,12 @@
   "Washikitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Washikitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/8d/Washikitchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/ca/Washikitchi_sprite.png"
       }
     ]
@@ -4715,12 +4715,12 @@
   "Rainbowtchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Rainbowtchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/21/Rainbowtchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v4",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/63/Rainbowtchi_sprite.png"
       }
     ]
@@ -4844,12 +4844,12 @@
   "Mimifuwatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mimifuwatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/5c/Mimifuwatchi.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/67/Mimifuwatchi_sprite.png"
       }
     ]
@@ -5078,7 +5078,7 @@
       {
         "version": "v5",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/97/Omututchi_sprite.png"
       },
       {
@@ -5308,12 +5308,12 @@
   "Futabatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Futabatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f6/Futabatchi.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Futabatchi_sprite.png"
       }
     ]
@@ -5363,7 +5363,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/3e/TororotchiSpriteM.png"
       }
     ]
@@ -5531,12 +5531,12 @@
   "Iwatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Iwatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1f/Iwatchi_blue.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/Iwatchi_sprite.png"
       }
     ]
@@ -5549,7 +5549,7 @@
       {
         "version": "v5",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6c/Hoshitchi_fami_sprite.png"
       },
       {
@@ -5574,7 +5574,7 @@
       {
         "version": "v5",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d1/Mikazukitchi_sprite.png"
       },
       {
@@ -5599,7 +5599,7 @@
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/49/Sunnytchi_sprite.png"
       },
       {
@@ -5613,12 +5613,12 @@
   "Planetchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Planetchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3e/Planetchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cc/Planetchi_sprite.png"
       }
     ]
@@ -5626,12 +5626,12 @@
   "Osumotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Osumotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b4/Boyo.gif",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e7/Osumotchi_sprite.png"
       }
     ]
@@ -5639,12 +5639,12 @@
   "Metaboritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Metaboritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/77/Metaboritchi_artwork.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/Metaboritchi_fami_sprite.png"
       }
     ]
@@ -5652,12 +5652,12 @@
   "Petiputchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Petiputchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/25/Puchiputchi_male.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/73/Puchiputchi_sprite.png"
       }
     ]
@@ -5665,12 +5665,12 @@
   "Petioyatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Petioyatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9c/Puchioyatchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/70/Puchioyatchi_sprite.png"
       }
     ]
@@ -6314,12 +6314,12 @@
   "Jeweltchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Jeweltchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/ee/Jeweltchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1d/Jeweltchi_Sprite.png"
       }
     ]
@@ -6327,12 +6327,12 @@
   "Jewelboxtchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Jewelboxtchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/cd/Jewelbowtchi_blue_large.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/94/Jewelboxtchi_Sprite.png"
       }
     ]
@@ -6345,7 +6345,7 @@
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d9/Puddingtchi_sprite.png"
       },
       {
@@ -6357,7 +6357,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6b/PuddingtchiSpriteF.png"
       }
     ]
@@ -6365,12 +6365,12 @@
   "À La Modetchi": {
     "link": "https://tamagotchi.fandom.com/wiki/%C3%80_La_Modetchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/90/Alamodetchi_M_Happy.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e3/Alamodetchi_sprite.png"
       }
     ]
@@ -6378,12 +6378,12 @@
   "Modeltchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Modeltchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/ff/Modeltchi_Male.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0f/Modeltchi_sprite.png"
       }
     ]
@@ -6391,12 +6391,12 @@
   "Towertchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Towertchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/92/Towertchi_M_Happy.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/c4/Towertchi_sprite.png"
       }
     ]
@@ -6404,12 +6404,12 @@
   "Scooptchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Scooptchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Scooptchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "v5",
         "stage": "Parent",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/Scooptchi_sprite.png"
       }
     ]
@@ -6694,7 +6694,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5a/KilalatchiPINKmix.png"
       }
     ]
@@ -7046,7 +7046,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d2/KingyobatchiSpriteF.png"
       }
     ]
@@ -8003,7 +8003,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/Cosmotchi_F_m%21x_sprite.png"
       }
     ]
@@ -8028,7 +8028,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/MaimaitchiSpriteM.png"
       }
     ]
@@ -9364,7 +9364,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/65/Haretchi_m%21x_m.png"
       },
       {
@@ -9378,12 +9378,12 @@
   "Eriitchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Eriitchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/EriitchiDefault_m%21x_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/EriitchimixPINK.png"
       }
     ]
@@ -9396,7 +9396,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f7/SoyofuwatchiPINKmix.png"
       },
       {
@@ -9415,7 +9415,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d4/MokokotchiBLUEmix.png"
       },
       {
@@ -9434,7 +9434,7 @@
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6b/TororitchiBLUEmix.png"
       },
       {
@@ -9448,12 +9448,12 @@
   "Waamuwaamutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Waamuwaamutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/04/WaamuWaamutchiBLUEmix.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "mix",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/04/WaamuWaamutchiBLUEmix.png"
       }
     ]
@@ -9968,12 +9968,12 @@
   "Hanbunkotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Hanbunkotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/76/Hanbunkotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1d/Hanbunkotchi_sprite_f.png"
       }
     ]
@@ -9981,12 +9981,12 @@
   "Mokofuritchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mokofuritchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a7/Mokofuritchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/5/5e/Mokofuritchi_sprite_f.png"
       }
     ]
@@ -9994,12 +9994,12 @@
   "Penribotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Penribotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/80/Penribotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/6/6f/Penribotchi_sprite_m.png"
       }
     ]
@@ -10012,7 +10012,7 @@
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ef/Kurupoyotchi_sprite_m.png"
       },
       {
@@ -10031,7 +10031,7 @@
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/00/Terukerotchi_sprite_m.png"
       },
       {
@@ -10045,12 +10045,12 @@
   "Mettotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Mettotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7d/Mettotchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Teen",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d8/Mettotchi_sprite_f.png"
       }
     ]
@@ -10103,12 +10103,12 @@
   "Pet Sanrio 1": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/04/Artwork_1564435773.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/04/Artwork_1564435773.png"
       }
     ]
@@ -10116,12 +10116,12 @@
   "Pet Sanrio 2": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Artwork_1564178811.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Artwork_1564178811.png"
       }
     ]
@@ -10129,12 +10129,12 @@
   "Pet Sanrio 3": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/ed/Artwork_1564436205.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/ed/Artwork_1564436205.png"
       }
     ]
@@ -10142,12 +10142,12 @@
   "Pet Sanrio 4": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/78/Artwork_1564432714.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/78/Artwork_1564432714.png"
       }
     ]
@@ -10155,12 +10155,12 @@
   "Pet Sanrio 5": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f4/Artwork_1564436550.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/f/f4/Artwork_1564436550.png"
       }
     ]
@@ -10168,12 +10168,12 @@
   "Pet Fantasy 1": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b8/WondergardenTamapet.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b8/WondergardenTamapet.PNG"
       }
     ]
@@ -10181,12 +10181,12 @@
   "Pet Fantasy 2": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/4e/PrincessTamapet.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/4/4e/PrincessTamapet.PNG"
       }
     ]
@@ -10194,12 +10194,12 @@
   "Pet Fantasy 3": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b8/ArabianTamapet.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/b/b8/ArabianTamapet.PNG"
       }
     ]
@@ -10207,12 +10207,12 @@
   "Pet Sweets 1": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/WagashiTamapetSprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/WagashiTamapetSprite.png"
       }
     ]
@@ -10220,12 +10220,12 @@
   "Pet Sweets 2": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d2/DolceTamapet.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "on",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/d2/DolceTamapet.PNG"
       }
     ]
@@ -10915,12 +10915,12 @@
   "Unimarutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Unimarutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/db/Unimarutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/UnimarutchiUniSprite.png"
       }
     ]
@@ -10980,12 +10980,12 @@
   "Tamagotchi Comrade Angel": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Comrades",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/db/Angel_Moaitchi_Uni_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/db/Angel_Moaitchi_Uni_sprite.png"
       }
     ]
@@ -10993,12 +10993,12 @@
   "Tamagotchi Comrade Devil": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Comrades",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7a/Devil_Moaitchi_Uni_sprite.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7a/Devil_Moaitchi_Uni_sprite.PNG"
       }
     ]
@@ -11006,12 +11006,12 @@
   "Hello Kitty Harapparatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Hello_Kitty_Harapparatchi.PNG",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/c/cf/Hello_Kitty_Harapparatchi.PNG"
       }
     ]
@@ -11019,12 +11019,12 @@
   "Fairy Tale Doyakentchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/FairyTaleDoyakentchi_Uni_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/FairyTaleDoyakentchi_Uni_sprite.png"
       }
     ]
@@ -11032,12 +11032,12 @@
   "Mr. Dog": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/MrDog_Uni_sprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/MrDog_Uni_sprite.png"
       }
     ]
@@ -11045,12 +11045,12 @@
   "Pet Uni DoriTama": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni/Character_list",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/03/DoriTamaSchoolPetIdleSprite.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "uni",
         "stage": "Pet",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/03/DoriTamaSchoolPetIdleSprite.png"
       }
     ]
@@ -11149,12 +11149,12 @@
   "Babymarutchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Babymarutchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/ed/Babymarutchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Baby",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/Babymarutchi_neutral.png"
       }
     ]
@@ -11162,12 +11162,12 @@
   "Land Kid": {
     "link": "https://tamagotchi.fandom.com/wiki/Land_Kid",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7e/Land_Kid.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/a/a5/LandKid_small_sprite.png"
       }
     ]
@@ -11175,12 +11175,12 @@
   "Water Kid": {
     "link": "https://tamagotchi.fandom.com/wiki/Water_Kid",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/dc/Water_Kid.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/37/WaterKid_small_sprite.png"
       }
     ]
@@ -11188,12 +11188,12 @@
   "Sky Kid": {
     "link": "https://tamagotchi.fandom.com/wiki/Sky_Kid",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/Sky_Kid.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Child",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/33/SkyKid_small_sprite.png"
       }
     ]
@@ -11201,12 +11201,12 @@
   "Meowtchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Meowtchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/Meowtchi.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/87/Meowtchi_Neutral_Sprite.png"
       }
     ]
@@ -11214,12 +11214,12 @@
   "Gumax": {
     "link": "https://tamagotchi.fandom.com/wiki/Gumax",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7d/Gumax_paradise.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/31/Gumax_Paradise_Mini_Sprite.png"
       }
     ]
@@ -11227,12 +11227,12 @@
   "Ratchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Ratchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/02/Ratchi_paradise.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/3/3d/Rattchi_Paradise_Mini_Sprite.png"
       }
     ]
@@ -11240,12 +11240,12 @@
   "Irukatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Irukatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9a/Irukatchi_paradise.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/9/9e/Irukatchi_Paradise_Sprite.png"
       }
     ]
@@ -11253,12 +11253,12 @@
   "Horhotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Horhotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0b/Horhotchi_paradise.png",
-    "gender": null,
+    "gender": "Other",
     "versions": [
       {
         "version": "paradise",
         "stage": "Adult",
-        "gender": null,
+        "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/8/8e/Horhotchi_small_sprite.png"
       }
     ]
