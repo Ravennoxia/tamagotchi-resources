@@ -26,7 +26,6 @@ a:hover {
 body {
     margin: 0;
     display: flex;
-    /*place-items: center;*/
     min-width: 320px;
     min-height: 100vh;
 }
@@ -72,16 +71,26 @@ button:focus-visible {
     }
 }
 
-.image {
+.ag-cell {
+    padding: 0 !important;
+}
+
+.ag-cell-value {
+    padding-left: 10px;
+}
+
+.tama-name {
+    text-align: left;
+}
+
+.tama-image-span {
+    display: flex;
+}
+
+.tama-image-50 {
     width: 50px;
     height: 50px;
     object-fit: contain;
-}
-
-.imageSpan {
-    display: flex; /* Use flexbox to center content if needed */
-    align-items: center; /* Vertically center image */
-    justify-content: center; /* Horizontally center image */
-    height: 100%; /* Make sure span takes full height of cell */
-    width: 100%; /* Make sure span takes full width of cell */
+    /*image-rendering: crisp-edges;*/
+    image-rendering: pixelated;
 }
