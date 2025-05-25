@@ -9,7 +9,7 @@ interface AllData {
 }
 
 interface TamaData {
-    link: string | null
+    link: string
     image: string
     gender: string | null
     versions: VersionData[]
@@ -25,7 +25,7 @@ interface VersionData {
 export interface IRow {
     image: string
     name: string
-    link: string | null
+    link: string
     gender: string | null
     spriteOriginal: string | null
     spriteOsuMesu: string | null
