@@ -34,10 +34,8 @@ export interface IRow {
     spriteMini: string | null
     spriteV3: string | null
     spriteV4: string | null
-    spriteV4point5: string | null
     spriteChu: string | null
     spriteV5: string | null
-    spriteV5point5: string | null
     spriteV6: string | null
     spriteTamaGo: string | null
     spriteNano: string | null
@@ -83,10 +81,8 @@ export default function GridExample() {
         getImageColumnDef("Mini", "spriteMini"),
         getImageColumnDef("v3", "spriteV3"),
         getImageColumnDef("v4", "spriteV4"),
-        getImageColumnDef("v4.5", "spriteV4point5"),
         getImageColumnDef("Chu", "spriteChu"),
         getImageColumnDef("v5", "spriteV5"),
-        getImageColumnDef("v5.5", "spriteV5point5"),
         getImageColumnDef("v6", "spriteV6"),
         getImageColumnDef("TamaGo", "spriteTamaGo"),
         getImageColumnDef("Nano", "spriteNano"),
@@ -142,10 +138,8 @@ export default function GridExample() {
                         spriteMini: getVersionSprite(charData.versions, "mini"),
                         spriteV3: getVersionSprite(charData.versions, "v3"),
                         spriteV4: getVersionSprite(charData.versions, "v4"),
-                        spriteV4point5: getVersionSprite(charData.versions, "v4.5"),
                         spriteChu: getVersionSprite(charData.versions, "chu"),
                         spriteV5: getVersionSprite(charData.versions, "v5"),
-                        spriteV5point5: getVersionSprite(charData.versions, "v5.5"),
                         spriteV6: getVersionSprite(charData.versions, "v6"),
                         spriteTamaGo: getVersionSprite(charData.versions, "tamaGo"),
                         spriteNano: getVersionSprite(charData.versions, "nano"),
