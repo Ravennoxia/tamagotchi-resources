@@ -11,6 +11,7 @@ interface AllData {
 interface TamaData {
     link: string
     image: string
+    stage: string[]
     gender: string
     versions: VersionData[]
 }
@@ -18,7 +19,7 @@ interface TamaData {
 interface VersionData {
     version: string
     stage: string
-    gender: string | null
+    gender: string
     sprite: string
 }
 
@@ -26,7 +27,8 @@ export interface IRow {
     image: string
     name: string
     link: string
-    gender: string | null
+    stages: string[]
+    gender: string
     spriteOriginal: string | null
     spriteOsuMesu: string | null
     spriteV1: string | null
@@ -54,12 +56,26 @@ export interface IRow {
     spriteParadise: string | null
 }
 
-const genderFilterOptions = ["Female", "Male", "Other"]
+const stageFilterOptions = {
+    baby: "Baby",
+    child: "Child",
+    teen: "Teen",
+    adult: "Adult",
+    senior: "Senior",
+    parent: "Parent",
+    pet: "Pet"
+}
+const genderFilterOptions = {
+    female: "Female",
+    male: "Male",
+    other: "Other"
+}
 
 export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
-    const gridRef = useRef<AgGridReact<TamaData>>(null)
+    const gridRef = useRef<AgGridReact<IRow>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
-    const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(["Female", "Male", "Other"])
+    const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(Object.values(genderFilterOptions))
+    const [selectedStageOptions, setSelectedStageOptions] = useState<string[]>(Object.values(stageFilterOptions))
     const [rowData, setRowData] = useState<IRow[]>([])
     const [columnDefs] = useState<ColDef<IRow>[]>([
         {
@@ -116,38 +132,69 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         accentedSort: true
     }
 
-    function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>) {
+    function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>, filterType: "gender" | "stages") {
         const {value, checked} = event.target
-        setSelectedGenderOptions(prevFilters => {
-            if (checked) {
-                return [...prevFilters, value]
-            }
-            return prevFilters.filter(filter => filter !== value)
-        })
+        if (filterType === "gender") {
+            setSelectedGenderOptions(prevFilters => {
+                if (checked) {
+                    return [...prevFilters, value]
+                }
+                return prevFilters.filter(filter => filter !== value)
+            })
+        } else if (filterType === "stages") {
+            setSelectedStageOptions(prevFilters => {
+                if (checked) {
+                    return [...prevFilters, value]
+                }
+                return prevFilters.filter(filter => filter !== value)
+            })
+        }
     }
 
     const isFilterPresent = useCallback((): boolean => {
-        return true
-    }, [])
+        const genderFilterActive =
+            (selectedGenderOptions.length > 0 &&
+                selectedGenderOptions.length < Object.keys(genderFilterOptions).length) ||
+            selectedGenderOptions.length === 0
+        const stageFilterActive =
+            (selectedStageOptions.length > 0 &&
+                selectedStageOptions.length < Object.keys(stageFilterOptions).length) ||
+            selectedStageOptions.length === 0
+        return genderFilterActive || stageFilterActive
+    }, [selectedGenderOptions.length, selectedStageOptions.length])
 
     const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
         const gender = node.data?.gender
-        if (!gender || selectedGenderOptions.length === 0) {
-            return false
-        }
-        for (const filter of selectedGenderOptions) {
-            if (gender === filter) {
-                return true
+        const stages = node.data?.stages
+        let passesGenderFilter = true
+        let passesStageFilter = true
+        if (selectedGenderOptions.length > 0 && selectedGenderOptions.length < Object.keys(genderFilterOptions).length) {
+            if (!gender) {
+                passesGenderFilter = false
+            } else {
+                passesGenderFilter = selectedGenderOptions.includes(gender)
             }
+        } else if (selectedGenderOptions.length === 0) {
+            passesGenderFilter = false
         }
-        return false
-    }, [selectedGenderOptions])
+        if (selectedStageOptions.length > 0 && selectedStageOptions.length < Object.keys(stageFilterOptions).length) {
+            if (!stages || stages.length === 0) {
+                passesStageFilter = false
+            } else {
+                const lowerCaseSelectedStages = selectedStageOptions.map(opt => opt.toLowerCase())
+                passesStageFilter = stages.some(s => lowerCaseSelectedStages.includes(s.toLowerCase()))
+            }
+        } else if (selectedStageOptions.length === 0) {
+            passesStageFilter = false
+        }
+        return passesGenderFilter && passesStageFilter
+    }, [selectedGenderOptions, selectedStageOptions])
 
     useEffect(() => {
         if (gridRef.current?.api) {
             gridRef.current.api.onFilterChanged()
         }
-    }, [selectedGenderOptions])
+    }, [selectedGenderOptions, selectedStageOptions])
 
     useEffect(() => {
         window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", event => {
@@ -169,6 +216,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                         image: charData.image,
                         name: name,
                         link: charData.link,
+                        stages: charData.stage,
                         gender: charData.gender,
                         spriteOriginal: getVersionSprite(charData.versions, "original"),
                         spriteOsuMesu: getVersionSprite(charData.versions, "osuMesu"),
@@ -210,16 +258,28 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     return (
         <div style={{display: "flex", flexDirection: "column", flex: 1}} className={"padding"}>
             {displayFilters &&
-                <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
-                    <strong>Gender:</strong>
-                    {genderFilterOptions.map(option => (
-                        <label key={option}>
-                            <input type="checkbox" value={option} checked={selectedGenderOptions.includes(option)}
-                                   onChange={handleCheckboxChange}/>
-                            {option}
-                        </label>
-                    ))}
-                </div>
+                <>
+                    <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                        <strong>Gender:</strong>
+                        {Object.entries(genderFilterOptions).map(([key, value]) => (
+                            <label key={key}>
+                                <input type="checkbox" value={value} checked={selectedGenderOptions.includes(value)}
+                                       onChange={e => handleCheckboxChange(e, "gender")}/>
+                                {value}
+                            </label>
+                        ))}
+                    </div>
+                    <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                        <strong>Stages:</strong>
+                        {Object.entries(stageFilterOptions).map(([key, value]) => (
+                            <label key={key}>
+                                <input type="checkbox" value={value} checked={selectedStageOptions.includes(value)}
+                                       onChange={e => handleCheckboxChange(e, "stages")}/>
+                                {value}
+                            </label>
+                        ))}
+                    </div>
+                </>
             }
             <div style={{flex: 1}} data-ag-theme-mode={themeMode}>
                 <AgGridReact<IRow>
