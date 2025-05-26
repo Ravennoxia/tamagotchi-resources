@@ -76,7 +76,8 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
             field: "name",
             cellRenderer: NameRenderer,
             cellClass: "tama-name",
-            pinned: "left"
+            pinned: "left",
+            unSortIcon: true
         },
         getImageColumnDef("Original", "spriteOriginal"),
         getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
@@ -111,7 +112,8 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         autoSizeStrategy: {type: "fitCellContents", skipHeader: true},
         enableCellTextSelection: true,
         ensureDomOrder: true,
-        suppressColumnVirtualisation: true
+        suppressColumnVirtualisation: true,
+        accentedSort: true
     }
 
     function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>) {

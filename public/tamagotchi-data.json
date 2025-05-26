@@ -8481,19 +8481,6 @@
       }
     ]
   },
-  "Atchitchi": {
-    "link": "https://tamagotchi.fandom.com/wiki/Atchitchi",
-    "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/38/Acchitchi_blueline.png",
-    "gender": "Male",
-    "versions": [
-      {
-        "version": "Ps",
-        "stage": "Adult",
-        "gender": "Male",
-        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7f/Achitchi.png"
-      }
-    ]
-  },
   "Shirimotchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Shirimotchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3b/Shirimotchi-blueline.png",
@@ -8934,7 +8921,7 @@
         "version": "Ps",
         "stage": "Adult",
         "gender": "Male",
-        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/e/e9/Matchtchi.png"
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/7f/Achitchi.png"
       },
       {
         "version": "friends",
