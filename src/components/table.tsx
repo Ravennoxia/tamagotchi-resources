@@ -1,7 +1,7 @@
-import {type ColDef, type GridOptions} from "ag-grid-community"
+import {type ColDef, type GridOptions, type IRowNode} from "ag-grid-community"
 import {AgGridReact} from "ag-grid-react"
 import ImageRenderer from "./renderers/imageRenderer.tsx"
-import {useEffect, useState} from "react"
+import {type ChangeEvent, useCallback, useEffect, useRef, useState} from "react"
 import NameRenderer from "./renderers/nameRenderer.tsx"
 
 interface AllData {
@@ -11,13 +11,13 @@ interface AllData {
 interface TamaData {
     link: string
     image: string
-    gender: string | null
+    gender: string
     versions: VersionData[]
 }
 
 interface VersionData {
     version: string
-    stage: string | null
+    stage: string
     gender: string | null
     sprite: string
 }
@@ -54,8 +54,12 @@ export interface IRow {
     spriteParadise: string | null
 }
 
-export default function GridExample() {
+const genderFilterOptions = ["Female", "Male", "Other"]
+
+export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
+    const gridRef = useRef<AgGridReact<TamaData>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
+    const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(["Female", "Male", "Other"])
     const [rowData, setRowData] = useState<IRow[]>([])
     const [columnDefs] = useState<ColDef<IRow>[]>([
         {
@@ -109,6 +113,39 @@ export default function GridExample() {
         ensureDomOrder: true,
         suppressColumnVirtualisation: true
     }
+
+    function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>) {
+        const {value, checked} = event.target
+        setSelectedGenderOptions(prevFilters => {
+            if (checked) {
+                return [...prevFilters, value]
+            }
+            return prevFilters.filter(filter => filter !== value)
+        })
+    }
+
+    const isFilterPresent = useCallback((): boolean => {
+        return true
+    }, [])
+
+    const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
+        const gender = node.data?.gender
+        if (!gender || selectedGenderOptions.length === 0) {
+            return false
+        }
+        for (const filter of selectedGenderOptions) {
+            if (gender === filter) {
+                return true
+            }
+        }
+        return false
+    }, [selectedGenderOptions])
+
+    useEffect(() => {
+        if (gridRef.current?.api) {
+            gridRef.current.api.onFilterChanged()
+        }
+    }, [selectedGenderOptions])
 
     useEffect(() => {
         window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", event => {
@@ -169,12 +206,28 @@ export default function GridExample() {
     }, [])
 
     return (
-        <div style={{height: "100%"}} data-ag-theme-mode={themeMode}>
-            <AgGridReact
-                rowData={rowData}
-                columnDefs={columnDefs}
-                gridOptions={gridOptions}
-            />
+        <div style={{display: "flex", flexDirection: "column", flex: 1}} className={"padding"}>
+            {displayFilters &&
+                <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                    <strong>Gender:</strong>
+                    {genderFilterOptions.map(option => (
+                        <label key={option}>
+                            <input type="checkbox" value={option} checked={selectedGenderOptions.includes(option)}
+                                   onChange={handleCheckboxChange}/>
+                            {option}
+                        </label>
+                    ))}
+                </div>
+            }
+            <div style={{flex: 1}} data-ag-theme-mode={themeMode}>
+                <AgGridReact<IRow>
+                    rowData={rowData}
+                    columnDefs={columnDefs}
+                    gridOptions={gridOptions}
+                    isExternalFilterPresent={isFilterPresent}
+                    doesExternalFilterPass={doesFilterPass}
+                />
+            </div>
         </div>
     )
 }
