@@ -56,7 +56,7 @@ export interface IRow {
 
 const genderFilterOptions = ["Female", "Male", "Other"]
 
-export default function GridExample() {
+export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
     const gridRef = useRef<AgGridReact<TamaData>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(["Female", "Male", "Other"])
@@ -116,7 +116,6 @@ export default function GridExample() {
 
     function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>) {
         const {value, checked} = event.target
-        console.log({value, checked, selectedGenderOptions})
         setSelectedGenderOptions(prevFilters => {
             if (checked) {
                 return [...prevFilters, value]
@@ -206,22 +205,21 @@ export default function GridExample() {
         fetchData().catch()
     }, [])
 
-    console.log("Rendering component. selectedGenderOptions:", selectedGenderOptions)
-
     return (
-        <div style={{height: "100%"}}>
-            <div style={{textAlign: "left"}}>
-                <p style={{margin: 0}}>Filters:</p>
-                Gender:
-                {genderFilterOptions.map(option => (
-                    <label key={option}>
-                        <input type="checkbox" value={option} checked={selectedGenderOptions.includes(option)}
-                               onChange={handleCheckboxChange}/>
-                        {option}
-                    </label>
-                ))}
-            </div>
-            <div style={{height: "100%"}} data-ag-theme-mode={themeMode}>
+        <div style={{display: "flex", flexDirection: "column", flex: 1}} className={"padding"}>
+            {displayFilters &&
+                <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                    <strong>Gender:</strong>
+                    {genderFilterOptions.map(option => (
+                        <label key={option}>
+                            <input type="checkbox" value={option} checked={selectedGenderOptions.includes(option)}
+                                   onChange={handleCheckboxChange}/>
+                            {option}
+                        </label>
+                    ))}
+                </div>
+            }
+            <div style={{flex: 1}} data-ag-theme-mode={themeMode}>
                 <AgGridReact<IRow>
                     rowData={rowData}
                     columnDefs={columnDefs}

@@ -70,27 +70,3 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
-
-.ag-cell {
-    padding: 0 !important;
-}
-
-.ag-cell-value {
-    padding-left: 10px;
-}
-
-.tama-name {
-    text-align: left;
-}
-
-.tama-image-span {
-    display: flex;
-}
-
-.tama-image-50 {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    /*image-rendering: crisp-edges;*/
-    image-rendering: pixelated;
-}

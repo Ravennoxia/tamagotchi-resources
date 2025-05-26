@@ -1,8 +1,14 @@
 import "./App.css"
-import GridExample from "./components/table.tsx"
+import TamaTable from "./components/table.tsx"
+import Navigation from "./components/navigation.tsx"
+import {useState} from "react"
 
 export default function App() {
+    const [displayFilters, setDisplayFilters] = useState<boolean>(false)
     return (
-        <GridExample/>
+        <div style={{display: "flex", flexDirection: "column", height: "100%"}}>
+            <Navigation setDisplayFilters={setDisplayFilters}/>
+            <TamaTable displayFilters={displayFilters}/>
+        </div>
     )
 }
