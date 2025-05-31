@@ -3,73 +3,14 @@ import {AgGridReact} from "ag-grid-react"
 import ImageRenderer from "./renderers/imageRenderer.tsx"
 import {type ChangeEvent, useCallback, useEffect, useRef, useState} from "react"
 import NameRenderer from "./renderers/nameRenderer.tsx"
+import {
+    type AllData,
+    genderFilterOptions,
+    type IRow,
+    stageFilterOptions,
+    type VersionData
+} from "../data/interfacesAndConsts.tsx"
 
-interface AllData {
-    [characterName: string]: TamaData
-}
-
-interface TamaData {
-    link: string
-    image: string
-    stage: string[]
-    gender: string
-    versions: VersionData[]
-}
-
-interface VersionData {
-    version: string
-    stage: string
-    gender: string
-    sprite: string
-}
-
-export interface IRow {
-    image: string
-    name: string
-    link: string
-    stages: string[]
-    gender: string
-    spriteOriginal: string | null
-    spriteOsuMesu: string | null
-    spriteV1: string | null
-    spriteV2: string | null
-    spriteMini: string | null
-    spriteV3: string | null
-    spriteV4: string | null
-    spriteChu: string | null
-    spriteV5: string | null
-    spriteV6: string | null
-    spriteTamaGo: string | null
-    spriteNano: string | null
-    spriteFriends: string | null
-    spritePacMan: string | null
-    spriteHelloKitty: string | null
-    spritePlusColor: string | null
-    spriteID: string | null
-    spritePs: string | null
-    sprite4U: string | null
-    spriteMix: string | null
-    spriteOn: string | null
-    spritePix: string | null
-    spriteSmart: string | null
-    spriteUni: string | null
-    spriteParadise: string | null
-}
-
-const stageFilterOptions = {
-    baby: "Baby",
-    child: "Child",
-    teen: "Teen",
-    adult: "Adult",
-    senior: "Senior",
-    parent: "Parent",
-    pet: "Pet"
-}
-const genderFilterOptions = {
-    female: "Female",
-    male: "Male",
-    other: "Other"
-}
 
 export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
     const gridRef = useRef<AgGridReact<IRow>>(null)
@@ -256,39 +197,45 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }, [])
 
     return (
-        <div style={{display: "flex", flexDirection: "column", flex: 1}} className={"padding"}>
+        <div className={"padding flex-column-1"}>
             {displayFilters &&
-                <>
-                    <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                <div>
+                    <div className={"filter-grid"}>
                         <strong>Gender:</strong>
-                        {Object.entries(genderFilterOptions).map(([key, value]) => (
-                            <label key={key}>
-                                <input type="checkbox" value={value} checked={selectedGenderOptions.includes(value)}
-                                       onChange={e => handleCheckboxChange(e, "gender")}/>
-                                {value}
-                            </label>
-                        ))}
-                    </div>
-                    <div style={{display: "flex", textAlign: "left", gap: "1em"}}>
+                        <div className={"filter-row"}>
+                            {Object.entries(genderFilterOptions).map(([key, value]) => (
+                                <label key={key}>
+                                    <input type="checkbox" value={value} checked={selectedGenderOptions.includes(value)}
+                                           onChange={e => handleCheckboxChange(e, "gender")}/>
+                                    {value}
+                                </label>
+                            ))}
+                        </div>
                         <strong>Stages:</strong>
-                        {Object.entries(stageFilterOptions).map(([key, value]) => (
-                            <label key={key}>
-                                <input type="checkbox" value={value} checked={selectedStageOptions.includes(value)}
-                                       onChange={e => handleCheckboxChange(e, "stages")}/>
-                                {value}
-                            </label>
-                        ))}
+                        <div className={"filter-row"}>
+                            {Object.entries(stageFilterOptions).map(([key, value]) => (
+                                <label key={key}>
+                                    <input type="checkbox" value={value} checked={selectedStageOptions.includes(value)}
+                                           onChange={e => handleCheckboxChange(e, "stages")}/>
+                                    {value}
+                                </label>
+                            ))}
+                        </div>
                     </div>
-                </>
+                </div>
             }
-            <div style={{flex: 1}} data-ag-theme-mode={themeMode}>
-                <AgGridReact<IRow>
-                    rowData={rowData}
-                    columnDefs={columnDefs}
-                    gridOptions={gridOptions}
-                    isExternalFilterPresent={isFilterPresent}
-                    doesExternalFilterPass={doesFilterPass}
-                />
+            <div className={"flex-column-1"} data-ag-theme-mode={themeMode}>
+                <div style={{flex: 1}}>
+                    <AgGridReact<IRow>
+                        rowData={rowData}
+                        columnDefs={columnDefs}
+                        gridOptions={gridOptions}
+                        isExternalFilterPresent={isFilterPresent}
+                        doesExternalFilterPass={doesFilterPass}
+                    />
+                </div>
+                <cite style={{textAlign: "right"}}>Images and information are from the <a
+                    href={"https://tamagotchi.fandom.com/wiki/Main_Page"}>Tamagotchi Wiki</a></cite>
             </div>
         </div>
     )
