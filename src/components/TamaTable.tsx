@@ -33,7 +33,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                 },
                 pinned: "left",
                 unSortIcon: true,
-                width: 200
+                width: isPhone ? 150 : 200
             }
         let dynamicColumns: ColDef<IRow>[] = []
         if (selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite)) {
@@ -151,7 +151,6 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
 
         window.addEventListener("resize", handleResize)
         return () => {
-            console.log("Cleaning up resize listener.")
             window.removeEventListener("resize", handleResize)
         }
     }, [handleResize])
@@ -209,6 +208,26 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         fetchData().catch()
     }, [])
 
+    const totalColumnsWidth = useMemo(() => {
+        let sum = 0
+        columnDefs.forEach(col => {
+            sum += (col.width ?? col.minWidth ?? 0)
+        })
+        return sum + 17
+    }, [columnDefs])
+
+    const gridWrapperStyles = useMemo(() => {
+        if (totalColumnsWidth <= window.innerWidth) {
+            return {
+                maxWidth: `${Math.min(totalColumnsWidth, window.innerWidth)}px`
+            }
+        } else {
+            return {
+                maxWidth: "100%"
+            }
+        }
+    }, [totalColumnsWidth])
+
     return (
         <div className={"padding flex-column-1"}>
             {displayFilters &&
@@ -247,7 +266,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                     </div>
                 </div>
             }
-            <div className={"flex-column-1"} data-ag-theme-mode={themeMode}>
+            <div className={"flex-column-1"} data-ag-theme-mode={themeMode} style={gridWrapperStyles}>
                 <div style={{flex: 1}}>
                     <AgGridReact<IRow>
                         rowData={rowData}
