@@ -65,6 +65,11 @@ export const genderFilterOptions = {
     other: "Other"
 }
 
+export const deviceFilterOptions = {
+    blackAndWhite: "Black & White",
+    color: "Color"
+}
+
 export const blackAndWhiteDevices = [
     "original",
     "osuMesu",

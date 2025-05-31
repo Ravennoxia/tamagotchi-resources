@@ -1,15 +1,10 @@
 #root {
     width: 100%;
     margin: 0;
-    text-align: center;
 }
 
 .ag-cell {
     padding: 0 !important;
-}
-
-.ag-cell-value {
-    padding-left: 10px;
 }
 
 .nav-item {

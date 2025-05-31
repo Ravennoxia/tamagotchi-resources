@@ -30,7 +30,7 @@ export default function CombinedRenderer(params: CombinedImageNameRendererParams
                     src={imageUrl}
                     alt={params.data?.name}
                     className={params.isPhone ? "tama-image-tiny" : "tama-image-small"}
-                    style={{marginRight: "5px"}}
+                    style={{margin: "0 5px"}}
                 />
             )}
             <span

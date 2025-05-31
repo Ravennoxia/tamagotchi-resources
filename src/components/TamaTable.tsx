@@ -4,6 +4,7 @@ import ImageRenderer from "./renderers/ImageRenderer.tsx"
 import {type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState} from "react"
 import {
     type AllData,
+    deviceFilterOptions,
     genderFilterOptions,
     type IRow,
     stageFilterOptions,
@@ -17,11 +18,12 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     const gridRef = useRef<AgGridReact<IRow>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
+    const [selectedDeviceOptions, setSelectedDeviceOptions] = useState<string[]>(Object.values(deviceFilterOptions))
     const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(Object.values(genderFilterOptions))
     const [selectedStageOptions, setSelectedStageOptions] = useState<string[]>(Object.values(stageFilterOptions))
     const [rowData, setRowData] = useState<IRow[]>([])
     const columnDefs = useMemo<ColDef<IRow>[]>(() => {
-        return [
+        const staticColumn: ColDef<IRow> =
             {
                 headerName: "Tamagotchi",
                 field: "name",
@@ -30,62 +32,62 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                     isPhone: isPhone
                 },
                 pinned: "left",
-                unSortIcon: true
-            },
-            getImageColumnDef("Original", "spriteOriginal"),
-            getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
-            getImageColumnDef("v1", "spriteV1"),
-            getImageColumnDef("v2", "spriteV2"),
-            getImageColumnDef("Mini", "spriteMini"),
-            getImageColumnDef("v3", "spriteV3"),
-            getImageColumnDef("v4", "spriteV4"),
-            getImageColumnDef("Chu", "spriteChu"),
-            getImageColumnDef("v5", "spriteV5"),
-            getImageColumnDef("v6", "spriteV6"),
-            getImageColumnDef("TamaGo", "spriteTamaGo"),
-            getImageColumnDef("Nano", "spriteNano"),
-            getImageColumnDef("Friends", "spriteFriends"),
-            getImageColumnDef("Pac-Man", "spritePacMan"),
-            getImageColumnDef("Hello Kitty", "spriteHelloKitty"),
-            getImageColumnDef("+C", "spritePlusColor"),
-            getImageColumnDef("iD", "spriteID"),
-            getImageColumnDef("P's", "spritePs"),
-            getImageColumnDef("4U", "sprite4U"),
-            getImageColumnDef("M!x", "spriteMix"),
-            getImageColumnDef("On", "spriteOn"),
-            getImageColumnDef("Pix", "spritePix"),
-            getImageColumnDef("Smart", "spriteSmart"),
-            getImageColumnDef("Uni", "spriteUni"),
-            getImageColumnDef("Paradise", "spriteParadise")
-
-        ]
-    }, [isPhone])
+                unSortIcon: true,
+                width: 200
+            }
+        let dynamicColumns: ColDef<IRow>[] = []
+        if (selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite)) {
+            dynamicColumns = [...dynamicColumns,
+                getImageColumnDef("Original", "spriteOriginal"),
+                getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
+                getImageColumnDef("v1", "spriteV1"),
+                getImageColumnDef("v2", "spriteV2"),
+                getImageColumnDef("Mini", "spriteMini"),
+                getImageColumnDef("v3", "spriteV3"),
+                getImageColumnDef("v4", "spriteV4"),
+                getImageColumnDef("Chu", "spriteChu"),
+                getImageColumnDef("v5", "spriteV5"),
+                getImageColumnDef("v6", "spriteV6"),
+                getImageColumnDef("TamaGo", "spriteTamaGo"),
+                getImageColumnDef("Nano", "spriteNano"),
+                getImageColumnDef("Friends", "spriteFriends"),
+                getImageColumnDef("Pac-Man", "spritePacMan"),
+                getImageColumnDef("Hello Kitty", "spriteHelloKitty")
+            ]
+        }
+        if (selectedDeviceOptions.includes(deviceFilterOptions.color)) {
+            dynamicColumns = [...dynamicColumns,
+                getImageColumnDef("+C", "spritePlusColor"),
+                getImageColumnDef("iD", "spriteID"),
+                getImageColumnDef("P's", "spritePs"),
+                getImageColumnDef("4U", "sprite4U"),
+                getImageColumnDef("M!x", "spriteMix"),
+                getImageColumnDef("On", "spriteOn"),
+                getImageColumnDef("Pix", "spritePix"),
+                getImageColumnDef("Smart", "spriteSmart"),
+                getImageColumnDef("Uni", "spriteUni"),
+                getImageColumnDef("Paradise", "spriteParadise")
+            ]
+        }
+        return [staticColumn, ...dynamicColumns]
+    }, [isPhone, selectedDeviceOptions])
 
     const gridOptions: GridOptions<IRow> = {
         domLayout: "normal",
-        autoSizeStrategy: {type: "fitCellContents", skipHeader: true},
         enableCellTextSelection: true,
         ensureDomOrder: true,
         suppressColumnVirtualisation: true,
         accentedSort: true
     }
 
-    function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>, filterType: "gender" | "stages") {
+    function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>, filterType: "device" | "gender" | "stages") {
         const {value, checked} = event.target
-        if (filterType === "gender") {
-            setSelectedGenderOptions(prevFilters => {
-                if (checked) {
-                    return [...prevFilters, value]
-                }
-                return prevFilters.filter(filter => filter !== value)
-            })
+        if (filterType === "device") {
+            setSelectedDeviceOptions(updateFilters(value, checked, selectedDeviceOptions))
+        } else if (filterType === "gender") {
+            setSelectedGenderOptions(updateFilters(value, checked, selectedGenderOptions))
         } else if (filterType === "stages") {
-            setSelectedStageOptions(prevFilters => {
-                if (checked) {
-                    return [...prevFilters, value]
-                }
-                return prevFilters.filter(filter => filter !== value)
-            })
+            setSelectedStageOptions(updateFilters(value, checked, selectedStageOptions))
         }
     }
 
@@ -139,7 +141,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         if (gridRef.current?.api) {
             gridRef.current.api.onFilterChanged()
         }
-    }, [selectedGenderOptions, selectedStageOptions])
+    }, [columnDefs, selectedGenderOptions, selectedStageOptions])
 
     useEffect(() => {
         window.matchMedia("(prefers-color-scheme: dark)")
@@ -212,6 +214,16 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
             {displayFilters &&
                 <div>
                     <div className={"filter-grid"}>
+                        <strong> Devices:</strong>
+                        <div className={"filter-row"}>
+                            {Object.entries(deviceFilterOptions).map(([key, value]) => (
+                                <label key={key}>
+                                    <input type="checkbox" value={value} checked={selectedDeviceOptions.includes(value)}
+                                           onChange={e => handleCheckboxChange(e, "device")}/>
+                                    {value}
+                                </label>
+                            ))}
+                        </div>
                         <strong>Gender:</strong>
                         <div className={"filter-row"}>
                             {Object.entries(genderFilterOptions).map(([key, value]) => (
@@ -269,11 +281,19 @@ function getImageColumnDef(headerName: string, field: keyof IRow): ColDef<IRow> 
         filter: false,
         sortable: false,
         cellRenderer: ImageRenderer,
-        autoHeight: true
+        autoHeight: true,
+        width: 52
     }
     return {
         headerName,
         field,
         ...props
     }
+}
+
+function updateFilters(value: string, checked: boolean, prevFilters: string[]) {
+    if (checked) {
+        return [...prevFilters, value]
+    }
+    return prevFilters.filter(filter => filter !== value)
 }
