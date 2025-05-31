@@ -36,7 +36,15 @@
     display: flex;
 }
 
-.tama-image-50 {
+.tama-image-tiny {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    /*image-rendering: crisp-edges;*/
+    image-rendering: pixelated;
+}
+
+.tama-image-small {
     width: 50px;
     height: 50px;
     object-fit: contain;

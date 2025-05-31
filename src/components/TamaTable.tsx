@@ -1,68 +1,65 @@
 import {type ColDef, type GridOptions, type IRowNode} from "ag-grid-community"
 import {AgGridReact} from "ag-grid-react"
-import ImageRenderer from "./renderers/imageRenderer.tsx"
-import {type ChangeEvent, useCallback, useEffect, useRef, useState} from "react"
-import NameRenderer from "./renderers/nameRenderer.tsx"
+import ImageRenderer from "./renderers/ImageRenderer.tsx"
+import {type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState} from "react"
 import {
     type AllData,
     genderFilterOptions,
     type IRow,
     stageFilterOptions,
     type VersionData
-} from "../data/interfacesAndConsts.tsx"
+} from "../data/InterfacesAndConsts.tsx"
+import CombinedRenderer from "./renderers/CombinedRenderer.tsx"
 
+const PHONE_BREAKPOINT = 600
 
 export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
     const gridRef = useRef<AgGridReact<IRow>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
+    const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
     const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(Object.values(genderFilterOptions))
     const [selectedStageOptions, setSelectedStageOptions] = useState<string[]>(Object.values(stageFilterOptions))
     const [rowData, setRowData] = useState<IRow[]>([])
-    const [columnDefs] = useState<ColDef<IRow>[]>([
-        {
-            headerName: "",
-            field: "image",
-            filter: false,
-            sortable: false,
-            cellRenderer: ImageRenderer,
-            autoHeight: true,
-            pinned: "left"
-        },
-        {
-            headerName: "Tamagotchi",
-            field: "name",
-            cellRenderer: NameRenderer,
-            cellClass: "tama-name",
-            pinned: "left",
-            unSortIcon: true
-        },
-        getImageColumnDef("Original", "spriteOriginal"),
-        getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
-        getImageColumnDef("v1", "spriteV1"),
-        getImageColumnDef("v2", "spriteV2"),
-        getImageColumnDef("Mini", "spriteMini"),
-        getImageColumnDef("v3", "spriteV3"),
-        getImageColumnDef("v4", "spriteV4"),
-        getImageColumnDef("Chu", "spriteChu"),
-        getImageColumnDef("v5", "spriteV5"),
-        getImageColumnDef("v6", "spriteV6"),
-        getImageColumnDef("TamaGo", "spriteTamaGo"),
-        getImageColumnDef("Nano", "spriteNano"),
-        getImageColumnDef("Friends", "spriteFriends"),
-        getImageColumnDef("Pac-Man", "spritePacMan"),
-        getImageColumnDef("Hello Kitty", "spriteHelloKitty"),
-        getImageColumnDef("+C", "spritePlusColor"),
-        getImageColumnDef("iD", "spriteID"),
-        getImageColumnDef("P's", "spritePs"),
-        getImageColumnDef("4U", "sprite4U"),
-        getImageColumnDef("M!x", "spriteMix"),
-        getImageColumnDef("On", "spriteOn"),
-        getImageColumnDef("Pix", "spritePix"),
-        getImageColumnDef("Smart", "spriteSmart"),
-        getImageColumnDef("Uni", "spriteUni"),
-        getImageColumnDef("Paradise", "spriteParadise")
+    const columnDefs = useMemo<ColDef<IRow>[]>(() => {
+        return [
+            {
+                headerName: "Tamagotchi",
+                field: "name",
+                cellRenderer: CombinedRenderer,
+                cellRendererParams: {
+                    isPhone: isPhone
+                },
+                pinned: "left",
+                unSortIcon: true
+            },
+            getImageColumnDef("Original", "spriteOriginal"),
+            getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
+            getImageColumnDef("v1", "spriteV1"),
+            getImageColumnDef("v2", "spriteV2"),
+            getImageColumnDef("Mini", "spriteMini"),
+            getImageColumnDef("v3", "spriteV3"),
+            getImageColumnDef("v4", "spriteV4"),
+            getImageColumnDef("Chu", "spriteChu"),
+            getImageColumnDef("v5", "spriteV5"),
+            getImageColumnDef("v6", "spriteV6"),
+            getImageColumnDef("TamaGo", "spriteTamaGo"),
+            getImageColumnDef("Nano", "spriteNano"),
+            getImageColumnDef("Friends", "spriteFriends"),
+            getImageColumnDef("Pac-Man", "spritePacMan"),
+            getImageColumnDef("Hello Kitty", "spriteHelloKitty"),
+            getImageColumnDef("+C", "spritePlusColor"),
+            getImageColumnDef("iD", "spriteID"),
+            getImageColumnDef("P's", "spritePs"),
+            getImageColumnDef("4U", "sprite4U"),
+            getImageColumnDef("M!x", "spriteMix"),
+            getImageColumnDef("On", "spriteOn"),
+            getImageColumnDef("Pix", "spritePix"),
+            getImageColumnDef("Smart", "spriteSmart"),
+            getImageColumnDef("Uni", "spriteUni"),
+            getImageColumnDef("Paradise", "spriteParadise")
 
-    ])
+        ]
+    }, [isPhone])
 
     const gridOptions: GridOptions<IRow> = {
         domLayout: "normal",
@@ -131,6 +128,13 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         return passesGenderFilter && passesStageFilter
     }, [selectedGenderOptions, selectedStageOptions])
 
+    const handleResize = useCallback(() => {
+        const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
+        if (newIsPhone !== isPhone) {
+            setIsPhone(newIsPhone)
+        }
+    }, [isPhone])
+
     useEffect(() => {
         if (gridRef.current?.api) {
             gridRef.current.api.onFilterChanged()
@@ -138,10 +142,17 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }, [selectedGenderOptions, selectedStageOptions])
 
     useEffect(() => {
-        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", event => {
-            setThemeMode(event.matches ? "dark" : "light")
-        })
-    }, [])
+        window.matchMedia("(prefers-color-scheme: dark)")
+            .addEventListener("change", event => {
+                setThemeMode(event.matches ? "dark" : "light")
+            })
+
+        window.addEventListener("resize", handleResize)
+        return () => {
+            console.log("Cleaning up resize listener.")
+            window.removeEventListener("resize", handleResize)
+        }
+    }, [handleResize])
 
     useEffect(() => {
         async function fetchData() {
@@ -234,8 +245,12 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                         doesExternalFilterPass={doesFilterPass}
                     />
                 </div>
+                {isPhone &&
+                    <strong style={{textAlign: "right"}}>This site is best viewed in landscape mode</strong>
+                }
                 <cite style={{textAlign: "right"}}>Images and information are from the <a
-                    href={"https://tamagotchi.fandom.com/wiki/Main_Page"}>Tamagotchi Wiki</a></cite>
+                    href={"https://tamagotchi.fandom.com/wiki/Main_Page"} target="_blank" rel="noopener noreferrer">Tamagotchi
+                    Wiki</a></cite>
             </div>
         </div>
     )
@@ -253,7 +268,8 @@ function getImageColumnDef(headerName: string, field: keyof IRow): ColDef<IRow> 
     const props: ColDef<IRow> = {
         filter: false,
         sortable: false,
-        cellRenderer: ImageRenderer
+        cellRenderer: ImageRenderer,
+        autoHeight: true
     }
     return {
         headerName,

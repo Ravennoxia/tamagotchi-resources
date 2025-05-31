@@ -1,7 +1,7 @@
 import "./App.css"
-import TamaTable from "./components/table.tsx"
-import Navigation from "./components/navigation.tsx"
 import {useState} from "react"
+import Navigation from "./components/Navigation.tsx"
+import TamaTable from "./components/TamaTable.tsx"
 
 export default function App() {
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
