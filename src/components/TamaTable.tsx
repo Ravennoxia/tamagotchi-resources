@@ -82,7 +82,8 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         ensureDomOrder: true,
         suppressColumnVirtualisation: true,
         accentedSort: true,
-        enableBrowserTooltips: true
+        enableBrowserTooltips: true,
+        columnHoverHighlight: true
     }
 
     function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>, filterType: "device" | "gender" | "stages") {
