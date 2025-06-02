@@ -49,7 +49,10 @@
       "p1",
       "v1",
       "v2",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "miniGL",
+      "mini20",
       "iDL15"
     ],
     "columns": [
@@ -213,7 +216,10 @@
       "akai",
       "v3",
       "rv3",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "miniGL",
+      "mini20",
       "entama",
       "v4",
       "uratama",
@@ -442,7 +448,7 @@
       "p1",
       "keitai",
       "v2",
-      "mini",
+      "miniEN",
       "pac-man",
       "pix",
       "pixP",
@@ -505,7 +511,9 @@
     "gender": "Male",
     "devices": [
       "p1",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "mini20",
       "pac-man",
       "smartAnniversary"
     ],
@@ -557,7 +565,10 @@
       "akai",
       "v3",
       "rv3",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "miniGL",
+      "mini20",
       "entama",
       "v4",
       "uratama",
@@ -775,7 +786,10 @@
       "p1",
       "keitai",
       "v2",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "miniGL",
+      "mini20",
       "smart96"
     ],
     "columns": [
@@ -898,7 +912,9 @@
       "akai",
       "v3",
       "rv3",
-      "mini",
+      "miniJP",
+      "miniEN",
+      "mini20",
       "entama",
       "v4",
       "uratama",
@@ -1004,7 +1020,7 @@
       "p1",
       "v3",
       "rv3",
-      "mini"
+      "mini20"
     ],
     "columns": [
       "original",
@@ -2510,12 +2526,10 @@
     ],
     "gender": "Female",
     "devices": [
-      "osuMesu",
-      "mini"
+      "osuMesu"
     ],
     "columns": [
-      "osuMesu",
-      "mini"
+      "osuMesu"
     ],
     "versions": [
       {
@@ -2523,12 +2537,6 @@
         "stage": "Adult",
         "gender": "Female",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/2/24/Mimikotchi_sprite_small.png"
-      },
-      {
-        "version": "mini",
-        "stage": "Adult",
-        "gender": "Other",
-        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0a/Chibi_Mikotchi.gif"
       }
     ]
   },
@@ -4915,7 +4923,8 @@
     ],
     "gender": "Other",
     "devices": [
-      "mini"
+      "miniJP",
+      "miniGL"
     ],
     "columns": [
       "mini"
@@ -4939,7 +4948,7 @@
     "gender": "Other",
     "devices": [
       "akai",
-      "mini"
+      "miniGL"
     ],
     "columns": [
       "mini",
@@ -4957,6 +4966,28 @@
         "stage": "Teen",
         "gender": "Other",
         "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Darumatchi_sprite.png"
+      }
+    ]
+  },
+  "Mikotchi": {
+    "link": "https://tamagotchi.fandom.com/wiki/Mikotchi",
+    "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/34/08_%E3%81%BF%E3%81%93%E3%81%A3%E3%81%A1.gif",
+    "stages": [
+      "Adult"
+    ],
+    "gender": "Female",
+    "devices": [
+      "miniGL"
+    ],
+    "columns": [
+      "mini"
+    ],
+    "versions": [
+      {
+        "version": "mini",
+        "stage": "Adult",
+        "gender": "Female",
+        "sprite": "https://static.wikia.nocookie.net/tamagotchi/images/0/0a/Chibi_Mikotchi.gif"
       }
     ]
   },

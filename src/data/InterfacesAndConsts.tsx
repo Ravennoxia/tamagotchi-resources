@@ -5,8 +5,10 @@ export interface AllData {
 export interface TamaData {
     link: string
     image: string
-    stage: string[]
-    gender: string
+    stages: string[]
+    gender: string,
+    devices: string[]
+    columns: string[]
     versions: VersionData[]
 }
 
@@ -23,6 +25,8 @@ export interface IRow {
     link: string
     stages: string[]
     gender: string
+    devices: string[]
+    columns: string[]
     spriteOriginal: string | null
     spriteOsuMesu: string | null
     spriteV1: string | null

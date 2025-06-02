@@ -4,6 +4,8 @@ import ImageRenderer from "./renderers/ImageRenderer.tsx"
 import {type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState} from "react"
 import {
     type AllData,
+    blackAndWhiteDevices,
+    colorDevices,
     deviceFilterOptions,
     genderFilterOptions,
     type IRow,
@@ -92,6 +94,10 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }
 
     const isFilterPresent = useCallback((): boolean => {
+        const deviceFilterActive =
+            (selectedDeviceOptions.length > 0 &&
+                selectedDeviceOptions.length < Object.keys(deviceFilterOptions).length) ||
+            selectedDeviceOptions.length === 0
         const genderFilterActive =
             (selectedGenderOptions.length > 0 &&
                 selectedGenderOptions.length < Object.keys(genderFilterOptions).length) ||
@@ -100,35 +106,54 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
             (selectedStageOptions.length > 0 &&
                 selectedStageOptions.length < Object.keys(stageFilterOptions).length) ||
             selectedStageOptions.length === 0
-        return genderFilterActive || stageFilterActive
-    }, [selectedGenderOptions.length, selectedStageOptions.length])
+        return deviceFilterActive || genderFilterActive || stageFilterActive
+    }, [selectedDeviceOptions, selectedGenderOptions, selectedStageOptions])
 
-    const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
-        const gender = node.data?.gender
-        const stages = node.data?.stages
-        let passesGenderFilter = true
-        let passesStageFilter = true
+    const passesDeviceFilter = useCallback((devices: string[] | undefined) => {
+        if (!devices || devices.length === 0) {
+            return false
+        }
+        if (selectedDeviceOptions.length === Object.keys(deviceFilterOptions).length) {
+            return true
+        }
+        if (selectedDeviceOptions.length > 0 && selectedDeviceOptions.length < Object.keys(deviceFilterOptions).length) {
+            const includesBlackAndWhite = selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite) && devices.some(d => blackAndWhiteDevices.includes(d))
+            const includesColor = selectedDeviceOptions.includes(deviceFilterOptions.color) && devices.some(d => colorDevices.includes(d))
+            return includesBlackAndWhite || includesColor
+        }
+        return false
+    }, [selectedDeviceOptions])
+
+    const passesGenderFilter = useCallback((gender: string | undefined) => {
+        if (!gender) {
+            return false
+        }
+        if (selectedGenderOptions.length === Object.keys(genderFilterOptions).length) {
+            return true
+        }
         if (selectedGenderOptions.length > 0 && selectedGenderOptions.length < Object.keys(genderFilterOptions).length) {
-            if (!gender) {
-                passesGenderFilter = false
-            } else {
-                passesGenderFilter = selectedGenderOptions.includes(gender)
-            }
-        } else if (selectedGenderOptions.length === 0) {
-            passesGenderFilter = false
+            return selectedGenderOptions.includes(gender)
+        }
+        return false
+    }, [selectedGenderOptions])
+
+    const passesStageFilter = useCallback((stages: string[] | undefined) => {
+        if (!stages || stages.length === 0) {
+            return false
+        }
+        if (selectedStageOptions.length === Object.keys(stageFilterOptions).length) {
+            return true
         }
         if (selectedStageOptions.length > 0 && selectedStageOptions.length < Object.keys(stageFilterOptions).length) {
-            if (!stages || stages.length === 0) {
-                passesStageFilter = false
-            } else {
-                const lowerCaseSelectedStages = selectedStageOptions.map(opt => opt.toLowerCase())
-                passesStageFilter = stages.some(s => lowerCaseSelectedStages.includes(s.toLowerCase()))
-            }
-        } else if (selectedStageOptions.length === 0) {
-            passesStageFilter = false
+            return stages.some(s => selectedStageOptions.includes(s))
         }
-        return passesGenderFilter && passesStageFilter
-    }, [selectedGenderOptions, selectedStageOptions])
+        return false
+    }, [selectedStageOptions])
+
+    const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
+        const {columns, gender, stages} = node.data || {}
+        return passesDeviceFilter(columns) && passesGenderFilter(gender) && passesStageFilter(stages)
+    }, [passesDeviceFilter, passesGenderFilter, passesStageFilter])
 
     const handleResize = useCallback(() => {
         const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
@@ -169,8 +194,10 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                         image: charData.image,
                         name: name,
                         link: charData.link,
-                        stages: charData.stage,
+                        stages: charData.stages,
                         gender: charData.gender,
+                        devices: charData.devices,
+                        columns: charData.columns,
                         spriteOriginal: getVersionSprite(charData.versions, "original"),
                         spriteOsuMesu: getVersionSprite(charData.versions, "osuMesu"),
                         spriteV1: getVersionSprite(charData.versions, "v1"),
@@ -207,26 +234,6 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
 
         fetchData().catch()
     }, [])
-
-    const totalColumnsWidth = useMemo(() => {
-        let sum = 0
-        columnDefs.forEach(col => {
-            sum += (col.width ?? col.minWidth ?? 0)
-        })
-        return sum + 17
-    }, [columnDefs])
-
-    const gridWrapperStyles = useMemo(() => {
-        if (totalColumnsWidth <= window.innerWidth) {
-            return {
-                maxWidth: `${Math.min(totalColumnsWidth, window.innerWidth)}px`
-            }
-        } else {
-            return {
-                maxWidth: "100%"
-            }
-        }
-    }, [totalColumnsWidth])
 
     return (
         <div className={"padding flex-column-1"}>
@@ -266,7 +273,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                     </div>
                 </div>
             }
-            <div className={"flex-column-1"} data-ag-theme-mode={themeMode} style={gridWrapperStyles}>
+            <div className={"flex-column-1"} data-ag-theme-mode={themeMode}>
                 <div style={{flex: 1}}>
                     <AgGridReact<IRow>
                         rowData={rowData}
