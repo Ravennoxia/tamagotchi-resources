@@ -13,7 +13,7 @@ export default class ImageRenderer implements ICellRendererComp {
         }
 
         this.image = document.createElement("img")
-        this.image.setAttribute("class", "tama-image-50")
+        this.image.setAttribute("class", "tama-image-small")
         this.image.src = params.value
 
         this.eGui.appendChild(this.image)
