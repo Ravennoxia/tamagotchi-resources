@@ -28,12 +28,12 @@ export default function Navigation({setDisplayFilters}: { setDisplayFilters: Dis
                         <HamburgerMenuIcon/>
                     </NavigationMenuTrigger>
                     <NavigationMenuContent className={"nav-content"}>
-                        <NavigationMenuLink>
+                        <NavigationMenuLink asChild>
                             <Link to={routes.home}>
                                 All Raisable Tamagotchi Characters
                             </Link>
                         </NavigationMenuLink>
-                        <NavigationMenuLink>
+                        <NavigationMenuLink asChild>
                             <Link to={routes.tamaTimeline}>
                                 Tamagotchi Device Timeline
                             </Link>
