@@ -7,6 +7,15 @@
     padding: 0 !important;
 }
 
+.ag-header-cell {
+    padding: 0 10px;
+
+}
+
+.ag-header-cell-text {
+    overflow: visible;
+}
+
 .nav-item {
     list-style: none;
 }
