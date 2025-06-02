@@ -6,10 +6,12 @@ import TamaTable from "./components/TamaTable.tsx"
 import TamaTimeline from "./components/TamaTimeline.tsx"
 import {routes} from "./data/InterfacesAndConsts.tsx"
 
+const baseName = process.env.NODE_ENV === "production" ? "/tamagotchi-resources/" : "/"
+
 export default function App() {
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={baseName}>
             <div style={{display: "flex", flexDirection: "column", height: "100%"}}>
                 <Navigation setDisplayFilters={setDisplayFilters}/>
                 <Routes>
