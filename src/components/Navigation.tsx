@@ -10,6 +10,7 @@ import {
 import {HamburgerMenuIcon} from "@radix-ui/react-icons"
 import {Link, useLocation} from "react-router"
 import {routes} from "../data/InterfacesAndConsts.tsx"
+import {Separator} from "@radix-ui/react-separator"
 
 export default function Navigation({setDisplayFilters}: { setDisplayFilters: Dispatch<SetStateAction<boolean>> }) {
     const location = useLocation()
@@ -33,6 +34,7 @@ export default function Navigation({setDisplayFilters}: { setDisplayFilters: Dis
                                 All Raisable Tamagotchi Characters
                             </Link>
                         </NavigationMenuLink>
+                        <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
                             <Link to={routes.tamaTimeline}>
                                 Tamagotchi Device Timeline
