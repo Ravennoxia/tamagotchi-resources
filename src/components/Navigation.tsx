@@ -35,11 +35,7 @@ export default function Navigation({setDisplayFilters}: { setDisplayFilters: Dis
                             </Link>
                         </NavigationMenuLink>
                         <Separator className={"separator"}/>
-                        <NavigationMenuLink asChild>
-                            <Link to={routes.tamaTimeline}>
-                                Tamagotchi Device Timeline
-                            </Link>
-                        </NavigationMenuLink>
+                        More will come in the future...
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenu>
