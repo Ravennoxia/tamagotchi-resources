@@ -243,7 +243,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     return (
         <div className={"padding flex-column-1"}>
             {displayFilters &&
-                <div>
+                <div style={{paddingBottom: "1em"}}>
                     <div className={"filter-grid"}>
                         <strong> Devices:</strong>
                         <div className={"filter-row"}>

@@ -1,3 +1,9 @@
+export const routes = {
+    home: "/",
+    tamaTable: "/raisable-characters-table",
+    tamaTimeline: "/device-timeline"
+}
+
 export interface AllData {
     [characterName: string]: TamaData
 }
