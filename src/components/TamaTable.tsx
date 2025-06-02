@@ -6,7 +6,9 @@ import {
     type AllData,
     blackAndWhiteDevices,
     colorDevices,
+    columnNames,
     deviceFilterOptions,
+    deviceNames,
     genderFilterOptions,
     type IRow,
     stageFilterOptions,
@@ -40,35 +42,35 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         let dynamicColumns: ColDef<IRow>[] = []
         if (selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite)) {
             dynamicColumns = [...dynamicColumns,
-                getImageColumnDef("Original", "spriteOriginal"),
-                getImageColumnDef("Osutchi & Mesutchi", "spriteOsuMesu"),
+                getImageColumnDef("original", "spriteOriginal"),
+                getImageColumnDef("osuMesu", "spriteOsuMesu"),
                 getImageColumnDef("v1", "spriteV1"),
                 getImageColumnDef("v2", "spriteV2"),
-                getImageColumnDef("Mini", "spriteMini"),
+                getImageColumnDef("mini", "spriteMini"),
                 getImageColumnDef("v3", "spriteV3"),
                 getImageColumnDef("v4", "spriteV4"),
-                getImageColumnDef("Chu", "spriteChu"),
+                getImageColumnDef("chu", "spriteChu"),
                 getImageColumnDef("v5", "spriteV5"),
                 getImageColumnDef("v6", "spriteV6"),
-                getImageColumnDef("TamaGo", "spriteTamaGo"),
-                getImageColumnDef("Nano", "spriteNano"),
-                getImageColumnDef("Friends", "spriteFriends"),
-                getImageColumnDef("Pac-Man", "spritePacMan"),
-                getImageColumnDef("Hello Kitty", "spriteHelloKitty")
+                getImageColumnDef("tamaGo", "spriteTamaGo"),
+                getImageColumnDef("nano", "spriteNano"),
+                getImageColumnDef("friends", "spriteFriends"),
+                getImageColumnDef("pac-man", "spritePacMan"),
+                getImageColumnDef("helloKitty", "spriteHelloKitty")
             ]
         }
         if (selectedDeviceOptions.includes(deviceFilterOptions.color)) {
             dynamicColumns = [...dynamicColumns,
-                getImageColumnDef("+C", "spritePlusColor"),
+                getImageColumnDef("plusColor", "spritePlusColor"),
                 getImageColumnDef("iD", "spriteID"),
-                getImageColumnDef("P's", "spritePs"),
+                getImageColumnDef("Ps", "spritePs"),
                 getImageColumnDef("4U", "sprite4U"),
-                getImageColumnDef("M!x", "spriteMix"),
-                getImageColumnDef("On", "spriteOn"),
-                getImageColumnDef("Pix", "spritePix"),
-                getImageColumnDef("Smart", "spriteSmart"),
-                getImageColumnDef("Uni", "spriteUni"),
-                getImageColumnDef("Paradise", "spriteParadise")
+                getImageColumnDef("mix", "spriteMix"),
+                getImageColumnDef("on", "spriteOn"),
+                getImageColumnDef("pix", "spritePix"),
+                getImageColumnDef("smart", "spriteSmart"),
+                getImageColumnDef("uni", "spriteUni"),
+                getImageColumnDef("paradise", "spriteParadise")
             ]
         }
         return [staticColumn, ...dynamicColumns]
@@ -110,13 +112,14 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         return deviceFilterActive || genderFilterActive || stageFilterActive
     }, [selectedDeviceOptions, selectedGenderOptions, selectedStageOptions])
 
-    const passesDeviceFilter = useCallback((devices: string[] | undefined) => {
-        if (!devices || devices.length === 0) {
+    const passesDeviceFilter = useCallback((versions: VersionData[] | undefined) => {
+        if (!versions || versions.length === 0) {
             return false
         }
         if (selectedDeviceOptions.length === Object.keys(deviceFilterOptions).length) {
             return true
         }
+        const devices = versions.map(v => v.version)
         if (selectedDeviceOptions.length > 0 && selectedDeviceOptions.length < Object.keys(deviceFilterOptions).length) {
             const includesBlackAndWhite = selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite) && devices.some(d => blackAndWhiteDevices.includes(d))
             const includesColor = selectedDeviceOptions.includes(deviceFilterOptions.color) && devices.some(d => colorDevices.includes(d))
@@ -125,26 +128,28 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         return false
     }, [selectedDeviceOptions])
 
-    const passesGenderFilter = useCallback((gender: string | undefined) => {
-        if (!gender) {
+    const passesGenderFilter = useCallback((versions: VersionData[] | undefined) => {
+        if (!versions || versions.length === 0) {
             return false
         }
         if (selectedGenderOptions.length === Object.keys(genderFilterOptions).length) {
             return true
         }
+        const genders = Array.from(new Set(versions.map(v => v.gender)))
         if (selectedGenderOptions.length > 0 && selectedGenderOptions.length < Object.keys(genderFilterOptions).length) {
-            return selectedGenderOptions.includes(gender)
+            return genders.some(g => selectedGenderOptions.includes(g))
         }
         return false
     }, [selectedGenderOptions])
 
-    const passesStageFilter = useCallback((stages: string[] | undefined) => {
-        if (!stages || stages.length === 0) {
+    const passesStageFilter = useCallback((versions: VersionData[] | undefined) => {
+        if (!versions || versions.length === 0) {
             return false
         }
         if (selectedStageOptions.length === Object.keys(stageFilterOptions).length) {
             return true
         }
+        const stages = Array.from(new Set(versions.map(v => v.stage)))
         if (selectedStageOptions.length > 0 && selectedStageOptions.length < Object.keys(stageFilterOptions).length) {
             return stages.some(s => selectedStageOptions.includes(s))
         }
@@ -152,8 +157,8 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }, [selectedStageOptions])
 
     const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
-        const {columns, gender, stages} = node.data || {}
-        return passesDeviceFilter(columns) && passesGenderFilter(gender) && passesStageFilter(stages)
+        const {versions} = node.data || {}
+        return passesDeviceFilter(versions) && passesGenderFilter(versions) && passesStageFilter(versions)
     }, [passesDeviceFilter, passesGenderFilter, passesStageFilter])
 
     const handleResize = useCallback(() => {
@@ -195,10 +200,8 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                         image: charData.image,
                         name: name,
                         link: charData.link,
-                        stages: charData.stages,
                         gender: charData.gender,
-                        devices: charData.devices,
-                        columns: charData.columns,
+                        versions: charData.versions,
                         spriteOriginal: getVersionSprite(charData.versions, "original"),
                         spriteOsuMesu: getVersionSprite(charData.versions, "osuMesu"),
                         spriteV1: getVersionSprite(charData.versions, "v1"),
@@ -303,19 +306,30 @@ function getVersionSprite(versions: VersionData[], name: string): string | null 
     return null
 }
 
-function getImageColumnDef(headerName: string, field: keyof IRow): ColDef<IRow> {
-    const props: ColDef<IRow> = {
+function getImageColumnDef(version: keyof typeof columnNames, field: keyof IRow): ColDef<IRow> {
+    const [shortName, longName] = columnNames[version] ?? ["", ""]
+    return {
+        headerName: shortName,
+        field: field,
+        headerTooltip: longName,
+        tooltipValueGetter: (params) => {
+            if (!params.data?.versions || !version) {
+                return ""
+            }
+            const versionData = params.data.versions.find(v => v.version === version)
+            if (versionData?.devices) {
+                const translatedDevices = versionData.devices.map(deviceKey => {
+                    return (deviceNames as Record<string, string>)[deviceKey] || deviceKey
+                })
+                return Array.from(new Set(translatedDevices)).join(", ")
+            }
+            return ""
+        },
         filter: false,
         sortable: false,
         cellRenderer: ImageRenderer,
         autoHeight: true,
         width: 52
-    }
-    return {
-        headerName,
-        field,
-        headerTooltip: headerName,
-        ...props
     }
 }
 
