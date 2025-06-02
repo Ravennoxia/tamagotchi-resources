@@ -6,7 +6,7 @@ import TamaTable from "./components/TamaTable.tsx"
 import TamaTimeline from "./components/TamaTimeline.tsx"
 import {routes} from "./data/InterfacesAndConsts.tsx"
 
-const baseName = process.env.NODE_ENV === "production" ? "/tamagotchi-resources/" : "/"
+const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
 export default function App() {
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)

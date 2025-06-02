@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://ravennoxia.github.io/tamagotchi-resources",
+  "homepage": "https://ravennoxia.github.io/tamagotchi-resources/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -27,7 +27,6 @@
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@types/node": "^22.15.29",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
