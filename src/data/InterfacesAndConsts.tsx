@@ -91,7 +91,8 @@ export const stageFilterOptions = {
     adult: "Adult",
     senior: "Senior",
     parent: "Parent",
-    pet: "Pet"
+    pet: "Pet",
+    costume: "Costume"
 }
 export const genderFilterOptions = {
     female: "Female",
