@@ -13,6 +13,7 @@ import {
     stageFilterOptions
 } from "../../global/constants.ts"
 import type {AllData, IRow, VersionData} from "../../global/types.ts"
+import HeaderWithTooltip from "./HeaderWithTooltip.tsx"
 
 const PHONE_BREAKPOINT = 600
 
@@ -309,7 +310,10 @@ function getImageColumnDef(version: keyof typeof columnNames, field: keyof IRow)
     return {
         headerName: shortName,
         field: field,
-        headerTooltip: longName,
+        headerComponent: HeaderWithTooltip,
+        headerComponentParams: {
+            tooltip: longName
+        },
         filter: false,
         sortable: false,
         cellRenderer: ImageRendererWithTooltip,

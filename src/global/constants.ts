@@ -6,7 +6,7 @@ export const routes = {
 
 export const columnNames = {
     "original": ["OG", "Original"],
-    "osuMesu": ["OsMe", "Osutchi & Mesutchi"],
+    "osuMesu": ["OsuMesu", "Osutchi & Mesutchi"],
     "v1": ["v1", "Plus / Connection"],
     "v2": ["v2", "Keitai / Connection V2"],
     "mini": ["Mini", "Mini"],
@@ -18,8 +18,8 @@ export const columnNames = {
     "tamaGo": ["Go", "TamaTown Tama-Go"],
     "nano": ["Nano", "Nano"],
     "friends": ["Friends", "Friends & Dream Town"],
-    "pac-man": ["PM", "Pac-Man"],
-    "helloKitty": ["HK", "Hello Kitty"],
+    "pac-man": ["PcMn", "Pac-Man"],
+    "helloKitty": ["HKitty", "Hello Kitty"],
     "plusColor": ["+C", "+Color"],
     "iD": ["iD", "iD / iD L"],
     "Ps": ["P's", "P's"],
