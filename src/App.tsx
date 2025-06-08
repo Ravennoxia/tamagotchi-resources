@@ -1,10 +1,10 @@
 import "./App.css"
 import {useState} from "react"
-import Navigation from "./components/Navigation.tsx"
+import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
-import TamaTable from "./components/TamaTable.tsx"
-import TamaTimeline from "./components/TamaTimeline.tsx"
-import {routes} from "./data/InterfacesAndConsts.tsx"
+import TamaTable from "./features/tamaTable/TamaTable.tsx"
+import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
+import {routes} from "./global/constants.ts"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 

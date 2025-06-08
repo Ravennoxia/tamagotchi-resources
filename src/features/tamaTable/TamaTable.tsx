@@ -1,20 +1,19 @@
 import {type ColDef, type GridOptions, type IRowNode} from "ag-grid-community"
 import {AgGridReact} from "ag-grid-react"
-import ImageRenderer from "./renderers/ImageRenderer.tsx"
 import {type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState} from "react"
+import CombinedRenderer from "./renderers/CombinedRenderer.tsx"
+import ImageRendererWithTooltip from "./renderers/ImageRendererWithTooltip.tsx"
+import "./TamaTable.css"
 import {
-    type AllData,
     blackAndWhiteDevices,
     colorDevices,
     columnNames,
     deviceFilterOptions,
-    deviceNames,
     genderFilterOptions,
-    type IRow,
-    stageFilterOptions,
-    type VersionData
-} from "../data/InterfacesAndConsts.tsx"
-import CombinedRenderer from "./renderers/CombinedRenderer.tsx"
+    stageFilterOptions
+} from "../../global/constants.ts"
+import type {AllData, IRow, VersionData} from "../../global/types.ts"
+import HeaderWithTooltip from "./HeaderWithTooltip.tsx"
 
 const PHONE_BREAKPOINT = 600
 
@@ -82,7 +81,6 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         ensureDomOrder: true,
         suppressColumnVirtualisation: true,
         accentedSort: true,
-        enableBrowserTooltips: true,
         columnHoverHighlight: true
     }
 
@@ -241,7 +239,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }, [])
 
     return (
-        <div className={"padding flex-column-1"}>
+        <div className={"padding-css flex-column-1"}>
             {displayFilters &&
                 <div style={{paddingBottom: "1em"}}>
                     <div className={"filter-grid"}>
@@ -278,7 +276,7 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
                     </div>
                 </div>
             }
-            <div className={"flex-column-1"} data-ag-theme-mode={themeMode}>
+            <div className={"flex-column-1"} data-ag-theme-mode={themeMode} id="portal-root">
                 <div style={{flex: 1}}>
                     <AgGridReact<IRow>
                         rowData={rowData}
@@ -312,23 +310,16 @@ function getImageColumnDef(version: keyof typeof columnNames, field: keyof IRow)
     return {
         headerName: shortName,
         field: field,
-        headerTooltip: longName,
-        tooltipValueGetter: (params) => {
-            if (!params.data?.versions || !version) {
-                return ""
-            }
-            const versionData = params.data.versions.find(v => v.version === version)
-            if (versionData?.devices) {
-                const translatedDevices = versionData.devices.map(deviceKey => {
-                    return (deviceNames as Record<string, string>)[deviceKey] || deviceKey
-                })
-                return Array.from(new Set(translatedDevices)).join(", ")
-            }
-            return ""
+        headerComponent: HeaderWithTooltip,
+        headerComponentParams: {
+            tooltip: longName
         },
         filter: false,
         sortable: false,
-        cellRenderer: ImageRenderer,
+        cellRenderer: ImageRendererWithTooltip,
+        cellRendererParams: {
+            deviceVersion: version
+        },
         autoHeight: true,
         width: 52
     }
