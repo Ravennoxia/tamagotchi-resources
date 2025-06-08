@@ -60,8 +60,8 @@ export default function useTooltip({elementForListeners}: TooltipProps): Tooltip
         }
     }, [])
 
-    const handleTouchEnd = useCallback(() => {
-        if (!touchMoveRef.current && !isDraggingRef.current) {
+    const handleTouchEnd = useCallback((event: TouchEvent) => {
+        if (!event.defaultPrevented && !touchMoveRef.current && !isDraggingRef.current) {
             setTimeout(() => {
                 if (isDraggingRef.current) {
                     setShowTooltip(false)
