@@ -1,8 +1,9 @@
 import type {ICellRendererParams} from "ag-grid-community"
-import type {IRow} from "../../data/InterfacesAndConsts.tsx"
+import "./CombinedRenderer.css"
+import type {IRow} from "../../../global/types.ts"
 
 interface CombinedImageNameRendererParams extends ICellRendererParams<IRow, string | null> {
-    isPhone: boolean; // Add the isPhone property expected from cellRendererParams
+    isPhone: boolean;
 }
 
 export default function CombinedRenderer(params: CombinedImageNameRendererParams) {

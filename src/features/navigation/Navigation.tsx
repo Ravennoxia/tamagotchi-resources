@@ -9,8 +9,9 @@ import {
 } from "@radix-ui/react-navigation-menu"
 import {HamburgerMenuIcon} from "@radix-ui/react-icons"
 import {Link, useLocation} from "react-router"
-import {routes} from "../data/InterfacesAndConsts.tsx"
 import {Separator} from "@radix-ui/react-separator"
+import "./Navigation.css"
+import {routes} from "../../global/constants.ts"
 
 export default function Navigation({setDisplayFilters}: { setDisplayFilters: Dispatch<SetStateAction<boolean>> }) {
     const location = useLocation()
