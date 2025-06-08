@@ -57,7 +57,7 @@ export default function ImageRendererWithTooltip(params: MyCellParams) {
                     alt={params.value}
                 />
             )}
-            {showTooltip && ReactDOM.createPortal(
+            {showTooltip && tooltipContent.length > 0 && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
