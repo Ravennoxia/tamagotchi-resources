@@ -91,7 +91,7 @@
   "Tamatchi": {
     "link": "https://tamagotchi.fandom.com/wiki/Tamatchi",
     "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1e/Tamatchi_transparent.png",
-    "gender": "Female",
+    "gender": "Other",
     "versions": [
       {
         "version": "original",
