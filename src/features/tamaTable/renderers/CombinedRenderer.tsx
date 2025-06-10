@@ -29,7 +29,7 @@ function CombinedRenderer(params: CombinedImageNameRendererParams) {
         >
             {image && (
                 <img
-                    src={"/tamagotchi-images/" + image}
+                    src={import.meta.env.BASE_URL + "tamagotchi-images/" + image}
                     alt={params.data?.name}
                     className={params.isPhone ? "tama-image-tiny" : "tama-image-small"}
                     style={{margin: "0 5px"}}

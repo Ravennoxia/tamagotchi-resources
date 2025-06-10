@@ -53,7 +53,7 @@ function ImageRendererWithTooltip(params: MyCellParams) {
             {params.value && (
                 <img
                     className={"tama-image-small"}
-                    src={"/tamagotchi-images/" + params.value}
+                    src={import.meta.env.BASE_URL + "tamagotchi-images/" + params.value}
                     alt={params.value}
                 />
             )}
