@@ -17,7 +17,7 @@ import HeaderWithTooltip from "./HeaderWithTooltip.tsx"
 
 const PHONE_BREAKPOINT = 600
 
-export default function TamaTable({displayFilters}: { displayFilters: boolean }) {
+export default function TamaTable({displayFilters, isDarkMode}: { displayFilters: boolean, isDarkMode: boolean }) {
     const gridRef = useRef<AgGridReact<IRow>>(null)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
@@ -176,16 +176,17 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
     }, [columnDefs, selectedGenderOptions, selectedStageOptions])
 
     useEffect(() => {
-        window.matchMedia("(prefers-color-scheme: dark)")
-            .addEventListener("change", event => {
-                setThemeMode(event.matches ? "dark" : "light")
-            })
+        if (isDarkMode) {
+            setThemeMode("dark")
+        } else {
+            setThemeMode("light")
+        }
 
         window.addEventListener("resize", handleResize)
         return () => {
             window.removeEventListener("resize", handleResize)
         }
-    }, [handleResize])
+    }, [isDarkMode, handleResize])
 
     useEffect(() => {
         async function fetchData() {

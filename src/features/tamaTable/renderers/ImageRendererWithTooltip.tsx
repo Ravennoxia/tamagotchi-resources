@@ -2,7 +2,6 @@ import type {ICellRendererParams} from "ag-grid-community"
 import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
-import "./ImageRendererWithTooltip.css"
 import {type columnNames, deviceNames} from "../../../global/constants.ts"
 import type {VersionData} from "../../../global/types.ts"
 import useTooltip from "../tooltip.ts"
@@ -46,7 +45,8 @@ function ImageRendererWithTooltip(params: MyCellParams) {
     return (
         <button
             ref={targetRef as React.Ref<HTMLButtonElement>}
-            className={"tama-image-span cell-not-button"}
+            className={"cell-not-button"}
+            style={{display: "flex"}}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >

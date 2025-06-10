@@ -1,5 +1,8 @@
-.nav-item {
-    list-style: none;
+.nav-css {
+    display: flex;
+    padding: 1rem;
+    gap: 5px;
+    align-items: center;
 }
 
 .nav-content {
@@ -7,24 +10,24 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 1em;
+    padding: 1rem;
     gap: 5px;
     border-radius: 8px;
     z-index: 9999;
-    background-color: #242424;
-    border: 1px solid #4b4b4b;
+    background-color: var(--dark-background);
+    border: 1px solid var(--dark-border);
 }
 
 .nav-content a {
-    color: #ffffff;
+    color: var(--dark-text);
 }
 
 .nav-content a:hover {
-    color: #535bf2;
+    color: var(--dark-link-hover);
 }
 
 .separator {
-    background-color: #4b4b4b;
+    background-color: var(--dark-border);
 }
 
 .separator[data-orientation="horizontal"] {
@@ -37,7 +40,58 @@
     width: 1px;
 }
 
+.title-css {
+    margin-left: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.switch-parent {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.switch-root {
+    width: 42px;
+    height: 25px;
+    background-color: var(--dark-button);
+    border-radius: 50px;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.switch-root:hover,
+.switch-root:focus,
+.switch-root:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.switch-thumb {
+    width: 21px;
+    height: 21px;
+    background-color: var(--dark-text);
+    border-radius: 50px;
+    transition: transform 100ms;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%) translateX(0px);
+
+    &[data-state="checked"] {
+        transform: translateY(-50%) translateX(17px);
+    }
+}
+
 @media screen and (max-width: 600px) {
+    .nav-css {
+        padding: 5px;
+    }
+
     .nav-content {
         padding: 10px;
     }
@@ -45,19 +99,36 @@
 
 @media (prefers-color-scheme: light) {
     .nav-content {
-        background-color: #ffffff;
-        border: 1px solid #ddddde;
+        background-color: var(--light-button);
+        border: 1px solid var(--light-border);
     }
 
     .nav-content a {
-        color: #213547;
+        color: var(--light-text);
     }
 
     .nav-content a:hover {
-        color: #747bff;
+        color: var(--dark-link-hover);
     }
 
     .separator {
-        background-color: #ddddde;
+        background-color: var(--light-border);
     }
+}
+
+html[data-theme="light"] .nav-content {
+    background-color: var(--light-button);
+    border: 1px solid var(--light-border);
+}
+
+html[data-theme="light"] .nav-content a {
+    color: var(--light-text);
+}
+
+html[data-theme="light"] .nav-content a:hover {
+    color: var(--dark-link-hover);
+}
+
+html[data-theme="light"] .separator {
+    background-color: var(--light-border);
 }

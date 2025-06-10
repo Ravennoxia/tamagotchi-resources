@@ -1,5 +1,5 @@
 import type {ICellRendererParams} from "ag-grid-community"
-import "./CombinedRenderer.css"
+import "../TamaTable.css"
 import type {IRow} from "../../../global/types.ts"
 import * as React from "react"
 
@@ -35,10 +35,7 @@ function CombinedRenderer(params: CombinedImageNameRendererParams) {
                     style={{margin: "0 5px"}}
                 />
             )}
-            <span
-                className="tama-name"
-                style={{color: nameColor, textDecoration: "underline"}}
-            >
+            <span style={{color: nameColor, textDecoration: "underline", textAlign: "left"}}>
                 {params.value}
             </span>
         </a>
