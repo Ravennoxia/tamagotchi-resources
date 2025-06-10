@@ -6,6 +6,5 @@
     width: 25px;
     height: 25px;
     object-fit: contain;
-    /*image-rendering: crisp-edges;*/
     image-rendering: pixelated;
 }
