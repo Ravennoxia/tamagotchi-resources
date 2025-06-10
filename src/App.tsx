@@ -1,5 +1,5 @@
 import "./App.css"
-import {useState} from "react"
+import {useEffect, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
@@ -10,17 +10,51 @@ const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
 export default function App() {
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
+    const [isDarkMode, setIsDarkMode] = useState(() => {
+        const savedMode = localStorage.getItem("theme")
+        if (savedMode === "dark") {
+            return true
+        }
+        if (savedMode === "light") {
+            return false
+        }
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+    })
+
+    useEffect(() => {
+        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
+        const handleSystemThemeChange = (event: MediaQueryListEvent) => {
+            setIsDarkMode(event.matches)
+        }
+
+        mediaQuery.addEventListener("change", handleSystemThemeChange)
+
+        const htmlElement = document.documentElement
+        if (isDarkMode) {
+            htmlElement.setAttribute("data-theme", "dark")
+            localStorage.setItem("theme", "dark")
+        } else {
+            htmlElement.setAttribute("data-theme", "light")
+            localStorage.setItem("theme", "light")
+        }
+        return () => {
+            mediaQuery.removeEventListener("change", handleSystemThemeChange)
+        }
+    }, [isDarkMode])
+
     return (
         <BrowserRouter basename={baseName}>
-            <div style={{display: "flex", flexDirection: "column", height: "100%"}}>
-                <Navigation setDisplayFilters={setDisplayFilters}/>
+            <div className={"app-div"}>
+                <Navigation setDisplayFilters={setDisplayFilters}
+                            isDarkMode={isDarkMode}
+                            setIsDarkMode={setIsDarkMode}/>
                 <Routes>
                     <Route path={routes.home} element={
-                        <TamaTable displayFilters={displayFilters}/>
+                        <TamaTable displayFilters={displayFilters} isDarkMode={isDarkMode}/>
                     }
                     />
                     <Route path={routes.tamaTable} element={
-                        <TamaTable displayFilters={displayFilters}/>
+                        <TamaTable displayFilters={displayFilters} isDarkMode={isDarkMode}/>
                     }
                     />
                     <Route path={routes.tamaTimeline} element={

@@ -2,3 +2,9 @@
     width: 100%;
     margin: 0;
 }
+
+.app-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
