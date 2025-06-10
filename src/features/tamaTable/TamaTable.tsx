@@ -81,7 +81,9 @@ export default function TamaTable({displayFilters}: { displayFilters: boolean })
         ensureDomOrder: true,
         suppressColumnVirtualisation: true,
         accentedSort: true,
-        columnHoverHighlight: true
+        columnHoverHighlight: true,
+        rowHeight: 52,
+        rowBuffer: 30
     }
 
     function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>, filterType: "device" | "gender" | "stages") {
@@ -320,7 +322,6 @@ function getImageColumnDef(version: keyof typeof columnNames, field: keyof IRow)
         cellRendererParams: {
             deviceVersion: version
         },
-        autoHeight: true,
         width: 52
     }
 }

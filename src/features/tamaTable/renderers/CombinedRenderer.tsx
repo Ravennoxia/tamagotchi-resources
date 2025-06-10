@@ -1,12 +1,13 @@
 import type {ICellRendererParams} from "ag-grid-community"
 import "./CombinedRenderer.css"
 import type {IRow} from "../../../global/types.ts"
+import * as React from "react"
 
 interface CombinedImageNameRendererParams extends ICellRendererParams<IRow, string | null> {
     isPhone: boolean;
 }
 
-export default function CombinedRenderer(params: CombinedImageNameRendererParams) {
+function CombinedRenderer(params: CombinedImageNameRendererParams) {
     let nameColor: string = "#696969"
     if (params.data?.gender === "Female") {
         nameColor = "#FF69B4"
@@ -14,7 +15,7 @@ export default function CombinedRenderer(params: CombinedImageNameRendererParams
         nameColor = "#1E90FF"
     }
 
-    const imageUrl = params.data?.image
+    const image = params.data?.image
 
     return (
         <a
@@ -26,9 +27,9 @@ export default function CombinedRenderer(params: CombinedImageNameRendererParams
                 alignItems: "center"
             }}
         >
-            {imageUrl && (
+            {image && (
                 <img
-                    src={imageUrl}
+                    src={"/tamagotchi-images/" + image}
                     alt={params.data?.name}
                     className={params.isPhone ? "tama-image-tiny" : "tama-image-small"}
                     style={{margin: "0 5px"}}
@@ -43,3 +44,5 @@ export default function CombinedRenderer(params: CombinedImageNameRendererParams
         </a>
     )
 }
+
+export default React.memo(CombinedRenderer)

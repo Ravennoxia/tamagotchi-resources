@@ -11,7 +11,7 @@ export interface MyCellParams extends ICellRendererParams {
     deviceVersion?: keyof typeof columnNames
 }
 
-export default function ImageRendererWithTooltip(params: MyCellParams) {
+function ImageRendererWithTooltip(params: MyCellParams) {
     const {
         showTooltip,
         tooltipPosition,
@@ -53,7 +53,7 @@ export default function ImageRendererWithTooltip(params: MyCellParams) {
             {params.value && (
                 <img
                     className={"tama-image-small"}
-                    src={params.value}
+                    src={"/tamagotchi-images/" + params.value}
                     alt={params.value}
                 />
             )}
@@ -74,3 +74,5 @@ export default function ImageRendererWithTooltip(params: MyCellParams) {
         </button>
     )
 }
+
+export default React.memo(ImageRendererWithTooltip)
