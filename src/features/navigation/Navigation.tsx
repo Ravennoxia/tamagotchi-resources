@@ -45,7 +45,11 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
                             </Link>
                         </NavigationMenuLink>
                         <Separator className={"separator"}/>
-                        More will come in the future...
+                        <NavigationMenuLink asChild>
+                            <Link to={routes.tamaTimeline}>
+                                Tamagotchi Device Timeline
+                            </Link>
+                        </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenu>
