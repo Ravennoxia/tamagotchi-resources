@@ -21,7 +21,8 @@ function TamaCellRenderer(params: MyCellParams) {
         handleMouseLeave
     } = useTooltip({
         elementForListeners: params.eGridCell,
-        horizontalCenter: false
+        horizontalCenter: false,
+        gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
 
     const tooltipContent = useMemo(() => {

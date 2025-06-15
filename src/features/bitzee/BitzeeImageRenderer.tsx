@@ -1,20 +1,10 @@
 import type {ICellRendererParams} from "ag-grid-community"
 import "../AGGridTable.css"
 import * as React from "react"
-import {useCallback} from "react"
 import useTooltip from "../useTooltip.ts"
 import ReactDOM from "react-dom"
 
 function BitzeeImageRenderer(params: ICellRendererParams) {
-    const getAGGridScrollContainer = useCallback(() => {
-        const gridDiv = params.eGridCell?.closest(".ag-root-wrapper")
-        const viewport = gridDiv?.querySelector(".ag-body-viewport") || gridDiv?.querySelector(".ag-center-cols-viewport")
-        if (viewport) {
-            return viewport as HTMLElement
-        }
-        return window
-    }, [params.eGridCell])
-
     const {
         showTooltip,
         tooltipPosition,
@@ -25,7 +15,7 @@ function BitzeeImageRenderer(params: ICellRendererParams) {
     } = useTooltip({
         elementForListeners: params.eGridCell,
         horizontalCenter: true,
-        scrollContainer: getAGGridScrollContainer()
+        gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
 
     const portalRoot = document.getElementById("portal-root")

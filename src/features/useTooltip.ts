@@ -4,7 +4,7 @@ import {type RefObject, useCallback, useEffect, useRef, useState} from "react"
 interface TooltipProps {
     elementForListeners: HTMLElement,
     horizontalCenter: boolean,
-    scrollContainer?: HTMLElement | Window
+    gridDiv?: Element | Window | null
 }
 
 interface TooltipReturn {
@@ -20,7 +20,7 @@ export default function useTooltip(
     {
         elementForListeners,
         horizontalCenter,
-        scrollContainer = window
+        gridDiv = window
     }: TooltipProps): TooltipReturn {
     const [showTooltip, setShowTooltip] = useState(false)
     const [tooltipPosition, setTooltipPosition] = useState<{ top: number, left: number }>({top: 0, left: 0})
@@ -32,6 +32,18 @@ export default function useTooltip(
     const dragEndTimeoutIdRef = useRef<NodeJS.Timeout | null>(null)
     const currentShowTooltipRef = useRef(showTooltip)
 
+    const getAGGridScrollContainer = useCallback(() => {
+        if (gridDiv instanceof Element) {
+            const viewport = gridDiv?.querySelector(".ag-body-viewport") || gridDiv?.querySelector(".ag-center-cols-viewport")
+            if (viewport) {
+                return viewport as HTMLElement
+            }
+        }
+        return window
+    }, [gridDiv])
+
+    const scrollContainer = getAGGridScrollContainer()
+
     useEffect(() => {
         currentShowTooltipRef.current = showTooltip
     }, [showTooltip])
@@ -40,16 +52,34 @@ export default function useTooltip(
         if (showTooltip && targetRef.current && tooltipRef.current) {
             const targetRect = targetRef.current.getBoundingClientRect()
             const tooltipRect = tooltipRef.current.getBoundingClientRect()
+
             let newLeft = targetRect.left
             if (horizontalCenter) {
                 newLeft = (targetRect.left + targetRect.width / 2) - (tooltipRect.width / 2)
             }
+
+            let newTop = targetRect.bottom
+            let containerRect: DOMRect | undefined
+            if (scrollContainer instanceof HTMLElement) {
+                containerRect = scrollContainer.getBoundingClientRect()
+            } else {
+                containerRect = new DOMRect(0, 0, window.innerWidth, window.innerHeight)
+            }
+            if (containerRect) {
+                const tooltipBottom = newTop + tooltipRect.height
+                const containerBottom = containerRect.bottom
+                if (tooltipBottom > containerBottom) {
+                    newTop = containerBottom - tooltipRect.height
+                    newTop = Math.max(newTop, containerRect.top)
+                }
+            }
+
             setTooltipPosition({
-                top: targetRect.bottom,
+                top: newTop,
                 left: newLeft
             })
         }
-    }, [horizontalCenter, showTooltip])
+    }, [horizontalCenter, scrollContainer, showTooltip])
 
     useEffect(() => {
         if (showTooltip) {
