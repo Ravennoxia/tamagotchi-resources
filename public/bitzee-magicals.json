@@ -1,0 +1,202 @@
+{
+  "Phoenix": {
+    "rarity": "Common",
+    "gem": "Bitzee-Phoenix-Gem.png",
+    "baby": "Bitzee-Phoenix-Baby.png",
+    "adult": "Bitzee-Phoenix-Adult.png",
+    "superBitzee": "Bitzee-Phoenix.png",
+    "blue": "Bitzee-Phoenix-Blue.png",
+    "red": "Bitzee-Phoenix-Red.png",
+    "green": "Bitzee-Phoenix-Green.png"
+  },
+  "Ghost Kitty": {
+    "rarity": "Common",
+    "gem": "Bitzee-GhostKitty-Gem.png",
+    "baby": "Bitzee-GhostKitty-Baby.png",
+    "adult": "Bitzee-GhostKitty-Adult.png",
+    "superBitzee": "Bitzee-GhostKitty.png",
+    "blue": "Bitzee-GhostKitty-Blue.png",
+    "red": "Bitzee-GhostKitty-Red.png",
+    "green": "Bitzee-GhostKitty-Green.png"
+  },
+  "Yeti": {
+    "rarity": "Common",
+    "gem": "Bitzee-Yeti-Gem.png",
+    "baby": "Bitzee-Yeti-Baby.png",
+    "adult": "Bitzee-Yeti-Adult.png",
+    "superBitzee": "Bitzee-Yeti.png",
+    "blue": "Bitzee-Yeti-Blue.png",
+    "red": "Bitzee-Yeti-Red.png",
+    "green": "Bitzee-Yeti-Green.png"
+  },
+  "Kittycorn": {
+    "rarity": "Common",
+    "gem": "Bitzee-Kittycorn-Gem.png",
+    "baby": "Bitzee-Kittycorn-Baby.png",
+    "adult": "Bitzee-Kittycorn-Adult.png",
+    "superBitzee": "Bitzee-Kittycorn.png",
+    "blue": "Bitzee-Kittycorn-Blue.png",
+    "red": "Bitzee-Kittycorn-Red.png",
+    "green": "Bitzee-Kittycorn-Green.png"
+  },
+  "Nessie": {
+    "rarity": "Common",
+    "gem": "Bitzee-Nessie-Gem.png",
+    "baby": "Bitzee-Nessie-Baby.png",
+    "adult": "Bitzee-Nessie-Adult.png",
+    "superBitzee": "Bitzee-Nessie.png",
+    "blue": "Bitzee-Nessie-Blue.png",
+    "red": "Bitzee-Nessie-Red.png",
+    "green": "Bitzee-Nessie-Green.png"
+  },
+  "Mer-panda": {
+    "rarity": "Common",
+    "gem": "Bitzee-Merpanda-Gem.png",
+    "baby": "Bitzee-Merpanda-Baby.png",
+    "adult": "Bitzee-Merpanda-Adult.png",
+    "superBitzee": "Bitzee-Merpanda.png",
+    "blue": "Bitzee-Merpanda-Blue.png",
+    "red": "Bitzee-Merpanda-Red.png",
+    "green": "Bitzee-Merpanda-Green.png"
+  },
+  "Fairy Firefly": {
+    "rarity": "Common",
+    "gem": "Bitzee-FairyFirefly-Gem.png",
+    "baby": "Bitzee-FairyFirefly-Baby.png",
+    "adult": "Bitzee-FairyFirefly-Adult.png",
+    "superBitzee": "Bitzee-FairyFirefly.png",
+    "blue": "Bitzee-FairyFirefly-Blue.png",
+    "red": "Bitzee-FairyFirefly-Red.png",
+    "green": "Bitzee-FairyFirefly-Green.png"
+  },
+  "Pixie Pug": {
+    "rarity": "Common",
+    "gem": "Bitzee-PixiePug-Gem.png",
+    "baby": "Bitzee-PixiePug-Baby.png",
+    "adult": "Bitzee-PixiePug-Adult.png",
+    "superBitzee": "Bitzee-PixiePug.png",
+    "blue": "Bitzee-PixiePug-Blue.png",
+    "red": "Bitzee-PixiePug-Red.png",
+    "green": "Bitzee-PixiePug-Green.png"
+  },
+  "Fairy Deer": {
+    "rarity": "Common",
+    "gem": "Bitzee-FairyDeer-Gem.png",
+    "baby": "Bitzee-FairyDeer-Baby.png",
+    "adult": "Bitzee-FairyDeer-Adult.png",
+    "superBitzee": "Bitzee-FairyDeer.png",
+    "blue": "Bitzee-FairyDeer-Blue.png",
+    "red": "Bitzee-FairyDeer-Red.png",
+    "green": "Bitzee-FairyDeer-Green.png"
+  },
+  "Crystal Hedgehog": {
+    "rarity": "Common",
+    "gem": "Bitzee-CrystalHedgehog-Gem.png",
+    "baby": "Bitzee-CrystalHedgehog-Baby.png",
+    "adult": "Bitzee-CrystalHedgehog-Adult.png",
+    "superBitzee": "Bitzee-CrystalHedgehog.png",
+    "blue": "Bitzee-CrystalHedgehog-Blue.png",
+    "red": "Bitzee-CrystalHedgehog-Red.png",
+    "green": "Bitzee-CrystalHedgehog-Green.png"
+  },
+  "Rainbow Mer-pup": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Merpup-Gem.png",
+    "baby": "Bitzee-Merpup-Baby.png",
+    "adult": "Bitzee-Merpup-Adult.png",
+    "superBitzee": "Bitzee-RainbowMerpup.png",
+    "blue": "Bitzee-RainbowMerpup-Blue.png",
+    "red": "Bitzee-RainbowMerpup-Red.png",
+    "green": "Bitzee-RainbowMerpup-Green.png"
+  },
+  "Ice Mer-pup": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Merpup-Gem.png",
+    "baby": "Bitzee-Merpup-Baby.png",
+    "adult": "Bitzee-Merpup-Adult.png",
+    "superBitzee": "Bitzee-IceMerpup.png",
+    "blue": "Bitzee-IceMerpup-Blue.png",
+    "red": "Bitzee-IceMerpup-Red.png",
+    "green": "Bitzee-IceMerpup-Green.png"
+  },
+  "Lightning Kitsune": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Kitsune-Gem.png",
+    "baby": "Bitzee-Kitsune-Baby.png",
+    "adult": "Bitzee-Kitsune-Adult.png",
+    "superBitzee": "Bitzee-LightningKitsune.png",
+    "blue": "Bitzee-LightningKitsune-Blue.png",
+    "red": "Bitzee-LightningKitsune-Red.png",
+    "green": "Bitzee-LightningKitsune-Green.png"
+  },
+  "Dazzling Kitsune": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Kitsune-Gem.png",
+    "baby": "Bitzee-Kitsune-Baby.png",
+    "adult": "Bitzee-Kitsune-Adult.png",
+    "superBitzee": "Bitzee-DazzlingKitsune.png",
+    "blue": "Bitzee-DazzlingKitsune-Blue.png",
+    "red": "Bitzee-DazzlingKitsune-Red.png",
+    "green": "Bitzee-DazzlingKitsune-Green.png"
+  },
+  "Poison Jackalope": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Jackalope-Gem.png",
+    "baby": "Bitzee-Jackalope-Baby.png",
+    "adult": "Bitzee-Jackalope-Adult.png",
+    "superBitzee": "Bitzee-PoisonJackalope.png",
+    "blue": "Bitzee-PoisonJackalope-Blue.png",
+    "red": "Bitzee-PoisonJackalope-Red.png",
+    "green": "Bitzee-PoisonJackalope-Green.png"
+  },
+  "Flower Jackalope": {
+    "rarity": "Rare",
+    "gem": "Bitzee-Jackalope-Gem.png",
+    "baby": "Bitzee-Jackalope-Baby.png",
+    "adult": "Bitzee-Jackalope-Adult.png",
+    "superBitzee": "Bitzee-FlowerJackalope.png",
+    "blue": "Bitzee-FlowerJackalope-Blue.png",
+    "red": "Bitzee-FlowerJackalope-Red.png",
+    "green": "Bitzee-FlowerJackalope-Green.png"
+  },
+  "Rainbow Unicorn": {
+    "rarity": "Legendary",
+    "gem": "Bitzee-Unicorn-Gem.png",
+    "baby": "Bitzee-Unicorn-Baby.png",
+    "adult": "Bitzee-Unicorn-Adult.png",
+    "superBitzee": "Bitzee-RainbowUnicorn.png",
+    "blue": "Bitzee-RainbowUnicorn-Blue.png",
+    "red": "Bitzee-RainbowUnicorn-Red.png",
+    "green": "Bitzee-RainbowUnicorn-Green.png"
+  },
+  "Moonlight Unicorn": {
+    "rarity": "Legendary",
+    "gem": "Bitzee-Unicorn-Gem.png",
+    "baby": "Bitzee-Unicorn-Baby.png",
+    "adult": "Bitzee-Unicorn-Adult.png",
+    "superBitzee": "Bitzee-MoonlightUnicorn.png",
+    "blue": "Bitzee-MoonlightUnicorn-Blue.png",
+    "red": "Bitzee-MoonlightUnicorn-Red.png",
+    "green": "Bitzee-MoonlightUnicorn-Green.png"
+  },
+  "Fire Dragon": {
+    "rarity": "Legendary",
+    "gem": "Bitzee-Dragon-Gem.png",
+    "baby": "Bitzee-Dragon-Baby.png",
+    "adult": "Bitzee-Dragon-Adult.png",
+    "superBitzee": "Bitzee-FireDragon.png",
+    "blue": "Bitzee-FireDragon-Blue.png",
+    "red": "Bitzee-FireDragon-Red.png",
+    "green": "Bitzee-FireDragon-Green.png"
+  },
+  "Ice Dragon": {
+    "rarity": "Legendary",
+    "gem": "Bitzee-Dragon-Gem.png",
+    "baby": "Bitzee-Dragon-Baby.png",
+    "adult": "Bitzee-Dragon-Adult.png",
+    "superBitzee": "Bitzee-IceDragon.png",
+    "blue": "Bitzee-IceDragon-Blue.png",
+    "red": "Bitzee-IceDragon-Red.png",
+    "green": "Bitzee-IceDragon-Green.png"
+  }
+}

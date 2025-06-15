@@ -1,5 +1,5 @@
 import type {IHeaderParams} from "ag-grid-community"
-import useTooltip from "./tooltip.ts"
+import useTooltip from "../useTooltip.ts"
 import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
@@ -8,7 +8,7 @@ interface MyHeaderParams extends IHeaderParams {
     tooltip?: string
 }
 
-export default function HeaderWithTooltip(params: MyHeaderParams) {
+export default function TamaTableHeader(params: MyHeaderParams) {
     const {
         showTooltip,
         tooltipPosition,
@@ -17,7 +17,8 @@ export default function HeaderWithTooltip(params: MyHeaderParams) {
         handleMouseEnter,
         handleMouseLeave
     } = useTooltip({
-        elementForListeners: params.eGridHeader
+        elementForListeners: params.eGridHeader,
+        horizontalCenter: true
     })
 
     const headerTooltipContent = useMemo(() => {
@@ -39,7 +40,7 @@ export default function HeaderWithTooltip(params: MyHeaderParams) {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <span className={"ag-header-cell-text"}>{params.displayName}</span>
+            <span>{params.displayName}</span>
             {showTooltip && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
@@ -47,7 +48,8 @@ export default function HeaderWithTooltip(params: MyHeaderParams) {
                     style={{
                         top: tooltipPosition.top,
                         left: tooltipPosition.left,
-                        pointerEvents: "none"
+                        pointerEvents: "none",
+                        position: "fixed"
                     }}
                 >
                     {headerTooltipContent}

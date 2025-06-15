@@ -1,0 +1,20 @@
+.bitzee-image {
+    min-width: 50px;
+    min-height: 50px;
+    width: 12.5vw;
+    height: 12.5vw;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.padding-bitzee-table {
+    padding: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    .padding-bitzee-table {
+        padding: 5px;
+    }
+}

@@ -1,8 +1,11 @@
 export const routes = {
     home: "/",
     tamaTable: "/raisable-characters-table",
-    tamaTimeline: "/device-timeline"
+    tamaTimeline: "/device-timeline",
+    bitzeeTable: "/bitzee-table"
 }
+
+export const PHONE_BREAKPOINT = 600
 
 export const columnNames = {
     "original": ["OG", "Original"],

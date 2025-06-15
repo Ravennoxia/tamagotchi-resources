@@ -1,4 +1,4 @@
-export interface AllData {
+export interface AllTamaData {
     [characterName: string]: TamaData
 }
 
@@ -17,7 +17,7 @@ export interface VersionData {
     sprite: string
 }
 
-export interface IRow {
+export interface TamaRow {
     image: string
     name: string
     link: string
@@ -48,4 +48,31 @@ export interface IRow {
     spriteSmart: string | null
     spriteUni: string | null
     spriteParadise: string | null
+}
+
+export interface AllBitzeeData {
+    [characterName: string]: BitzeeData
+}
+
+export interface BitzeeData {
+    rarity: string
+    gem: string | null
+    baby: string | null
+    adult: string | null
+    superBitzee: string | null
+    blue: string | null
+    red: string | null
+    green: string | null
+}
+
+export interface BitzeeRow {
+    name: string
+    rarity: string
+    gem: string | null
+    baby: string | null
+    adult: string | null
+    superBitzee: string | null
+    blue: string | null
+    red: string | null
+    green: string | null
 }

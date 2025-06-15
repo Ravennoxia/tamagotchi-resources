@@ -2,7 +2,9 @@ import * as React from "react"
 import {type RefObject, useCallback, useEffect, useRef, useState} from "react"
 
 interface TooltipProps {
-    elementForListeners: HTMLElement
+    elementForListeners: HTMLElement,
+    horizontalCenter: boolean,
+    scrollContainer?: HTMLElement | Window
 }
 
 interface TooltipReturn {
@@ -14,7 +16,12 @@ interface TooltipReturn {
     handleMouseLeave: React.MouseEventHandler<HTMLElement>
 }
 
-export default function useTooltip({elementForListeners}: TooltipProps): TooltipReturn {
+export default function useTooltip(
+    {
+        elementForListeners,
+        horizontalCenter,
+        scrollContainer = window
+    }: TooltipProps): TooltipReturn {
     const [showTooltip, setShowTooltip] = useState(false)
     const [tooltipPosition, setTooltipPosition] = useState<{ top: number, left: number }>({top: 0, left: 0})
     const targetRef = useRef<HTMLElement>(null)
@@ -29,12 +36,41 @@ export default function useTooltip({elementForListeners}: TooltipProps): Tooltip
         currentShowTooltipRef.current = showTooltip
     }, [showTooltip])
 
+    const calculatePosition = useCallback(() => {
+        if (showTooltip && targetRef.current && tooltipRef.current) {
+            const targetRect = targetRef.current.getBoundingClientRect()
+            const tooltipRect = tooltipRef.current.getBoundingClientRect()
+            let newLeft = targetRect.left
+            if (horizontalCenter) {
+                newLeft = (targetRect.left + targetRect.width / 2) - (tooltipRect.width / 2)
+            }
+            setTooltipPosition({
+                top: targetRect.bottom,
+                left: newLeft
+            })
+        }
+    }, [horizontalCenter, showTooltip])
+
+    useEffect(() => {
+        if (showTooltip) {
+            const initialCalcTimeout = setTimeout(() => {
+                calculatePosition()
+            }, 0)
+            const handleScroll = () => {
+                calculatePosition()
+            }
+            scrollContainer.addEventListener("scroll", handleScroll, {passive: true})
+            window.addEventListener("resize", calculatePosition)
+            return () => {
+                clearTimeout(initialCalcTimeout)
+                scrollContainer.removeEventListener("scroll", handleScroll)
+                window.removeEventListener("resize", calculatePosition)
+            }
+        }
+    }, [calculatePosition, scrollContainer, showTooltip])
+
     const handleMouseEnter = useCallback((event: React.MouseEvent<HTMLButtonElement>) => {
         event.stopPropagation()
-        if (targetRef.current) {
-            const rect = targetRef.current.getBoundingClientRect()
-            setTooltipPosition({top: rect.bottom, left: rect.left})
-        }
         setShowTooltip(true)
     }, [])
 

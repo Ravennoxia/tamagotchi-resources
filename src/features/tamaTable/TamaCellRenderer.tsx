@@ -2,15 +2,16 @@ import type {ICellRendererParams} from "ag-grid-community"
 import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
-import {type columnNames, deviceNames} from "../../../global/constants.ts"
-import type {VersionData} from "../../../global/types.ts"
-import useTooltip from "../tooltip.ts"
+import {type columnNames, deviceNames} from "../../global/constants.ts"
+import type {VersionData} from "../../global/types.ts"
+import useTooltip from "../useTooltip.ts"
+import "../AGGridTable.css"
 
 export interface MyCellParams extends ICellRendererParams {
     deviceVersion?: keyof typeof columnNames
 }
 
-function ImageRendererWithTooltip(params: MyCellParams) {
+function TamaCellRenderer(params: MyCellParams) {
     const {
         showTooltip,
         tooltipPosition,
@@ -19,7 +20,8 @@ function ImageRendererWithTooltip(params: MyCellParams) {
         handleMouseEnter,
         handleMouseLeave
     } = useTooltip({
-        elementForListeners: params.eGridCell
+        elementForListeners: params.eGridCell,
+        horizontalCenter: false
     })
 
     const tooltipContent = useMemo(() => {
@@ -75,4 +77,4 @@ function ImageRendererWithTooltip(params: MyCellParams) {
     )
 }
 
-export default React.memo(ImageRendererWithTooltip)
+export default React.memo(TamaCellRenderer)

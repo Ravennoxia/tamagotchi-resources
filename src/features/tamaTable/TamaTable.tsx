@@ -1,8 +1,9 @@
 import {type ColDef, type GridOptions, type IRowNode} from "ag-grid-community"
 import {AgGridReact} from "ag-grid-react"
 import {type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState} from "react"
-import CombinedRenderer from "./renderers/CombinedRenderer.tsx"
-import ImageRendererWithTooltip from "./renderers/ImageRendererWithTooltip.tsx"
+import CombinedRenderer from "./TamaNameRenderer.tsx"
+import ImageRendererWithTooltip from "./TamaCellRenderer.tsx"
+import "../AGGridTable.css"
 import "./TamaTable.css"
 import {
     blackAndWhiteDevices,
@@ -12,21 +13,21 @@ import {
     genderFilterOptions,
     stageFilterOptions
 } from "../../global/constants.ts"
-import type {AllData, IRow, VersionData} from "../../global/types.ts"
-import HeaderWithTooltip from "./HeaderWithTooltip.tsx"
+import type {AllTamaData, TamaRow, VersionData} from "../../global/types.ts"
+import TamaTableHeader from "./TamaTableHeader.tsx"
 
-const PHONE_BREAKPOINT = 600
-
-export default function TamaTable({displayFilters, isDarkMode}: { displayFilters: boolean, isDarkMode: boolean }) {
-    const gridRef = useRef<AgGridReact<IRow>>(null)
-    const [themeMode, setThemeMode] = useState<string>("dark")
-    const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
+export default function TamaTable({displayFilters, themeMode, isPhone}: {
+    displayFilters: boolean,
+    themeMode: string
+    isPhone: boolean
+}) {
+    const gridRef = useRef<AgGridReact<TamaRow>>(null)
     const [selectedDeviceOptions, setSelectedDeviceOptions] = useState<string[]>(Object.values(deviceFilterOptions))
     const [selectedGenderOptions, setSelectedGenderOptions] = useState<string[]>(Object.values(genderFilterOptions))
     const [selectedStageOptions, setSelectedStageOptions] = useState<string[]>(Object.values(stageFilterOptions))
-    const [rowData, setRowData] = useState<IRow[]>([])
-    const columnDefs = useMemo<ColDef<IRow>[]>(() => {
-        const staticColumn: ColDef<IRow> =
+    const [rowData, setRowData] = useState<TamaRow[]>([])
+    const columnDefs = useMemo<ColDef<TamaRow>[]>(() => {
+        const staticColumn: ColDef<TamaRow> =
             {
                 headerName: "Tamagotchi",
                 field: "name",
@@ -38,7 +39,7 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
                 unSortIcon: true,
                 width: isPhone ? 150 : 200
             }
-        let dynamicColumns: ColDef<IRow>[] = []
+        let dynamicColumns: ColDef<TamaRow>[] = []
         if (selectedDeviceOptions.includes(deviceFilterOptions.blackAndWhite)) {
             dynamicColumns = [...dynamicColumns,
                 getImageColumnDef("original", "spriteOriginal"),
@@ -75,7 +76,7 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
         return [staticColumn, ...dynamicColumns]
     }, [isPhone, selectedDeviceOptions])
 
-    const gridOptions: GridOptions<IRow> = {
+    const gridOptions: GridOptions<TamaRow> = {
         domLayout: "normal",
         enableCellTextSelection: true,
         ensureDomOrder: true,
@@ -157,36 +158,16 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
         return false
     }, [selectedStageOptions])
 
-    const doesFilterPass = useCallback((node: IRowNode<IRow>): boolean => {
+    const doesFilterPass = useCallback((node: IRowNode<TamaRow>): boolean => {
         const {versions} = node.data || {}
         return passesDeviceFilter(versions) && passesGenderFilter(versions) && passesStageFilter(versions)
     }, [passesDeviceFilter, passesGenderFilter, passesStageFilter])
-
-    const handleResize = useCallback(() => {
-        const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
-        if (newIsPhone !== isPhone) {
-            setIsPhone(newIsPhone)
-        }
-    }, [isPhone])
 
     useEffect(() => {
         if (gridRef.current?.api) {
             gridRef.current.api.onFilterChanged()
         }
     }, [columnDefs, selectedGenderOptions, selectedStageOptions])
-
-    useEffect(() => {
-        if (isDarkMode) {
-            setThemeMode("dark")
-        } else {
-            setThemeMode("light")
-        }
-
-        window.addEventListener("resize", handleResize)
-        return () => {
-            window.removeEventListener("resize", handleResize)
-        }
-    }, [isDarkMode, handleResize])
 
     useEffect(() => {
         async function fetchData() {
@@ -196,8 +177,8 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
                     // noinspection ExceptionCaughtLocallyJS
                     throw new Error(response.status.toString())
                 }
-                const data: AllData = await response.json()
-                const transformedData: IRow[] = Object.entries(data).map(([name, charData]) => {
+                const data: AllTamaData = await response.json()
+                const transformedData: TamaRow[] = Object.entries(data).map(([name, charData]) => {
                     return {
                         image: charData.image,
                         name: name,
@@ -242,7 +223,7 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
     }, [])
 
     return (
-        <div className={"padding-css flex-column-1"}>
+        <div className={"padding-tama-table flex-column-1"}>
             {displayFilters &&
                 <div style={{paddingBottom: "1em"}}>
                     <div className={"filter-grid"}>
@@ -281,7 +262,7 @@ export default function TamaTable({displayFilters, isDarkMode}: { displayFilters
             }
             <div className={"flex-column-1"} data-ag-theme-mode={themeMode} id="portal-root">
                 <div style={{flex: 1}}>
-                    <AgGridReact<IRow>
+                    <AgGridReact<TamaRow>
                         rowData={rowData}
                         columnDefs={columnDefs}
                         gridOptions={gridOptions}
@@ -308,12 +289,12 @@ function getVersionSprite(versions: VersionData[], name: string): string | null 
     return null
 }
 
-function getImageColumnDef(version: keyof typeof columnNames, field: keyof IRow): ColDef<IRow> {
+function getImageColumnDef(version: keyof typeof columnNames, field: keyof TamaRow): ColDef<TamaRow> {
     const [shortName, longName] = columnNames[version] ?? ["", ""]
     return {
         headerName: shortName,
         field: field,
-        headerComponent: HeaderWithTooltip,
+        headerComponent: TamaTableHeader,
         headerComponentParams: {
             tooltip: longName
         },
