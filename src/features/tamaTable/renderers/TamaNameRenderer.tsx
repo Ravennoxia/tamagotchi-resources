@@ -1,7 +1,7 @@
 import type {ICellRendererParams} from "ag-grid-community"
-import "../AGGridTable.css"
-import "./TamaTable.css"
-import type {TamaRow} from "../../global/types.ts"
+import "../../../global/AGGridTable.css"
+import "../TamaTable.css"
+import type {TamaRow} from "../../../global/types.ts"
 import * as React from "react"
 
 interface CombinedImageNameRendererParams extends ICellRendererParams<TamaRow, string | null> {

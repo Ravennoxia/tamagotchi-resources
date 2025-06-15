@@ -2,13 +2,14 @@ import type {ICellRendererParams} from "ag-grid-community"
 import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
-import {type columnNames, deviceNames} from "../../global/constants.ts"
-import type {VersionData} from "../../global/types.ts"
-import useTooltip from "../useTooltip.ts"
-import "../AGGridTable.css"
+import {type COLUMN_NAMES, DEVICE_NAMES} from "../../../global/constants.ts"
+import type {VersionData} from "../../../global/types.ts"
+import useTooltip from "../../../global/useTooltip.ts"
+import "../../../global/AGGridTable.css"
+import {getPortalRoot} from "../../../global/functions.ts"
 
 export interface MyCellParams extends ICellRendererParams {
-    deviceVersion?: keyof typeof columnNames
+    deviceVersion?: keyof typeof COLUMN_NAMES
 }
 
 function TamaCellRenderer(params: MyCellParams) {
@@ -32,18 +33,14 @@ function TamaCellRenderer(params: MyCellParams) {
         const versionData = params.data.versions.find((v: VersionData) => v.version === params.deviceVersion)
         if (versionData?.devices) {
             const translatedDevices = versionData.devices.map((deviceKey: string) => {
-                return (deviceNames as Record<string, string>)[deviceKey] || deviceKey
+                return (DEVICE_NAMES as Record<string, string>)[deviceKey] || deviceKey
             })
             return Array.from(new Set(translatedDevices)).join(", ")
         }
         return ""
     }, [params.data, params.deviceVersion])
 
-    const portalRoot = document.getElementById("portal-root")
-    if (!portalRoot) {
-        console.error("portalRoot not found")
-        return null
-    }
+    const portalRoot = getPortalRoot()
 
     return (
         <button
@@ -60,14 +57,13 @@ function TamaCellRenderer(params: MyCellParams) {
                     alt={params.value}
                 />
             )}
-            {showTooltip && tooltipContent.length > 0 && ReactDOM.createPortal(
+            {showTooltip && tooltipContent.length > 0 && portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
-                        left: tooltipPosition.left,
-                        pointerEvents: "auto"
+                        left: tooltipPosition.left
                     }}
                 >
                     {tooltipContent}

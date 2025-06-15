@@ -1,8 +1,9 @@
 import type {ICellRendererParams} from "ag-grid-community"
-import "../AGGridTable.css"
+import "../../global/AGGridTable.css"
 import * as React from "react"
-import useTooltip from "../useTooltip.ts"
+import useTooltip from "../../global/useTooltip.ts"
 import ReactDOM from "react-dom"
+import {getPortalRoot} from "../../global/functions.ts"
 
 function BitzeeImageRenderer(params: ICellRendererParams) {
     const {
@@ -18,11 +19,7 @@ function BitzeeImageRenderer(params: ICellRendererParams) {
         gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
 
-    const portalRoot = document.getElementById("portal-root")
-    if (!portalRoot) {
-        console.error("portalRoot not found")
-        return null
-    }
+    const portalRoot = getPortalRoot()
 
     return (
         <button
@@ -39,14 +36,14 @@ function BitzeeImageRenderer(params: ICellRendererParams) {
                     alt={params.data.name}
                 />
             )}
-            {showTooltip && ReactDOM.createPortal(
+            {showTooltip && portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
                         left: tooltipPosition.left,
-                        pointerEvents: "auto"
+                        whiteSpace: "nowrap"
                     }}
                 >
                     {params.data.name + " (" + params.data.rarity + ")"}

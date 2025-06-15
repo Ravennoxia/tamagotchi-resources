@@ -4,11 +4,11 @@
 
 .ag-header-cell {
     padding: 0 10px;
-
 }
 
-.ag-header-cell-text {
-    overflow: visible;
+.header-css {
+    display: flex;
+    margin: auto;
 }
 
 .flex-column-1 {
@@ -23,19 +23,38 @@
     background-color: var(--dark-button);
     border-radius: 8px;
     border: 1px solid var(--dark-border);
+    max-width: 250px;
+    pointer-events: auto;
+}
+
+.padding-css {
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .padding-css {
+        padding: 5px;
+    }
 }
 
 .cell-not-button {
-    all: inherit;
+    border-radius: inherit;
+    border: inherit;
+    padding: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: inherit;
+    cursor: inherit;
+    transition: inherit;
 }
 
 .cell-not-button:hover {
-    all: inherit;
+    border-color: inherit;
 }
 
 .cell-not-button:focus,
 .cell-not-button:focus-visible {
-    all: inherit;
+    outline: inherit;
 }
 
 @media (prefers-color-scheme: light) {
@@ -45,7 +64,8 @@
     }
 
     .cell-not-button {
-        all: inherit;
+        color: inherit;
+        background-color: inherit;
     }
 }
 
@@ -55,5 +75,10 @@ html[data-theme="light"] .tooltip-css {
 }
 
 html[data-theme="light"] .cell-not-button {
-    all: inherit;
+    color: inherit;
+    background-color: inherit;
+}
+
+:where([data-ag-theme-mode="light"]) {
+    --ag-background-color: var(--light-button);
 }

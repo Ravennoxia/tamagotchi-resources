@@ -56,7 +56,7 @@
 
 .switch-root {
     width: 42px;
-    height: 25px;
+    height: 26px;
     background-color: var(--dark-button);
     border-radius: 50px;
     position: relative;
@@ -99,7 +99,7 @@
 
 @media (prefers-color-scheme: light) {
     .nav-content {
-        background-color: var(--light-button);
+        background-color: var(--light-background);
         border: 1px solid var(--light-border);
     }
 
@@ -114,10 +114,14 @@
     .separator {
         background-color: var(--light-border);
     }
+
+    .switch-thumb {
+        background-color: var(--light-background);
+    }
 }
 
 html[data-theme="light"] .nav-content {
-    background-color: var(--light-button);
+    background-color: var(--light-background);
     border: 1px solid var(--light-border);
 }
 
@@ -131,4 +135,8 @@ html[data-theme="light"] .nav-content a:hover {
 
 html[data-theme="light"] .separator {
     background-color: var(--light-border);
+}
+
+html[data-theme="light"] .switch-thumb {
+    background-color: var(--light-background);
 }

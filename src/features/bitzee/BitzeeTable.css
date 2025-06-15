@@ -9,12 +9,8 @@
     image-rendering: pixelated;
 }
 
-.padding-bitzee-table {
-    padding: inherit;
-}
-
-@media screen and (max-width: 600px) {
-    .padding-bitzee-table {
-        padding: 5px;
-    }
+.bitzee-div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }

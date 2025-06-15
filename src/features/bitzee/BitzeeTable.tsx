@@ -3,8 +3,9 @@ import type {AllBitzeeData, BitzeeRow} from "../../global/types.ts"
 import {useCallback, useEffect, useRef, useState} from "react"
 import type {ColDef, GridOptions, GridReadyEvent} from "ag-grid-community"
 import ImageRenderer from "./BitzeeImageRenderer.tsx"
-import "../AGGridTable.css"
+import "../../global/AGGridTable.css"
 import "./BitzeeTable.css"
+import AGGridHeader from "../../global/AGGridHeader.tsx"
 
 export default function BitzeeTable({themeMode}: { themeMode: string }) {
     const gridRef = useRef<AgGridReact>(null)
@@ -28,32 +29,30 @@ export default function BitzeeTable({themeMode}: { themeMode: string }) {
         },
         {
             field: "blue",
-            headerName: "Super Bitzee"
+            headerName: "Blue Potion"
         },
         {
             field: "red",
-            headerName: "Super Bitzee"
+            headerName: "Red Potion"
         },
         {
             field: "green",
-            headerName: "Super Bitzee"
+            headerName: "Green Potion"
         }
     ])
 
     const defaultColDefs: ColDef = {
         cellRenderer: ImageRenderer,
+        headerComponent: AGGridHeader,
+        headerComponentParams: {
+            useEllipsis: true
+        },
         autoHeight: true,
         resizable: false,
         sortable: false,
         suppressMovable: true,
-        cellStyle: {
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center"
-        },
         maxWidth: 152
     }
-
 
     const gridOptions: GridOptions<BitzeeRow> = {
         suppressRowHoverHighlight: true,
@@ -111,16 +110,10 @@ export default function BitzeeTable({themeMode}: { themeMode: string }) {
     }, [])
 
     return (
-        <div
-            className={"padding-bitzee-table"}
-            style={{
-                display: "flex",
-                justifyContent: "center",
-                height: "100%"
-            }}>
+        <div className={"padding-css bitzee-div"}>
             <div data-ag-theme-mode={themeMode} className={"flex-column-1"}
-                 style={{height: "100%", maxWidth: "1081px"}} id="portal-root">
-                <div style={{flex: 1, height: "100%"}}>
+                 style={{maxWidth: "1081px"}}>
+                <div style={{flex: 1}}>
                     <AgGridReact<BitzeeRow>
                         ref={gridRef}
                         rowData={rowData}
@@ -130,7 +123,7 @@ export default function BitzeeTable({themeMode}: { themeMode: string }) {
                         onGridReady={onGridReady}
                     />
                 </div>
-                <cite style={{textAlign: "right", padding: "10px 0"}}>
+                <cite style={{textAlign: "right"}}>
                     Sprites drawn based on manual. Potion colors (WIP) approximated from seeing them in real life.
                 </cite>
             </div>

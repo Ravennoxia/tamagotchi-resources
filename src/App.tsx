@@ -4,7 +4,7 @@ import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
 import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
-import {PHONE_BREAKPOINT, routes} from "./global/constants.ts"
+import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
 import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
@@ -72,19 +72,19 @@ export default function App() {
                             isDarkMode={isDarkMode}
                             setIsDarkMode={setIsDarkMode}/>
                 <Routes>
-                    <Route path={routes.home} element={
+                    <Route path={ROUTES.home} element={
                         <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
                     }
                     />
-                    <Route path={routes.tamaTable} element={
+                    <Route path={ROUTES.tamaTable} element={
                         <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
                     }
                     />
-                    <Route path={routes.tamaTimeline} element={
+                    <Route path={ROUTES.tamaTimeline} element={
                         <TamaTimeline/>
                     }
                     />
-                    <Route path={routes.bitzeeTable} element={
+                    <Route path={ROUTES.bitzeeTable} element={
                         <BitzeeTable themeMode={themeMode}/>
                     }
                     />
