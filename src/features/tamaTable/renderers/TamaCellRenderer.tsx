@@ -41,6 +41,7 @@ function TamaCellRenderer(params: MyCellParams) {
     }, [params.data, params.deviceVersion])
 
     const portalRoot = getPortalRoot()
+    const displayTooltip = showTooltip && tooltipContent.length > 0
 
     return (
         <button
@@ -57,13 +58,16 @@ function TamaCellRenderer(params: MyCellParams) {
                     alt={params.value}
                 />
             )}
-            {showTooltip && tooltipContent.length > 0 && portalRoot && ReactDOM.createPortal(
+            {portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
-                        left: tooltipPosition.left
+                        left: tooltipPosition.left,
+                        visibility: displayTooltip ? "visible" : "hidden",
+                        opacity: displayTooltip ? 1 : 0,
+                        pointerEvents: displayTooltip ? "auto" : "none"
                     }}
                 >
                     {tooltipContent}

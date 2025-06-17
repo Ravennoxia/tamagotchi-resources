@@ -27,14 +27,14 @@ export default function BitzeeTable({themeMode}: { themeMode: string }) {
             field: "superBitzee",
             headerName: "Super Bitzee"
         },
-        {
-            field: "blue",
-            headerName: "Blue Potion"
-        },
-        {
-            field: "red",
-            headerName: "Red Potion"
-        },
+        // {
+        //     field: "blue",
+        //     headerName: "Blue Potion"
+        // },
+        // {
+        //     field: "red",
+        //     headerName: "Red Potion"
+        // },
         {
             field: "green",
             headerName: "Green Potion"
@@ -112,7 +112,7 @@ export default function BitzeeTable({themeMode}: { themeMode: string }) {
     return (
         <div className={"padding-css bitzee-div"}>
             <div data-ag-theme-mode={themeMode} className={"flex-column-1"}
-                 style={{maxWidth: "1081px"}}>
+                 style={{maxWidth: "777px"}}> {/*1081*/}
                 <div style={{flex: 1}}>
                     <AgGridReact<BitzeeRow>
                         ref={gridRef}

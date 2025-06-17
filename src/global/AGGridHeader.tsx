@@ -43,6 +43,7 @@ export default function AGGridHeader(params: MyHeaderParams) {
     }, [params.displayName, params.tooltip])
 
     const portalRoot = getPortalRoot()
+    const displayTooltip = showTooltip && headerTooltipContent.length > 0
 
     return (
         <button
@@ -53,13 +54,16 @@ export default function AGGridHeader(params: MyHeaderParams) {
             style={headerTextStyle}
         >
             <span style={headerTextStyle}>{params.displayName}</span>
-            {showTooltip && portalRoot && ReactDOM.createPortal(
+            {portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
-                        left: tooltipPosition.left
+                        left: tooltipPosition.left,
+                        visibility: displayTooltip ? "visible" : "hidden",
+                        opacity: displayTooltip ? 1 : 0,
+                        pointerEvents: displayTooltip ? "auto" : "none"
                     }}
                 >
                     {headerTooltipContent}

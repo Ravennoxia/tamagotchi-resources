@@ -1,5 +1,8 @@
 .ag-cell {
     padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ag-header-cell {
@@ -24,7 +27,6 @@
     border-radius: 8px;
     border: 1px solid var(--dark-border);
     max-width: 250px;
-    pointer-events: auto;
 }
 
 .padding-css {

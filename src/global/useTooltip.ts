@@ -24,17 +24,14 @@ export default function useTooltip(
         gridDiv = window,
         isHeader = false
     }: TooltipProps): TooltipReturn {
+    const [intentToShowTooltip, setIntentToShowTooltip] = useState(false)
     const [showTooltip, setShowTooltip] = useState(false)
     const [tooltipPosition, setTooltipPosition] = useState<{ top: number, left: number }>({top: 0, left: 0})
+    const [isDragging, setIsDragging] = useState<boolean>(false)
     const targetRef = useRef<HTMLElement>(null)
     const tooltipRef = useRef<HTMLDivElement>(null)
-    const touchMoveRef = useRef(false)
-    const ignoreTooltipCloseRef = useRef(false)
-    const isDraggingRef = useRef(false)
-    const dragEndTimeoutIdRef = useRef<NodeJS.Timeout | null>(null)
-    const currentShowTooltipRef = useRef(showTooltip)
 
-    const getAGGridScrollContainer = useCallback(() => {
+    const getAGGridContainer = useCallback(() => {
         if (gridDiv instanceof Element) {
             const viewport = gridDiv?.querySelector(".ag-body-viewport") || gridDiv?.querySelector(".ag-center-cols-viewport")
             if (viewport) {
@@ -44,121 +41,54 @@ export default function useTooltip(
         return window
     }, [gridDiv])
 
-    const scrollContainer = getAGGridScrollContainer()
-
-    useEffect(() => {
-        currentShowTooltipRef.current = showTooltip
-    }, [showTooltip])
+    const gridContainer = getAGGridContainer()
 
     const calculatePosition = useCallback(() => {
-        if (showTooltip && targetRef.current && tooltipRef.current) {
+        if (targetRef.current instanceof HTMLElement && tooltipRef.current instanceof HTMLDivElement) {
             const targetRect = targetRef.current.getBoundingClientRect()
             const tooltipRect = tooltipRef.current.getBoundingClientRect()
-            const containerRect = getContainerRect(scrollContainer)
+            const containerRect = getContainerRect(gridContainer)
 
-            setTooltipPosition({
-                top: getTopPosition(targetRect, tooltipRect, containerRect, isHeader),
-                left: getLeftPosition(targetRect, tooltipRect, containerRect, horizontalCenter)
-            })
-        }
-    }, [horizontalCenter, isHeader, scrollContainer, showTooltip])
-
-    useEffect(() => {
-        if (showTooltip) {
-            const initialCalcTimeout = setTimeout(() => {
-                calculatePosition()
-            }, 0)
-            const handleScroll = () => {
-                calculatePosition()
-            }
-            scrollContainer.addEventListener("scroll", handleScroll, {passive: true})
-            window.addEventListener("resize", calculatePosition)
-            return () => {
-                clearTimeout(initialCalcTimeout)
-                scrollContainer.removeEventListener("scroll", handleScroll)
-                window.removeEventListener("resize", calculatePosition)
+            if (targetRect.width > 0 && targetRect.height > 0 &&
+                tooltipRect.width > 0 && tooltipRect.height > 0) {
+                setTooltipPosition({
+                    top: getTopPosition(targetRect, tooltipRect, containerRect, isHeader),
+                    left: getLeftPosition(targetRect, tooltipRect, containerRect, horizontalCenter)
+                })
             }
         }
-    }, [calculatePosition, scrollContainer, showTooltip])
+    }, [horizontalCenter, isHeader, gridContainer])
 
-    const handleMouseEnter = useCallback((event: React.MouseEvent<HTMLButtonElement>) => {
+    const handleMouseEnter = useCallback((event: React.MouseEvent<HTMLElement>) => {
         event.stopPropagation()
-        setShowTooltip(true)
+        setIntentToShowTooltip(true)
     }, [])
 
     const handleMouseLeave = useCallback(() => {
+        setIntentToShowTooltip(false)
         setShowTooltip(false)
     }, [])
 
     const handleTouchStart = useCallback(() => {
-        touchMoveRef.current = false
-        ignoreTooltipCloseRef.current = false
-        if (dragEndTimeoutIdRef.current) {
-            clearTimeout(dragEndTimeoutIdRef.current)
-            dragEndTimeoutIdRef.current = null
-        }
-        isDraggingRef.current = false
+        setIntentToShowTooltip(false)
+        setShowTooltip(false)
     }, [])
 
     const handleTouchMove = useCallback(() => {
-        touchMoveRef.current = true
-        isDraggingRef.current = true
-        if (currentShowTooltipRef.current) {
-            setShowTooltip(false)
-        }
+        setIntentToShowTooltip(false)
+        setShowTooltip(false)
+        setIsDragging(true)
     }, [])
 
-    const handleTouchEnd = useCallback((event: TouchEvent) => {
-        if (!event.defaultPrevented && !touchMoveRef.current && !isDraggingRef.current) {
-            setTimeout(() => {
-                if (isDraggingRef.current) {
-                    setShowTooltip(false)
-                    return
-                }
-                if (targetRef.current) {
-                    const rect = targetRef.current.getBoundingClientRect()
-                    setTooltipPosition({top: rect.bottom, left: rect.left})
-                }
-                setShowTooltip(true)
-                ignoreTooltipCloseRef.current = true
-            }, 0)
-        } else {
+    const handleTouchEnd = useCallback(() => {
+        if (isDragging) {
+            setIsDragging(false)
+            setIntentToShowTooltip(false)
             setShowTooltip(false)
-            isDraggingRef.current = true
-            if (dragEndTimeoutIdRef.current) {
-                clearTimeout(dragEndTimeoutIdRef.current)
-            }
-            dragEndTimeoutIdRef.current = setTimeout(() => {
-                isDraggingRef.current = false
-                dragEndTimeoutIdRef.current = null
-            }, 0)
-        }
-    }, [setTooltipPosition])
-
-    useEffect(() => {
-        const handleTooltipClose = (event: TouchEvent) => {
-            if (ignoreTooltipCloseRef.current) {
-                ignoreTooltipCloseRef.current = false
-                return
-            }
-            const insideCellButton = targetRef.current?.contains(event.target as Node)
-            const insideTooltip = tooltipRef.current?.contains(event.target as Node)
-
-            if (showTooltip && !insideCellButton && !insideTooltip) {
-                setShowTooltip(false)
-            }
-        }
-
-        if (showTooltip) {
-            document.addEventListener("touchend", handleTooltipClose)
         } else {
-            document.removeEventListener("touchend", handleTooltipClose)
+            setIntentToShowTooltip(true)
         }
-
-        return () => {
-            document.removeEventListener("touchend", handleTooltipClose)
-        }
-    }, [showTooltip])
+    }, [isDragging])
 
     useEffect(() => {
         if (!elementForListeners) {
@@ -171,12 +101,17 @@ export default function useTooltip(
             elementForListeners?.removeEventListener("touchstart", handleTouchStart)
             elementForListeners?.removeEventListener("touchend", handleTouchEnd)
             document.removeEventListener("touchmove", handleTouchMove)
-            if (dragEndTimeoutIdRef.current) {
-                clearTimeout(dragEndTimeoutIdRef.current)
-                dragEndTimeoutIdRef.current = null
-            }
         }
     }, [elementForListeners, handleTouchEnd, handleTouchMove, handleTouchStart])
+
+    useEffect(() => {
+        calculatePosition()
+        if (intentToShowTooltip && tooltipPosition.left > 0 && tooltipPosition.top > 0) {
+            setShowTooltip(true)
+        } else {
+            setShowTooltip(false)
+        }
+    }, [calculatePosition, intentToShowTooltip, tooltipPosition.left, tooltipPosition.top])
 
     return {
         showTooltip,
@@ -196,9 +131,9 @@ function getContainerRect(scrollContainer: HTMLElement | (Window & typeof global
 }
 
 function getLeftPosition(targetRect: DOMRect, tooltipRect: DOMRect, containerRect: DOMRect, horizontalCenter: boolean) {
-    const left = targetRect.left
+    let left = targetRect.left
     if (horizontalCenter) {
-        return (targetRect.left + targetRect.width / 2) - (tooltipRect.width / 2)
+        left = (targetRect.left + targetRect.width / 2) - (tooltipRect.width / 2)
     }
     if (left + tooltipRect.width > containerRect.right) {
         return containerRect.right - tooltipRect.width

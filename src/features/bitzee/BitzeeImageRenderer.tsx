@@ -19,7 +19,10 @@ function BitzeeImageRenderer(params: ICellRendererParams) {
         gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
 
+    const tooltipContent = params.data.name + " (" + params.data.rarity + ")"
+
     const portalRoot = getPortalRoot()
+    const displayTooltip = showTooltip && tooltipContent.length > 0
 
     return (
         <button
@@ -36,17 +39,20 @@ function BitzeeImageRenderer(params: ICellRendererParams) {
                     alt={params.data.name}
                 />
             )}
-            {showTooltip && portalRoot && ReactDOM.createPortal(
+            {portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
                         left: tooltipPosition.left,
-                        whiteSpace: "nowrap"
+                        whiteSpace: "nowrap",
+                        visibility: displayTooltip ? "visible" : "hidden",
+                        opacity: displayTooltip ? 1 : 0,
+                        pointerEvents: displayTooltip ? "auto" : "none"
                     }}
                 >
-                    {params.data.name + " (" + params.data.rarity + ")"}
+                    {tooltipContent}
                 </div>
                 , portalRoot
             )}

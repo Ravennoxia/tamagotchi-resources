@@ -16,7 +16,10 @@ export function useTamaColumnDefs(isPhone: boolean, selectedDeviceOptions: strin
             },
             pinned: "left",
             unSortIcon: true,
-            width: isPhone ? 150 : 200
+            width: isPhone ? 150 : 200,
+            cellStyle: {
+                justifyContent: "left"
+            }
         }
         const dynamicColumns = ALL_DEVICE_COLUMNS.filter(col =>
             (col.type === "blackAndWhite" && selectedDeviceOptions.includes(DEVICE_FILTER_OPTIONS.blackAndWhite)) ||
