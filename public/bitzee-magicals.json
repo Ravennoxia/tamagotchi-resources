@@ -17,7 +17,7 @@
     "superBitzee": "Bitzee-GhostKitty.png",
     "blue": "Bitzee-GhostKitty-Blue.png",
     "red": "Bitzee-GhostKitty-Red.png",
-    "green": "Bitzee-GhostKitty-Green.png"
+    "green": null
   },
   "Yeti": {
     "rarity": "Common",
@@ -27,7 +27,7 @@
     "superBitzee": "Bitzee-Yeti.png",
     "blue": "Bitzee-Yeti-Blue.png",
     "red": "Bitzee-Yeti-Red.png",
-    "green": "Bitzee-Yeti-Green.png"
+    "green": null
   },
   "Kittycorn": {
     "rarity": "Common",
@@ -37,7 +37,7 @@
     "superBitzee": "Bitzee-Kittycorn.png",
     "blue": "Bitzee-Kittycorn-Blue.png",
     "red": "Bitzee-Kittycorn-Red.png",
-    "green": "Bitzee-Kittycorn-Green.png"
+    "green": null
   },
   "Nessie": {
     "rarity": "Common",
@@ -47,7 +47,7 @@
     "superBitzee": "Bitzee-Nessie.png",
     "blue": "Bitzee-Nessie-Blue.png",
     "red": "Bitzee-Nessie-Red.png",
-    "green": "Bitzee-Nessie-Green.png"
+    "green": null
   },
   "Mer-panda": {
     "rarity": "Common",
@@ -77,7 +77,7 @@
     "superBitzee": "Bitzee-PixiePug.png",
     "blue": "Bitzee-PixiePug-Blue.png",
     "red": "Bitzee-PixiePug-Red.png",
-    "green": "Bitzee-PixiePug-Green.png"
+    "green": null
   },
   "Fairy Deer": {
     "rarity": "Common",
@@ -97,7 +97,7 @@
     "superBitzee": "Bitzee-CrystalHedgehog.png",
     "blue": "Bitzee-CrystalHedgehog-Blue.png",
     "red": "Bitzee-CrystalHedgehog-Red.png",
-    "green": "Bitzee-CrystalHedgehog-Green.png"
+    "green": null
   },
   "Rainbow Mer-pup": {
     "rarity": "Rare",
@@ -107,7 +107,7 @@
     "superBitzee": "Bitzee-RainbowMerpup.png",
     "blue": "Bitzee-RainbowMerpup-Blue.png",
     "red": "Bitzee-RainbowMerpup-Red.png",
-    "green": "Bitzee-RainbowMerpup-Green.png"
+    "green": null
   },
   "Ice Mer-pup": {
     "rarity": "Rare",
@@ -117,7 +117,7 @@
     "superBitzee": "Bitzee-IceMerpup.png",
     "blue": "Bitzee-IceMerpup-Blue.png",
     "red": "Bitzee-IceMerpup-Red.png",
-    "green": "Bitzee-IceMerpup-Green.png"
+    "green": null
   },
   "Lightning Kitsune": {
     "rarity": "Rare",
@@ -127,7 +127,7 @@
     "superBitzee": "Bitzee-LightningKitsune.png",
     "blue": "Bitzee-LightningKitsune-Blue.png",
     "red": "Bitzee-LightningKitsune-Red.png",
-    "green": "Bitzee-LightningKitsune-Green.png"
+    "green": null
   },
   "Dazzling Kitsune": {
     "rarity": "Rare",
@@ -137,7 +137,7 @@
     "superBitzee": "Bitzee-DazzlingKitsune.png",
     "blue": "Bitzee-DazzlingKitsune-Blue.png",
     "red": "Bitzee-DazzlingKitsune-Red.png",
-    "green": "Bitzee-DazzlingKitsune-Green.png"
+    "green": null
   },
   "Poison Jackalope": {
     "rarity": "Rare",
@@ -147,7 +147,7 @@
     "superBitzee": "Bitzee-PoisonJackalope.png",
     "blue": "Bitzee-PoisonJackalope-Blue.png",
     "red": "Bitzee-PoisonJackalope-Red.png",
-    "green": "Bitzee-PoisonJackalope-Green.png"
+    "green": null
   },
   "Flower Jackalope": {
     "rarity": "Rare",
@@ -167,7 +167,7 @@
     "superBitzee": "Bitzee-RainbowUnicorn.png",
     "blue": "Bitzee-RainbowUnicorn-Blue.png",
     "red": "Bitzee-RainbowUnicorn-Red.png",
-    "green": "Bitzee-RainbowUnicorn-Green.png"
+    "green": null
   },
   "Moonlight Unicorn": {
     "rarity": "Legendary",
@@ -177,7 +177,7 @@
     "superBitzee": "Bitzee-MoonlightUnicorn.png",
     "blue": "Bitzee-MoonlightUnicorn-Blue.png",
     "red": "Bitzee-MoonlightUnicorn-Red.png",
-    "green": "Bitzee-MoonlightUnicorn-Green.png"
+    "green": null
   },
   "Fire Dragon": {
     "rarity": "Legendary",
@@ -197,6 +197,6 @@
     "superBitzee": "Bitzee-IceDragon.png",
     "blue": "Bitzee-IceDragon-Blue.png",
     "red": "Bitzee-IceDragon-Red.png",
-    "green": "Bitzee-IceDragon-Green.png"
+    "green": null
   }
 }
