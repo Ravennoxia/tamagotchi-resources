@@ -1,0 +1,16 @@
+.bitzee-image {
+    min-width: 50px;
+    min-height: 50px;
+    width: 12.5vw;
+    height: 12.5vw;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.bitzee-div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}

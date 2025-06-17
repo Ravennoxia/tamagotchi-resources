@@ -2,15 +2,17 @@ import type {ICellRendererParams} from "ag-grid-community"
 import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
-import {type columnNames, deviceNames} from "../../../global/constants.ts"
+import {type COLUMN_NAMES, DEVICE_NAMES} from "../../../global/constants.ts"
 import type {VersionData} from "../../../global/types.ts"
-import useTooltip from "../tooltip.ts"
+import useTooltip from "../../../global/useTooltip.ts"
+import "../../../global/AGGridTable.css"
+import {getPortalRoot} from "../../../global/functions.ts"
 
 export interface MyCellParams extends ICellRendererParams {
-    deviceVersion?: keyof typeof columnNames
+    deviceVersion?: keyof typeof COLUMN_NAMES
 }
 
-function ImageRendererWithTooltip(params: MyCellParams) {
+function TamaCellRenderer(params: MyCellParams) {
     const {
         showTooltip,
         tooltipPosition,
@@ -19,7 +21,9 @@ function ImageRendererWithTooltip(params: MyCellParams) {
         handleMouseEnter,
         handleMouseLeave
     } = useTooltip({
-        elementForListeners: params.eGridCell
+        elementForListeners: params.eGridCell,
+        horizontalCenter: false,
+        gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
 
     const tooltipContent = useMemo(() => {
@@ -29,18 +33,15 @@ function ImageRendererWithTooltip(params: MyCellParams) {
         const versionData = params.data.versions.find((v: VersionData) => v.version === params.deviceVersion)
         if (versionData?.devices) {
             const translatedDevices = versionData.devices.map((deviceKey: string) => {
-                return (deviceNames as Record<string, string>)[deviceKey] || deviceKey
+                return (DEVICE_NAMES as Record<string, string>)[deviceKey] || deviceKey
             })
             return Array.from(new Set(translatedDevices)).join(", ")
         }
         return ""
     }, [params.data, params.deviceVersion])
 
-    const portalRoot = document.getElementById("portal-root")
-    if (!portalRoot) {
-        console.error("portalRoot not found")
-        return null
-    }
+    const portalRoot = getPortalRoot()
+    const displayTooltip = showTooltip && tooltipContent.length > 0
 
     return (
         <button
@@ -57,14 +58,16 @@ function ImageRendererWithTooltip(params: MyCellParams) {
                     alt={params.value}
                 />
             )}
-            {showTooltip && tooltipContent.length > 0 && ReactDOM.createPortal(
+            {portalRoot && ReactDOM.createPortal(
                 <div
                     ref={tooltipRef}
                     className={"tooltip-css"}
                     style={{
                         top: tooltipPosition.top,
                         left: tooltipPosition.left,
-                        pointerEvents: "auto"
+                        visibility: displayTooltip ? "visible" : "hidden",
+                        opacity: displayTooltip ? 1 : 0,
+                        pointerEvents: displayTooltip ? "auto" : "none"
                     }}
                 >
                     {tooltipContent}
@@ -75,4 +78,4 @@ function ImageRendererWithTooltip(params: MyCellParams) {
     )
 }
 
-export default React.memo(ImageRendererWithTooltip)
+export default React.memo(TamaCellRenderer)

@@ -1,14 +1,17 @@
 import "./App.css"
-import {useEffect, useState} from "react"
+import {useCallback, useEffect, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
 import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
-import {routes} from "./global/constants.ts"
+import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
+import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
 export default function App() {
+    const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
+    const [themeMode, setThemeMode] = useState<string>("dark")
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
     const [isDarkMode, setIsDarkMode] = useState(() => {
         const savedMode = localStorage.getItem("theme")
@@ -20,6 +23,26 @@ export default function App() {
         }
         return window.matchMedia("(prefers-color-scheme: dark)").matches
     })
+
+    const handleResize = useCallback(() => {
+        const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
+        if (newIsPhone !== isPhone) {
+            setIsPhone(newIsPhone)
+        }
+    }, [isPhone])
+
+    useEffect(() => {
+        if (isDarkMode) {
+            setThemeMode("dark")
+        } else {
+            setThemeMode("light")
+        }
+
+        window.addEventListener("resize", handleResize)
+        return () => {
+            window.removeEventListener("resize", handleResize)
+        }
+    }, [isDarkMode, handleResize])
 
     useEffect(() => {
         const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
@@ -49,16 +72,20 @@ export default function App() {
                             isDarkMode={isDarkMode}
                             setIsDarkMode={setIsDarkMode}/>
                 <Routes>
-                    <Route path={routes.home} element={
-                        <TamaTable displayFilters={displayFilters} isDarkMode={isDarkMode}/>
+                    <Route path={ROUTES.home} element={
+                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
                     }
                     />
-                    <Route path={routes.tamaTable} element={
-                        <TamaTable displayFilters={displayFilters} isDarkMode={isDarkMode}/>
+                    <Route path={ROUTES.tamaTable} element={
+                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
                     }
                     />
-                    <Route path={routes.tamaTimeline} element={
+                    <Route path={ROUTES.tamaTimeline} element={
                         <TamaTimeline/>
+                    }
+                    />
+                    <Route path={ROUTES.bitzeeTable} element={
+                        <BitzeeTable themeMode={themeMode}/>
                     }
                     />
                 </Routes>

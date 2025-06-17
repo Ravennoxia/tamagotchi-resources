@@ -11,7 +11,7 @@ import {HamburgerMenuIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons"
 import {Link, useLocation} from "react-router"
 import {Separator} from "@radix-ui/react-separator"
 import "./Navigation.css"
-import {routes} from "../../global/constants.ts"
+import {ROUTES} from "../../global/constants.ts"
 import {Switch, SwitchThumb} from "@radix-ui/react-switch"
 
 export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode}: {
@@ -21,7 +21,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
 }) {
 
     const location = useLocation()
-    const showFilters = location.pathname === routes.tamaTable || location.pathname === routes.home
+    const showFilters = location.pathname === ROUTES.tamaTable || location.pathname === ROUTES.home
 
     function handleFilterToggle() {
         setDisplayFilters(prevState => !prevState)
@@ -40,12 +40,16 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
                     </NavigationMenuTrigger>
                     <NavigationMenuContent className={"nav-content"}>
                         <NavigationMenuLink asChild>
-                            <Link to={routes.home}>
+                            <Link to={ROUTES.home}>
                                 All Raisable Tamagotchi Characters
                             </Link>
                         </NavigationMenuLink>
                         <Separator className={"separator"}/>
-                        More will come in the future...
+                        <NavigationMenuLink asChild>
+                            <Link to={ROUTES.bitzeeTable}>
+                                Bitzee Magicals Sprites
+                            </Link>
+                        </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenu>
