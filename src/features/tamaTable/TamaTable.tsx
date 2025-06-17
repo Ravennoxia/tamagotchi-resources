@@ -1,5 +1,6 @@
 import {AgGridReact} from "ag-grid-react"
-import {useEffect, useRef} from "react"
+import * as React from "react"
+import {useCallback, useEffect, useRef, useState} from "react"
 import "../../global/AGGridTable.css"
 import "./TamaTable.css"
 import {DEVICE_FILTER_OPTIONS, GENDER_FILTER_OPTIONS, STAGE_FILTER_OPTIONS} from "../../global/constants.ts"
@@ -8,6 +9,7 @@ import TamaFilters from "./filtering/TamaFilters.tsx"
 import {useTamaFilters} from "./filtering/useTamaFilters.ts"
 import {useTamaColumnDefs} from "./useTamaColumnDefs.ts"
 import {useTamaData} from "./useTamaRowData.ts"
+import {Cross1Icon} from "@radix-ui/react-icons"
 
 export default function TamaTable({displayFilters, themeMode, isPhone}: {
     displayFilters: boolean,
@@ -26,6 +28,15 @@ export default function TamaTable({displayFilters, themeMode, isPhone}: {
     const gridRef = useRef<AgGridReact<TamaRow>>(null)
     const columnDefs = useTamaColumnDefs(isPhone, selectedDeviceOptions)
     const rowData = useTamaData()
+    const [searchText, setSearchText] = useState<string>("")
+
+    const handleSearchChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
+        setSearchText(event.target.value)
+    }, [])
+
+    const handleClearSearch = useCallback(() => {
+        setSearchText("")
+    }, [])
 
     useEffect(() => {
         if (gridRef.current?.api) {
@@ -38,6 +49,16 @@ export default function TamaTable({displayFilters, themeMode, isPhone}: {
             {displayFilters &&
                 <div style={{paddingBottom: "1em"}}>
                     <div className={"filter-grid"}>
+                        <strong>Search:</strong>
+                        <div className={"search-input-wrapper"}>
+                            <input type="text" value={searchText} onChange={handleSearchChange}
+                                   className={"search-field"}/>
+                            {searchText && (
+                                <button className={"clear-button"} onClick={handleClearSearch}>
+                                    <Cross1Icon/>
+                                </button>
+                            )}
+                        </div>
                         <TamaFilters
                             title="Devices"
                             options={DEVICE_FILTER_OPTIONS}
@@ -62,10 +83,12 @@ export default function TamaTable({displayFilters, themeMode, isPhone}: {
             <div className={"flex-column-1"} data-ag-theme-mode={themeMode}>
                 <div style={{flex: 1}}>
                     <AgGridReact<TamaRow>
+                        ref={gridRef}
                         rowData={rowData}
                         columnDefs={columnDefs}
                         isExternalFilterPresent={isFilterPresent}
                         doesExternalFilterPass={doesFilterPass}
+                        quickFilterText={searchText}
                         gridOptions={{
                             enableCellTextSelection: true,
                             accentedSort: true,
