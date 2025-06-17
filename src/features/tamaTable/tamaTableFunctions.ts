@@ -23,6 +23,9 @@ export function getImageColumnDef(version: keyof typeof COLUMN_NAMES, field: key
             useEllipses: false
         },
         filter: false,
+        getQuickFilterText: () => {
+            return ""
+        },
         resizable: false,
         sortable: false,
         cellRenderer: TamaCellRenderer,
