@@ -1,10 +1,13 @@
-export const routes = {
+export const ROUTES = {
     home: "/",
     tamaTable: "/raisable-characters-table",
-    tamaTimeline: "/device-timeline"
+    tamaTimeline: "/device-timeline",
+    bitzeeTable: "/bitzee-table"
 }
 
-export const columnNames = {
+export const PHONE_BREAKPOINT = 600
+
+export const COLUMN_NAMES = {
     "original": ["OG", "Original"],
     "osuMesu": ["OsuMesu", "Osutchi & Mesutchi"],
     "v1": ["v1", "Plus / Connection"],
@@ -32,7 +35,7 @@ export const columnNames = {
     "paradise": ["Paradise", "Paradise"]
 }
 
-export const stageFilterOptions = {
+export const STAGE_FILTER_OPTIONS = {
     baby: "Baby",
     child: "Child",
     teen: "Teen",
@@ -42,18 +45,18 @@ export const stageFilterOptions = {
     pet: "Pet",
     costume: "Costume"
 }
-export const genderFilterOptions = {
+export const GENDER_FILTER_OPTIONS = {
     female: "Female",
     male: "Male",
     other: "Other"
 }
 
-export const deviceFilterOptions = {
+export const DEVICE_FILTER_OPTIONS = {
     blackAndWhite: "Black & White",
     color: "Color"
 }
 
-export const blackAndWhiteDevices = [
+export const BLACK_AND_WHITE_DEVICES = [
     "original",
     "osuMesu",
     "v1",
@@ -71,7 +74,7 @@ export const blackAndWhiteDevices = [
     "helloKitty"
 ]
 
-export const colorDevices = [
+export const COLOR_DEVICES = [
     "plusColor",
     "iD",
     "Ps",
@@ -84,7 +87,35 @@ export const colorDevices = [
     "paradise"
 ]
 
-export const deviceNames = {
+export const ALL_DEVICE_COLUMNS = [
+    {version: "original", field: "spriteOriginal", type: "blackAndWhite"},
+    {version: "osuMesu", field: "spriteOsuMesu", type: "blackAndWhite"},
+    {version: "v1", field: "spriteV1", type: "blackAndWhite"},
+    {version: "v2", field: "spriteV2", type: "blackAndWhite"},
+    {version: "mini", field: "spriteMini", type: "blackAndWhite"},
+    {version: "v3", field: "spriteV3", type: "blackAndWhite"},
+    {version: "v4", field: "spriteV4", type: "blackAndWhite"},
+    {version: "chu", field: "spriteChu", type: "blackAndWhite"},
+    {version: "v5", field: "spriteV5", type: "blackAndWhite"},
+    {version: "v6", field: "spriteV6", type: "blackAndWhite"},
+    {version: "tamaGo", field: "spriteTamaGo", type: "blackAndWhite"},
+    {version: "nano", field: "spriteNano", type: "blackAndWhite"},
+    {version: "friends", field: "spriteFriends", type: "blackAndWhite"},
+    {version: "pac-man", field: "spritePacMan", type: "blackAndWhite"},
+    {version: "helloKitty", field: "spriteHelloKitty", type: "blackAndWhite"},
+    {version: "plusColor", field: "spritePlusColor", type: "color"},
+    {version: "iD", field: "spriteID", type: "color"},
+    {version: "Ps", field: "spritePs", type: "color"},
+    {version: "4U", field: "sprite4U", type: "color"},
+    {version: "mix", field: "spriteMix", type: "color"},
+    {version: "on", field: "spriteOn", type: "color"},
+    {version: "pix", field: "spritePix", type: "color"},
+    {version: "smart", field: "spriteSmart", type: "color"},
+    {version: "uni", field: "spriteUni", type: "color"},
+    {version: "paradise", field: "spriteParadise", type: "color"}
+]
+
+export const DEVICE_NAMES = {
     "p1": "Original P1",
     "p2jp": "Original P2 Japanese",
     "p2en": "Original P2 International",

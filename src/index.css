@@ -5,11 +5,12 @@
     --dark-link-hover: #535bf2;
     --dark-button: #1a1a1a;
     --dark-border: #4b4b4b;
+    --dark-x-hover: #858585;
 
     --light-text: #213547;
-    --light-background: #e3e3e3;
-    --light-button: #ffffff;
-    --light-border: #ddddde;
+    --light-background: #ffffff;
+    --light-button: #e0e0e0;
+    --light-border: #c3c3c4;
 
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;

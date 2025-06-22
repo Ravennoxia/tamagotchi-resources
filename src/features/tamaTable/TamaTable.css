@@ -1,23 +1,9 @@
-.ag-cell {
-    padding: 0 !important;
-}
-
-.ag-header-cell {
-    padding: 0 10px;
-
-}
-
-.ag-header-cell-text {
-    overflow: visible;
-}
-
 .tama-image-tiny {
     width: 25px;
     height: 25px;
     object-fit: contain;
     image-rendering: pixelated;
 }
-
 
 .tama-image-small {
     width: 50px;
@@ -39,60 +25,57 @@
     gap: 0 1rem;
 }
 
-
-.flex-column-1 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.search-input-wrapper {
+    position: relative;
+    max-width: 208px;
+    padding-left: 1px;
 }
 
-.padding-css {
-    padding: 0 1rem;
-}
-
-.tooltip-css {
-    position: absolute;
-    padding: 8px;
-    background-color: var(--dark-button);
+.search-field {
+    border: 1px solid transparent;
     border-radius: 8px;
-    border: 1px solid var(--dark-border);
+    width: 100%;
+    padding: 2px 3px;
+    box-sizing: border-box;
 }
 
-.cell-not-button {
-    all: inherit;
-}
-
-.cell-not-button:hover {
-    all: inherit;
-}
-
-.cell-not-button:focus,
-.cell-not-button:focus-visible {
-    all: inherit;
-}
-
-@media screen and (max-width: 600px) {
-    .padding-css {
-        padding: 5px;
-    }
+.search-field:hover {
+    border: 1px solid var(--dark-link);
 }
 
 @media (prefers-color-scheme: light) {
-    .tooltip-css {
-        background-color: var(--light-background);
-        border: 1px solid var(--light-border);
-    }
-
-    .cell-not-button {
-        all: inherit;
+    .search-field {
+        background-color: var(--light-button);
+        color: var(--light-text);
     }
 }
 
-html[data-theme="light"] .tooltip-css {
-    background-color: var(--light-background);
-    border: 1px solid var(--light-border);
+html[data-theme="light"] .search-field {
+    background-color: var(--light-button);
+    color: var(--light-text);
 }
 
-html[data-theme="light"] .cell-not-button {
-    all: inherit;
+@media screen and (max-width: 600px) {
+    .search-input-wrapper {
+        max-width: unset;
+    }
+}
+
+.clear-button {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    border: none;
+    padding: 2px 3px 0 3px;
+    border-radius: 15px;
+    background-color: transparent !important;
+}
+
+.clear-button:hover {
+    color: var(--dark-x-hover);
+}
+
+.clear-button:focus,
+.clear-button:focus-visible {
+    color: var(--dark-link-hover)
 }
