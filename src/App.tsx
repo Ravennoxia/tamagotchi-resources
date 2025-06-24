@@ -3,9 +3,9 @@ import {useCallback, useEffect, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
-import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
 import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
 import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
+import {TamaTimeline} from "./features/tamaTimeline/TamaTimeline.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 

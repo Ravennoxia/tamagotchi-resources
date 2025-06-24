@@ -11,7 +11,7 @@ import {HamburgerMenuIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons"
 import {Link, useLocation} from "react-router"
 import {Separator} from "@radix-ui/react-separator"
 import "./Navigation.css"
-import {ROUTES} from "../../global/constants.ts"
+import {ROUTE_TITLES, ROUTES} from "../../global/constants.ts"
 import {Switch, SwitchThumb} from "@radix-ui/react-switch"
 
 export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode}: {
@@ -22,6 +22,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
 
     const location = useLocation()
     const showFilters = location.pathname === ROUTES.tamaTable || location.pathname === ROUTES.home
+    const currentTitle = ROUTE_TITLES[location.pathname] || "Raven's Tamagotchi Resources"
 
     function handleFilterToggle() {
         setDisplayFilters(prevState => !prevState)
@@ -50,6 +51,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
                                 Tamagotchi Device Timeline
                             </Link>
                         </NavigationMenuLink>
+                        <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
                             <Link to={ROUTES.bitzeeTable}>
                                 Bitzee Magicals Sprites
@@ -64,7 +66,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
                 </ToolbarButton>
             )}
             <strong className={"title-css"}>
-                Raven's Tamagotchi resources
+                {currentTitle}
             </strong>
             <div className={"switch-parent"}>
                 <SunIcon/>

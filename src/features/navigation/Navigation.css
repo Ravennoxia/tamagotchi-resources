@@ -35,11 +35,6 @@
     width: 100%;
 }
 
-.separator[data-orientation="vertical"] {
-    height: 100%;
-    width: 1px;
-}
-
 .title-css {
     margin-left: auto;
     white-space: nowrap;

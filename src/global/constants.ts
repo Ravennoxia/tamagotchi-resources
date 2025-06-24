@@ -5,6 +5,13 @@ export const ROUTES = {
     bitzeeTable: "/bitzee-table"
 }
 
+export const ROUTE_TITLES = {
+    [ROUTES.home]: "Raven's Tamagotchi resources",
+    [ROUTES.tamaTable]: "All Raisable Tamagotchi Characters",
+    [ROUTES.tamaTimeline]: "Tamagotchi Device Timeline",
+    [ROUTES.bitzeeTable]: "Bitzee Magicals Sprites"
+}
+
 export const PHONE_BREAKPOINT = 600
 
 export const COLUMN_NAMES = {

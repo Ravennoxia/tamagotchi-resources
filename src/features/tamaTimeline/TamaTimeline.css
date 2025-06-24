@@ -1,0 +1,71 @@
+:root {
+    --space-from-line: 20px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+}
+
+.timeline-line {
+    width: 10px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-separator);
+}
+
+.timeline-mark {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--dark-separator);
+}
+
+.timeline-mark-left {
+    right: calc(-1 * var(--space-from-line) + 5px);
+}
+
+.timeline-mark-right {
+    left: calc(-1 * var(--space-from-line) + 5px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: var(--dark-card);
+}
+
+.card-left {
+    width: 100%;
+    padding-right: var(--space-from-line);
+    text-align: right;
+}
+
+.card-right {
+    width: 100%;
+    justify-content: flex-end;
+    padding-left: var(--space-from-line);
+    text-align: left;
+}
+
+.card-image {
+    height: 150px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.card-sub-text {
+    line-height: 1.1;
+    font-size: 0.9rem;
+    color: var(--dark-separator);
+}

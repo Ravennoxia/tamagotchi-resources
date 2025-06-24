@@ -1,0 +1,888 @@
+{
+  "international": {
+    "Tamagotchi P1 & P2": {
+      "altName": "Original Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "1997-05-28",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/73/P1_PurpleBluePink.jpg"
+    },
+    "Tamagotchi Angel": {
+      "altName": "Tenshitchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+      "hasOther": true,
+      "releaseDate": "1998-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/Angel_US_white.jpg"
+    },
+    "Tamagotchi Ocean": {
+      "altName": "Umino Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Ocean",
+      "hasOther": true,
+      "releaseDate": "1998-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/4d/Ocean_USA_Sealife.jpg"
+    },
+    "Tamagotchi Connection": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_1",
+      "hasOther": true,
+      "releaseDate": "2004-08-15",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/V1_USA_GreenMatrix.jpg"
+    },
+    "Tamagotchi Connection Version 2": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_2",
+      "hasOther": false,
+      "releaseDate": "2005-07",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/fe/Screen_Shot_2022-11-29_at_5.28.26_pm.png"
+    },
+    "Tamagotchi Mini": {
+      "altName": "Chibi Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+      "hasOther": true,
+      "releaseDate": "2005-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Mini2018W2_WhiteRed.jpg"
+    },
+    "Tamagotchi Connection Version 3": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_3",
+      "hasOther": false,
+      "releaseDate": "2006-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c8/V3_GreenFrogs.jpg"
+    },
+    "Tamagotchi Connection Version 4": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_4",
+      "hasOther": false,
+      "releaseDate": "2007-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a8/V4_Sunflower.jpg"
+    },
+    "Tamagotchi Connection Version 4.5": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_4.5",
+      "hasOther": false,
+      "releaseDate": "2007-07",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c7/Blue_with_Characters.jpg"
+    },
+    "Tamagotchi Connection Version 5": {
+      "altName": "Familitchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5",
+      "hasOther": true,
+      "releaseDate": "2008-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/4a/V5_red.jpg"
+    },
+    "Tamagotchi Connection Version 5.5 Celebrity": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5_Celebrity",
+      "hasOther": true,
+      "releaseDate": "2008-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0e/V5CelebMovieNight.png"
+    },
+    "Tamagotchi Music Star": {
+      "altName": "Tamagotchi Connection Version 6",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Music_Star",
+      "hasOther": false,
+      "releaseDate": "2008-11-28",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/fd/MusicStar_IdolDream.jpg"
+    },
+    "TamaTown Tama-Go": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/TamaTown_Tama-Go",
+      "hasOther": false,
+      "releaseDate": "2010-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/18/TTTG_LimeGreen.PNG"
+    },
+    "Tamagotchi iD L": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+      "hasOther": true,
+      "releaseDate": "2012",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/32/IDL_White.jpg"
+    },
+    "Tamagotchi Friends": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Friends",
+      "hasOther": false,
+      "releaseDate": "2014-08-27",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/71/TF_ColorfulLeopard.png"
+    },
+    "Tamagotchi Friends: Dream Town Digital Friend": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Friends:_Dream_Town_Digital_Friend",
+      "hasOther": false,
+      "releaseDate": "2015-05",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c0/TFDT_ZigZagGem.png"
+    },
+    "Tamagotchi P1 & P2 rerelease": {
+      "altName": "Oritama",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "2018-09-30",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/ef/2018P1Rainbow.jpg"
+    },
+    "Gudetama Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Gudetama_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2018-12-15",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b9/Gudetama_orange.jpg"
+    },
+    "Tamagotchi On": {
+      "altName": "Tamagotchi Meets",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+      "hasOther": true,
+      "releaseDate": "2019-07-28",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/80/Meets_Magical_Green.jpg"
+    },
+    "Pac-Man Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Pac-Man_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2020-03-15",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/17/PMT_Yellow.jpg"
+    },
+    "Hello Kitty Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hello_Kitty_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2020-12-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/99/HKT_FavoriteThings.jpg"
+    },
+    "Demon Slayer Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2021-01-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/34/Kimetsu_nezuko.jpg"
+    },
+    "Evatchi": {
+      "altName": "Multipurpose Egg Shaped Decisive Weapon Evatchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Evatchi",
+      "hasOther": true,
+      "releaseDate": "2021-04-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/27/Evatchi_white.jpg"
+    },
+    "Tamagotchi Pix": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Pix",
+      "hasOther": false,
+      "releaseDate": "2021-07-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/05/Pix_SkyPurple.jpg"
+    },
+    "R2-D2 Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/R2-D2_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2021-11-11",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/38/R2Tama_Hologram.jpg"
+    },
+    "BT21 Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/BT21_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-02-28",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0c/BT21_Yellow.jpg"
+    },
+    "Kamen Ridertchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Kamen_Ridertchi",
+      "hasOther": true,
+      "releaseDate": "2022-03-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/KRT_Gold.jpg"
+    },
+    "Jujutsutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+      "hasOther": true,
+      "releaseDate": "2022-07-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/6c/Jujutsutchi_Kugisaki.jpg"
+    },
+    "Toy Story Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Toy_Story_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-07-13",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3d/ToyStory_Friends.jpg"
+    },
+    "TinyTAN Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/TinyTAN_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-10",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b5/TinyTAN_Red.jpg"
+    },
+    "Jurassic World Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-02-06",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/99/JWT_Amber_USA.jpg"
+    },
+    "Kingdom Hearts Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Kingdom_Hearts_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-12-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/6b/KHNano_LightMode.jpg"
+    },
+    "Grogu Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Grogu_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-01-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/28/Grogu_Blue.jpg"
+    },
+    "Hatsune Mikutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hatsune_Mikutchi",
+      "hasOther": true,
+      "releaseDate": "2023-03-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/73/HatsuneMikutchi_Cyber.jpg"
+    },
+    "Spy x Family Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Spy_x_Family_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-03-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e0/SXFT_Pink.jpg"
+    },
+    "Choppertchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Choppertchi",
+      "hasOther": true,
+      "releaseDate": "2023-05-06",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/55/GoingMerryChoppertchiShell.jpg"
+    },
+    "Torevetchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Torevetchi",
+      "hasOther": true,
+      "releaseDate": "2023-05-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Torevetchi_Blue.jpg"
+    },
+    "Tamagotchi Uni": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni",
+      "hasOther": true,
+      "releaseDate": "2023-07-15",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/67/TamagotchiUni_Purple_front.jpg"
+    },
+    "Harry Potter Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Harry_Potter_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-07-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c7/HPT_MagicalCreatures.jpg"
+    },
+    "Tamagotchi Connection (2024)": {
+      "altName": "RV3",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_(2024)",
+      "hasOther": true,
+      "releaseDate": "2024-07-10",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e8/TC2024ClearRetro.png"
+    },
+    "Tamagotchi Angel rerelease": {
+      "altName": "Tenshitchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+      "hasOther": true,
+      "releaseDate": "2024-12-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/aa/AngelR_DreamyAngel.jpg"
+    },
+    "Darth Vader Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Darth_Vader_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2025-03-11",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/VaderTama_Black.jpg"
+    },
+    "SKZOO Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/SKZOO_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2025-03-04",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/54/Tamagotchi_Nano_FoxI_Ny.png"
+    },
+    "Tamagotchi Paradise": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise",
+      "hasOther": true,
+      "releaseDate": "2025-08-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/ad/TamagotchiParadiseBlueWaterShell.jpeg"
+    }
+  },
+  "asia": {
+    "Tamagotchi P1": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "1996-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0f/P1_Blue.jpg"
+    },
+    "Tamagotchi P2": {
+      "altName": "New Species Discovered!! Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "1997-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/11/P2_WhitePattern.jpg"
+    },
+    "Tamagotchi P2 v2": {
+      "altName": "New Species Discovered!! Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "1997-05",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/8/86/P2_UFO.jpg"
+    },
+    "Tamagotchi Angel": {
+      "altName": "Tenshitchi no Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+      "hasOther": true,
+      "releaseDate": "1997-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/74/Angel_Japan_pink.jpg"
+    },
+    "Genjintch Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Genjintch_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1997-11",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a8/Genjintch_brown.jpg"
+    },
+    "Mothra Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Mothra_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1997-12",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d7/Mothra_whiteblue.jpg"
+    },
+    "Tamagotchi Osutchi and Mesutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Osutchi_and_Mesutchi",
+      "hasOther": false,
+      "releaseDate": "1997-12",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/71/Osutchi_Blue.jpg"
+    },
+    "Mori de Hakken! Tamagotchi": {
+      "altName": "Morino",
+      "link": "https://tamagotchi.fandom.com/wiki/Mori_de_Hakken!_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1998-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/23/Morino_yellowivy.jpg"
+    },
+    "Tamagotchi Ocean": {
+      "altName": "Umino",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Ocean",
+      "hasOther": true,
+      "releaseDate": "1998-03",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/1f/Ocean_J_Clear.jpg"
+    },
+    "TamaOtch": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/TamaOtch",
+      "hasOther": false,
+      "releaseDate": "1998-04",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/5d/TamaOtch_pink.jpg"
+    },
+    "Doraemontchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Doraemontchi",
+      "hasOther": false,
+      "releaseDate": "1998-08",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/10/Doraemontchi.jpg"
+    },
+    "Debirutchi no Tamagotchi": {
+      "altName": "Devilgotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Debirutchi_no_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1998-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/c5/Devil_TwoTone.jpg"
+    },
+    "Yasashii Tamagotchi": {
+      "altName": "Simple Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Yasashii_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1998-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e4/Yasashii_blue.jpg"
+    },
+    "Santaclautchi no Tamagotchi": {
+      "altName": "Santagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Santaclautchi_no_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "1998-11",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d1/Santa_Red.jpg"
+    },
+    "Deai Hakken!! Arukotchi": {
+      "altName": "Arukotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Deai_Hakken!!_Arukotchi",
+      "hasOther": false,
+      "releaseDate": "1999",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/ff/Arukotch_pink.jpg"
+    },
+    "Tamagotchi Plus": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_1",
+      "hasOther": true,
+      "releaseDate": "2004-03-20",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/98/V1_Japan_Yellow.jpg"
+    },
+    "Keitai Kaitsuu! Tamagotchi Plus": {
+      "altName": "Keitai",
+      "link": "https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus",
+      "hasOther": false,
+      "releaseDate": "2004-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Keitai_LightBlue.jpg"
+    },
+    "Hanerutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hanerutchi",
+      "hasOther": false,
+      "releaseDate": "2005-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/d9/Hanerutchi_red.jpg"
+    },
+    "Tamagotchi Mini": {
+      "altName": "Chibi Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+      "hasOther": true,
+      "releaseDate": "2005-05-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e8/Chibitama_p1blue.jpg"
+    },
+    "Keitai Kaitsuu! Tamagotchi Plus Akai": {
+      "altName": "Akai",
+      "link": "https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus_Akai",
+      "hasOther": false,
+      "releaseDate": "2005-07",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/53/Akai_AppleRed.jpg"
+    },
+    "Home Deka Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Home_Deka_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2005-07-16",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b7/HomeDeka1_blue.jpg"
+    },
+    "Chou Jinsei Enjoi Tamagotchi Plus": {
+      "altName": "Entama",
+      "link": "https://tamagotchi.fandom.com/wiki/Chou_Jinsei_Enjoi_Tamagotchi_Plus",
+      "hasOther": false,
+      "releaseDate": "2005-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/21/Entama_BeadsRed.jpg"
+    },
+    "Chou Yarikuri Enjoi! Tamagotchi Kakeibo": {
+      "altName": "Entama accessory",
+      "link": "https://tamagotchi.fandom.com/wiki/Chou_Yarikuri_Enjoi!_Tamagotchi_Kakeibo",
+      "hasOther": false,
+      "releaseDate": "2006-04-29",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/5c/Bc52_1.jpg"
+    },
+    "Ura Jinsei Enjoi Tamagotchi Plus": {
+      "altName": "Uratama",
+      "link": "https://tamagotchi.fandom.com/wiki/Ura_Jinsei_Enjoi_Tamagotchi_Plus",
+      "hasOther": false,
+      "releaseDate": "2006-07-22",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/21/Uratama_UraSplash.jpg"
+    },
+    "Hanerutchi 2": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hanerutchi_2",
+      "hasOther": false,
+      "releaseDate": "2006-08-26",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b1/Hanerutchi2_red.jpg"
+    },
+    "Home Deka Tamagotchi Game King Playoff": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Home_Deka_Tamagotchi_Game_King_Playoff",
+      "hasOther": false,
+      "releaseDate": "2006-08-28",
+      "image": "https://buy-tamagotchis.com/wp-content/uploads/2023/04/tamagotchi-bandai-home-deka-tamagotchi-game-king-playoff-station-orange-2.jpg"
+    },
+    "Tamagotchi School": {
+      "altName": "TamaSuku",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_School_(toy)",
+      "hasOther": false,
+      "releaseDate": "2006-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/c/ca/SchoolV1_FlowerBedsGreen.jpg"
+    },
+    "TamagoChu": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/TamagoChu",
+      "hasOther": false,
+      "releaseDate": "2007-01",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/Chu_KingQueen.jpg"
+    },
+    "Oden-Kun Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Oden-Kun_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2007-03-31",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/5d/Odenkun_yellow.jpg"
+    },
+    "Tamagotchi School FureFure! Club Activities!": {
+      "altName": "Tamagotchi School",
+      "link": "https://tamagotchi.fandom.com/wiki/TamaFure",
+      "hasOther": false,
+      "releaseDate": "2007-04-21",
+      "image": "https://static.wixstatic.com/media/b466ea_f4bd315fb0764f8a825d287dcb13e30e~mv2.jpg/v1/fill/w_980,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b466ea_f4bd315fb0764f8a825d287dcb13e30e~mv2.jpg"
+    },
+    "Yay! Family Iro Iro! Tamagotchi Plus": {
+      "altName": "Famitama",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5",
+      "hasOther": true,
+      "releaseDate": "2007-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Famitama_Earth.jpg"
+    },
+    "Tamawalkie": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamawalkie",
+      "hasOther": false,
+      "releaseDate": "2008",
+      "image": "https://live.staticflickr.com/65535/48415795916_692ff58284_b.jpg"
+    },
+    "Royal Family of Dreams Tamagotchi Plus": {
+      "altName": "Royal Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5_Celebrity",
+      "hasOther": true,
+      "releaseDate": "2008-03-29",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e0/RFamitama_Okan.jpg"
+    },
+    "Tamagotchi no Fureai Furendo Chamametchi": {
+      "altName": "Oshaberi Chamametchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_no_Fureai_Furendo_Chamametchi",
+      "hasOther": false,
+      "releaseDate": "2008-07-26",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/13/Chamame_standard.jpg"
+    },
+    "Tamagotchi Plus Color": {
+      "altName": "TMGC+C",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Plus_Color",
+      "hasOther": false,
+      "releaseDate": "2008-11-22",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a0/TMGC07_Orange.jpg"
+    },
+    "Hexagontchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hexagontchi",
+      "hasOther": false,
+      "releaseDate": "2009-07-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/12/Hexagontchi_red.jpg"
+    },
+    "Tamagotchi iD": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD",
+      "hasOther": false,
+      "releaseDate": "2009-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/4c/ID_Blue.jpg"
+    },
+    "Tamagotchi Nano": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano",
+      "hasOther": false,
+      "releaseDate": "2010-10-16",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/e5/Nano_skyeblue.jpg"
+    },
+    "More iD! Tamagotchi Home Station Plus": {
+      "altName": "Tamagotchi iD Station",
+      "link": "https://tamagotchi.fandom.com/wiki/More_iD!_Tamagotchi_Home_Station_Plus",
+      "hasOther": false,
+      "releaseDate": "2010-11-30",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0d/%E3%82%82%E3%81%A3%E3%81%A8iD%EF%BC%81%E3%81%8A%E3%81%86%E3%81%A1de%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2B.jpg"
+    },
+    "Tamagotchi iD L": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+      "hasOther": false,
+      "releaseDate": "2011-03",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9c/IDL_Purple.jpg"
+    },
+    "Tamagotchi P's": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_P%27s",
+      "hasOther": false,
+      "releaseDate": "2012-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/e/ed/Ps_Purple.jpg"
+    },
+    "Tamagotchi 4U": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_4U",
+      "hasOther": false,
+      "releaseDate": "2014-09-27",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9f/4U_Blue.jpg"
+    },
+    "Tamagotchi 4U+": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_4U%2B",
+      "hasOther": false,
+      "releaseDate": "2015-07-18",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/99/4u%2B_sky_blue.jpg"
+    },
+    "Tamagotchi m!x": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_m!x",
+      "hasOther": false,
+      "releaseDate": "2016-07-16",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f7/Mix_Melody_Pink.jpg"
+    },
+    "Pocket Usatama": {
+      "altName": "",
+      "link": "https://tamagotchi.fandom.com/wiki/Pocket_Usatama",
+      "hasOther": false,
+      "releaseDate": "2017-04-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/02/Usatama_white.jpg"
+    },
+    "Tamagotchi P1 & P2 rerelease": {
+      "altName": "Oritama",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+      "hasOther": true,
+      "releaseDate": "2017-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/a/a9/2017P1Pink.jpg"
+    },
+    "Gudetama Tamagotchi": {
+      "altName": "",
+      "link": "https://tamagotchi.fandom.com/wiki/Gudetama_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2017-12-27",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/90/Gudetama_white.jpg"
+    },
+    "Tamagotchi Meets": {
+      "altName": "Tamagotchi On",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+      "hasOther": true,
+      "releaseDate": "2018-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9d/Meets_Fairy_Blue.jpg"
+    },
+    "Eevee x Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Eevee_x_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2019-01-26",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/EeveeTama_brown.jpg"
+    },
+    "Pocket Usapiyo": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Pocket_Usapiyo",
+      "hasOther": false,
+      "releaseDate": "2019-04-22",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3e/Usapiyo_Blue.jpg"
+    },
+    "Evatchi": {
+      "altName": "Multipurpose Egg Shaped Decisive Weapon Evatchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Evatchi",
+      "hasOther": true,
+      "releaseDate": "2020-07-13",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/0c/Evatchi_purple.jpg"
+    },
+    "Kimetsu Tamagotchi": {
+      "altName": "Demon Slayer Tamagotchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2020-10-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f7/Kimetsu_tanjiro.jpg"
+    },
+    "Jordy x Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Jordy_x_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2020-12-18",
+      "image": "https://i.ebayimg.com/images/g/fqwAAOSwXI1law4O/s-l1200.jpg"
+    },
+    "Extellatchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Extellatchi",
+      "hasOther": false,
+      "releaseDate": "2021-02-11",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Extellatchi.png"
+    },
+    "Twistetchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Twistetchi",
+      "hasOther": false,
+      "releaseDate": "2021-06-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/24/Twistedtchi_Heartslabyul.jpg"
+    },
+    "BT21 Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/BT21_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2021-09-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/5/58/BT21_Blue.jpg"
+    },
+    "PUI PUI Molcartchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/PUI_PUI_Molcartchi",
+      "hasOther": false,
+      "releaseDate": "2021-10-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/33/Molcartchi_Orange.jpg"
+    },
+    "R2-D2 Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/R2-D2_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2021-11-13",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/49/R2Tama_Classic.jpg"
+    },
+    "Tamagotchi Smart": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Smart",
+      "hasOther": false,
+      "releaseDate": "2021-11-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3c/Smart_Mintblue_Strap.jpg"
+    },
+    "Kamen Ridertchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Kamen_Ridertchi",
+      "hasOther": true,
+      "releaseDate": "2021-12-14",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/02/KRT_Green.jpg"
+    },
+    "Jujutsutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+      "hasOther": true,
+      "releaseDate": "2022-01-29",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/01/Jujutsutchi_Itadori.jpg"
+    },
+    "Toy Story Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Toy_Story_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-06-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/6/64/ToyStory_Clouds.jpg"
+    },
+    "Jurassic World Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-07-23",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/92/JWT_Egg.jpg"
+    },
+    "Tourabutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tourabutchi",
+      "hasOther": false,
+      "releaseDate": "2022-08-28",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/f2/Tourabutchi_KashuuKiyomitsu.jpg"
+    },
+    "TinyTAN Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/TinyTAN_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-09-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/2a/TinyTAN_Purple.jpg"
+    },
+    "Kingdom Hearts Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Kingdom_Hearts_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-10",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/91/KHNano_DarkMode.jpg"
+    },
+    "Spy x Family Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Spy_x_Family_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2022-12-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/46/SXFT_Green.jpg"
+    },
+    "Grogu Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Grogu_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-01-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/fe/Grogu_White.jpg"
+    },
+    "Choppertchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Choppertchi",
+      "hasOther": true,
+      "releaseDate": "2023-02-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/9/9d/NewWorldChoppertchiShell.jpg"
+    },
+    "Torevetchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Torevetchi",
+      "hasOther": true,
+      "releaseDate": "2023-03-10",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/Torevetchi_Green.jpg"
+    },
+    "Hatsune Mikutchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hatsune_Mikutchi",
+      "hasOther": true,
+      "releaseDate": "2023-03-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/15/HatsuneMikutchi_Cute.jpg"
+    },
+    "Tamagotchi Uni": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni",
+      "hasOther": true,
+      "releaseDate": "2023-07-15",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/d/db/TamagotchiUni_Pink_front.jpg"
+    },
+    "Harry Potter Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Harry_Potter_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2023-07-17",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/0/00/HPT_HogwartsCastle.jpg"
+    },
+    "Pekoratchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Pekoratchi",
+      "hasOther": false,
+      "releaseDate": "2023-12",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/29/Pekora_White.jpg"
+    },
+    "Crayon Shin-chan Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Crayon_Shin-chan_Tamagotchi",
+      "hasOther": false,
+      "releaseDate": "2023-12-12",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/b/b2/CrayonShinChan_LightBlue.jpg"
+    },
+    "Tamagotchi Connection (2024)": {
+      "altName": "RV3",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_(2024)",
+      "hasOther": true,
+      "releaseDate": "2024-08-03",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/2f/TC2024MelonSoda.png"
+    },
+    "Hello Kitty Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Hello_Kitty_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2024-08-03",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/1/18/HKT_HelloKitty.jpg"
+    },
+    "Tamagotchi Nano Colorful Detective Conan": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano_Colorful_Detective_Conan",
+      "hasOther": false,
+      "releaseDate": "2024-09",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/TNC_DC_TheDetective.jpg"
+    },
+    "Tamagotchi Angel rerelease": {
+      "altName": "Tenshitchi",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+      "hasOther": true,
+      "releaseDate": "2025-01-25",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/4/49/AngelR_LovelyAngel.jpg"
+    },
+    "Tamagotchi Nano Colorful Hololive Fantasitchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano_Colorful_Hololive_Fantasitchi",
+      "hasOther": false,
+      "releaseDate": "2025-02",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/7/7d/HololiveFantasy3rdGenShell.jpg"
+    },
+    "SKZOO Tamagotchi": {
+      "altName": null,
+      "link": "https://tamagotchi.fandom.com/wiki/SKZOO_Tamagotchi",
+      "hasOther": true,
+      "releaseDate": "2025-04-03",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/f/fd/Tamagotchi_Nano_Wolf_Chan.png"
+    },
+    "Tamagotchi Paradise": {
+      "altName": "",
+      "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise",
+      "hasOther": true,
+      "releaseDate": "2025-07-12",
+      "image": "https://static.wikia.nocookie.net/tamagotchi/images/3/3d/TamagotchiParadisePinkLandShell.jpeg"
+    }
+  }
+}
