@@ -40,7 +40,7 @@ export default function TimelineRowItem({item, isLeft, evenYear, showMonth}: {
                     }
                     <img
                         className={"card-image"}
-                        src={item.image}
+                        src={import.meta.env.BASE_URL + "tamagotchi-device-images/" + item.image}
                         alt={item.name}
                     />
                 </div>

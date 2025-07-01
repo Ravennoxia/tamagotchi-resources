@@ -8,7 +8,7 @@ type YearOfEvents = {
     [year: number]: TamaTimelineEventRow[]
 }
 
-export function TamaTimeline({navHeight}: { navHeight: number }) {
+export default function TamaTimeline({navHeight}: { navHeight: number }) {
     const [yearOfEvents, setYearOfEvents] = useState<YearOfEvents>({})
     const yearRowsContainerRef = useRef<HTMLDivElement>(null)
 
