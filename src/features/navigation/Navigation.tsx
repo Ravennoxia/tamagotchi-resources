@@ -5,6 +5,7 @@ import {
     NavigationMenuContent,
     NavigationMenuItem,
     NavigationMenuLink,
+    NavigationMenuSub,
     NavigationMenuTrigger
 } from "@radix-ui/react-navigation-menu"
 import {HamburgerMenuIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons"
@@ -22,7 +23,7 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
 }) {
 
     const location = useLocation()
-    const showFilters = location.pathname === ROUTES.tamaTable || location.pathname === ROUTES.home
+    const showFilters = location.pathname === ROUTES.tamaTable
     const currentTitle = ROUTE_TITLES[location.pathname] || "Raven's Tamagotchi Resources"
 
     function handleFilterToggle() {
@@ -42,16 +43,25 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
                     </NavigationMenuTrigger>
                     <NavigationMenuContent className={"nav-content"}>
                         <NavigationMenuLink asChild>
-                            <Link to={ROUTES.tamaTable}>
-                                All Raisable Tamagotchi Characters
+                            <Link to={ROUTES.home}>
+                                Homepage
                             </Link>
                         </NavigationMenuLink>
                         <Separator className={"separator"}/>
-                        <NavigationMenuLink asChild>
-                            <Link to={ROUTES.tamaTimeline}>
-                                Tamagotchi Device Timeline
-                            </Link>
-                        </NavigationMenuLink>
+                        <NavigationMenuSub style={{display: "contents"}}>
+                            <div className={"nav-sub-label"}>Tamagotchi:</div>
+                            <NavigationMenuLink asChild className={"nav-sub-item"}>
+                                <Link to={ROUTES.tamaTable}>
+                                    All Raisable Tamagotchi Characters
+                                </Link>
+                            </NavigationMenuLink>
+                            <Separator className={"separator nav-sub-item"}/>
+                            <NavigationMenuLink asChild className={"nav-sub-item"}>
+                                <Link to={ROUTES.tamaTimeline}>
+                                    Tamagotchi Device Timeline
+                                </Link>
+                            </NavigationMenuLink>
+                        </NavigationMenuSub>
                         <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
                             <Link to={ROUTES.bitzeeTable}>

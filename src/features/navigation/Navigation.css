@@ -36,7 +36,15 @@
 
 .separator[data-orientation="horizontal"] {
     height: 1px;
-    width: 100%;
+}
+
+.nav-sub-label {
+    font-weight: 700;
+}
+
+.nav-sub-item {
+    margin-left: 1rem;
+    height: auto;
 }
 
 .title-css {

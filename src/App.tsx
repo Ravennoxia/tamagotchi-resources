@@ -6,6 +6,7 @@ import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
 import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
 import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
+import HomePage from "./features/homepage/HomePage.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
@@ -86,7 +87,7 @@ export default function App() {
                     setIsDarkMode={setIsDarkMode}/>
                 <Routes>
                     <Route path={ROUTES.home} element={
-                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
+                        <HomePage/>
                     }
                     />
                     <Route path={ROUTES.tamaTable} element={
