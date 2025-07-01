@@ -38,11 +38,16 @@ a:hover {
     color: var(--dark-link-hover);
 }
 
+html {
+    height: 100%
+}
+
 body {
     margin: 0;
     display: flex;
     min-width: 320px;
     min-height: 100vh;
+    height: 100%;
     background-color: inherit;
     color: inherit;
 }

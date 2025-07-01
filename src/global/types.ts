@@ -50,15 +50,21 @@ export interface TamaRow {
     spriteParadise: string | null
 }
 
+export interface TamaTimelineEventRow {
+    asia: TamaTimelineItem | null
+    international: TamaTimelineItem | null
+    year: number
+}
+
 export interface TamaTimelineItem {
     id: string;
     region: "asia" | "international";
     name: string;
-    text: string | null;
+    text?: string | null;
     releaseDate: string;
-    hasOther: boolean;
-    link: string;
-    image: string;
+    hasOther?: boolean;
+    link?: string;
+    image?: string;
 }
 
 export interface AllBitzeeData {

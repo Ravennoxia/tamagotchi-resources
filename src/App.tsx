@@ -1,5 +1,5 @@
 import "./App.css"
-import {useCallback, useEffect, useState} from "react"
+import {useCallback, useEffect, useRef, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import TamaTable from "./features/tamaTable/TamaTable.tsx"
@@ -10,6 +10,8 @@ import {TamaTimeline} from "./features/tamaTimeline/TamaTimeline.tsx"
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
 export default function App() {
+    const navRef = useRef<HTMLDivElement>(null)
+    const [navHeight, setNavHeight] = useState(0)
     const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
@@ -28,6 +30,9 @@ export default function App() {
         const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
         if (newIsPhone !== isPhone) {
             setIsPhone(newIsPhone)
+        }
+        if (navRef.current) {
+            setNavHeight(navRef.current.offsetHeight)
         }
     }, [isPhone])
 
@@ -65,12 +70,20 @@ export default function App() {
         }
     }, [isDarkMode])
 
+    useEffect(() => {
+        if (navRef.current) {
+            setNavHeight(navRef.current.offsetHeight)
+        }
+    }, [])
+
     return (
         <BrowserRouter basename={baseName}>
             <div className={"app-div"}>
-                <Navigation setDisplayFilters={setDisplayFilters}
-                            isDarkMode={isDarkMode}
-                            setIsDarkMode={setIsDarkMode}/>
+                <Navigation
+                    navRef={navRef}
+                    setDisplayFilters={setDisplayFilters}
+                    isDarkMode={isDarkMode}
+                    setIsDarkMode={setIsDarkMode}/>
                 <Routes>
                     <Route path={ROUTES.home} element={
                         <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
@@ -81,7 +94,7 @@ export default function App() {
                     }
                     />
                     <Route path={ROUTES.tamaTimeline} element={
-                        <TamaTimeline/>
+                        <TamaTimeline navHeight={navHeight}/>
                     }
                     />
                     <Route path={ROUTES.bitzeeTable} element={

@@ -1,5 +1,5 @@
 import {Toolbar, ToolbarButton} from "@radix-ui/react-toolbar"
-import {type Dispatch, type SetStateAction} from "react"
+import {type Dispatch, type RefObject, type SetStateAction} from "react"
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -14,7 +14,8 @@ import "./Navigation.css"
 import {ROUTE_TITLES, ROUTES} from "../../global/constants.ts"
 import {Switch, SwitchThumb} from "@radix-ui/react-switch"
 
-export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode}: {
+export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIsDarkMode}: {
+    navRef: RefObject<HTMLDivElement | null>
     setDisplayFilters: Dispatch<SetStateAction<boolean>>,
     isDarkMode: boolean,
     setIsDarkMode: Dispatch<SetStateAction<boolean>>
@@ -33,7 +34,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
     }
 
     return (
-        <Toolbar className={"nav-css"}>
+        <Toolbar ref={navRef} className={"nav-css"}>
             <NavigationMenu>
                 <NavigationMenuItem style={{listStyle: "none"}}>
                     <NavigationMenuTrigger>
@@ -41,7 +42,7 @@ export default function Navigation({setDisplayFilters, isDarkMode, setIsDarkMode
                     </NavigationMenuTrigger>
                     <NavigationMenuContent className={"nav-content"}>
                         <NavigationMenuLink asChild>
-                            <Link to={ROUTES.home}>
+                            <Link to={ROUTES.tamaTable}>
                                 All Raisable Tamagotchi Characters
                             </Link>
                         </NavigationMenuLink>
