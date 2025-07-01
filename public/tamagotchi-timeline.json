@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "tamagotchi-p1-asia",
+    "region": "asia",
+    "name": "Tamagotchi P1",
+    "text": "First ever Tamagotchi",
+    "releaseDate": "1996-11-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "P1_Pink.png"
+  },
+  {
+    "id": "tamagotchi-p2-asia",
+    "region": "asia",
+    "name": "Tamagotchi P2",
+    "text": "New Species Discovered!!",
+    "releaseDate": "1997-02",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "P2_WhitePattern.png"
+  },
+  {
+    "id": "tamagotchi-p2-v2-asia",
+    "region": "asia",
+    "name": "Tamagotchi P2 v2",
+    "text": "Has two different characters",
+    "releaseDate": "1997-05",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "P2_UFO.png"
+  },
+  {
+    "id": "tamagotchi-p1-and-p2-international",
+    "region": "international",
+    "name": "Tamagotchi P1 & P2",
+    "text": "Original Tamagotchi",
+    "releaseDate": "1997-05-28",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "P1_TransBlue.png"
+  },
+  {
+    "id": "tamagotchi-angel-asia",
+    "region": "asia",
+    "name": "Tamagotchi Angel",
+    "text": "Tenshitchi",
+    "releaseDate": "1997-08",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+    "image": "Angel_Japan_white.png"
+  },
+  {
+    "id": "genjintch-tamagotchi-asia",
+    "region": "asia",
+    "name": "Genjintch Tamagotchi",
+    "text": "Raise a cave man from the movie Peking Man",
+    "releaseDate": "1997-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Genjintch_Tamagotchi",
+    "image": "Genjintch_brown.png"
+  },
+  {
+    "id": "mothra-tamagotchi-asia",
+    "region": "asia",
+    "name": "Mothra Tamagotchi",
+    "text": "Based on Rebirth of Mothra II movie",
+    "releaseDate": "1997-12",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Mothra_Tamagotchi",
+    "image": "Mothra_whiteblue.png"
+  },
+  {
+    "id": "tamagotchi-osutchi-and-mesutchi-asia",
+    "region": "asia",
+    "name": "Tamagotchi Osutchi & Mesutchi",
+    "text": "For the first time connect to breed",
+    "releaseDate": "1997-12",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Osutchi_and_Mesutchi",
+    "image": "Osutchi_Blue.png"
+  },
+  {
+    "id": "tamagotchi-angel-international",
+    "region": "international",
+    "name": "Tamagotchi Angel",
+    "text": "Tenshitchi",
+    "releaseDate": "1998-02",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+    "image": "Angel_US_pink.png"
+  },
+  {
+    "id": "mori-de-hakken-tamagotchi-asia",
+    "region": "asia",
+    "name": "Mori de Hakken! Tamagotchi",
+    "text": "Morino / Garden",
+    "releaseDate": "1998-02",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Mori_de_Hakken!_Tamagotchi",
+    "image": "Morino_yellowivy.png"
+  },
+  {
+    "id": "tamagotchi-ocean-asia",
+    "region": "asia",
+    "name": "Tamagotchi Ocean",
+    "text": "Umino",
+    "releaseDate": "1998-03",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Ocean",
+    "image": "Ocean_J_Clear.png"
+  },
+  {
+    "id": "tamaotch-asia",
+    "region": "asia",
+    "name": "TamaOtch",
+    "text": "Based on actress Tamao Nakamura",
+    "releaseDate": "1998-04",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/TamaOtch",
+    "image": "TamaOtch_pink.png"
+  },
+  {
+    "id": "tamagotchi-ocean-international",
+    "region": "international",
+    "name": "Tamagotchi Ocean",
+    "text": "Umino",
+    "releaseDate": "1998-08",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Ocean",
+    "image": "Ocean_USA_Sealife.png"
+  },
+  {
+    "id": "doraemontchi-asia",
+    "region": "asia",
+    "name": "Doraemontchi",
+    "text": "Based on Doraemon anime",
+    "releaseDate": "1998-08",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Doraemontchi",
+    "image": "Doraemontchi.png"
+  },
+  {
+    "id": "debirutchi-no-tamagotchi-asia",
+    "region": "asia",
+    "name": "Debirutchi no Tamagotchi",
+    "text": "Devilgotchi",
+    "releaseDate": "1998-09",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Debirutchi_no_Tamagotchi",
+    "image": "Devil_TwoTone.png"
+  },
+  {
+    "id": "yasashii-tamagotchi-asia",
+    "region": "asia",
+    "name": "Yasashii Tamagotchi",
+    "text": "Simple Tamagotchi",
+    "releaseDate": "1998-09",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Yasashii_Tamagotchi",
+    "image": "Yasashii_blue.png"
+  },
+  {
+    "id": "santaclautchi-no-tamagotchi-asia",
+    "region": "asia",
+    "name": "Santaclautchi no Tamagotchi",
+    "text": "Santagotchi",
+    "releaseDate": "1998-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Santaclautchi_no_Tamagotchi",
+    "image": "Santa_Red.png"
+  },
+  {
+    "id": "deai-hakken-arukotchi-asia",
+    "region": "asia",
+    "name": "Deai Hakken!! Arukotchi",
+    "text": "Pedometer",
+    "releaseDate": "1999",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Deai_Hakken!!_Arukotchi",
+    "image": "Arukotch_pink.png"
+  },
+  {
+    "id": "tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Tamagotchi Plus",
+    "text": "Now can connect via infrared",
+    "releaseDate": "2004-03-20",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_1",
+    "image": "V1_Japan_Yellow.png"
+  },
+  {
+    "id": "tamagotchi-connection-international",
+    "region": "international",
+    "name": "Tamagotchi Connection",
+    "text": "First time connect in the west",
+    "releaseDate": "2004-08-15",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_1",
+    "image": "V1_USA_GreenMatrix.png"
+  },
+  {
+    "id": "keitai-kaitsuu-tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Keitai Kaitsuu! Tamagotchi Plus",
+    "text": "Keitai",
+    "releaseDate": "2004-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus",
+    "image": "Keitai_LightBlue.png"
+  },
+  {
+    "id": "hanerutchi-asia",
+    "region": "asia",
+    "name": "Hanerutchi",
+    "text": "Based on Haneru No Tobira comedy show",
+    "releaseDate": "2005-02",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Hanerutchi",
+    "image": "Hanerutchi_red.png"
+  },
+  {
+    "id": "tamagotchi-mini-asia",
+    "region": "asia",
+    "name": "Tamagotchi Mini",
+    "text": "Chibi Tamagotchi",
+    "releaseDate": "2005-05-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+    "image": "Chibitama_p1blue.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-2-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 2",
+    "text": "Introduced an item shop",
+    "releaseDate": "2005-07",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_2",
+    "image": "Screen_Shot_2022-11-29_at_5.28.26_pm.png"
+  },
+  {
+    "id": "keitai-kaitsuu-tamagotchi-plus-akai-asia",
+    "region": "asia",
+    "name": "Keitai Kaitsuu! Tamagotchi Plus Akai",
+    "text": "Akai",
+    "releaseDate": "2005-07",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Keitai_Kaitsuu!_Tamagotchi_Plus_Akai",
+    "image": "Akai_AppleRed.png"
+  },
+  {
+    "id": "home-deka-tamagotchi-asia",
+    "region": "asia",
+    "name": "Home Deka Tamagotchi",
+    "text": "Accessory for Keitai",
+    "releaseDate": "2005-07-16",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Home_Deka_Tamagotchi",
+    "image": "HomeDeka1_blue.png"
+  },
+  {
+    "id": "tamagotchi-mini-international",
+    "region": "international",
+    "name": "Tamagotchi Mini",
+    "text": "Chibi Tamagotchi",
+    "releaseDate": "2005-08",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+    "image": "Tamamini_blackflame.png"
+  },
+  {
+    "id": "chou-jinsei-enjoi-tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Chou Jinsei Enjoi Tamagotchi Plus",
+    "text": "Entama",
+    "releaseDate": "2005-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Chou_Jinsei_Enjoi_Tamagotchi_Plus",
+    "image": "Entama_BeadsWhite.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-3-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 3",
+    "text": "Could connect to TamaTown web game",
+    "releaseDate": "2006-02",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_3",
+    "image": "V3_GreenFrogs.png"
+  },
+  {
+    "id": "chou-yarikuri-enjoi-tamagotchi-kakeibo-asia",
+    "region": "asia",
+    "name": "Chou Yarikuri Enjoi! Tamagotchi Kakeibo",
+    "text": "Entama accessory",
+    "releaseDate": "2006-04-29",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Chou_Yarikuri_Enjoi!_Tamagotchi_Kakeibo",
+    "image": "Bc52_1.png"
+  },
+  {
+    "id": "ura-jinsei-enjoi-tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Ura Jinsei Enjoi Tamagotchi Plus",
+    "text": "Uratama",
+    "releaseDate": "2006-07-22",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Ura_Jinsei_Enjoi_Tamagotchi_Plus",
+    "image": "Uratama_UraMark.png"
+  },
+  {
+    "id": "hanerutchi-2-asia",
+    "region": "asia",
+    "name": "Hanerutchi 2",
+    "text": "Based on Haneru No Tobira comedy show",
+    "releaseDate": "2006-08-26",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Hanerutchi_2",
+    "image": "Hanerutchi2_red.png"
+  },
+  {
+    "id": "home-deka-tamagotchi-game-king-playoff-asia",
+    "region": "asia",
+    "name": "Home Deka Tamagotchi Game King Playoff",
+    "text": "Accessory for Entama",
+    "releaseDate": "2006-08-28",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Home_Deka_Tamagotchi_Game_King_Playoff",
+    "image": "tamagotchi-bandai-home-deka-tamagotchi-game-king-playoff-station-orange-2.png"
+  },
+  {
+    "id": "tamagotchi-school-asia",
+    "region": "asia",
+    "name": "Tamagotchi School",
+    "text": "TamaSuku",
+    "releaseDate": "2006-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_School_(toy)",
+    "image": "SchoolV1_FlowerBedsGreen.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-4-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 4",
+    "text": "Can go to work",
+    "releaseDate": "2006-10",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_4",
+    "image": "V4_Sunflower.png"
+  },
+  {
+    "id": "tamagochu-asia",
+    "region": "asia",
+    "name": "TamagoChu",
+    "text": "Press them together to interact",
+    "releaseDate": "2007-01",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/TamagoChu",
+    "image": "Chu_KingQueen.png"
+  },
+  {
+    "id": "tamagotchi-school-v2-asia",
+    "region": "asia",
+    "name": "Tamagotchi School v2",
+    "text": "Different classes",
+    "releaseDate": "2007-02-24",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_School_(toy)",
+    "image": "SchoolV2_Canvas.png"
+  },
+  {
+    "id": "oden-kun-tamagotchi-asia",
+    "region": "asia",
+    "name": "Oden-Kun Tamagotchi",
+    "text": "Based on Odenkun TV show",
+    "releaseDate": "2007-03-31",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Oden-Kun_Tamagotchi",
+    "image": "Odenkun_yellow.png"
+  },
+  {
+    "id": "tamagotchi-school-furefure-club-activities-asia",
+    "region": "asia",
+    "name": "Tamagotchi School FureFure! Club Activities!",
+    "text": "Deka for Tamagotchi School",
+    "releaseDate": "2007-04-21",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/TamaFure",
+    "image": "b466ea_f4bd315fb0764f8a825d287dcb13e30e~mv2.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-45-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 4.5",
+    "text": "Raise Ura-tamas",
+    "releaseDate": "2007-07",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_4.5",
+    "image": "Blue_with_Characters.png"
+  },
+  {
+    "id": "yay-family-iro-iro-tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Yay! Family Iro Iro! Tamagotchi Plus",
+    "text": "Famitama",
+    "releaseDate": "2007-11-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5",
+    "image": "Famitama_FamilyHouse.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-5-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 5",
+    "text": "Familitchi",
+    "releaseDate": "2008-01",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5",
+    "image": "V5_red.png"
+  },
+  {
+    "id": "tamawalkie-asia",
+    "region": "asia",
+    "name": "Tamawalkie",
+    "text": "Pedometer",
+    "releaseDate": "2008-09",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamawalkie",
+    "image": "48415795916_692ff58284_b.png"
+  },
+  {
+    "id": "royal-family-of-dreams-tamagotchi-plus-asia",
+    "region": "asia",
+    "name": "Royal Family of Dreams Tamagotchi Plus",
+    "text": "Royal Tamagotchi",
+    "releaseDate": "2008-03-29",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5_Celebrity",
+    "image": "RFamitama_Okan.png"
+  },
+  {
+    "id": "tamagotchi-no-fureai-furendo-chamametchi-asia",
+    "region": "asia",
+    "name": "Tamagotchi no Fureai Furendo Chamametchi",
+    "text": "Oshaberi Chamametchi",
+    "releaseDate": "2008-07-26",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_no_Fureai_Furendo_Chamametchi",
+    "image": "Chamame_standard.png"
+  },
+  {
+    "id": "tamagotchi-connection-version-55-celebrity-international",
+    "region": "international",
+    "name": "Tamagotchi Connection Version 5.5 Celebrity",
+    "text": "Another Familitchi",
+    "releaseDate": "2008-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_Version_5_Celebrity",
+    "image": "V5CelebMovieNight.png"
+  },
+  {
+    "id": "tamagotchi-plus-color-asia",
+    "region": "asia",
+    "name": "Tamagotchi Plus Color",
+    "text": "TMGC+C",
+    "releaseDate": "2008-11-22",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Plus_Color",
+    "image": "TMGC01_White.png"
+  },
+  {
+    "id": "tamagotchi-music-star-international",
+    "region": "international",
+    "name": "Tamagotchi Music Star",
+    "text": "Tamagotchi Connection Version 6",
+    "releaseDate": "2008-11-28",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Music_Star",
+    "image": "MusicStar_IdolDream.png"
+  },
+  {
+    "id": "hexagontchi-asia",
+    "region": "asia",
+    "name": "Hexagontchi",
+    "text": "Based on Quiz! Hexagon II show",
+    "releaseDate": "2009-07-25",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Hexagontchi",
+    "image": "Hexagontchi_red.png"
+  },
+  {
+    "id": "tamagotchi-id-asia",
+    "region": "asia",
+    "name": "Tamagotchi iD",
+    "text": "Downloadable items",
+    "releaseDate": "2009-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD",
+    "image": "ID_Blue.png"
+  },
+  {
+    "id": "tamatown-tama-go-international",
+    "region": "international",
+    "name": "TamaTown Tama-Go",
+    "text": "4-part greyscale and figure DLCs",
+    "releaseDate": "2010-08",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/TamaTown_Tama-Go",
+    "image": "TTTG_LimeGreen.png"
+  },
+  {
+    "id": "tamagotchi-id-lovely-melody-asia",
+    "region": "asia",
+    "name": "Tamagotchi iD Lovely Melody",
+    "text": "Music themed",
+    "releaseDate": "2010-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD",
+    "image": "ID_LovelyMusic.png"
+  },
+  {
+    "id": "tamagotchi-nano-asia",
+    "region": "asia",
+    "name": "Tamagotchi Nano",
+    "text": "Later became the model for crossovers",
+    "releaseDate": "2010-10-16",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano",
+    "image": "Nano_skyeblue.png"
+  },
+  {
+    "id": "more-id-tamagotchi-home-station-plus-asia",
+    "region": "asia",
+    "name": "More iD! Tamagotchi Home Station Plus",
+    "text": "Tamagotchi iD Station",
+    "releaseDate": "2010-11-30",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/More_iD!_Tamagotchi_Home_Station_Plus",
+    "image": "%E3%82%82%E3%81%A3%E3%81%A8iD%EF%BC%81%E3%81%8A%E3%81%86%E3%81%A1de%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2B.png"
+  },
+  {
+    "id": "tamagotchi-id-l-asia",
+    "region": "asia",
+    "name": "Tamagotchi iD L",
+    "text": "New features and more characters",
+    "releaseDate": "2011-03",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+    "image": "IDL_Purple.png"
+  },
+  {
+    "id": "tamagotchi-nano-v2-asia",
+    "region": "asia",
+    "name": "Tamagotchi Nano v2",
+    "text": "Different characters",
+    "releaseDate": "2011-06-25",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano",
+    "image": "Nano2_passionfruit.png"
+  },
+  {
+    "id": "tamagotchi-id-l-15th-asia",
+    "region": "asia",
+    "name": "Tamagotchi iD L 15th Anniversary",
+    "text": "Features returning characters",
+    "releaseDate": "2011-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+    "image": "IDL_15_RoyalPurple.png"
+  },
+  {
+    "id": "tamagotchi-id-l-international",
+    "region": "international",
+    "name": "Tamagotchi iD L",
+    "text": "Very limited release",
+    "releaseDate": "2012",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+    "image": "IDL_White.png"
+  },
+  {
+    "id": "tamagotchi-id-l-princess-spacy-asia",
+    "region": "asia",
+    "name": "Tamagotchi iD L Princess Spacy",
+    "text": "Features space themed characters",
+    "releaseDate": "2012-03",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_iD_L",
+    "image": "IDL_PS_PinkBlack.png"
+  },
+  {
+    "id": "tamagotchi-ps-asia",
+    "region": "asia",
+    "name": "Tamagotchi P's",
+    "text": "Pierce DLCs",
+    "releaseDate": "2012-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_P%27s",
+    "image": "Ps_Pink.png"
+  },
+  {
+    "id": "tamagotchi-friends-international",
+    "region": "international",
+    "name": "Tamagotchi Friends",
+    "text": "NFC connections",
+    "releaseDate": "2013-12-26",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Friends",
+    "image": "TF_ColorfulLeopard.png"
+  },
+  {
+    "id": "tamagotchi-4u-asia",
+    "region": "asia",
+    "name": "Tamagotchi 4U",
+    "text": "NFC connections",
+    "releaseDate": "2014-09-27",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_4U",
+    "image": "4U_Blue.png"
+  },
+  {
+    "id": "tamagotchi-friends:-dream-town-digital-friend-international",
+    "region": "international",
+    "name": "Tamagotchi Friends: Dream Town Digital Friend",
+    "text": "More content, more characters",
+    "releaseDate": "2015-05",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Friends:_Dream_Town_Digital_Friend",
+    "image": "TFDT_ZigZagGem.png"
+  },
+  {
+    "id": "tamagotchi-4u+-asia",
+    "region": "asia",
+    "name": "Tamagotchi 4U+",
+    "text": "More features, more characters",
+    "releaseDate": "2015-07-18",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_4U%2B",
+    "image": "4u%2B_sky_blue.png"
+  },
+  {
+    "id": "tamagotchi-mx-asia",
+    "region": "asia",
+    "name": "Tamagotchi m!x",
+    "text": "Mix genes",
+    "releaseDate": "2016-07-16",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_m!x",
+    "image": "Mix_Melody_Pink.png"
+  },
+  {
+    "id": "tamagotchi-mx-20th-asia",
+    "region": "asia",
+    "name": "Tamagotchi m!x 20th Anniversary",
+    "text": "Features exclusive characters in Flower Hills",
+    "releaseDate": "2016-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_m!x",
+    "image": "Mix_20th_RWhite.png"
+  },
+  {
+    "id": "pocket-usatama-asia",
+    "region": "asia",
+    "name": "Pocket Usatama",
+    "text": "Based on a Disney character",
+    "releaseDate": "2017-04-02",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Pocket_Usatama",
+    "image": "Usatama_white.png"
+  },
+  {
+    "id": "tamagotchi-mini-rerelease-asia",
+    "region": "asia",
+    "name": "Tamagotchi Mini rerelease",
+    "text": null,
+    "releaseDate": "2017-04-08",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+    "image": "Chibitama_2017_1.png"
+  },
+  {
+    "id": "tamagotchi-mx-sanrio-asia",
+    "region": "asia",
+    "name": "Tamagotchi m!x Sanrio",
+    "text": "Features Sanrio characters",
+    "releaseDate": "2017-04-15",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_m!x",
+    "image": "Mix_Sanrio.png"
+  },
+  {
+    "id": "tamagotchi-mx-sanrio-asia",
+    "region": "asia",
+    "name": "Tamagotchi m!x Dream",
+    "text": "Features exclusive characters in Dream Town",
+    "releaseDate": "2017-07-15",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_m!x",
+    "image": "Mix_Dream_Pink.png"
+  },
+  {
+    "id": "tamagotchi-mini-rerelease-international ",
+    "region": "international",
+    "name": "Tamagotchi Mini rerelease",
+    "text": null,
+    "releaseDate": "2017-11-05",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Mini",
+    "image": "Chibitama_p1red.png"
+  },
+  {
+    "id": "tamagotchi-p1-and-p2-rerelease-asia",
+    "region": "asia",
+    "name": "Tamagotchi P1 & P2 rerelease",
+    "text": "Oritama",
+    "releaseDate": "2017-11-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "P1R_Rainbow_Rerelease.png"
+  },
+  {
+    "id": "gudetama-tamagotchi-asia",
+    "region": "asia",
+    "name": "Gudetama Tamagotchi",
+    "text": "Based on a Sanrio character",
+    "releaseDate": "2017-12-27",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Gudetama_Tamagotchi",
+    "image": "Gudetama_white.png"
+  },
+  {
+    "id": "tamagotchi-p1-and-p2-rerelease-international",
+    "region": "international",
+    "name": "Tamagotchi P1 & P2 rerelease",
+    "text": "Oritama",
+    "releaseDate": "2018-09-30",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_(1996_Pet)",
+    "image": "2018P2Galaxy.png"
+  },
+  {
+    "id": "tamagotchi-meets-asia",
+    "region": "asia",
+    "name": "Tamagotchi Meets",
+    "text": "Tamagotchi On",
+    "releaseDate": "2018-11-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_Fairy_Blue.png"
+  },
+  {
+    "id": "gudetama-tamagotchi-international",
+    "region": "international",
+    "name": "Gudetama Tamagotchi",
+    "text": "Based on a Sanrio character",
+    "releaseDate": "2018-12-15",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Gudetama_Tamagotchi",
+    "image": "Gudetama_orange.png"
+  },
+  {
+    "id": "eevee-x-tamagotchi-asia",
+    "region": "asia",
+    "name": "Eevee x Tamagotchi",
+    "text": "Based on a Pokémon",
+    "releaseDate": "2019-01-26",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Eevee_x_Tamagotchi",
+    "image": "EeveeTama_brown.png"
+  },
+  {
+    "id": "tamagotchi-meets-pastel-asia",
+    "region": "asia",
+    "name": "Tamagotchi Meets Pastel",
+    "text": "Easter Land and Flower Garden",
+    "releaseDate": "2019-03-30",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_Pastel_Purple.png"
+  },
+  {
+    "id": "pocket-usapiyo-asia",
+    "region": "asia",
+    "name": "Pocket Usapiyo",
+    "text": "Based on Tokyo Disney Sea Easter mascot",
+    "releaseDate": "2019-04-22",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Pocket_Usapiyo",
+    "image": "Usapiyo_Blue.png"
+  },
+  {
+    "id": "tamagotchi-meets-sanrio-asia",
+    "region": "asia",
+    "name": "Tamagotchi Meets Sanrio",
+    "text": "Features Sanrio characters",
+    "releaseDate": "2019-06-15",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_Sanrio.png"
+  },
+  {
+    "id": "tamagotchi-meets-fantasy-asia",
+    "region": "asia",
+    "name": "Tamagotchi Meets Fantasy",
+    "text": "Features fairytale characters",
+    "releaseDate": "2019-07-13",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_FantasyBlue.png"
+  },
+  {
+    "id": "tamagotchi-on-international",
+    "region": "international",
+    "name": "Tamagotchi On",
+    "text": "Tamagotchi Meets",
+    "releaseDate": "2019-07-28",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_Magical_Green.png"
+  },
+  {
+    "id": "tamagotchi-meets-sweets-asia",
+    "region": "asia",
+    "name": "Tamagotchi Meets Sweets",
+    "text": "Features desert inspired characters",
+    "releaseDate": "2019-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "Meets_Sweets_Yellow.png"
+  },
+  {
+    "id": "pac-man-tamagotchi-international",
+    "region": "international",
+    "name": "Pac-Man Tamagotchi",
+    "text": "Based on Pac-Man arcade game",
+    "releaseDate": "2020-03-15",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Pac-Man_Tamagotchi",
+    "image": "PMT_Yellow.png"
+  },
+  {
+    "id": "evatchi-asia",
+    "region": "asia",
+    "name": "Evatchi",
+    "text": "Based on Neon Genesis Evangelion anime",
+    "releaseDate": "2020-07-13",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Evatchi",
+    "image": "Evatchi_purple.png"
+  },
+  {
+    "id": "tamagotchi-on-wonder-garden-international",
+    "region": "international",
+    "name": "Tamagotchi On Wonder Garden",
+    "text": "Inspired by Alice in Wonderland",
+    "releaseDate": "2020-07-26",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_On",
+    "image": "On_WonderGardenLavender.png"
+  },
+  {
+    "id": "kimetsu-tamagotchi-asia",
+    "region": "asia",
+    "name": "Kimetsu Tamagotchi",
+    "text": "Based on Kimetsu no Yaiba anime",
+    "releaseDate": "2020-10-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_tanjiro.png"
+  },
+  {
+    "id": "hello-kitty-tamagotchi-international",
+    "region": "international",
+    "name": "Hello Kitty Tamagotchi",
+    "text": "Based on a Sanrio character",
+    "releaseDate": "2020-12-01",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Hello_Kitty_Tamagotchi",
+    "image": "HKT_FavoriteThings.png"
+  },
+  {
+    "id": "jordy-x-tamagotchi-asia",
+    "region": "asia",
+    "name": "Jordy x Tamagotchi",
+    "text": "Based on NINIZ mascot Jordy (Korea)",
+    "releaseDate": "2020-12-18",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Jordy_x_Tamagotchi",
+    "image": "s-l1200.png"
+  },
+  {
+    "id": "demon-slayer-tamagotchi-international",
+    "region": "international",
+    "name": "Demon Slayer Tamagotchi",
+    "text": "Based on anime",
+    "releaseDate": "2021-01-01",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_nezuko.png"
+  },
+  {
+    "id": "extellatchi-asia",
+    "region": "asia",
+    "name": "Extellatchi",
+    "text": "Based on Fate/EXTELLA games",
+    "releaseDate": "2021-02-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Extellatchi",
+    "image": "Extellatchi.png"
+  },
+  {
+    "id": "kimetsu-hashira-gathering-tamagotchi-asia",
+    "region": "asia",
+    "name": "Kimetsu Hashira Gathering",
+    "text": "Based on Kimetsu no Yaiba anime",
+    "releaseDate": "2021-03-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_kyojuro.png"
+  },
+  {
+    "id": "evatchi-international",
+    "region": "international",
+    "name": "Evatchi",
+    "text": "Based on Neon Genesis Evangelion anime",
+    "releaseDate": "2021-04-02",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Evatchi",
+    "image": "Evatchi_white.png"
+  },
+  {
+    "id": "twistetchi-asia",
+    "region": "asia",
+    "name": "Twistetchi",
+    "text": "Based on Twisted Wonderland game",
+    "releaseDate": "2021-06-25",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Twistetchi",
+    "image": "Twistedtchi_Heartslabyul.png"
+  },
+  {
+    "id": "tamagotchi-pix-international",
+    "region": "international",
+    "name": "Tamagotchi Pix",
+    "text": "Features a camera",
+    "releaseDate": "2021-06-01",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Pix",
+    "image": "Pix_SkyPurple.png"
+  },
+  {
+    "id": "demon-slayer-tamagotchi-hashira-gathering-international",
+    "region": "international",
+    "name": "Demon Slayer Hashira Gathering",
+    "text": "Based on anime",
+    "releaseDate": "2021-08-01",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_shinobu.png"
+  },
+  {
+    "id": "bt21-tamagotchi-asia",
+    "region": "asia",
+    "name": "BT21 Tamagotchi",
+    "text": "Based on K-pop band BTS",
+    "releaseDate": "2021-09-25",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/BT21_Tamagotchi",
+    "image": "BT21_Blue.png"
+  },
+  {
+    "id": "pui-pui-molcartchi-asia",
+    "region": "asia",
+    "name": "PUI PUI Molcartchi",
+    "text": "Based on Pui Pui Molcar series",
+    "releaseDate": "2021-10-09",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/PUI_PUI_Molcartchi",
+    "image": "Molcartchi_Orange.png"
+  },
+  {
+    "id": "r2-d2-tamagotchi-international",
+    "region": "international",
+    "name": "R2-D2 Tamagotchi",
+    "text": "Based on a Star Wars character",
+    "releaseDate": "2021-11-11",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/R2-D2_Tamagotchi",
+    "image": "R2Tama_Hologram.png"
+  },
+  {
+    "id": "r2-d2-tamagotchi-asia",
+    "region": "asia",
+    "name": "R2-D2 Tamagotchi",
+    "text": "Based on a Star Wars character",
+    "releaseDate": "2021-11-13",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/R2-D2_Tamagotchi",
+    "image": "R2Tama_Classic.png"
+  },
+  {
+    "id": "tamagotchi-smart-asia",
+    "region": "asia",
+    "name": "Tamagotchi Smart",
+    "text": "Features a touch screen*",
+    "releaseDate": "2021-11-23",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Smart",
+    "image": "Smart_Mintblue_Strap.png"
+  },
+  {
+    "id": "kamen-ridertchi-asia",
+    "region": "asia",
+    "name": "Kamen Ridertchi",
+    "text": "Based on Kamen Rider TV series",
+    "releaseDate": "2021-12-14",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Kamen_Ridertchi",
+    "image": "KRT_Green.png"
+  },
+  {
+    "id": "jujutsutchi-asia",
+    "region": "asia",
+    "name": "Jujutsutchi",
+    "text": "Based on Jujutsu Kaisen anime",
+    "releaseDate": "2022-01-29",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+    "image": "Jujutsutchi_Itadori.png"
+  },
+  {
+    "id": "bt21-tamagotchi-international",
+    "region": "international",
+    "name": "BT21 Tamagotchi",
+    "text": "Based on K-pop band BTS",
+    "releaseDate": "2022-02-28",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/BT21_Tamagotchi",
+    "image": "BT21_Yellow.png"
+  },
+  {
+    "id": "kamen-ridertchi-international",
+    "region": "international",
+    "name": "Kamen Ridertchi",
+    "text": "Based on Kamen Rider TV series",
+    "releaseDate": "2022-03-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Kamen_Ridertchi",
+    "image": "KRT_Gold.png"
+  },
+  {
+    "id": "kimetsu-yukaku-tamagotchi-asia",
+    "region": "asia",
+    "name": "Kimetsu Tamagotchi Yukaku",
+    "text": "Based on Kimetsu no Yaiba anime",
+    "releaseDate": "2022-06-18",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_HinokamiKagura.png"
+  },
+  {
+    "id": "toy-story-tamagotchi-asia",
+    "region": "asia",
+    "name": "Toy Story Tamagotchi",
+    "text": "Based on Pixar's animated movie",
+    "releaseDate": "2022-06-25",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Toy_Story_Tamagotchi",
+    "image": "ToyStory_Clouds.png"
+  },
+  {
+    "id": "tamagotchi-pix-party-international",
+    "region": "international",
+    "name": "Tamagotchi Pix Party",
+    "text": "Invite tamas to a party",
+    "releaseDate": "2022-06-30",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Pix",
+    "image": "PixParty_Confetti.png"
+  },
+  {
+    "id": "jujutsutchi-international",
+    "region": "international",
+    "name": "Jujutsutchi",
+    "text": "Based on Jujutsu Kaisen anime",
+    "releaseDate": "2022-07-08",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+    "image": "Jujutsutchi_Kugisaki.png"
+  },
+  {
+    "id": "toy-story-tamagotchi-international",
+    "region": "international",
+    "name": "Toy Story Tamagotchi",
+    "text": "Based on Pixar's animated movie",
+    "releaseDate": "2022-07-13",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Toy_Story_Tamagotchi",
+    "image": "ToyStory_Friends.png"
+  },
+  {
+    "id": "jurassic-world-tamagotchi-asia",
+    "region": "asia",
+    "name": "Jurassic World Tamagotchi",
+    "text": "Based on Universal Pictures movie",
+    "releaseDate": "2022-07-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+    "image": "JWT_Egg.png"
+  },
+  {
+    "id": "tourabutchi-asia",
+    "region": "asia",
+    "name": "Tourabutchi",
+    "text": "Based on Touken Ranbu anime",
+    "releaseDate": "2022-08-28",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tourabutchi",
+    "image": "Tourabutchi_KashuuKiyomitsu.png"
+  },
+  {
+    "id": "jurassic-world-tamagotchi-international",
+    "region": "international",
+    "name": "Jurassic World Tamagotchi",
+    "text": "Based on Universal Pictures movie",
+    "releaseDate": "2022-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+    "image": "JWT_Amber_USA.png"
+  },
+  {
+    "id": "tinytan-tamagotchi-asia",
+    "region": "asia",
+    "name": "TinyTAN Tamagotchi",
+    "text": "Based on K-pop band BTS",
+    "releaseDate": "2022-09-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/TinyTAN_Tamagotchi",
+    "image": "TinyTAN_Purple.png"
+  },
+  {
+    "id": "tinytan-tamagotchi-international",
+    "region": "international",
+    "name": "TinyTAN Tamagotchi",
+    "text": "Based on K-pop band BTS",
+    "releaseDate": "2022-10",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/TinyTAN_Tamagotchi",
+    "image": "TinyTAN_Red.png"
+  },
+  {
+    "id": "kingdom-hearts-tamagotchi-asia",
+    "region": "asia",
+    "name": "Kingdom Hearts Tamagotchi",
+    "text": "Based on video game series",
+    "releaseDate": "2022-10",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Kingdom_Hearts_Tamagotchi",
+    "image": "KHNano_DarkMode.png"
+  },
+  {
+    "id": "demon-slayer-tamagotchi-yukaku-international",
+    "region": "international",
+    "name": "Demon Slayer Yukaku",
+    "text": "Based on anime",
+    "releaseDate": "2022-11-22",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Demon_Slayer_Tamagotchi",
+    "image": "Kimetsu_ExplosiveBlood.png"
+  },
+  {
+    "id": "kingdom-hearts-tamagotchi-international",
+    "region": "international",
+    "name": "Kingdom Hearts Tamagotchi",
+    "text": "Based on video game series",
+    "releaseDate": "2022-12-01",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Kingdom_Hearts_Tamagotchi",
+    "image": "KHNano_LightMode.png"
+  },
+  {
+    "id": "spy-x-family-tamagotchi-asia",
+    "region": "asia",
+    "name": "Spy x Family Tamagotchi",
+    "text": "Based on anime",
+    "releaseDate": "2022-12-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Spy_x_Family_Tamagotchi",
+    "image": "SXFT_Green.png"
+  },
+  {
+    "id": "grogu-tamagotchi-international",
+    "region": "international",
+    "name": "Grogu Tamagotchi",
+    "text": "Based on a Star Wars character",
+    "releaseDate": "2023-01-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Grogu_Tamagotchi",
+    "image": "Grogu_Blue.png"
+  },
+  {
+    "id": "grogu-tamagotchi-asia",
+    "region": "asia",
+    "name": "Grogu Tamagotchi",
+    "text": "Based on a Star Wars character",
+    "releaseDate": "2023-01-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Grogu_Tamagotchi",
+    "image": "Grogu_White.png"
+  },
+  {
+    "id": "pui-pui-molcartchi-driving-school-asia",
+    "region": "asia",
+    "name": "PUI PUI Molcartchi Driving School",
+    "text": "More molcars, different games",
+    "releaseDate": "2023-02-04",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/PUI_PUI_Molcartchi",
+    "image": "Molcartchi2_Blue.png"
+  },
+  {
+    "id": "choppertchi-asia",
+    "region": "asia",
+    "name": "Choppertchi",
+    "text": "Based on One Piece anime",
+    "releaseDate": "2023-02-25",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Choppertchi",
+    "image": "NewWorldChoppertchiShell.png"
+  },
+  {
+    "id": "torevetchi-asia",
+    "region": "asia",
+    "name": "Torevetchi",
+    "text": "Based on Tokyo Revengers anime",
+    "releaseDate": "2023-03-10",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Torevetchi",
+    "image": "Torevetchi_Black.png"
+  },
+  {
+    "id": "jujutsutchi-0-asia",
+    "region": "asia",
+    "name": "Jujutsutchi 0",
+    "text": "Based on Jujutsu Kaisen anime",
+    "releaseDate": "2023-03-16",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+    "image": "Jujutsutchi0_Okkotsu.png"
+  },
+  {
+    "id": "hatsune-mikutchi-asia",
+    "region": "asia",
+    "name": "Hatsune Mikutchi",
+    "text": "Based on Vocaloid",
+    "releaseDate": "2023-03-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Hatsune_Mikutchi",
+    "image": "HatsuneMikutchi_Cute.png"
+  },
+  {
+    "id": "spy-x-family-tamagotchi-international",
+    "region": "international",
+    "name": "Spy x Family Tamagotchi",
+    "text": "Based on anime",
+    "releaseDate": "2023-03-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Spy_x_Family_Tamagotchi",
+    "image": "SXFT_Pink.png"
+  },
+  {
+    "id": "hatsune-mikutchi-international",
+    "region": "international",
+    "name": "Hatsune Mikutchi",
+    "text": "Based on Vocaloid",
+    "releaseDate": "2023-03-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Hatsune_Mikutchi",
+    "image": "HatsuneMikutchi_Cyber.png"
+  },
+  {
+    "id": "choppertchi-international",
+    "region": "international",
+    "name": "Choppertchi",
+    "text": "Based on One Piece anime",
+    "releaseDate": "2023-05-06",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Choppertchi",
+    "image": "GoingMerryChoppertchiShell.png"
+  },
+  {
+    "id": "torevetchi-international",
+    "region": "international",
+    "name": "Torevetchi",
+    "text": "Based on Tokyo Revengers anime",
+    "releaseDate": "2023-05-23",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Torevetchi",
+    "image": "Torevetchi_Blue.png"
+  },
+  {
+    "id": "tamagotchi-uni-international",
+    "region": "international",
+    "name": "Tamagotchi Uni",
+    "text": "First simultaneous global release",
+    "releaseDate": "2023-07-15",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni",
+    "image": "TamagotchiUni_Purple_front.png"
+  },
+  {
+    "id": "tamagotchi-uni-asia",
+    "region": "asia",
+    "name": "Tamagotchi Uni",
+    "text": "First simultaneous global release",
+    "releaseDate": "2023-07-15",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Uni",
+    "image": "TamagotchiUni_Pink_front.png"
+  },
+  {
+    "id": "jujutsutchi-0-international",
+    "region": "international",
+    "name": "Jujutsutchi 0",
+    "text": "Based on Jujutsu Kaisen anime",
+    "releaseDate": "2023-07-06",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jujutsutchi",
+    "image": "Jujutsutchi0_Gojo.png"
+  },
+  {
+    "id": "harry-potter-tamagotchi-international",
+    "region": "international",
+    "name": "Harry Potter Tamagotchi",
+    "text": "Based on Wizarding World franchise",
+    "releaseDate": "2023-07-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Harry_Potter_Tamagotchi",
+    "image": "HPT_MagicalCreatures.png"
+  },
+  {
+    "id": "harry-potter-tamagotchi-asia",
+    "region": "asia",
+    "name": "Harry Potter Tamagotchi",
+    "text": "Based on Wizarding World franchise",
+    "releaseDate": "2023-07-17",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Harry_Potter_Tamagotchi",
+    "image": "HPT_HogwartsCastle.png"
+  },
+  {
+    "id": "pekoratchi-asia",
+    "region": "asia",
+    "name": "Pekoratchi",
+    "text": "Based on Hololive VTuber Usada Pekora",
+    "releaseDate": "2023-12",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Pekoratchi",
+    "image": "Pekora_White.png"
+  },
+  {
+    "id": "crayon-shin-chan-tamagotchi-asia",
+    "region": "asia",
+    "name": "Crayon Shin-chan Tamagotchi",
+    "text": "Based on manga series",
+    "releaseDate": "2023-12-12",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Crayon_Shin-chan_Tamagotchi",
+    "image": "CrayonShinChan_LightBlue.png"
+  },
+  {
+    "id": "hello-kitty-tamagotchi-rerelease-international",
+    "region": "international",
+    "name": "Hello Kitty Tamagotchi rerelease",
+    "text": "Based on a Sanrio character",
+    "releaseDate": "2024-07-09",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Hello_Kitty_Tamagotchi",
+    "image": "HKT_Red.png"
+  },
+  {
+    "id": "tamagotchi-connection-2024-international",
+    "region": "international",
+    "name": "Tamagotchi Connection (2024)",
+    "text": "RV3",
+    "releaseDate": "2024-07-10",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_(2024)",
+    "image": "TC2024ClearRetro.png"
+  },
+  {
+    "id": "tamagotchi-connection-2024-asia",
+    "region": "asia",
+    "name": "Tamagotchi Connection (2024)",
+    "text": "RV3",
+    "releaseDate": "2024-08-03",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Connection_(2024)",
+    "image": "TC2024_RhinestonePurple.png"
+  },
+  {
+    "id": "hello-kitty-tamagotchi-asia",
+    "region": "asia",
+    "name": "Hello Kitty Tamagotchi",
+    "text": "Based on a Sanrio character",
+    "releaseDate": "2024-08-03",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Hello_Kitty_Tamagotchi",
+    "image": "HKT_SkyBlue.png"
+  },
+  {
+    "id": "tamagotchi-nano-colorful-detective-conan-asia",
+    "region": "asia",
+    "name": "Tamagotchi Nano Colorful Detective Conan",
+    "text": "Based on manga",
+    "releaseDate": "2024-09",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano_Colorful_Detective_Conan",
+    "image": "TNC_DC_TheDetective.png"
+  },
+  {
+    "id": "tamagotchi-angel-rerelease-international",
+    "region": "international",
+    "name": "Tamagotchi Angel rerelease",
+    "text": "Tenshitchi",
+    "releaseDate": "2024-12-01",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+    "image": "AngelR_DreamyAngel.png"
+  },
+  {
+    "id": "tamagotchi-angel-rerelease-asia",
+    "region": "asia",
+    "name": "Tamagotchi Angel rerelease",
+    "text": "Tenshitchi",
+    "releaseDate": "2025-01-25",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Angel",
+    "image": "AngelR_LovelyAngel.png"
+  },
+  {
+    "id": "tamagotchi-nano-colorful-hololive-fantasitchi-asia",
+    "region": "asia",
+    "name": "Tamagotchi Nano Colorful Hololive Fantasitchi",
+    "text": "Based on Hololive VTubers",
+    "releaseDate": "2025-02",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Nano_Colorful_Hololive_Fantasitchi",
+    "image": "HololiveFantasy3rdGenShell.png"
+  },
+  {
+    "id": "skzoo-tamagotchi-international",
+    "region": "international",
+    "name": "SKZOO Tamagotchi",
+    "text": "Based on K-pop band Stray Kids",
+    "releaseDate": "2025-03-04",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/SKZOO_Tamagotchi",
+    "image": "Tamagotchi_Nano_FoxI_Ny.png"
+  },
+  {
+    "id": "darth-vader-tamagotchi-international",
+    "region": "international",
+    "name": "Darth Vader Tamagotchi",
+    "text": "Based on a Star Wars character",
+    "releaseDate": "2025-03-11",
+    "hasOther": false,
+    "link": "https://tamagotchi.fandom.com/wiki/Darth_Vader_Tamagotchi",
+    "image": "VaderTama_Black.png"
+  },
+  {
+    "id": "skzoo-tamagotchi-asia",
+    "region": "asia",
+    "name": "SKZOO Tamagotchi",
+    "text": "Based on K-pop band Stray Kids",
+    "releaseDate": "2025-04-03",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/SKZOO_Tamagotchi",
+    "image": "Tamagotchi_Nano_Wolf_Chan.png"
+  },
+  {
+    "id": "tamagotchi-paradise-asia",
+    "region": "asia",
+    "name": "Tamagotchi Paradise",
+    "text": "Take care of ecosystems",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise",
+    "image": "TamagotchiParadisePinkLandShell.png"
+  },
+  {
+    "id": "peanuts-tamagotchi-asia",
+    "region": "asia",
+    "name": "Peanuts Tamagotchi",
+    "text": "Based on comic",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Peanuts_Tamagotchi",
+    "image": "PeanutsTamagotchi_Shell.png"
+  },
+  {
+    "id": "jurassic-world-rebirth-tamagotchi-asia",
+    "region": "asia",
+    "name": "Jurassic World Rebirth",
+    "text": "Based on movie",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+    "image": "JurassicWorldNano_MosasaurusShell.png"
+  },
+  {
+    "id": "tamagotchi-paradise-international",
+    "region": "international",
+    "name": "Tamagotchi Paradise",
+    "text": "Take care of ecosystems",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise",
+    "image": "TamagotchiParadiseBlueWaterShell.png"
+  },
+  {
+    "id": "peanuts-tamagotchi-international",
+    "region": "international",
+    "name": "Peanuts Tamagotchi",
+    "text": "Based on comic",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Peanuts_Tamagotchi",
+    "image": "PeanutsTamagotchi_Shell.png"
+  },
+  {
+    "id": "jurassic-world-rebirth-tamagotchi-international",
+    "region": "international",
+    "name": "Jurassic World Rebirth",
+    "text": "Based on movie",
+    "releaseDate": "2025-07-12",
+    "hasOther": true,
+    "link": "https://tamagotchi.fandom.com/wiki/Jurassic_World_Tamagotchi",
+    "image": "JurassicWorldNano_SpinosaurusShell.png"
+  }
+]

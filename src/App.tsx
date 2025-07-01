@@ -1,15 +1,18 @@
 import "./App.css"
-import {useCallback, useEffect, useState} from "react"
+import {lazy, Suspense, useCallback, useEffect, useRef, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
-import TamaTable from "./features/tamaTable/TamaTable.tsx"
-import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
 import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
-import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
+
+const LazyTamaTable = lazy(() => import("./features/tamaTable/TamaTable.tsx"))
+const LazyTamaTimeline = lazy(() => import("./features/tamaTimeline/TamaTimeline.tsx"))
+const LazyBitzeeTable = lazy(() => import("./features/bitzee/BitzeeTable.tsx"))
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
 export default function App() {
+    const navRef = useRef<HTMLDivElement>(null)
+    const [navHeight, setNavHeight] = useState(0)
     const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
@@ -28,6 +31,9 @@ export default function App() {
         const newIsPhone = window.innerWidth < PHONE_BREAKPOINT
         if (newIsPhone !== isPhone) {
             setIsPhone(newIsPhone)
+        }
+        if (navRef.current) {
+            setNavHeight(navRef.current.offsetHeight)
         }
     }, [isPhone])
 
@@ -65,30 +71,40 @@ export default function App() {
         }
     }, [isDarkMode])
 
+    useEffect(() => {
+        if (navRef.current) {
+            setNavHeight(navRef.current.offsetHeight)
+        }
+    }, [])
+
     return (
         <BrowserRouter basename={baseName}>
             <div className={"app-div"}>
-                <Navigation setDisplayFilters={setDisplayFilters}
-                            isDarkMode={isDarkMode}
-                            setIsDarkMode={setIsDarkMode}/>
-                <Routes>
-                    <Route path={ROUTES.home} element={
-                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
-                    }
-                    />
-                    <Route path={ROUTES.tamaTable} element={
-                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
-                    }
-                    />
-                    <Route path={ROUTES.tamaTimeline} element={
-                        <TamaTimeline/>
-                    }
-                    />
-                    <Route path={ROUTES.bitzeeTable} element={
-                        <BitzeeTable themeMode={themeMode}/>
-                    }
-                    />
-                </Routes>
+                <Navigation
+                    navRef={navRef}
+                    setDisplayFilters={setDisplayFilters}
+                    isDarkMode={isDarkMode}
+                    setIsDarkMode={setIsDarkMode}/>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Routes>
+                        <Route path={ROUTES.home} element={
+                            <LazyTamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
+                        }
+                        />
+                        <Route path={ROUTES.tamaTable} element={
+                            <LazyTamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
+                        }
+                        />
+                        <Route path={ROUTES.tamaTimeline} element={
+                            <LazyTamaTimeline navHeight={navHeight}/>
+                        }
+                        />
+                        <Route path={ROUTES.bitzeeTable} element={
+                            <LazyBitzeeTable themeMode={themeMode}/>
+                        }
+                        />
+                    </Routes>
+                </Suspense>
             </div>
         </BrowserRouter>
     )

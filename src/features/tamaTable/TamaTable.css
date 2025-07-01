@@ -43,24 +43,6 @@
     border: 1px solid var(--dark-link);
 }
 
-@media (prefers-color-scheme: light) {
-    .search-field {
-        background-color: var(--light-button);
-        color: var(--light-text);
-    }
-}
-
-html[data-theme="light"] .search-field {
-    background-color: var(--light-button);
-    color: var(--light-text);
-}
-
-@media screen and (max-width: 600px) {
-    .search-input-wrapper {
-        max-width: unset;
-    }
-}
-
 .clear-button {
     position: absolute;
     right: 1px;
@@ -78,4 +60,23 @@ html[data-theme="light"] .search-field {
 .clear-button:focus,
 .clear-button:focus-visible {
     color: var(--dark-link-hover)
+}
+
+@media screen and (max-width: 600px) {
+    .search-input-wrapper {
+        max-width: unset;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    .search-field {
+        background-color: var(--light-button);
+        color: var(--light-text);
+    }
+}
+
+html[data-theme="light"] .search-field {
+    background-color: var(--light-button);
+    color: var(--light-text);
 }
