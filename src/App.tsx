@@ -1,12 +1,11 @@
 import "./App.css"
-import {lazy, Suspense, useCallback, useEffect, useRef, useState} from "react"
+import {useCallback, useEffect, useRef, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
-
-const LazyTamaTable = lazy(() => import("./features/tamaTable/TamaTable.tsx"))
-const LazyTamaTimeline = lazy(() => import("./features/tamaTimeline/TamaTimeline.tsx"))
-const LazyBitzeeTable = lazy(() => import("./features/bitzee/BitzeeTable.tsx"))
+import TamaTable from "./features/tamaTable/TamaTable.tsx"
+import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
+import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
 
@@ -85,26 +84,24 @@ export default function App() {
                     setDisplayFilters={setDisplayFilters}
                     isDarkMode={isDarkMode}
                     setIsDarkMode={setIsDarkMode}/>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <Routes>
-                        <Route path={ROUTES.home} element={
-                            <LazyTamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
-                        }
-                        />
-                        <Route path={ROUTES.tamaTable} element={
-                            <LazyTamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
-                        }
-                        />
-                        <Route path={ROUTES.tamaTimeline} element={
-                            <LazyTamaTimeline navHeight={navHeight}/>
-                        }
-                        />
-                        <Route path={ROUTES.bitzeeTable} element={
-                            <LazyBitzeeTable themeMode={themeMode}/>
-                        }
-                        />
-                    </Routes>
-                </Suspense>
+                <Routes>
+                    <Route path={ROUTES.home} element={
+                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
+                    }
+                    />
+                    <Route path={ROUTES.tamaTable} element={
+                        <TamaTable displayFilters={displayFilters} themeMode={themeMode} isPhone={isPhone}/>
+                    }
+                    />
+                    <Route path={ROUTES.tamaTimeline} element={
+                        <TamaTimeline navHeight={navHeight}/>
+                    }
+                    />
+                    <Route path={ROUTES.bitzeeTable} element={
+                        <BitzeeTable themeMode={themeMode}/>
+                    }
+                    />
+                </Routes>
             </div>
         </BrowserRouter>
     )
