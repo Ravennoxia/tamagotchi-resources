@@ -34,10 +34,6 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
     })
     const [selectedMover, setSelectedMover] = useState<string>("")
 
-    if (!urlBase.endsWith("/")) {
-        urlBase += "/"
-    }
-
     useEffect(() => {
         async function fetchData() {
             try {

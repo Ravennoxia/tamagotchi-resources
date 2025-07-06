@@ -9,7 +9,7 @@ import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 import HomePage from "./features/homepage/HomePage.tsx"
 import UniOutfitPlanner from "./features/uniOutfitPlanner/UniOutfitPlanner.tsx"
 
-const baseName = import.meta.env.PROD ? "/tamagotchi-resources" : "/"
+const baseName = import.meta.env.PROD ? "/tamagotchi-resources/" : "/"
 
 export default function App() {
     const navRef = useRef<HTMLDivElement>(null)
