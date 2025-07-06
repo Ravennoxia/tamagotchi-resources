@@ -25,7 +25,7 @@
 .title-sub-text {
     display: flex;
     align-items: center;
-    color: var(--dark-separator);
+    color: var(--separator);
 }
 
 .check-icon {
@@ -34,14 +34,14 @@
 
 .timeline-line {
     width: 10px;
-    background-color: var(--dark-separator);
+    background-color: var(--separator);
 }
 
 .year {
     position: sticky;
     top: var(--nav-height);
     padding: 5px 0;
-    z-index: 2;
+    z-index: 998;
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
@@ -67,7 +67,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: var(--dark-separator);
+    background-color: var(--separator);
 }
 
 .mark-left {
@@ -101,7 +101,7 @@
 }
 
 .card a:hover {
-    color: var(--dark-link-hover);
+    color: var(--link-hover);
 }
 
 .even-year-card {
@@ -117,7 +117,7 @@
 .card-sub-text {
     line-height: 1.1;
     font-size: 0.9rem;
-    color: var(--dark-separator);
+    color: var(--separator);
 }
 
 @media (prefers-color-scheme: light) {
@@ -142,7 +142,7 @@
     }
 
     .card a:hover {
-        color: var(--dark-link-hover);
+        color: var(--link-hover);
     }
 
     .even-year-card {
@@ -175,7 +175,7 @@ html[data-theme="light"] .card a {
 }
 
 html[data-theme="light"] .card a:hover {
-    color: var(--dark-link-hover);
+    color: var(--link-hover);
 }
 
 html[data-theme="light"] .even-year-card {

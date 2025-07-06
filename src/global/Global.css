@@ -1,0 +1,31 @@
+.cell-not-button {
+    border-radius: inherit;
+    border: inherit;
+    padding: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: inherit;
+    cursor: inherit;
+    transition: inherit;
+}
+
+.cell-not-button:hover {
+    border-color: inherit;
+}
+
+.cell-not-button:focus,
+.cell-not-button:focus-visible {
+    outline: inherit;
+}
+
+@media (prefers-color-scheme: light) {
+    .cell-not-button {
+        color: inherit;
+        background-color: inherit;
+    }
+}
+
+html[data-theme="light"] .cell-not-button {
+    color: inherit;
+    background-color: inherit;
+}

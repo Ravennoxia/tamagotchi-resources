@@ -2,6 +2,7 @@ export const ROUTES = {
     home: "/",
     tamaTable: "/raisable-characters-table",
     tamaTimeline: "/device-timeline",
+    uniOutfitPlanner: "/uni-outfit-planner",
     bitzeeTable: "/bitzee-table"
 }
 
@@ -9,6 +10,7 @@ export const ROUTE_TITLES = {
     [ROUTES.home]: "Raven's Tamagotchi resources",
     [ROUTES.tamaTable]: "All Raisable Tamagotchi Characters",
     [ROUTES.tamaTimeline]: "Tamagotchi Device Timeline",
+    [ROUTES.uniOutfitPlanner]: "[WIP] Uni Outfit Planner",
     [ROUTES.bitzeeTable]: "Bitzee Magicals Sprites"
 }
 
