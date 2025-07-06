@@ -40,7 +40,7 @@
 }
 
 .search-field:hover {
-    border: 1px solid var(--dark-link);
+    border: 1px solid var(--link);
 }
 
 .clear-button {
@@ -54,12 +54,12 @@
 }
 
 .clear-button:hover {
-    color: var(--dark-x-hover);
+    color: var(--x-hover);
 }
 
 .clear-button:focus,
 .clear-button:focus-visible {
-    color: var(--dark-link-hover)
+    color: var(--link-hover)
 }
 
 @media screen and (max-width: 600px) {

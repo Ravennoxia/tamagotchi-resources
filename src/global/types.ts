@@ -57,14 +57,26 @@ export interface TamaTimelineEventRow {
 }
 
 export interface TamaTimelineItem {
-    id: string;
-    region: "asia" | "international";
-    name: string;
-    text?: string | null;
-    releaseDate: string;
-    hasOther?: boolean;
-    link?: string;
-    image?: string;
+    id: string
+    region: "asia" | "international"
+    name: string
+    text?: string | null
+    releaseDate: string
+    hasOther?: boolean
+    link?: string
+    image?: string
+}
+
+export interface UniAccessory {
+    name: string
+    image: string | null
+    source: string
+}
+
+export interface UniOutfitPreviewItem {
+    item: UniAccessory | null
+    x: number
+    y: number
 }
 
 export interface AllBitzeeData {

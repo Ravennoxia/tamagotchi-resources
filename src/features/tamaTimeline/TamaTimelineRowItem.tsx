@@ -1,5 +1,6 @@
 import type {TamaTimelineItem} from "../../global/types.ts"
 import {CheckIcon} from "@radix-ui/react-icons"
+import "./TamaTimeline.css"
 
 export default function TimelineRowItem({item, isLeft, evenYear, showMonth}: {
     item: TamaTimelineItem,
@@ -14,7 +15,7 @@ export default function TimelineRowItem({item, isLeft, evenYear, showMonth}: {
             <div
                 className={"card-container"} style={isLeft ? {alignItems: "flex-end"} : undefined}>
                 {showMonth && (
-                    <div className={"timeline-date"}>
+                    <div>
                         {new Date(item.releaseDate).toLocaleDateString("en-US", {month: "long"})}
                     </div>
                 )}

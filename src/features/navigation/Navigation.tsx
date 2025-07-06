@@ -52,20 +52,26 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
                             <div className={"nav-sub-label"}>Tamagotchi:</div>
                             <NavigationMenuLink asChild className={"nav-sub-item"}>
                                 <Link to={ROUTES.tamaTable}>
-                                    All Raisable Tamagotchi Characters
+                                    {ROUTE_TITLES[ROUTES.tamaTable]}
                                 </Link>
                             </NavigationMenuLink>
                             <Separator className={"separator nav-sub-item"}/>
                             <NavigationMenuLink asChild className={"nav-sub-item"}>
                                 <Link to={ROUTES.tamaTimeline}>
-                                    Tamagotchi Device Timeline
+                                    {ROUTE_TITLES[ROUTES.tamaTimeline]}
+                                </Link>
+                            </NavigationMenuLink>
+                            <Separator className={"separator nav-sub-item"}/>
+                            <NavigationMenuLink asChild className={"nav-sub-item"}>
+                                <Link to={ROUTES.uniOutfitPlanner}>
+                                    {ROUTE_TITLES[ROUTES.uniOutfitPlanner]}
                                 </Link>
                             </NavigationMenuLink>
                         </NavigationMenuSub>
                         <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
                             <Link to={ROUTES.bitzeeTable}>
-                                Bitzee Magicals Sprites
+                                {ROUTE_TITLES[ROUTES.bitzeeTable]}
                             </Link>
                         </NavigationMenuLink>
                     </NavigationMenuContent>

@@ -7,6 +7,8 @@ import type {VersionData} from "../../../global/types.ts"
 import useTooltip from "../../../global/useTooltip.ts"
 import "../../../global/AGGridTable.css"
 import {getPortalRoot} from "../../../global/functions.ts"
+import "../../../global/Global.css"
+import "../TamaTable.css"
 
 export interface MyCellParams extends ICellRendererParams {
     deviceVersion?: keyof typeof COLUMN_NAMES

@@ -2,7 +2,7 @@
     position: sticky;
     display: flex;
     top: 0;
-    z-index: 99999;
+    z-index: 999;
     padding: 1rem;
     gap: 5px;
     align-items: center;
@@ -17,7 +17,7 @@
     padding: 1rem;
     gap: 5px;
     border-radius: 8px;
-    z-index: 1;
+    z-index: 1000;
     background-color: var(--dark-background);
     border: 1px solid var(--dark-border);
 }
@@ -27,7 +27,7 @@
 }
 
 .nav-content a:hover {
-    color: var(--dark-link-hover);
+    color: var(--link-hover);
 }
 
 .separator {
@@ -119,7 +119,7 @@
     }
 
     .nav-content a:hover {
-        color: var(--dark-link-hover);
+        color: var(--link-hover);
     }
 
     .separator {
@@ -145,7 +145,7 @@ html[data-theme="light"] .nav-content a {
 }
 
 html[data-theme="light"] .nav-content a:hover {
-    color: var(--dark-link-hover);
+    color: var(--link-hover);
 }
 
 html[data-theme="light"] .separator {

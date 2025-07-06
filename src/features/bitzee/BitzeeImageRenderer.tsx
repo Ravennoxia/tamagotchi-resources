@@ -1,5 +1,7 @@
 import type {ICellRendererParams} from "ag-grid-community"
+import "../../global/Global.css"
 import "../../global/AGGridTable.css"
+import "./BitzeeTable.css"
 import * as React from "react"
 import useTooltip from "../../global/useTooltip.ts"
 import ReactDOM from "react-dom"

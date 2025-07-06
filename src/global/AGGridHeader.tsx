@@ -4,6 +4,8 @@ import * as React from "react"
 import {useMemo} from "react"
 import ReactDOM from "react-dom"
 import {getPortalRoot} from "./functions.ts"
+import "../global/Global.css"
+import "./AGGridTable.css"
 
 interface MyHeaderParams extends IHeaderParams {
     tooltip?: string,
