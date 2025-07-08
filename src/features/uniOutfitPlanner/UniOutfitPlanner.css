@@ -47,14 +47,13 @@
     font-weight: 500;
     padding: 0.25rem 0.5rem;
     border-radius: 8px 8px 0 0;
-    width: 76px;
+    color: var(--dark-text)
 }
 
 .mover {
     padding: 0.1rem 0.5rem;
     border: 2px solid transparent;
     border-radius: 0;
-    width: 76px;
 }
 
 .selected-mover {

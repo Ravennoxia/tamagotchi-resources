@@ -19,6 +19,8 @@ import "../../global/Global.css"
 import "./UniOutfitPlanner.css"
 import {Cross1Icon} from "@radix-ui/react-icons"
 
+//TODO crafting items colors, export image
+
 export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
     const [headItems, setHeadItems] = useState<UniAccessory[]>([])
     const [faceItems, setFaceItems] = useState<UniAccessory[]>([])
@@ -32,7 +34,7 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
         back: {item: null, x: 0, y: 0},
         tama: {item: null, x: 0, y: 0}
     })
-    const [selectedMover, setSelectedMover] = useState<string>("")
+    const [selectedMover, setSelectedMover] = useState<string>("tama")
 
     useEffect(() => {
         async function fetchData() {
@@ -133,17 +135,17 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                         className={"movers"}
                         type={"single"}
                         orientation={"vertical"}
-                        defaultValue={""}
+                        defaultValue={"tama"}
                         onValueChange={(v) => setSelectedMover(v)}
                     >
-                        <ToggleGroupItem className={"mover-header"} value={""}>
+                        <ToggleGroupItem className={"mover-header"} value={""} disabled={true}>
                             Movers:
                         </ToggleGroupItem>
+                        <Mover type={"tama"} label={"Tama"} selectedMover={selectedMover}/>
                         <Mover type={"head"} label={"Head"} selectedMover={selectedMover}/>
                         <Mover type={"face"} label={"Face"} selectedMover={selectedMover}/>
                         <Mover type={"body"} label={"Body"} selectedMover={selectedMover}/>
-                        <Mover type={"back"} label={"Back"} selectedMover={selectedMover}/>
-                        <Mover type={"tama"} label={"Tama"} selectedMover={selectedMover}
+                        <Mover type={"back"} label={"Back"} selectedMover={selectedMover}
                                style={{borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px"}}/>
                     </ToggleGroup>
                 </div>
@@ -199,14 +201,17 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                 <div style={{paddingBottom: "1rem"}}></div>
             </div>
             <div className={"tabs-container"}>
-                <Tabs defaultValue={"head"} className={"all-tabs"}>
+                <Tabs defaultValue={"tama"} className={"all-tabs"} onValueChange={(v) => setSelectedMover(v)}>
                     <TabsList>
+                        <TabsTrigger value={"tama"} className={"tab"}>Tama</TabsTrigger>
                         <TabsTrigger value={"head"} className={"tab"}>Head</TabsTrigger>
                         <TabsTrigger value={"face"} className={"tab"}>Face</TabsTrigger>
                         <TabsTrigger value={"body"} className={"tab"}>Body</TabsTrigger>
                         <TabsTrigger value={"back"} className={"tab"}>Back</TabsTrigger>
-                        <TabsTrigger value={"tama"} className={"tab"}>Tama</TabsTrigger>
                     </TabsList>
+                    <TabsContent value={"tama"} className={"gallery"}>
+                        <Gallery data={tamas} type={"tama"} setter={setSelectedItems} urlBase={urlBase}/>
+                    </TabsContent>
                     <TabsContent value={"head"} className={"gallery"}>
                         <Gallery data={headItems} type={"head"} setter={setSelectedItems} urlBase={urlBase}/>
                     </TabsContent>
@@ -218,9 +223,6 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                     </TabsContent>
                     <TabsContent value={"back"} className={"gallery"}>
                         <Gallery data={backItems} type={"back"} setter={setSelectedItems} urlBase={urlBase}/>
-                    </TabsContent>
-                    <TabsContent value={"tama"} className={"gallery"}>
-                        <Gallery data={tamas} type={"tama"} setter={setSelectedItems} urlBase={urlBase}/>
                     </TabsContent>
                 </Tabs>
             </div>
