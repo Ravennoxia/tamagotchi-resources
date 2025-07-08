@@ -1,4 +1,13 @@
-import {type CSSProperties, type Dispatch, type ReactNode, type SetStateAction, useEffect, useState} from "react"
+import {
+    type CSSProperties,
+    type Dispatch,
+    type ReactNode,
+    type Ref,
+    type SetStateAction,
+    useEffect,
+    useRef,
+    useState
+} from "react"
 import type {UniAccessory, UniOutfitPreviewItem} from "../../global/types.ts"
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@radix-ui/react-tabs"
 import {ToggleGroup, ToggleGroupItem} from "@radix-ui/react-toggle-group"
@@ -18,6 +27,7 @@ import {restrictToParentElement} from "@dnd-kit/modifiers"
 import "../../global/Global.css"
 import "./UniOutfitPlanner.css"
 import {Cross1Icon} from "@radix-ui/react-icons"
+import * as htmlToImage from "html-to-image"
 
 export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
     const [headItems, setHeadItems] = useState<UniAccessory[]>([])
@@ -32,7 +42,8 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
         back: {item: null, x: 0, y: 0},
         tama: {item: null, x: 0, y: 0}
     })
-    const [selectedMover, setSelectedMover] = useState<string>("")
+    const [selectedMover, setSelectedMover] = useState<string>("tama")
+    const imageRef = useRef<HTMLElement>(null)
 
     useEffect(() => {
         async function fetchData() {
@@ -106,44 +117,110 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
         useSensor(KeyboardSensor)
     )
 
+    function getBoundingBoxOfImages(container: HTMLElement) {
+        let minX = 100
+        let minY = 100
+        let maxX = 0
+        let maxY = 0
+        const images = container.querySelectorAll(".display-image")
+        if (images.length === 0) {
+            return null
+        }
+        images.forEach(imgElement => {
+            const rect = imgElement.getBoundingClientRect()
+            const containerRect = container.getBoundingClientRect()
+            const currentMinX = rect.left - containerRect.left
+            const currentMinY = rect.top - containerRect.top
+            const currentMaxX = rect.right - containerRect.left
+            const currentMaxY = rect.bottom - containerRect.top
+            minX = Math.min(minX, currentMinX)
+            minY = Math.min(minY, currentMinY)
+            maxX = Math.max(maxX, currentMaxX)
+            maxY = Math.max(maxY, currentMaxY)
+        })
+        const width = maxX - minX
+        const height = maxY - minY
+        return {x: minX, y: minY, width, height}
+    }
+
+    function downloadImage() {
+        if (imageRef.current) {
+            const boundingBox = getBoundingBoxOfImages(imageRef.current)
+            if (!boundingBox) {
+                console.warn("No images selected to download.")
+                return
+            }
+            htmlToImage
+                .toCanvas(imageRef.current, {backgroundColor: "transparent"})
+                .then((fullCanvas) => {
+                    const croppedCanvas = document.createElement("canvas")
+                    croppedCanvas.width = boundingBox.width
+                    croppedCanvas.height = boundingBox.height
+                    const ctx = croppedCanvas.getContext("2d")
+                    if (!ctx) {
+                        console.error("Could not get 2D context for canvas.")
+                        return
+                    }
+                    ctx.drawImage(
+                        fullCanvas,
+                        boundingBox.x, boundingBox.y,
+                        boundingBox.width, boundingBox.height,
+                        0, 0,
+                        boundingBox.width, boundingBox.height
+                    )
+                    const dataUrl = croppedCanvas.toDataURL("image/png")
+                    const link = document.createElement("a")
+                    link.download = "tama-outfit.png"
+                    link.href = dataUrl
+                    link.click()
+                })
+                .catch((e) => {
+                    console.error("Could not download image: ", e)
+                })
+        }
+    }
+
     return (
         <div className={"outfit-planner"}>
             <div className={"display-wrapper"}>
                 <div className={"display"}>
-                    <DndContext sensors={sensors} onDragEnd={handleDragEnd} modifiers={[restrictToParentElement]}>
-                        <Droppable> {/*body > face > head > back*/}
-                            {selectedItems.head.item?.image &&
-                                <Draggable id={"head"} selectedMover={selectedMover} item={selectedItems.head}
-                                           zIndex={51} urlBase={urlBase}/>}
-                            {selectedItems.face.item?.image &&
-                                <Draggable id={"face"} selectedMover={selectedMover} item={selectedItems.face}
-                                           zIndex={52} urlBase={urlBase}/>}
-                            {selectedItems.body.item?.image &&
-                                <Draggable id={"body"} selectedMover={selectedMover} item={selectedItems.body}
-                                           zIndex={53} urlBase={urlBase}/>}
-                            {selectedItems.back.item?.image &&
-                                <Draggable id={"back"} selectedMover={selectedMover} item={selectedItems.back}
-                                           zIndex={50} urlBase={urlBase}/>}
-                            {selectedItems.tama.item?.image &&
-                                <Draggable id={"tama"} selectedMover={selectedMover} item={selectedItems.tama}
-                                           zIndex={50} urlBase={urlBase}/>}
-                        </Droppable>
-                    </DndContext>
+                    <div className={"display-items"}>
+                        <DndContext sensors={sensors} onDragEnd={handleDragEnd} modifiers={[restrictToParentElement]}>
+                            <Droppable ref={imageRef}> {/*body > face > head > back*/}
+                                {selectedItems.head.item?.image &&
+                                    <Draggable id={"head"} selectedMover={selectedMover} item={selectedItems.head}
+                                               zIndex={51} urlBase={urlBase}/>}
+                                {selectedItems.face.item?.image &&
+                                    <Draggable id={"face"} selectedMover={selectedMover} item={selectedItems.face}
+                                               zIndex={52} urlBase={urlBase}/>}
+                                {selectedItems.body.item?.image &&
+                                    <Draggable id={"body"} selectedMover={selectedMover} item={selectedItems.body}
+                                               zIndex={53} urlBase={urlBase}/>}
+                                {selectedItems.back.item?.image &&
+                                    <Draggable id={"back"} selectedMover={selectedMover} item={selectedItems.back}
+                                               zIndex={50} urlBase={urlBase}/>}
+                                {selectedItems.tama.item?.image &&
+                                    <Draggable id={"tama"} selectedMover={selectedMover} item={selectedItems.tama}
+                                               zIndex={50} urlBase={urlBase}/>}
+                            </Droppable>
+                        </DndContext>
+                        <button className={"download-button"} onClick={downloadImage}>Download Image</button>
+                    </div>
                     <ToggleGroup
                         className={"movers"}
                         type={"single"}
                         orientation={"vertical"}
-                        defaultValue={""}
+                        defaultValue={"tama"}
                         onValueChange={(v) => setSelectedMover(v)}
                     >
-                        <ToggleGroupItem className={"mover-header"} value={""}>
+                        <ToggleGroupItem className={"mover-header"} value={""} disabled={true}>
                             Movers:
                         </ToggleGroupItem>
+                        <Mover type={"tama"} label={"Tama"} selectedMover={selectedMover}/>
                         <Mover type={"head"} label={"Head"} selectedMover={selectedMover}/>
                         <Mover type={"face"} label={"Face"} selectedMover={selectedMover}/>
                         <Mover type={"body"} label={"Body"} selectedMover={selectedMover}/>
-                        <Mover type={"back"} label={"Back"} selectedMover={selectedMover}/>
-                        <Mover type={"tama"} label={"Tama"} selectedMover={selectedMover}
+                        <Mover type={"back"} label={"Back"} selectedMover={selectedMover}
                                style={{borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px"}}/>
                     </ToggleGroup>
                 </div>
@@ -199,14 +276,17 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                 <div style={{paddingBottom: "1rem"}}></div>
             </div>
             <div className={"tabs-container"}>
-                <Tabs defaultValue={"head"} className={"all-tabs"}>
+                <Tabs defaultValue={"tama"} className={"all-tabs"} onValueChange={(v) => setSelectedMover(v)}>
                     <TabsList>
+                        <TabsTrigger value={"tama"} className={"tab"}>Tama</TabsTrigger>
                         <TabsTrigger value={"head"} className={"tab"}>Head</TabsTrigger>
                         <TabsTrigger value={"face"} className={"tab"}>Face</TabsTrigger>
                         <TabsTrigger value={"body"} className={"tab"}>Body</TabsTrigger>
                         <TabsTrigger value={"back"} className={"tab"}>Back</TabsTrigger>
-                        <TabsTrigger value={"tama"} className={"tab"}>Tama</TabsTrigger>
                     </TabsList>
+                    <TabsContent value={"tama"} className={"gallery"}>
+                        <Gallery data={tamas} type={"tama"} setter={setSelectedItems} urlBase={urlBase}/>
+                    </TabsContent>
                     <TabsContent value={"head"} className={"gallery"}>
                         <Gallery data={headItems} type={"head"} setter={setSelectedItems} urlBase={urlBase}/>
                     </TabsContent>
@@ -219,19 +299,24 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                     <TabsContent value={"back"} className={"gallery"}>
                         <Gallery data={backItems} type={"back"} setter={setSelectedItems} urlBase={urlBase}/>
                     </TabsContent>
-                    <TabsContent value={"tama"} className={"gallery"}>
-                        <Gallery data={tamas} type={"tama"} setter={setSelectedItems} urlBase={urlBase}/>
-                    </TabsContent>
                 </Tabs>
             </div>
         </div>
     )
 }
 
-function Droppable({children}: { children: ReactNode }) {
+function Droppable({children, ref}: { children: ReactNode, ref: Ref<HTMLElement> }) {
     const {setNodeRef} = useDroppable({id: "droppable"})
+    const combinedRef = (node: HTMLDivElement | null) => {
+        setNodeRef(node)
+        if (typeof ref === "function") {
+            ref(node)
+        } else if (ref) {
+            ref.current = node
+        }
+    }
     return (
-        <div ref={setNodeRef} className={"display-item"}>
+        <div ref={combinedRef} className={"display-item"}>
             {children}
         </div>
     )
