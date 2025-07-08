@@ -10,7 +10,7 @@ export const ROUTE_TITLES = {
     [ROUTES.home]: "Raven's Tamagotchi resources",
     [ROUTES.tamaTable]: "All Raisable Tamagotchi Characters",
     [ROUTES.tamaTimeline]: "Tamagotchi Device Timeline",
-    [ROUTES.uniOutfitPlanner]: "[WIP] Uni Outfit Planner",
+    [ROUTES.uniOutfitPlanner]: "Uni Outfit Planner",
     [ROUTES.bitzeeTable]: "Bitzee Magicals Sprites"
 }
 

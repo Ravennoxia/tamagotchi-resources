@@ -301,6 +301,9 @@ export default function UniOutfitPlanner({urlBase}: { urlBase: string }) {
                     </TabsContent>
                 </Tabs>
             </div>
+            <cite className={"cite-planner"}>Images and information are from the <a
+                href={"https://tamagotchi.fandom.com/wiki/Main_Page"} target="_blank" rel="noopener noreferrer">Tamagotchi
+                Wiki</a></cite>
         </div>
     )
 }

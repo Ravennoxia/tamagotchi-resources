@@ -145,6 +145,16 @@
     background-color: var(--dark-background);
 }
 
+.cite-planner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-size: 0.9rem;
+    gap: 2px;
+    background-color: var(--dark-button);
+}
+
 @media (prefers-color-scheme: light) {
     .display-wrapper {
         background-color: var(--light-background);

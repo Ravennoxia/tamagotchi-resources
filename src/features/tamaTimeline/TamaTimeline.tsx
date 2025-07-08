@@ -34,6 +34,9 @@ export default function TamaTimeline({navHeight}: { navHeight: number }) {
 
     return (
         <div className={"timeline"}>
+            <cite className={"cite-timeline"}>Most images and information are from the <a
+                href={"https://tamagotchi.fandom.com/wiki/Main_Page"} target="_blank" rel="noopener noreferrer">Tamagotchi
+                Wiki</a></cite>
             <div className={"title-container"}>
                 <div className={"title"} style={{textAlign: "end"}}>
                     <div className={"title-text"}>Japanese</div>
