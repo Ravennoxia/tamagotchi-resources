@@ -6,6 +6,37 @@ export default function HomePage() {
     return (
         <div className={"home"}>
             <div className={"item"}>
+                <div style={{fontWeight: "bold"}}>Contact me</div>
+                <div style={{textAlign: "left"}}>
+                    <div className={"contact-grid"}>
+                        <div>Email:</div>
+                        <div><a href={"mailto:github.raven@gmail.com"}>github.raven@gmail.com</a></div>
+                        <div>Discord:</div>
+                        <div>If we are in the same server, feel free to @ me or DM me</div>
+                        <div>Github:</div>
+                        <div>
+                            <a href={"https://github.com/Ravennoxia/tamagotchi-resources/issues"}
+                               target="_blank"
+                               rel="noopener noreferrer">link</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>feature request</li>
+                        <li>bug report</li>
+                        <li>wrong or missing info</li>
+                    </ul>
+                </div>
+            </div>
+            <div className={"item"}>
+                <div style={{fontWeight: "bold"}}>Planned Features</div>
+                <ul style={{textAlign: "left"}}>
+                    <li>Compilation of external tama resources</li>
+                    <li>Table of alternate forms</li>
+                    <li>Raisable characters on other tamas</li>
+                    <li>All Raisable Digimon Characters</li>
+                </ul>
+            </div>
+            <div className={"item"}>
                 <Link to={ROUTES.tamaTable} className={"link"}>
                     {ROUTE_TITLES[ROUTES.tamaTable]}
                 </Link>
@@ -36,6 +67,16 @@ export default function HomePage() {
                 />
             </div>
             <div className={"item"}>
+                <Link to={ROUTES.uniRoomPlanner} className={"link"}>
+                    {ROUTE_TITLES[ROUTES.uniRoomPlanner]}
+                </Link>
+                <img
+                    className={"image"}
+                    src={import.meta.env.BASE_URL + "pages/uni-room-planner.png"}
+                    alt={ROUTE_TITLES[ROUTES.uniRoomPlanner]}
+                />
+            </div>
+            <div className={"item"}>
                 <Link to={ROUTES.bitzeeTable} className={"link"}>
                     {ROUTE_TITLES[ROUTES.bitzeeTable]}
                 </Link>
@@ -44,38 +85,6 @@ export default function HomePage() {
                     src={import.meta.env.BASE_URL + "pages/bitzee-table.png"}
                     alt={ROUTE_TITLES[ROUTES.bitzeeTable]}
                 />
-            </div>
-            <div className={"item"}>
-                <div style={{fontWeight: "bold"}}>Planned Features</div>
-                <ul  style={{textAlign: "left"}}>
-                    <li>Uni Room Planner</li>
-                    <li>Compilation of external tama resources</li>
-                    <li>Table of alternate forms</li>
-                    <li>Raisable characters on other tamas</li>
-                    <li>All Raisable Digimon Characters</li>
-                </ul>
-            </div>
-            <div className={"item"}>
-                <div style={{fontWeight: "bold"}}>Contact me</div>
-                <div style={{textAlign: "left"}}>
-                    <div className={"contact-grid"}>
-                        <div>Email:</div>
-                        <div><a href={"mailto:github.raven@gmail.com"}>github.raven@gmail.com</a></div>
-                        <div>Discord:</div>
-                        <div>If we are in the same server, feel free to @ me or DM me</div>
-                        <div>Github:</div>
-                        <div>
-                            <a href={"https://github.com/Ravennoxia/tamagotchi-resources/issues"}
-                               target="_blank"
-                               rel="noopener noreferrer">link</a>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>feature request</li>
-                        <li>bug report</li>
-                        <li>wrong or missing info</li>
-                    </ul>
-                </div>
             </div>
         </div>
     )

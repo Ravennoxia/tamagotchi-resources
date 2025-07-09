@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Default Living",
+    "image": "DefaultLiving.png",
+    "source": "Default room"
+  },
+  {
+    "name": "Black & White",
+    "image": "BlackWhite.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Coral Reef",
+    "image": "CoralReef.png",
+    "source": "Bought (Tama Mall) - Oceania"
+  },
+  {
+    "name": "Cyber",
+    "image": "Cyber.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Festive",
+    "image": "Festive.png",
+    "source": "Bought (Tama Mall) - Winter"
+  },
+  {
+    "name": "Flamingo",
+    "image": "Flamingo.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Floral",
+    "image": "Floral.png",
+    "source": "Bought (Tama Mall) - Spring"
+  },
+  {
+    "name": "Fluffy",
+    "image": "Fluffy.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Heartful",
+    "image": "Heartful.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Minimalistic",
+    "image": "Minimalistic.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Nature",
+    "image": "Nature.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Nautical",
+    "image": "Nautical.png",
+    "source": "Bought (Tama Mall) - Summer"
+  },
+  {
+    "name": "Outdoor",
+    "image": "Outdoor.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Patterns",
+    "image": "Patterns.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Rainbow",
+    "image": "Rainbow.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Pumpkin",
+    "image": "Pumpkin.png",
+    "source": "Bought (Tama Mall) - Fall"
+  },
+  {
+    "name": "Rococo",
+    "image": "Rococo.png",
+    "source": "Bought (Tama Mall) - Europe"
+  },
+  {
+    "name": "Safari",
+    "image": "Safari.png",
+    "source": "Bought (Tama Mall) - Africa"
+  },
+  {
+    "name": "Space",
+    "image": "Space.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Street",
+    "image": "Street.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Tama American",
+    "image": "TamaAmerican.png",
+    "source": "Bought (Tama Mall) - North America"
+  },
+  {
+    "name": "Tama Arabian",
+    "image": "TamaArabian.png",
+    "source": "Bought (Tama Mall) - Middle East"
+  },
+  {
+    "name": "Tama Chinese",
+    "image": "TamaChinese.png",
+    "source": "Bought (Tama Mall) - Asia"
+  },
+  {
+    "name": "Tama Mexicano",
+    "image": "TamaMexicano.png",
+    "source": "Bought (Tama Mall) - Latin America"
+  },
+  {
+    "name": "Tatami Room",
+    "image": "TatamiRoom.png",
+    "source": "Bought (Tama Mall) - Japan"
+  },
+  {
+    "name": "Unique",
+    "image": "Unique.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Wood Room",
+    "image": "WoodRoom.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Berry Room",
+    "image": "BerryRoom.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Creamy Room",
+    "image": "CreamyRoom.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Dance Floor",
+    "image": "DanceFloor.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Lovelin Room",
+    "image": "LovelinRoom.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Designer Room",
+    "image": "DesignerRoom.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Makeup Room",
+    "image": "MakeupRoom.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Kitty Party",
+    "image": "KittyParty.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Everyone's Room",
+    "image": "EveryonesRoom.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Angel Room",
+    "image": "AngelRoom.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Cupid Room",
+    "image": "CupidRoom.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Mischief Room",
+    "image": "MischiefRoom.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Monster Room",
+    "image": "MonsterRoom.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Flower Room",
+    "image": "FlowerRoom.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Ballroom",
+    "image": "Ballroom.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Streaming Room",
+    "image": "StreamingRoom.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Sauna Room",
+    "image": "SaunaRoom.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "School Room",
+    "image": "SchoolRoom.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Gym",
+    "image": "Gym.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Opanchu Usagi Room",
+    "image": "OpanchuUsagiRoom.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Npocham Room",
+    "image": "NpochamRoom.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  }
+]

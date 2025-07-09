@@ -7,6 +7,7 @@ This website houses resources I have created for the Tamagotchi community and li
 * Table of all raisable Tamagotchi characters ![All Raisable Tamagotchi Characters](public/pages/tama-table.png)
 * Timeline of Tamagotchi device releases ![Tamagotchi Device Timeline](public/pages/tama-timeline.png)
 * Outfit planner for Uni accessories ![Uni Outfit Planner](public/pages/uni-outfit-planner.png)
+* Planner for Uni rooms ![Uni Room Planner](public/pages/uni-room-planner.png)
 * Table of Bitzee Magical sprites and their potion recolors (WIP)
   ![Bitzee Magicals Sprites](public/pages/bitzee-table.png)
 
@@ -15,7 +16,6 @@ This website houses resources I have created for the Tamagotchi community and li
 Note that I work on this in my free time and mostly prioritize based on my own interests. Don't hold your breath waiting
 for a feature release.
 
-* Uni Room Planner - similar as Uni Outfit Planner but for room background, furniture, item, garden and pet
 * Compilation of external tama resources - resources I've found useful made by others in the community and also links to
   their shops
 * Table of alternate forms - costumes, changes, transformations, personality stages etc.

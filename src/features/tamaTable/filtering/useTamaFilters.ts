@@ -6,7 +6,7 @@ import {
     GENDER_FILTER_OPTIONS,
     STAGE_FILTER_OPTIONS
 } from "../../../global/constants.ts"
-import {checkFilterPasses, isNoneSelected, isPartialSelection, updateFilters} from "../tamaTableFunctions.ts"
+import {checkFilterPasses, isNoneSelected, isPartialSelection, updateFilters} from "../functions/tamaTableFunctions.ts"
 import type {TamaRow, VersionData} from "../../../global/types.ts"
 import type {IRowNode} from "ag-grid-community"
 
