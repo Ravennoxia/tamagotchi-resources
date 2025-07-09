@@ -216,7 +216,7 @@
   },
   {
     "name": "Huge Glasses",
-    "image": null,
+    "image": "HugeGlasses.png",
     "source": "Plaza"
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "name": "Pleading Eyewear",
-    "image": null,
+    "image": "PleadingEyewear.png",
     "source": "DL Area: KAWAISOUNI! Land"
   }
 ]

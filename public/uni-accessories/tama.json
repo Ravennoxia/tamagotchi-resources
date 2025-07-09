@@ -471,32 +471,32 @@
   },
   {
     "name": "Opanchu Usagi",
-    "image": "",
+    "image": "OpanchuUsagi.png",
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Npocham",
-    "image": "",
+    "image": null,
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Kimimaro",
-    "image": "",
+    "image": null,
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Kawaisouni Mametchi",
-    "image": "",
+    "image": null,
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Kawaisouni Kuchipatchi",
-    "image": "",
+    "image": null,
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Kawaisouni Mimitchi",
-    "image": "",
+    "image": null,
     "source": "DL Area: KAWAISOUNI! Land"
   }
 ]
