@@ -11,6 +11,7 @@
     flex-direction: column;
     text-align: center;
     min-width: 200px;
+    width: 500px;
     max-width: 500px;
     max-height: 375px;
     padding: 1rem;
@@ -31,6 +32,12 @@
 .image {
     object-fit: contain;
     min-height: 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 0.5rem;
 }
 
 @media (prefers-color-scheme: light) {
