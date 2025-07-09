@@ -570,23 +570,23 @@
     "source": "Arena Prize"
   },
   {
-    "name": "Teeth Balloon",
-    "image": null,
+    "name": "Changing Curtain",
+    "image": "ChangingCurtain.png",
     "source": "Plaza"
   },
   {
     "name": "Protein Shaker",
-    "image": null,
-    "source": "Plaza"
-  },
-  {
-    "name": "Changing Curtain",
-    "image": null,
+    "image": "ProteinShaker.png",
     "source": "Plaza"
   },
   {
     "name": "Shining Floatmingo",
-    "image": null,
+    "image": "ShiningFloatmingo.png",
+    "source": "Plaza"
+  },
+  {
+    "name": "Teeth Balloon",
+    "image": "TeethBalloon.png",
     "source": "Plaza"
   },
   {
@@ -756,22 +756,22 @@
   },
   {
     "name": "Opanchu Usagi Plush",
-    "image": null,
+    "image": "OpanchuUsagiPlush.png",
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Npocham Plush",
-    "image": null,
+    "image": "NpochamPlush.png",
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Kimimaro Plush",
-    "image": null,
+    "image": "KimimaroPlush.png",
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Pochette",
-    "image": null,
+    "image": "Pochette.png",
     "source": "DL Area: KAWAISOUNI! Land"
   }
 ]

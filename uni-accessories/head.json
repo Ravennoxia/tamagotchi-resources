@@ -330,6 +330,11 @@
     "source": "Download Gift"
   },
   {
+    "name": "Noodle Chef Towel",
+    "image": "NoodleChefTowel.png",
+    "source": "Download Gift"
+  },
+  {
     "name": "Hip-Hop Cap",
     "image": "HiphopCap.png",
     "source": "Download Code"
@@ -536,17 +541,17 @@
   },
   {
     "name": "Galette Beret",
-    "image": null,
-    "source": "Plaza"
-  },
-  {
-    "name": "Teapot Hat",
-    "image": null,
+    "image": "GaletteBeret.png",
     "source": "Plaza"
   },
   {
     "name": "Rapper Hat",
     "image": "RapperHat.png",
+    "source": "Plaza"
+  },
+  {
+    "name": "Teapot Hat",
+    "image": "TeapotHat.png",
     "source": "Plaza"
   },
   {
@@ -661,12 +666,12 @@
   },
   {
     "name": "Npocham Hat",
-    "image": null,
+    "image": "NpochamHat.png",
     "source": "DL Area: KAWAISOUNI! Land"
   },
   {
     "name": "Opanchu Headband",
-    "image": null,
+    "image": "OpanchuHeadband.png",
     "source": "DL Area: KAWAISOUNI! Land"
   }
 ]

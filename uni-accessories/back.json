@@ -256,7 +256,7 @@
   },
   {
     "name": "Wow Factor",
-    "image": null,
+    "image": "WowFactor.png",
     "source": "Plaza"
   },
   {
@@ -341,7 +341,7 @@
   },
   {
     "name": "Grannies Plush",
-    "image": null,
+    "image": "GranniesPlush.png",
     "source": "DL Area: KAWAISOUNI! Land"
   }
 ]
