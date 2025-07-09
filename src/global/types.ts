@@ -86,7 +86,7 @@ export type PositionFunction = (
     desiredY: number,
     elementWidth: number,
     elementHeight: number
-) => { left: string; top: string; };
+) => { left: string, top: string }
 
 export interface AllBitzeeData {
     [characterName: string]: BitzeeData
@@ -98,7 +98,6 @@ export interface BitzeeData {
     baby: string | null
     adult: string | null
     superBitzee: string | null
-    blue: string | null
     red: string | null
     green: string | null
 }
@@ -110,7 +109,6 @@ export interface BitzeeRow {
     baby: string | null
     adult: string | null
     superBitzee: string | null
-    blue: string | null
     red: string | null
     green: string | null
 }
