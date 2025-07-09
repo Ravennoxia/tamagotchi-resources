@@ -1,17 +1,29 @@
 # Raven's Tamagotchi resources
 
-This website will house resources I have created for the Tamagotchi community and links to external resources.
+This website houses resources I have created for the Tamagotchi community and links to external resources.
 
-Currently, the only feature is table showing all raisable Tamagotchi characters across the devices. It is still being
-worked on. If you find any issues, please let me know!
+## Features
 
-## Planned features
+* Table of all raisable Tamagotchi characters ![All Raisable Tamagotchi Characters](public/pages/tama-table.png)
+* Timeline of Tamagotchi device releases ![Tamagotchi Device Timeline](public/pages/tama-timeline.png)
+* Outfit planner for Uni accessories ![Uni Outfit Planner](public/pages/uni-outfit-planner.png)
+* Table of Bitzee Magical sprites and their potion recolors (WIP)
+  ![Bitzee Magicals Sprites](public/pages/bitzee-table.png)
 
-* Replacement for the Google sheet
-  of [Tamagotchi versions timeline](https://docs.google.com/spreadsheets/d/e/2PACX-1vQNrfPDuhpraRpG0qcQhrm-EdRcS7mM6pFkMo1Ofs9f1W9J5AKpOTKRaxrRvbKo52FSD6Xlfrl46NyI/pubhtml?gid=0&single=true)
-* A page that compiles various useful Tamagotchi resources from different people of the community
+## Planned Features
+
+Note that I work on this in my free time and mostly prioritize based on my own interests. Don't hold your breath waiting
+for a feature release.
+
+* Uni Room Planner - similar as Uni Outfit Planner but for room background, furniture, item, garden and pet
+* Compilation of external tama resources - resources I've found useful made by others in the community and also links to
+  their shops
+* Table of alternate forms - costumes, changes, transformations, personality stages etc.
+* Raisable characters from other tamas - show a table with row representing the characters (i.e. Angel, Nanos...)
+* All Raisable Digimon Characters - similar to "All Raisable Tamagotchi Characters" but for Digimon
 
 ## Sources
 
-* Images are sourced from [Tamagotchi wiki](https://tamagotchi.fandom.com/wiki/Main_Page)
-* The site also links to the wiki
+* Most images and info are sourced from [Tamagotchi wiki](https://tamagotchi.fandom.com/wiki/Main_Page)
+* Bitzee sprites are drawn based
+  on [official manual](https://cdn.prod.website-files.com/64148f40b7ac5b4d987032a0/663a87bdbd2ec3d43494d1d6_T22900_0006_20145304_GML_IS_R1%20(BIT_Interactive_Digital_Pet_Magicals_Web_English_F24).pdf)
