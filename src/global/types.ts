@@ -67,17 +67,26 @@ export interface TamaTimelineItem {
     image?: string
 }
 
-export interface UniAccessory {
+export interface UniItem {
     name: string
     image: string | null
-    source: string
+    source?: string
+    pet?: string
 }
 
-export interface UniOutfitPreviewItem {
-    item: UniAccessory | null
+
+export interface UniPreviewItem {
+    item: UniItem | null
     x: number
     y: number
 }
+
+export type PositionFunction = (
+    desiredX: number,
+    desiredY: number,
+    elementWidth: number,
+    elementHeight: number
+) => { left: string; top: string; };
 
 export interface AllBitzeeData {
     [characterName: string]: BitzeeData

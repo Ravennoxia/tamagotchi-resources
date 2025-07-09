@@ -7,7 +7,8 @@ import TamaTable from "./features/tamaTable/TamaTable.tsx"
 import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
 import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 import HomePage from "./features/homepage/HomePage.tsx"
-import UniOutfitPlanner from "./features/uniOutfitPlanner/UniOutfitPlanner.tsx"
+import UniOutfitPlanner from "./features/uniPlanners/UniOutfitPlanner.tsx"
+import UniRoomPlanner from "./features/uniPlanners/UniRoomPlanner.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources/" : "/"
 
@@ -101,6 +102,10 @@ export default function App() {
                     />
                     <Route path={ROUTES.uniOutfitPlanner} element={
                         <UniOutfitPlanner urlBase={baseName}/>
+                    }
+                    />
+                    <Route path={ROUTES.uniRoomPlanner} element={
+                        <UniRoomPlanner urlBase={baseName}/>
                     }
                     />
                     <Route path={ROUTES.bitzeeTable} element={

@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Building Blocks",
+    "image": "BuildingBlocks.png",
+    "source": "Default Item"
+  },
+  {
+    "name": "Ball",
+    "image": "Ball.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Baseball Set",
+    "image": "BaseballSet.png",
+    "source": "Bought (Tama Mall) - North America, Marriage - North America"
+  },
+  {
+    "name": "Bike",
+    "image": "Bike.png",
+    "source": "Bought (Tama Mall) - Europe, Tama Travel (Water City), Marriage - Europe"
+  },
+  {
+    "name": "Blanket",
+    "image": "Blanket.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Boomerang",
+    "image": "Boomerang.png",
+    "source": "Bought (Tama Mall) - Oceania, Marriage - Oceania"
+  },
+  {
+    "name": "Bread Maker",
+    "image": "BreadMaker.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Castanet",
+    "image": "Castanet.png",
+    "source": "Bought (Tama Mall) - Europe"
+  },
+  {
+    "name": "Coloring Book",
+    "image": "ColoringBook.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Djembe Drum",
+    "image": "DjembeDrum.png",
+    "source": "Bought (Tama Mall) - Africa, Tama Travel (Tropical Island), Marriage - Africa"
+  },
+  {
+    "name": "Dolphin Floatie",
+    "image": "DolphinFloatie.png",
+    "source": "Bought (Tama Mall) - Summer, Marriage - Sea"
+  },
+  {
+    "name": "Easter Egg / Painted Eggs",
+    "image": "EasterEggPaintedEggs.png",
+    "source": "Bought (Tama Mall) - Spring, Download Gift"
+  },
+  {
+    "name": "Face Massager",
+    "image": "FaceMassager.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Flower Seeds",
+    "image": "FlowerSeeds.png",
+    "source": "Bought (Tama Mall) - Spring"
+  },
+  {
+    "name": "Fossils",
+    "image": "Fossils.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Gong",
+    "image": "Gong.png",
+    "source": "Bought (Tama Mall) - Asia"
+  },
+  {
+    "name": "Kite",
+    "image": "Kite.png",
+    "source": "Bought (Tama Mall) - Japan"
+  },
+  {
+    "name": "Magic Carpet",
+    "image": "MagicCarpet.png",
+    "source": "Bought (Tama Mall) - Middle East, Tama Travel (Desert)"
+  },
+  {
+    "name": "Magic Lamp",
+    "image": "MagicLampToy.png",
+    "source": "Bought (Tama Mall) - Middle East, Marriage - Middle East"
+  },
+  {
+    "name": "Maracas",
+    "image": "Maracas.png",
+    "source": "Bought (Tama Mall) - Latin America, Marriage - Latin America"
+  },
+  {
+    "name": "Microphone",
+    "image": "Microphone.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Paraglider",
+    "image": "Paraglider.png",
+    "source": "Bought (Tama Mall) - Fall"
+  },
+  {
+    "name": "Planetarium",
+    "image": "Planetarium.png",
+    "source": "Bought (Tama Mall) - Winter, Marriage - Space"
+  },
+  {
+    "name": "Pumpkin Seeds",
+    "image": "PumpkinSeeds.png",
+    "source": "Bought (Tama Mall) - Fall"
+  },
+  {
+    "name": "Rickshaw / Tuk Tuk",
+    "image": "RickshawTukTuk.png",
+    "source": "Bought (Tama Mall) - Asia , Marriage - Asia"
+  },
+  {
+    "name": "Rocking Horse",
+    "image": "RockingHorse.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Rugby Ball",
+    "image": "RugbyBall.png",
+    "source": "Bought (Tama Mall) - Oceania"
+  },
+  {
+    "name": "Safari Truck",
+    "image": "SafariTruck.png",
+    "source": "Bought (Tama Mall) - Africa, Tama Travel (Jungle)"
+  },
+  {
+    "name": "Samba Set",
+    "image": "SambaSet.png",
+    "source": "Bought (Tama Mall) - Latin America"
+  },
+  {
+    "name": "Sauna Stove",
+    "image": "SaunaStove.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Science Tools",
+    "image": "ScienceTools.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Skateboard",
+    "image": "Skateboard.png",
+    "source": "Bought (Tama Mall) - North America"
+  },
+  {
+    "name": "Sled",
+    "image": "Sled.png",
+    "source": "Bought (Tama Mall) - Winter, Tama Travel (Aurora Village)"
+  },
+  {
+    "name": "Stuffed Animal",
+    "image": "StuffedAnimal.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Trampoline",
+    "image": "Trampoline.png",
+    "source": "Bought (Tama Mall)"
+  },
+  {
+    "name": "Wasshoi Carriage",
+    "image": "WasshoiCarriage.png",
+    "source": "Bought (Tama Mall) - Japan, Marriage - Japan"
+  },
+  {
+    "name": "Shaved Ice Maker",
+    "image": "ShavedIceMaker.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Paperback Book",
+    "image": "PaperbackBookBook.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Music Box",
+    "image": "MusicBox.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Knitting Set",
+    "image": "KnittingSet.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Picnic Set",
+    "image": "PicnicSet.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Fire Works",
+    "image": "FireWorks.png",
+    "source": "Download Gift"
+  },
+  {
+    "name": "Sushi Conveyor Belt",
+    "image": "SushiConveyorBelt.png",
+    "source": "Download Code"
+  },
+  {
+    "name": "Jagariko Bits",
+    "image": "JagarikoBits.png",
+    "source": "Download Code"
+  },
+  {
+    "name": "Aloe Yogurt",
+    "image": "AloeYogurt.png",
+    "source": "Download Code"
+  },
+  {
+    "name": "Frying Pan",
+    "image": "FryingPan.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Candy House Kit",
+    "image": "CandyHouseKit.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Pudding Trampoline",
+    "image": "PuddingTrampoline.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Candy Box",
+    "image": "CandyBox.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Melodic Violin",
+    "image": "MelodicViolin.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Kalimba",
+    "image": "Kalimba.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Smart Piano Pad",
+    "image": "SmartPianoPad.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "DJ Booth",
+    "image": "DJBooth.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Retro Sewing Machine",
+    "image": "RetroSewingMachine.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Big Puff",
+    "image": "BigPuff.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Beauty Salon Ticket",
+    "image": "BeautySalonTicket.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Closet",
+    "image": "Closet.png",
+    "source": "DL Area: Tamamori Fashion Show★"
+  },
+  {
+    "name": "Purin Bag",
+    "image": "PurinBag.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Ribbon Box",
+    "image": "RibbonBox.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Kuromi Diary",
+    "image": "KuromiDiary.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Cinnamon Cup",
+    "image": "CinnamonCup.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Angel Bell",
+    "image": "AngelBell.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Fairy Stick",
+    "image": "FairyStick.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Shooting Star",
+    "image": "ShootingStar.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Angel Harp",
+    "image": "AngelHarp.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Nightmare Pillow",
+    "image": "NightmarePillow.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Clear Cape",
+    "image": "ClearCape.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Monster Mirror",
+    "image": "MonsterMirror.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Witch Broom",
+    "image": "WitchBroom.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Jack's Beans",
+    "image": "JacksBeans.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Flying Cloud",
+    "image": "FlyingCloud.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Picture Book",
+    "image": "PictureBook.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Piggy Bank",
+    "image": "PiggyBank.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Takoyaki Maker",
+    "image": "TakoyakiMaker.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Peanuts-kun Sauna",
+    "image": "PeanutskunSauna.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Yume Kira Bag",
+    "image": "YumeKiraBag.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Pocket Designer",
+    "image": "PocketDesigner.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Knock Tap",
+    "image": "KnockTap.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Macaron",
+    "image": "Macaron.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Personal Car",
+    "image": "PersonalCar.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Sweater",
+    "image": "Sweater.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Lab File",
+    "image": "LabFile.png",
+    "source": "DL Area: Tamagotchi Lab"
+  }
+]

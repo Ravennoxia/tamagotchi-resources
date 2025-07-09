@@ -7,8 +7,8 @@ import {DEVICE_FILTER_OPTIONS, GENDER_FILTER_OPTIONS, STAGE_FILTER_OPTIONS} from
 import type {TamaRow} from "../../global/types.ts"
 import TamaFilters from "./filtering/TamaFilters.tsx"
 import {useTamaFilters} from "./filtering/useTamaFilters.ts"
-import {useTamaColumnDefs} from "./useTamaColumnDefs.ts"
-import {useTamaData} from "./useTamaRowData.ts"
+import {useTamaColumnDefs} from "./functions/useTamaColumnDefs.ts"
+import {useTamaData} from "./functions/useTamaRowData.ts"
 import {Cross1Icon} from "@radix-ui/react-icons"
 
 export default function TamaTable({displayFilters, themeMode, isPhone}: {

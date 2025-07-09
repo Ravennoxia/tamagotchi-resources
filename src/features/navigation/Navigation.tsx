@@ -67,6 +67,12 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
                                     {ROUTE_TITLES[ROUTES.uniOutfitPlanner]}
                                 </Link>
                             </NavigationMenuLink>
+                            <Separator className={"separator nav-sub-item"}/>
+                            <NavigationMenuLink asChild className={"nav-sub-item"}>
+                                <Link to={ROUTES.uniRoomPlanner}>
+                                    {ROUTE_TITLES[ROUTES.uniRoomPlanner]}
+                                </Link>
+                            </NavigationMenuLink>
                         </NavigationMenuSub>
                         <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
