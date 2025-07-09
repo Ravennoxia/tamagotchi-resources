@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Yooyutchi",
+    "image": "Yooyutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Niinitchi",
+    "image": "Niinitchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Welcotchi",
+    "image": "Welcotchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Lionetchi",
+    "image": "Lionetchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Mitumarutchi",
+    "image": "Mitumarutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Otamatchi",
+    "image": "Otamatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Kuriritchi",
+    "image": "Kuriritchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Labilatchi",
+    "image": "Labilatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Gunchitchi",
+    "image": "Gunchitchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Teftetchi",
+    "image": "Teftetchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Curltchi",
+    "image": "Curltchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Tustustchi",
+    "image": "Tustustchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Mametchi",
+    "image": "Mametchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Weeptchi",
+    "image": "Weeptchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Simagurutchi",
+    "image": "Simagurutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Kuchipatchi",
+    "image": "Kuchipatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Shykutchi",
+    "image": "Shykutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Bigsmile",
+    "image": "Bigsmile.png",
+    "source": "Base"
+  },
+  {
+    "name": "Kikitchi",
+    "image": "Kikitchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Unimarutchi",
+    "image": "Unimarutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Gozarutchi",
+    "image": "Gozarutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Hypertchi",
+    "image": "Hypertchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Simasimatchi",
+    "image": "Simasimatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Neliatchi",
+    "image": "Neliatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Milktchi",
+    "image": "Milktchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Momotchi",
+    "image": "Momotchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Woopatchi",
+    "image": "Woopatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Memetchi",
+    "image": "Memetchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Picochutchi",
+    "image": "Picochutchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Mimitchi",
+    "image": "Mimitchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Sebiretchi",
+    "image": "Sebiretchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Bubbletchi",
+    "image": "Bubbletchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Yattatchi",
+    "image": "Yattatchi.png",
+    "source": "Base"
+  },
+  {
+    "name": "Hotcaketchi",
+    "image": "Hotcaketchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Ichigotchi",
+    "image": "Ichigotchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Ringotchi",
+    "image": "Ringotchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Patitchi",
+    "image": "Patitchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Cornetchi",
+    "image": "Cornetchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Tanghulutchi",
+    "image": "Tanghulutchi.png",
+    "source": "DL Area: Very Berry Land"
+  },
+  {
+    "name": "Chekeratchi",
+    "image": "Chekeratchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Drumcrubitchi",
+    "image": "Drumcrubitchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Lovelitchi",
+    "image": "Lovelitchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Melodytchi",
+    "image": "Melodytchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Pianitchi",
+    "image": "Pianitchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Rhythristchi",
+    "image": "Rhythristchi.png",
+    "source": "DL Area: LoveMelo ♪ Concert"
+  },
+  {
+    "name": "Spacytchi",
+    "image": "Spacytchi.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Mystartchi",
+    "image": "Mystartchi.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Boots Brothers",
+    "image": "BootsBrothers.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Moriritchi",
+    "image": "Moriritchi.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Coffretchi",
+    "image": "Coffretchi.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Dresstchi",
+    "image": "Dresstchi.png",
+    "source": "DL Area: Tamamori Fashion Show ★"
+  },
+  {
+    "name": "Mame Kitty",
+    "image": "MameKitty.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Patchi Purin",
+    "image": "PatchiPurin.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Usahana Memetchi",
+    "image": "UsahanaMemetchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Cinnamon Moriritchi",
+    "image": "CinnamonMoriritchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Kuromi Melodytchi",
+    "image": "KuromiMelodytchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Hangyodon Sebiretchi",
+    "image": "HangyodonSebiretchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "MyMelo Lovelitchi",
+    "image": "MyMeloLovelitchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Pochacco Mimitchi",
+    "image": "PochaccoMimitchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Cogimyun Woopatchi",
+    "image": "CogimyunWoopatchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Little Unimarutchi",
+    "image": "LittleUnimarutchi.png",
+    "source": "DL Area: Sanrio Characters"
+  },
+  {
+    "name": "Mame-El",
+    "image": "MameEl.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Pegasustchi",
+    "image": "Pegasustchi.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Flowerdite",
+    "image": "Flowerdite.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Sebirecupid",
+    "image": "Sebirecupid.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Yumemittie",
+    "image": "Yumemittie.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Unimarucorn",
+    "image": "Unimarucorn.png",
+    "source": "DL Area: Angel Festival"
+  },
+  {
+    "name": "Mamegon",
+    "image": "Mamegon.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Slimypatchi",
+    "image": "Slimypatchi.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Meduupa",
+    "image": "Meduupa.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Gobpyon",
+    "image": "Gobpyon.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Giveuptchi",
+    "image": "Giveuptchi.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Onimarutchi",
+    "image": "Onimarutchi.png",
+    "source": "DL Area: Monster Carnival"
+  },
+  {
+    "name": "Mamecchio",
+    "image": "Mamecchio.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Piggypatchis",
+    "image": "Piggypatchis.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Kikigoku",
+    "image": "Kikigoku.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Pyonderella",
+    "image": "Pyonderella.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Milkyukihime",
+    "image": "Milkyukihime.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Neliakaguya",
+    "image": "Neliakaguya.png",
+    "source": "DL Area: Fairy Tale Library"
+  },
+  {
+    "name": "Peanutskun",
+    "image": "Peanutskun.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Chancho",
+    "image": "Chancho.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Peanutsoyaji",
+    "image": "Peanutsoyaji.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Bnn-hairtchi",
+    "image": "Bnnhairtchi.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Tanuki Ninja",
+    "image": "TanukiNinja.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Ponpoko",
+    "image": "Ponpoko.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Gachikoi-P",
+    "image": "GachikoiP.png",
+    "source": "DL Area: PokoPea Land"
+  },
+  {
+    "name": "Kuromametchi",
+    "image": "Kuromametchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Octpasketchi",
+    "image": "Octpasketchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Tapepentchi",
+    "image": "Tapepentchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Yumemitchi",
+    "image": "Yumemitchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Kiraritchi",
+    "image": "Kiraritchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Miraitchi",
+    "image": "Miraitchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Clulutchi",
+    "image": "Clulutchi.png",
+    "source": "DL Area: DoriTama School"
+  },
+  {
+    "name": "Opanchu Usagi",
+    "image": "OpanchuUsagi.png",
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Npocham",
+    "image": null,
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Kimimaro",
+    "image": null,
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Kawaisouni Mametchi",
+    "image": null,
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Kawaisouni Kuchipatchi",
+    "image": null,
+    "source": "DL Area: KAWAISOUNI! Land"
+  },
+  {
+    "name": "Kawaisouni Mimitchi",
+    "image": null,
+    "source": "DL Area: KAWAISOUNI! Land"
+  }
+]

@@ -1,0 +1,668 @@
+[
+  {
+    "name": "Potted Flowers",
+    "image": "PottedFlowers.png",
+    "source": "Default Item",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Sofa",
+    "image": "Sofa.png",
+    "source": "Default Item",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "TV",
+    "image": "TV.png",
+    "source": "Default Item",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Arcade Machine",
+    "image": "ArcadeMachine.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Art",
+    "image": "Art.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Big Cacti",
+    "image": "BigCacti.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Blue Chair",
+    "image": "BlueChair.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Blue Lamp",
+    "image": "BlueLamp.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Bonsai",
+    "image": "Bonsai.png",
+    "source": "Bought (Tama Mall) - Japan",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Brick Fireplace",
+    "image": "BrickFireplace.png",
+    "source": "Bought (Tama Mall) - Winter",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Cactus",
+    "image": "Cactus.png",
+    "source": "Bought (Tama Mall) - Latin America",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Desk & Chair",
+    "image": "DeskChair.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Egg Basket",
+    "image": "EggBasketFurniture.png",
+    "source": "Bought (Tama Mall) - Spring",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Flamingo & Plants",
+    "image": "FlamingoPlants.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Festival Tree",
+    "image": "FestivalTree.png",
+    "source": "Bought (Tama Mall) - Winter",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Flamingo Sofa",
+    "image": "FlamingoSofa.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Folding Screen",
+    "image": "FoldingScreen.png",
+    "source": "Bought (Tama Mall) - Japan",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Floral Chair",
+    "image": "FloralChair.png",
+    "source": "Bought (Tama Mall) - Spring",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Giraffe Toy",
+    "image": "GiraffeToy.png",
+    "source": "Bought (Tama Mall) - Africa",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Gumballs",
+    "image": "Gumballs.png",
+    "source": "Bought (Tama Mall) - North America",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Hammock",
+    "image": "Hammock.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Heart Sofa",
+    "image": "HeartSofa.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Heart Vanity",
+    "image": "HeartVanity.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Inner Tubes & Ball",
+    "image": "InnerTubesBall.png",
+    "source": "Bought (Tama Mall) - Summer",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Jellyfish Lamp",
+    "image": "JellyfishLamp.png",
+    "source": "Bought (Tama Mall) - Oceania",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Jukebox",
+    "image": "Jukebox.png",
+    "source": "Bought (Tama Mall) - North America",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Kilim Chair",
+    "image": "KilimChair.png",
+    "source": "Bought (Tama Mall) - Middle East",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Medicine Chest",
+    "image": "MedicineChest.png",
+    "source": "Bought (Tama Mall) - Asia",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Monochrome Mirror",
+    "image": "MonochromeMirror.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Monochrome Sofa",
+    "image": "MonochromeSofa.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Mosaic Lamp",
+    "image": "MosaicLamp.png",
+    "source": "Bought (Tama Mall) - Middle East, Tama Travel (Desert)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Palm Tree",
+    "image": "PalmTree.png",
+    "source": "Bought (Tama Mall) - Summer",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Pastel Tent",
+    "image": "PastelTent.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Pastel Wardrobe",
+    "image": "PastelWardrobe.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Pattern Dresser",
+    "image": "PatternDresser.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Pattern Lamp",
+    "image": "PatternLamp.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Planet",
+    "image": "Planet.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Plant Shelf",
+    "image": "PlantShelf.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Porcelain Vase",
+    "image": "PorcelainVase.png",
+    "source": "Bought (Tama Mall) - Asia",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Pumpkin Sofa",
+    "image": "PumpkinSofa.png",
+    "source": "Bought (Tama Mall) - Fall",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Pumpkin Trio",
+    "image": "PumpkinTrio.png",
+    "source": "Bought (Tama Mall) - Fall",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Rainbow Pillow",
+    "image": "RainbowPillow.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Rainbow Shelf",
+    "image": "RainbowShelf.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Rococco Sofa",
+    "image": "RococcoSofa.png",
+    "source": "Bought (Tama Mall) - Europe, Tama Travel (Water City)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Serving Cart",
+    "image": "ServingCart.png",
+    "source": "Bought (Tama Mall) - Europe, Tama Travel (Aurora Village)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Shell Chair",
+    "image": "ShellChair.png",
+    "source": "Bought (Tama Mall) - Oceania, Tama Travel (Tropical Island)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Skateboard Rack",
+    "image": "SkateboardRack.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Tamavera Chest",
+    "image": "TamaveraChest.png",
+    "source": "Bought (Tama Mall) - Latin America, Tama Travel (Jungle)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Tent",
+    "image": "Tent.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Tribal Mask",
+    "image": "TribalMask.png",
+    "source": "Bought (Tama Mall) - Africa",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "UFO",
+    "image": "UFO.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Unique Dresser",
+    "image": "UniqueDresser.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Unique Sofa",
+    "image": "UniqueSofa.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Wooden Shelf",
+    "image": "WoodenShelf.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Wooden TV",
+    "image": "WoodenTV.png",
+    "source": "Bought (Tama Mall)",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Lotus Lamp",
+    "image": "LotusLamp.png",
+    "source": "Download Gift",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Elephant Toy",
+    "image": "ElephantFurniture.png",
+    "source": "Download Gift",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Fountain",
+    "image": "Fountain.png",
+    "source": "Download Gift",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Chandelier",
+    "image": "Chandelier.png",
+    "source": "Download Gift",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Overly Clear Object",
+    "image": "OverlyClearObject.png",
+    "source": "Download Gift",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Overly Clear Art",
+    "image": "OverlyClearArt.png",
+    "source": "Download Gift",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Telephone Box",
+    "image": "TelephoneBox.png",
+    "source": "Download Gift",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Goddess Statue",
+    "image": "GoddessStatue.png",
+    "source": "Download Gift",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Rocket",
+    "image": "Rocket.png",
+    "source": "Download Gift",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Sakura Robe",
+    "image": "SakuraRobe.png",
+    "source": "Arena Prize, Download Gift",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Gashapon",
+    "image": "Gashapon.png",
+    "source": "Download Code",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Buff Snowman",
+    "image": "BuffSnowman.png",
+    "source": "Arena Prize",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Flower Interior",
+    "image": "FlowerInterior.png",
+    "source": "Arena Prize",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "PokoPea Trophy",
+    "image": "PokopeaTrophy.png",
+    "source": "Arena Prize",
+    "pet": "Makimotchi"
+  },
+  {
+    "name": "Charitchi Toy",
+    "image": "CharitchiToy.png",
+    "source": "Plaza",
+    "pet": "Harapparatchi"
+  },
+  {
+    "name": "Chocolate Fountain",
+    "image": "ChocolateFountain.png",
+    "source": "DL Area: Very Berry Land",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Chocolate Cabinet",
+    "image": "ChocolateCabinet.png",
+    "source": "DL Area: Very Berry Land",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Berry Cushion",
+    "image": "BerryCushion.png",
+    "source": "DL Area: Very Berry Land",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Cake TV",
+    "image": "CakeTV.png",
+    "source": "DL Area: Very Berry Land",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Lovelin Panel",
+    "image": "LovelinPanel.png",
+    "source": "DL Area: LoveMelo \u266a Concert",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Lovelin Tour Bus",
+    "image": "LovelinTourBus.png",
+    "source": "DL Area: LoveMelo \u266a Concert",
+    "pet": "Monatototchi"
+  },
+  {
+    "name": "Colorful Combo",
+    "image": "ColorfulCombo.png",
+    "source": "DL Area: LoveMelo \u266a Concert",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Standing Mic",
+    "image": "StandingMic.png",
+    "source": "DL Area: LoveMelo \u266a Concert",
+    "pet": "Shurikentchi"
+  },
+  {
+    "name": "Sewing Stool",
+    "image": "SewingStool.png",
+    "source": "DL Area: Tamamori Fashion Show\u2605",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Torso",
+    "image": "Torso.png",
+    "source": "DL Area: Tamamori Fashion Show\u2605",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Heart Dresser",
+    "image": "HeartDresser.png",
+    "source": "DL Area: Tamamori Fashion Show\u2605",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Bubble Bath",
+    "image": "BubbleBath.png",
+    "source": "DL Area: Tamamori Fashion Show\u2605",
+    "pet": "Rinsetchi"
+  },
+  {
+    "name": "Kitty Wagon",
+    "image": "KittyWagon.png",
+    "source": "DL Area: Sanrio Characters",
+    "pet": "Hello Kitty Harapparatchi"
+  },
+  {
+    "name": "Kitty Sofa",
+    "image": "KittySofa.png",
+    "source": "DL Area: Sanrio Characters",
+    "pet": "Hello Kitty Harapparatchi"
+  },
+  {
+    "name": "Everyone's Cushion",
+    "image": "EveryonesCushion.png",
+    "source": "DL Area: Sanrio Characters",
+    "pet": "Hello Kitty Harapparatchi"
+  },
+  {
+    "name": "Everyone's Carousel",
+    "image": "EveryonesCarousel.png",
+    "source": "DL Area: Sanrio Characters",
+    "pet": "Hello Kitty Harapparatchi"
+  },
+  {
+    "name": "Shooting Star Organ",
+    "image": "ShootingStarOrgan.png",
+    "source": "DL Area: Angel Festival",
+    "pet": "Angel Moaitchi"
+  },
+  {
+    "name": "Angel Object",
+    "image": "AngelObject.png",
+    "source": "DL Area: Angel Festival",
+    "pet": "Angel Moaitchi"
+  },
+  {
+    "name": "Heart Lamp",
+    "image": "HeartLamp.png",
+    "source": "DL Area: Angel Festival",
+    "pet": "Angel Moaitchi"
+  },
+  {
+    "name": "Heart Arrows",
+    "image": "HeartArrows.png",
+    "source": "DL Area: Angel Festival",
+    "pet": "Angel Moaitchi"
+  },
+  {
+    "name": "Bat Guitar",
+    "image": "BatGuitar.png",
+    "source": "DL Area: Monster Carnival",
+    "pet": "Devil Moaitchi"
+  },
+  {
+    "name": "Monster Object",
+    "image": "MonsterObject.png",
+    "source": "DL Area: Monster Carnival",
+    "pet": "Devil Moaitchi"
+  },
+  {
+    "name": "Coffin Fridge",
+    "image": "CoffinFridge.png",
+    "source": "DL Area: Monster Carnival",
+    "pet": "Devil Moaitchi"
+  },
+  {
+    "name": "Witch Cauldron",
+    "image": "WitchCauldron.png",
+    "source": "DL Area: Monster Carnival",
+    "pet": "Devil Moaitchi"
+  },
+  {
+    "name": "Forest Bed",
+    "image": "ForestBed.png",
+    "source": "DL Area: Fairy Tale Library",
+    "pet": "Fairy Tale Doyakentchi"
+  },
+  {
+    "name": "Wall Clock",
+    "image": "WallClock.png",
+    "source": "DL Area: Fairy Tale Library",
+    "pet": "Fairy Tale Doyakentchi"
+  },
+  {
+    "name": "Happy Prince",
+    "image": "HappyPrince.png",
+    "source": "DL Area: Fairy Tale Library",
+    "pet": "Fairy Tale Doyakentchi"
+  },
+  {
+    "name": "Antique Bookshelf",
+    "image": "AntiqueBookshelf.png",
+    "source": "DL Area: Fairy Tale Library",
+    "pet": "Fairy Tale Doyakentchi"
+  },
+  {
+    "name": "Treadmill",
+    "image": "Treadmill.png",
+    "source": "DL Area: PokoPea Land",
+    "pet": "Mr. Dog"
+  },
+  {
+    "name": "Shigaraki Ware",
+    "image": "ShigarakiWare.png",
+    "source": "DL Area: PokoPea Land",
+    "pet": "Mr. Dog"
+  },
+  {
+    "name": "Cardboard Box Pile",
+    "image": "CardboardBoxPile.png",
+    "source": "DL Area: PokoPea Land",
+    "pet": "Mr. Dog"
+  },
+  {
+    "name": "Retro TV",
+    "image": "RetroTV.png",
+    "source": "DL Area: PokoPea Land",
+    "pet": "Mr. Dog"
+  },
+  {
+    "name": "School Locker",
+    "image": "SchoolLocker.png",
+    "source": "DL Area: DoriTama School",
+    "pet": "Unnamed Textbook Tama Pet"
+  },
+  {
+    "name": "Anatomy Model",
+    "image": "AnatomyModel.png",
+    "source": "DL Area: DoriTama School",
+    "pet": "Unnamed Textbook Tama Pet"
+  },
+  {
+    "name": "Basketball Set",
+    "image": "BasketballSet.png",
+    "source": "DL Area: DoriTama School",
+    "pet": "Unnamed Textbook Tama Pet"
+  },
+  {
+    "name": "Cheer Lift Plush",
+    "image": "CheerLiftPlush.png",
+    "source": "DL Area: DoriTama School",
+    "pet": "Unnamed Textbook Tama Pet"
+  },
+  {
+    "name": "Ribbon Sofa",
+    "image": "RibbonSofa.png",
+    "source": "DL Area: KAWAISOUNI! Land",
+    "pet": "Unnamed Kawaisouni! Dog"
+  },
+  {
+    "name": "Ribbon TV",
+    "image": "RibbonTV.png",
+    "source": "DL Area: KAWAISOUNI! Land",
+    "pet": "Unnamed Kawaisouni! Dog"
+  },
+  {
+    "name": "Flower Sofa",
+    "image": "FlowerSofa.png",
+    "source": "DL Area: KAWAISOUNI! Land",
+    "pet": "Unnamed Kawaisouni! Dog"
+  },
+  {
+    "name": "Flower Dresser",
+    "image": "FlowerDresser.png",
+    "source": "DL Area: KAWAISOUNI! Land",
+    "pet": "Unnamed Kawaisouni! Dog"
+  },
+  {
+    "name": "Trendy Girls Object",
+    "image": "TrendyGirlsObject.png",
+    "source": "DL Area: KAWAISOUNI! Land",
+    "pet": "Unnamed Kawaisouni! Dog"
+  }
+]
