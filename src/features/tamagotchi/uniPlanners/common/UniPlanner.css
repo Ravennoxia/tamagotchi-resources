@@ -1,0 +1,238 @@
+.planner {
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+}
+
+.display-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-background);
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.display-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.display-item-outfit {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: var(--dark-button);
+}
+
+.display-item-room {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    background-color: var(--dark-button);
+}
+
+.display-image {
+    position: relative;
+}
+
+.draggable {
+    position: absolute;
+    user-select: none;
+    background-color: transparent !important;
+}
+
+.download-button {
+    padding: 0.25rem;
+}
+
+.movers {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mover-header {
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    color: var(--dark-text);
+    border-radius: 8px 8px 0 0;
+}
+
+.mover {
+    padding: 0.1rem 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 0;
+}
+
+.selected-mover {
+    border: 2px solid var(--link);
+}
+
+.selected-sources {
+    display: grid;
+    overflow-x: auto;
+    max-width: calc(100% - 2rem);
+    padding: 0 1rem;
+    grid-template-columns: repeat(5, auto);
+    gap: 0 1rem;
+}
+
+.selected-source-text {
+    white-space: nowrap;
+}
+
+.remove-selection {
+    align-self: start;
+    margin-top: 3px;
+    padding: 0;
+    border: none;
+    background-color: transparent !important;
+}
+
+.remove-selection:hover {
+    color: var(--x-hover);
+}
+
+.remove-selection:focus,
+.remove-selection:focus-visible {
+    color: var(--link-hover)
+}
+
+.warning {
+    font-weight: bold;
+    padding: 0 1rem;
+    color: var(--red);
+}
+
+.tabs-container {
+    overflow: hidden;
+}
+
+.all-tabs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tab {
+    padding: 0.25rem 0.75rem;
+    border-width: 2px;
+    border-radius: 8px 8px 0 0;
+}
+
+.tab[data-state="active"] {
+    border-color: white;
+}
+
+.gallery {
+    display: flex;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 5px solid var(--dark-button);
+    border-bottom: 5px solid var(--dark-button);
+    background-color: var(--dark-button);
+    gap: 5px;
+}
+
+.gallery[data-state="inactive"] {
+    display: none;
+}
+
+.gallery-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: var(--dark-background);
+}
+
+.gallery-item-room {
+    width: 145px;
+    height: 145px;
+    padding: 0;
+}
+
+.gallery-pet {
+    position: absolute;
+    z-index: 60;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: auto;
+}
+
+.cite-planner {
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 5px;
+    background-color: var(--dark-button);
+    gap: 2px;
+}
+
+@media (prefers-color-scheme: light) {
+    .display-wrapper {
+        background-color: var(--light-background);
+    }
+
+    .display-item-outfit {
+        background-color: var(--light-button);
+    }
+
+    .display-item-room {
+        background-color: var(--light-button);
+    }
+
+    .gallery {
+        border-top: 5px solid var(--light-button);
+        border-bottom: 5px solid var(--light-button);
+        background-color: var(--light-button);
+    }
+
+    .gallery-item {
+        background-color: var(--light-background);
+    }
+
+    .cite-planner {
+        background-color: var(--light-button);
+    }
+}
+
+html[data-theme="light"] .display-wrapper {
+    background-color: var(--light-background);
+}
+
+html[data-theme="light"] .display-item-outfit {
+    background-color: var(--light-button);
+}
+
+html[data-theme="light"] .display-item-room {
+    background-color: var(--light-button);
+}
+
+html[data-theme="light"] .gallery {
+    border-top: 5px solid var(--light-button);
+    border-bottom: 5px solid var(--light-button);
+    background-color: var(--light-button);
+}
+
+html[data-theme="light"] .gallery-item {
+    background-color: var(--light-background);
+}
+
+html[data-theme="light"] .cite-planner {
+    background-color: var(--light-button);
+}

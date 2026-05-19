@@ -8,22 +8,26 @@ import {
     NavigationMenuSub,
     NavigationMenuTrigger
 } from "@radix-ui/react-navigation-menu"
-import {HamburgerMenuIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons"
+import {HamburgerMenuIcon, MoonIcon, PauseIcon, PlayIcon, SunIcon} from "@radix-ui/react-icons"
 import {Link, useLocation} from "react-router"
 import {Separator} from "@radix-ui/react-separator"
 import "./Navigation.css"
 import {ROUTE_TITLES, ROUTES} from "../../global/constants.ts"
 import {Switch, SwitchThumb} from "@radix-ui/react-switch"
 
-export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIsDarkMode}: {
-    navRef: RefObject<HTMLDivElement | null>
-    setDisplayFilters: Dispatch<SetStateAction<boolean>>,
-    isDarkMode: boolean,
-    setIsDarkMode: Dispatch<SetStateAction<boolean>>
-}) {
+export default function Navigation(
+    {navRef, setDisplayFilters, isDarkMode, setIsDarkMode, animationsPaused, setAnimationsPaused}: {
+        navRef: RefObject<HTMLDivElement | null>
+        setDisplayFilters: Dispatch<SetStateAction<boolean>>,
+        isDarkMode: boolean,
+        setIsDarkMode: Dispatch<SetStateAction<boolean>>,
+        animationsPaused: boolean,
+        setAnimationsPaused: Dispatch<SetStateAction<boolean>>
+    }) {
 
     const location = useLocation()
     const showFilters = location.pathname === ROUTES.tamaTable
+    const showAnimations = location.pathname === ROUTES.digimonTable
     const currentTitle = ROUTE_TITLES[location.pathname] || "Raven's Tamagotchi Resources"
 
     function handleFilterToggle() {
@@ -32,6 +36,10 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
 
     function handleDarkModeToggle(checked: boolean) {
         setIsDarkMode(checked)
+    }
+
+    function handleAnimationToggle() {
+        setAnimationsPaused(prevState => !prevState)
     }
 
     return (
@@ -76,6 +84,12 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
                         </NavigationMenuSub>
                         <Separator className={"separator"}/>
                         <NavigationMenuLink asChild>
+                            <Link to={ROUTES.digimonTable}>
+                                {ROUTE_TITLES[ROUTES.digimonTable]}
+                            </Link>
+                        </NavigationMenuLink>
+                        <Separator className={"separator"}/>
+                        <NavigationMenuLink asChild>
                             <Link to={ROUTES.bitzeeTable}>
                                 {ROUTE_TITLES[ROUTES.bitzeeTable]}
                             </Link>
@@ -83,6 +97,15 @@ export default function Navigation({navRef, setDisplayFilters, isDarkMode, setIs
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenu>
+            {showAnimations && (
+                <ToolbarButton onClick={handleAnimationToggle}>
+                    {animationsPaused ? (
+                        <PlayIcon/>
+                    ) : (
+                        <PauseIcon/>
+                    )}
+                </ToolbarButton>
+            )}
             {showFilters && (
                 <ToolbarButton onClick={handleFilterToggle}>
                     Filters

@@ -1,11 +1,11 @@
 import {AgGridReact} from "ag-grid-react"
-import type {AllBitzeeData, BitzeeRow} from "../../global/types.ts"
 import {useCallback, useEffect, useRef, useState} from "react"
 import type {ColDef, GridOptions, GridReadyEvent} from "ag-grid-community"
 import ImageRenderer from "./BitzeeImageRenderer.tsx"
 import "../../global/AGGridTable.css"
 import "./BitzeeTable.css"
 import AGGridHeader from "../../global/AGGridHeader.tsx"
+import type {AllBitzeeData, BitzeeRow} from "./bitzeeTypes.ts"
 
 export default function BitzeeTable({themeMode}: { themeMode: string }) {
     const gridRef = useRef<AgGridReact>(null)

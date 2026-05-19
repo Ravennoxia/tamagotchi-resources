@@ -3,12 +3,13 @@ import {useCallback, useEffect, useRef, useState} from "react"
 import Navigation from "./features/navigation/Navigation.tsx"
 import {BrowserRouter, Route, Routes} from "react-router"
 import {PHONE_BREAKPOINT, ROUTES} from "./global/constants.ts"
-import TamaTable from "./features/tamaTable/TamaTable.tsx"
-import TamaTimeline from "./features/tamaTimeline/TamaTimeline.tsx"
+import TamaTable from "./features/tamagotchi/tamaTable/TamaTable.tsx"
+import TamaTimeline from "./features/tamagotchi/tamaTimeline/TamaTimeline.tsx"
 import BitzeeTable from "./features/bitzee/BitzeeTable.tsx"
 import HomePage from "./features/homepage/HomePage.tsx"
-import UniOutfitPlanner from "./features/uniPlanners/UniOutfitPlanner.tsx"
-import UniRoomPlanner from "./features/uniPlanners/UniRoomPlanner.tsx"
+import UniOutfitPlanner from "./features/tamagotchi/uniPlanners/UniOutfitPlanner.tsx"
+import UniRoomPlanner from "./features/tamagotchi/uniPlanners/UniRoomPlanner.tsx"
+import DigimonTable from "./features/digimon/DigimonTable.tsx"
 
 const baseName = import.meta.env.PROD ? "/tamagotchi-resources/" : "/"
 
@@ -18,6 +19,7 @@ export default function App() {
     const [isPhone, setIsPhone] = useState<boolean>(window.innerWidth < PHONE_BREAKPOINT)
     const [themeMode, setThemeMode] = useState<string>("dark")
     const [displayFilters, setDisplayFilters] = useState<boolean>(false)
+    const [animationsPaused, setAnimationsPaused] = useState<boolean>(false)
     const [isDarkMode, setIsDarkMode] = useState(() => {
         const savedMode = localStorage.getItem("theme")
         if (savedMode === "dark") {
@@ -26,7 +28,7 @@ export default function App() {
         if (savedMode === "light") {
             return false
         }
-        return window.matchMedia("(prefers-color-scheme: dark)").matches
+        return globalThis.matchMedia("(prefers-color-scheme: dark)").matches
     })
 
     const handleResize = useCallback(() => {
@@ -40,6 +42,7 @@ export default function App() {
     }, [isPhone])
 
     useEffect(() => {
+        console.log("isDarkMode:", isDarkMode)
         if (isDarkMode) {
             setThemeMode("dark")
         } else {
@@ -53,7 +56,7 @@ export default function App() {
     }, [isDarkMode, handleResize])
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
+        const mediaQuery = globalThis.matchMedia("(prefers-color-scheme: dark)")
         const handleSystemThemeChange = (event: MediaQueryListEvent) => {
             setIsDarkMode(event.matches)
         }
@@ -62,10 +65,10 @@ export default function App() {
 
         const htmlElement = document.documentElement
         if (isDarkMode) {
-            htmlElement.setAttribute("data-theme", "dark")
+            htmlElement.dataset.theme = "dark"
             localStorage.setItem("theme", "dark")
         } else {
-            htmlElement.setAttribute("data-theme", "light")
+            htmlElement.dataset.theme = "light"
             localStorage.setItem("theme", "light")
         }
         return () => {
@@ -86,7 +89,10 @@ export default function App() {
                     navRef={navRef}
                     setDisplayFilters={setDisplayFilters}
                     isDarkMode={isDarkMode}
-                    setIsDarkMode={setIsDarkMode}/>
+                    setIsDarkMode={setIsDarkMode}
+                    animationsPaused={animationsPaused}
+                    setAnimationsPaused={setAnimationsPaused}
+                />
                 <Routes>
                     <Route path={ROUTES.home} element={
                         <HomePage/>
@@ -106,6 +112,10 @@ export default function App() {
                     />
                     <Route path={ROUTES.uniRoomPlanner} element={
                         <UniRoomPlanner urlBase={baseName}/>
+                    }
+                    />
+                    <Route path={ROUTES.digimonTable} element={
+                        <DigimonTable themeMode={themeMode} isPhone={isPhone} animationsPaused={animationsPaused}/>
                     }
                     />
                     <Route path={ROUTES.bitzeeTable} element={
