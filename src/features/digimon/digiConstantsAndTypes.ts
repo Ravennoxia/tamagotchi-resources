@@ -31,6 +31,7 @@ export interface DigiRow {
     spritePenZ: string | null
     spritePenZcloseUp: string | null
     spriteDMC: string | null
+    spritePenC: string | null
 }
 
 export const DIGI_DEVICE_COLUMNS = [
@@ -42,5 +43,6 @@ export const DIGI_DEVICE_COLUMNS = [
     {version: "DMX", sprite: "spriteDMXcloseUp", image: 1, width: 148, renderer: DigimonImageRenderer},
     {version: "PenZ", sprite: "spritePenZ", image: 0, width: 74, renderer: DigimonImageRenderer},
     {version: "PenZ", sprite: "spritePenZcloseUp", image: 1, width: 148, renderer: DigimonImageRenderer},
-    {version: "DMC", sprite: "spriteDMC", image: 0, width: 74, renderer: DigimonAnimatedRenderer}
+    {version: "DMC", sprite: "spriteDMC", image: 0, width: 74, renderer: DigimonAnimatedRenderer},
+    {version: "PenC", sprite: "spritePenC", image: 0, width: 74, renderer: DigimonAnimatedRenderer}
 ]

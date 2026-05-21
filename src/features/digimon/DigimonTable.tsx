@@ -36,7 +36,8 @@ export default function DigimonTable({themeMode, isPhone, animationsPaused}: {
                         spriteDMXcloseUp: getSprite(charData, "DMX", 1),
                         spritePenZ: getSprite(charData, "PenZ", 0),
                         spritePenZcloseUp: getSprite(charData, "PenZ", 1),
-                        spriteDMC: getSprite(charData, "DMC", 0)
+                        spriteDMC: getSprite(charData, "DMC", 0),
+                        spritePenC: getSprite(charData, "PenC", 0)
                     }
                 })
                 setRowData(transformedData)

@@ -180,6 +180,17 @@
                     "agumon_01_animation_1.gif",
                     "agumon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "agumon_03_animation_1.gif",
+                    "agumon_03_animation_2.gif"
+                ]
             }
         ]
     },
@@ -311,6 +322,18 @@
                     "greymon_01_animation_1.gif",
                     "greymon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm",
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "greymon_03_animation_1.gif",
+                    "greymon_03_animation_2.gif"
+                ]
             }
         ]
     },
@@ -391,6 +414,17 @@
                 "sprites": [
                     "devimon_01_animation_1.gif",
                     "devimon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "devimon_03_animation_1.gif",
+                    "devimon_03_animation_2.gif"
                 ]
             }
         ]
@@ -579,6 +613,17 @@
                     "meramon_01_animation_1.gif",
                     "meramon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "meramon_03_animation_1.gif",
+                    "meramon_03_animation_2.gif"
+                ]
             }
         ]
     },
@@ -648,6 +693,17 @@
                 "sprites": [
                     "seadramon_01_animation_1.gif",
                     "seadramon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "seadramon_03_animation_1.gif",
+                    "seadramon_03_animation_2.gif"
                 ]
             }
         ]
@@ -949,6 +1005,17 @@
                     "gabumon_01_animation_1.gif",
                     "gabumon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "gabumon_03_animation_1.gif",
+                    "gabumon_03_animation_2.gif"
+                ]
             }
         ]
     },
@@ -1059,6 +1126,17 @@
                     "kabuterimon_01_animation_1.gif",
                     "kabuterimon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kabuterimon_02_animation_1.gif",
+                    "kabuterimon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -1130,6 +1208,17 @@
                     "angemon_01_animation_1.gif",
                     "angemon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "angemon_03_animation_1.gif",
+                    "angemon_03_animation_2.gif"
+                ]
             }
         ]
     },
@@ -1199,6 +1288,17 @@
                 "sprites": [
                     "birdramon_01_animation_1.gif",
                     "birdramon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "birdramon_02_animation_1.gif",
+                    "birdramon_02_animation_2.gif"
                 ]
             }
         ]
@@ -1342,6 +1442,18 @@
                     "garurumon_01_animation_1.gif",
                     "garurumon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo",
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "garurumon_02_animation_1.gif",
+                    "garurumon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -1461,6 +1573,17 @@
                 "sprites": [
                     "whamon_01_animation_1.gif",
                     "whamon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "whamon_02_animation_1.gif",
+                    "whamon_02_animation_2.gif"
                 ]
             }
         ]
@@ -1599,6 +1722,17 @@
                 "sprites": [
                     "metal_mamemon_01_animation_1.gif",
                     "metal_mamemon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "metal_mamemon_03_animation_1.gif",
+                    "metal_mamemon_03_animation_2.gif"
                 ]
             }
         ]
@@ -1928,6 +2062,17 @@
                     "shellmon_01_animation_1.gif",
                     "shellmon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "shellmon_02_animation_1.gif",
+                    "shellmon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -2065,6 +2210,17 @@
                     "bakemon_01_animation_1.gif",
                     "bakemon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "bakemon_02_animation_1.gif",
+                    "bakemon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -2173,6 +2329,17 @@
                 "sprites": [
                     "andromon_01_animation_1.gif",
                     "andromon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "andromon_02_animation_1.gif",
+                    "andromon_02_animation_2.gif"
                 ]
             }
         ]
@@ -2410,6 +2577,17 @@
                     "piyomon_01_animation_1.gif",
                     "piyomon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "piyomon_02_animation_1.gif",
+                    "piyomon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -2479,6 +2657,17 @@
                 "sprites": [
                     "palmon_01_animation_1.gif",
                     "palmon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "palmon_03_animation_1.gif",
+                    "palmon_03_animation_2.gif"
                 ]
             }
         ]
@@ -2551,6 +2740,17 @@
                     "monochromon_01_animation_1.gif",
                     "monochromon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "monochromon_01_animation_1.gif",
+                    "monochromon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -2610,6 +2810,17 @@
                 "sprites": [
                     "leomon_01_animation_1.gif",
                     "leomon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "leomon_02_animation_1.gif",
+                    "leomon_02_animation_2.gif"
                 ]
             }
         ]
@@ -2680,6 +2891,17 @@
                 "sprites": [
                     "coelamon_01_animation_1.gif",
                     "coelamon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "coelamon_02_animation_1.gif",
+                    "coelamon_02_animation_2.gif"
                 ]
             }
         ]
@@ -2841,6 +3063,17 @@
                     "kuwagamon_01_animation_1.gif",
                     "kuwagamon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kuwagamon_02_animation_1.gif",
+                    "kuwagamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -2962,6 +3195,17 @@
                     "megadramon_01_animation_1.gif",
                     "megadramon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "megadramon_02_animation_1.gif",
+                    "megadramon_02_animation_2.gif"
+                ]
             }
         ]
     },
@@ -3070,6 +3314,17 @@
                 "sprites": [
                     "piccolomon_01_animation_1.gif",
                     "piccolomon_01_animation_2.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "piccolomon_03_animation_1.gif",
+                    "piccolomon_03_animation_2.gif"
                 ]
             }
         ]
@@ -3720,6 +3975,17 @@
                 "sprites": [
                     "bubbmon_02.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "bubbmon_01_animation_1.gif",
+                    "bubbmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -3768,6 +4034,17 @@
                 "stage": "II",
                 "sprites": [
                     "mochimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "mochimon_01_animation_1.gif",
+                    "mochimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -3818,6 +4095,17 @@
                 "sprites": [
                     "tentomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "tentomon_01_animation_1.gif",
+                    "tentomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -3866,6 +4154,17 @@
                 "stage": "III",
                 "sprites": [
                     "otamamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "otamamon_01_animation_1.gif",
+                    "otamamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -3916,6 +4215,17 @@
                 "sprites": [
                     "tortamon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "tortamon_01_animation_1.gif",
+                    "tortamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -3965,6 +4275,17 @@
                 "sprites": [
                     "gekomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "gekomon_01_animation_1.gif",
+                    "gekomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4013,6 +4334,17 @@
                 "stage": "IV",
                 "sprites": [
                     "starmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "starmon_01_animation_1.gif",
+                    "starmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4092,6 +4424,17 @@
                 "sprites": [
                     "atlur_kabuterimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "atlur_kabuterimon_01_animation_1.gif",
+                    "atlur_kabuterimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4140,6 +4483,17 @@
                 "stage": "V",
                 "sprites": [
                     "tonosama_gekomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "tonosama_gekomon_01_animation_1.gif",
+                    "tonosama_gekomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4197,6 +4551,17 @@
                 "stage": "III",
                 "sprites": [
                     "gottsumon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "gottsumon_01_animation_1.gif",
+                    "gottsumon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4257,6 +4622,18 @@
                     "tailmon_01.gif",
                     "tailmon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp",
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "tailmon_01_animation_1.gif",
+                    "tailmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4295,6 +4672,17 @@
                 "stage": "V",
                 "sprites": [
                     "jyagamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "jyagamon_01_animation_1.gif",
+                    "jyagamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4355,6 +4743,18 @@
                     "angewomon_01.gif",
                     "angewomon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp",
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "angewomon_01_animation_1.gif",
+                    "angewomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4393,6 +4793,17 @@
                 "stage": "V",
                 "sprites": [
                     "triceramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "triceramon_01_animation_1.gif",
+                    "triceramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4433,6 +4844,17 @@
                 "sprites": [
                     "okuwamon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "okuwamon_01_animation_1.gif",
+                    "okuwamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4471,6 +4893,17 @@
                 "stage": "VI",
                 "sprites": [
                     "herakle_kabuterimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "herakle_kabuterimon_01_animation_1.gif",
+                    "herakle_kabuterimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4522,6 +4955,17 @@
                     "holydramon_01.gif",
                     "holydramon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "holydramon_01_animation_1.gif",
+                    "holydramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4561,6 +5005,17 @@
                 "sprites": [
                     "saber_leomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "saber_leomon_01_animation_1.gif",
+                    "saber_leomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4599,6 +5054,17 @@
                 "stage": "VI",
                 "sprites": [
                     "metal_etemon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "metal_etemon_01_animation_1.gif",
+                    "metal_etemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4650,6 +5116,17 @@
                 "sprites": [
                     "pitchmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "pitchmon_01_animation_1.gif",
+                    "pitchmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4700,6 +5177,17 @@
                 "sprites": [
                     "pukamon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "pukamon_01_animation_1.gif",
+                    "pukamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4738,6 +5226,17 @@
                 "stage": "III",
                 "sprites": [
                     "gomamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "gomamon_01_animation_1.gif",
+                    "gomamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4778,6 +5277,17 @@
                 "sprites": [
                     "ganimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "ganimon_01_animation_1.gif",
+                    "ganimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4816,6 +5326,17 @@
                 "stage": "III",
                 "sprites": [
                     "shakomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "shakomon_01_animation_1.gif",
+                    "shakomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4856,6 +5377,17 @@
                 "sprites": [
                     "ikkakumon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "ikkakumon_01_animation_1.gif",
+                    "ikkakumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4894,6 +5426,17 @@
                 "stage": "IV",
                 "sprites": [
                     "rukamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "rukamon_01_animation_1.gif",
+                    "rukamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -4934,6 +5477,17 @@
                 "sprites": [
                     "ebidramon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "ebidramon_01_animation_1.gif",
+                    "ebidramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -4972,6 +5526,17 @@
                 "stage": "IV",
                 "sprites": [
                     "gesomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "gesomon_01_animation_1.gif",
+                    "gesomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5012,6 +5577,17 @@
                 "sprites": [
                     "octmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "octmon_01_animation_1.gif",
+                    "octmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5050,6 +5626,17 @@
                 "stage": "V",
                 "sprites": [
                     "zudomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "zudomon_01_animation_1.gif",
+                    "zudomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5090,6 +5677,17 @@
                 "sprites": [
                     "mega_seadramon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "mega_seadramon_01_animation_1.gif",
+                    "mega_seadramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5128,6 +5726,17 @@
                 "stage": "V",
                 "sprites": [
                     "anomalocarimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "anomalocarimon_01_animation_1.gif",
+                    "anomalocarimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5168,6 +5777,17 @@
                 "sprites": [
                     "hangyomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "hangyomon_01_animation_1.gif",
+                    "hangyomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5207,6 +5827,17 @@
                 "sprites": [
                     "marin_devimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "marin_devimon_01_animation_1.gif",
+                    "marin_devimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5245,6 +5876,17 @@
                 "stage": "V",
                 "sprites": [
                     "dagomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "dagomon_01_animation_1.gif",
+                    "dagomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5296,6 +5938,17 @@
                     "marin_angemon_01.gif",
                     "marin_angemon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "marin_angemon_01_animation_1.gif",
+                    "marin_angemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5334,6 +5987,17 @@
                 "stage": "VI",
                 "sprites": [
                     "metal_seadramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "metal_seadramon_01_animation_1.gif",
+                    "metal_seadramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5374,6 +6038,17 @@
                 "sprites": [
                     "plesiomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "plesiomon_01_animation_1.gif",
+                    "plesiomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5412,6 +6087,17 @@
                 "stage": "VI",
                 "sprites": [
                     "pukumon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "pukumon_01_animation_1.gif",
+                    "pukumon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5452,6 +6138,17 @@
                 "sprites": [
                     "mokumon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "mokumon_01_animation_1.gif",
+                    "mokumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5490,6 +6187,17 @@
                 "stage": "II",
                 "sprites": [
                     "peti_meramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "peti_meramon_01_animation_1.gif",
+                    "peti_meramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5530,6 +6238,17 @@
                 "sprites": [
                     "bakumon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "bakumon_01_animation_1.gif",
+                    "bakumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5568,6 +6287,17 @@
                 "stage": "III",
                 "sprites": [
                     "candmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "candmon_01_animation_1.gif",
+                    "candmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5608,6 +6338,17 @@
                 "sprites": [
                     "pico_devimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "pico_devimon_01_animation_1.gif",
+                    "pico_devimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5646,6 +6387,18 @@
                 "stage": "IV",
                 "sprites": [
                     "hanumon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo",
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "hanumon_01_animation_1.gif",
+                    "hanumon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5686,6 +6439,17 @@
                 "sprites": [
                     "wizarmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "wizarmon_01_animation_1.gif",
+                    "wizarmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5725,6 +6489,17 @@
                 "sprites": [
                     "dokugumon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "dokugumon_01_animation_1.gif",
+                    "dokugumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5763,6 +6538,17 @@
                 "stage": "V",
                 "sprites": [
                     "mammon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "mammon_01_animation_1.gif",
+                    "mammon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5825,6 +6611,18 @@
                     "were_garurumon_01.gif",
                     "were_garurumon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo",
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "were_garurumon_01_animation_1.gif",
+                    "were_garurumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5863,6 +6661,17 @@
                 "stage": "V",
                 "sprites": [
                     "death_meramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "death_meramon_01_animation_1.gif",
+                    "death_meramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5903,6 +6712,17 @@
                 "sprites": [
                     "pumpmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "pumpmon_01_animation_1.gif",
+                    "pumpmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -5941,6 +6761,17 @@
                 "stage": "V",
                 "sprites": [
                     "vamdemon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "vamdemon_01_animation_1.gif",
+                    "vamdemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -5981,6 +6812,17 @@
                 "sprites": [
                     "lady_devimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "lady_devimon_01_animation_1.gif",
+                    "lady_devimon_01_animation_1.gif"
+                ]
             }
         ]
     },
@@ -6019,6 +6861,17 @@
                 "stage": "V",
                 "sprites": [
                     "fantomon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "fantomon_01_animation_1.gif",
+                    "fantomon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6080,6 +6933,17 @@
                     "skull_mammon_01_animation_1.gif",
                     "skull_mammon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "skull_mammon_01_animation_1.gif",
+                    "skull_mammon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6118,6 +6982,17 @@
                 "stage": "VI",
                 "sprites": [
                     "boltmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "boltmon_01_animation_1.gif",
+                    "boltmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6158,6 +7033,17 @@
                 "sprites": [
                     "piemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "piemon_01_animation_1.gif",
+                    "piemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6197,6 +7083,17 @@
                 "sprites": [
                     "demon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "demon_01_animation_1.gif",
+                    "demon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6234,6 +7131,17 @@
                 "stage": "I",
                 "sprites": [
                     "nyokimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "nyokimon_01_animation_1.gif",
+                    "nyokimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6274,6 +7182,17 @@
                 "sprites": [
                     "pyocomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "pyocomon_01_animation_1.gif",
+                    "pyocomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6312,6 +7231,17 @@
                 "stage": "III",
                 "sprites": [
                     "floramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "floramon_01_animation_1.gif",
+                    "floramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6352,6 +7282,17 @@
                 "sprites": [
                     "mushmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "mushmon_01_animation_1.gif",
+                    "mushmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6390,6 +7331,17 @@
                 "stage": "IV",
                 "sprites": [
                     "vdramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "vdramon_01_animation_1.gif",
+                    "vdramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6430,6 +7382,17 @@
                 "sprites": [
                     "togemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "togemon_01_animation_1.gif",
+                    "togemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6468,6 +7431,17 @@
                 "stage": "IV",
                 "sprites": [
                     "kiwimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kiwimon_01_animation_1.gif",
+                    "kiwimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6508,6 +7482,17 @@
                 "sprites": [
                     "woodmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "woodmon_01_animation_1.gif",
+                    "woodmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6546,6 +7531,17 @@
                 "stage": "IV",
                 "sprites": [
                     "red_vegimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "red_vegimon_01_animation_1.gif",
+                    "red_vegimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6586,6 +7582,17 @@
                 "sprites": [
                     "aero_vdramon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "aero_vdramon_01_animation_1.gif",
+                    "aero_vdramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6624,6 +7631,17 @@
                 "stage": "V",
                 "sprites": [
                     "garudamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "garudamon_01_animation_1.gif",
+                    "garudamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6664,6 +7682,17 @@
                 "sprites": [
                     "blossomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "blossomon_01_animation_1.gif",
+                    "blossomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6702,6 +7731,17 @@
                 "stage": "V",
                 "sprites": [
                     "lilimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "lilimon_01_animation_1.gif",
+                    "lilimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6742,6 +7782,17 @@
                 "sprites": [
                     "delumon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "delumon_01_animation_1.gif",
+                    "delumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6780,6 +7831,17 @@
                 "stage": "V",
                 "sprites": [
                     "jyureimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "jyureimon_01_animation_1.gif",
+                    "jyureimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6820,6 +7882,17 @@
                 "sprites": [
                     "gerbemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "gerbemon_01_animation_1.gif",
+                    "gerbemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6858,6 +7931,17 @@
                 "stage": "VI",
                 "sprites": [
                     "hououmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "hououmon_01_animation_1.gif",
+                    "hououmon_01_animation_1.gif"
                 ]
             }
         ]
@@ -6898,6 +7982,17 @@
                 "sprites": [
                     "griffomon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "griffomon_01_animation_1.gif",
+                    "griffomon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -6936,6 +8031,17 @@
                 "stage": "VI",
                 "sprites": [
                     "rosemon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "rosemon_01_animation_1.gif",
+                    "rosemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -6986,6 +8092,17 @@
                 "sprites": [
                     "pinochimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "pinochimon_01_animation_1.gif",
+                    "pinochimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7024,6 +8141,17 @@
                 "stage": "I",
                 "sprites": [
                     "choromon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "choromon_01_animation_1.gif",
+                    "choromon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7064,6 +8192,17 @@
                 "sprites": [
                     "caprimon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "caprimon_01_animation_1.gif",
+                    "caprimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7102,6 +8241,17 @@
                 "stage": "III",
                 "sprites": [
                     "toy_agumon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "toy_agumon_01_animation_1.gif",
+                    "toy_agumon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7142,6 +8292,17 @@
                 "sprites": [
                     "kokuwamon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "kokuwamon_01_animation_1.gif",
+                    "kokuwamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7180,6 +8341,17 @@
                 "stage": "III",
                 "sprites": [
                     "hagurumon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "hagurumon_01_animation_1.gif",
+                    "hagurumon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7220,6 +8392,17 @@
                 "sprites": [
                     "revolmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "revolmon_01_animation_1.gif",
+                    "revolmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7258,6 +8441,17 @@
                 "stage": "IV",
                 "sprites": [
                     "tankmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "tankmon_01_animation_1.gif",
+                    "tankmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7298,6 +8492,17 @@
                 "sprites": [
                     "thunderballmon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "thunderballmon_01_animation_1.gif",
+                    "thunderballmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7336,6 +8541,17 @@
                 "stage": "IV",
                 "sprites": [
                     "clockmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "clockmon_01_animation_1.gif",
+                    "clockmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7376,6 +8592,17 @@
                 "sprites": [
                     "guardromon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "guardromon_01_animation_1.gif",
+                    "guardromon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7414,6 +8641,17 @@
                 "stage": "IV",
                 "sprites": [
                     "mechanorimon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "mechanorimon_01_animation_1.gif",
+                    "mechanorimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7465,6 +8703,17 @@
                     "cyberdramon_01.gif",
                     "cyberdramon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "cyberdramon_01_animation_1.gif",
+                    "cyberdramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7503,6 +8752,17 @@
                 "stage": "V",
                 "sprites": [
                     "knightmon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "knightmon_01_animation_1.gif",
+                    "knightmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7543,6 +8803,17 @@
                 "sprites": [
                     "big_mamemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "big_mamemon_01_animation_1.gif",
+                    "big_mamemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7581,6 +8852,17 @@
                 "stage": "V",
                 "sprites": [
                     "waru_monzaemon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "waru_monzaemon_01_animation_1.gif",
+                    "waru_monzaemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7643,6 +8925,18 @@
                     "war_greymon_01.gif",
                     "war_greymon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm",
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "war_greymon_01_animation_1.gif",
+                    "war_greymon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7704,6 +8998,18 @@
                     "metal_garurumon_01.gif",
                     "metal_garurumon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm",
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "metal_garurumon_01_animation_1.gif",
+                    "metal_garurumon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7764,6 +9070,17 @@
                     "mugendramon_01_animation_1.gif",
                     "mugendramon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "mugendramon_01_animation_1.gif",
+                    "mugendramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7803,6 +9120,17 @@
                 "sprites": [
                     "venom_vamdemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "venom_vamdemon_01_animation_1.gif",
+                    "venom_vamdemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7830,6 +9158,17 @@
                 "stage": "I",
                 "sprites": [
                     "yukimibotamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "yukimibotamon_01_animation_1.gif",
+                    "yukimibotamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7868,6 +9207,17 @@
                 "stage": "II",
                 "sprites": [
                     "nyaromon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "nyaromon_01_animation_1.gif",
+                    "nyaromon_01_animation_2.gif"
                 ]
             }
         ]
@@ -7918,6 +9268,17 @@
                     "plotmon_01.gif",
                     "plotmon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "plotmon_01_animation_1.gif",
+                    "plotmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7947,6 +9308,17 @@
                 "sprites": [
                     "igamon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "igamon_01_animation_1.gif",
+                    "igamon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -7975,6 +9347,17 @@
                 "stage": "V",
                 "sprites": [
                     "asuramon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "asuramon_01_animation_1.gif",
+                    "asuramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -8015,6 +9398,17 @@
                 "sprites": [
                     "holy_angemon_01.gif",
                     "holy_angemon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "holy_angemon_01_animation_1.gif",
+                    "holy_angemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -8064,6 +9458,18 @@
                 "sprites": [
                     "omegamon_01.gif",
                     "omegamon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm",
+                    "PenC VBu"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "omegamon_01_animation_1.gif",
+                    "omegamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -8199,6 +9605,17 @@
                     "hi_andromon_01_animation_1.gif",
                     "hi_andromon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "hi_andromon_01_animation_1.gif",
+                    "hi_andromon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -8245,6 +9662,17 @@
                 "sprites": [
                     "aegisdramon_01.gif",
                     "aegisdramon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "aegisdramon_01_animation_1.gif",
+                    "aegisdramon_01_animation_2.gif"
                 ]
             }
         ]
@@ -9431,6 +10859,19 @@
                 "sprites": [
                     "mastemon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo",
+                    "PenC NSp",
+                    "PenC VBu"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "mastemon_01_animation_1.gif",
+                    "mastemon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -9449,6 +10890,17 @@
                 "stage": "VI+",
                 "sprites": [
                     "voltobautamon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "voltobautamon_01_animation_1.gif",
+                    "voltobautamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -9488,6 +10940,17 @@
                 "sprites": [
                     "ulforce_vdramon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "ulforce_vdramon_01_animation_1.gif",
+                    "ulforce_vdramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -9517,6 +10980,17 @@
                 "sprites": [
                     "rafflesimon_01.gif",
                     "rafflesimon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "rafflesimon_01_animation_1.gif",
+                    "rafflesimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -10482,6 +11956,17 @@
                 "stage": "IV",
                 "sprites": [
                     "turuiemon_01.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "turuiemon_01_animation_1.gif",
+                    "turuiemon_01_animation_2.gif"
                 ]
             }
         ]
@@ -11883,6 +13368,17 @@
                 "sprites": [
                     "chohakkaimon_01.gif",
                     "chohakkaimon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "chohakkaimon_01_animation_1.gif",
+                    "chohakkaimon_01_animation_2.gif"
                 ]
             }
         ]
@@ -14537,6 +16033,17 @@
                     "anubimon_01.gif",
                     "anubimon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "anubimon_01_animation_1.gif",
+                    "anubimon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -14556,6 +16063,17 @@
                 "sprites": [
                     "gran_kuwagamon_01.gif",
                     "gran_kuwagamon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "gran_kuwagamon_01_animation_1.gif",
+                    "gran_kuwagamon_01_animation_2.gif"
                 ]
             }
         ]
@@ -14730,6 +16248,17 @@
                     "peckmon_01.gif",
                     "peckmon_01_closeup.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "peckmon_01_animation_1.gif",
+                    "peckmon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -14826,6 +16355,17 @@
                 "sprites": [
                     "yatagaramon_01.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "yatagaramon_2006_01_animation_1.gif",
+                    "yatagaramon_2006_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -14920,6 +16460,17 @@
                 "sprites": [
                     "ravmon_01.gif",
                     "ravmon_01_closeup.gif"
+                ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "ravmon_01_animation_1.gif",
+                    "ravmon_01_animation_2.gif"
                 ]
             }
         ]
@@ -15937,6 +17488,17 @@
                     "chaosdramon_01_animation_1.gif",
                     "chaosdramon_01_animation_2.gif"
                 ]
+            },
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "chaosdramon_01_animation_1.gif",
+                    "chaosdramon_01_animation_2.gif"
+                ]
             }
         ]
     },
@@ -15974,6 +17536,2003 @@
                 "sprites": [
                     "raidenmon_01_animation_1.gif",
                     "raidenmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Angoramon",
+        "images": [
+            "angoramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "angoramon_01_animation_1.gif",
+                    "angoramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Symbare Angoramon",
+        "images": [
+            "symbare_angoramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "symbare_angoramon_01_animation_1.gif",
+                    "symbare_angoramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lamortmon",
+        "images": [
+            "lamortmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "lamortmon_01_animation_1.gif",
+                    "lamortmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Blastmon",
+        "images": [
+            "blastmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "blastmon_01_animation_1.gif",
+                    "blastmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Diarbbitmon",
+        "images": [
+            "diarbbitmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "diarbbitmon_01_animation_1.gif",
+                    "diarbbitmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "El Doradimon",
+        "images": [
+            "el_doradimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "el_doradimon_01_animation_1.gif",
+                    "el_doradimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tlalocmon",
+        "images": [
+            "tlalocmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSp"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "tlalocmon_01_animation_1.gif",
+                    "tlalocmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jellymon",
+        "images": [
+            "jellymon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "jellymon_01_animation_1.gif",
+                    "jellymon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tesla Jellymon",
+        "images": [
+            "tesla_jellymon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "tesla_jellymon_01_animation_1.gif",
+                    "tesla_jellymon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Thetismon",
+        "images": [
+            "thetismon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "thetismon_01_animation_1.gif",
+                    "thetismon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vikemon",
+        "images": [
+            "vikemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "vikemon_01_animation_1.gif",
+                    "vikemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jumbo Gamemon",
+        "images": [
+            "jumbo_gamemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "jumbo_gamemon_01_animation_1.gif",
+                    "jumbo_gamemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Amphimon",
+        "images": [
+            "amphimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "amphimon_01_animation_1.gif",
+                    "amphimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cthyllamon",
+        "images": [
+            "cthyllamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "cthyllamon_01_animation_1.gif",
+                    "cthyllamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mitamamon",
+        "images": [
+            "mitamamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC DSa",
+                    "PenC WGu"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "mitamamon_01_animation_1.gif",
+                    "mitamamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Loogamon",
+        "images": [
+            "loogamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "loogamon_01_animation_1.gif",
+                    "loogamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Loogarmon",
+        "images": [
+            "loogarmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "loogarmon_01_animation_1.gif",
+                    "loogarmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Soloogarmon",
+        "images": [
+            "soloogarmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "soloogarmon_01_animation_1.gif",
+                    "soloogarmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Noble Pumpmon",
+        "images": [
+            "noble_pumpmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "noble_pumpmon_01_animation_1.gif",
+                    "noble_pumpmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Callismon",
+        "images": [
+            "callismon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "callismon_01_animation_1.gif",
+                    "callismon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fenriloogamon",
+        "images": [
+            "fenriloogamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC NSo"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "fenriloogamon_01_animation_1.gif",
+                    "fenriloogamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pteromon",
+        "images": [
+            "pteromon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "pteromon_01_animation_1.gif",
+                    "pteromon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Galemon",
+        "images": [
+            "galemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "galemon_01_animation_1.gif",
+                    "galemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Grand Galemon",
+        "images": [
+            "grand_galemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "grand_galemon_01_animation_1.gif",
+                    "grand_galemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zephagamon",
+        "images": [
+            "zephagamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "zephagamon_01_animation_1.gif",
+                    "zephagamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hydramon",
+        "images": [
+            "hydramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "hydramon_01_animation_1.gif",
+                    "hydramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cernumon",
+        "images": [
+            "cernumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC WGu"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "cernumon_01_animation_1.gif",
+                    "cernumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Commandramon",
+        "images": [
+            "commandramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "commandramon_01_animation_1.gif",
+                    "commandramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hi-Commandramon",
+        "images": [
+            "hicommandramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "hicommandramon_01_animation_1.gif",
+                    "hicommandramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Metal Greymon (Vaccine)",
+        "images": [
+            "metal_greymon_02.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm",
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "metal_greymon_vaccine_01_animation_1.gif",
+                    "metal_greymon_vaccine_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cargodramon",
+        "images": [
+            "cargodramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "cargodramon_01_animation_1.gif",
+                    "cargodramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ragnamon",
+        "images": [
+            "ragnamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "ragnamon_01_animation_1.gif",
+                    "ragnamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zeke Greymon",
+        "images": [
+            "zeke_greymon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "zeke_greymon_01_animation_1.gif",
+                    "zeke_greymon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Brigadramon",
+        "images": [
+            "brigadramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC MEm"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "brigadramon_01_animation_1.gif",
+                    "brigadramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gammamon",
+        "images": [
+            "gammamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "gammamon_01_animation_1.gif",
+                    "gammamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Betel Gammamon",
+        "images": [
+            "betel_gammamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "betel_gammamon_01_animation_1.gif",
+                    "betel_gammamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kaus Gammamon",
+        "images": [
+            "kaus_gammamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kaus_gammamon_01_animation_1.gif",
+                    "kaus_gammamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wezen Gammamon",
+        "images": [
+            "wezen_gammamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "wezen_gammamon_01_animation_1.gif",
+                    "wezen_gammamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gulus Gammamon",
+        "images": [
+            "gulus_gammamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "gulus_gammamon_01_animation_1.gif",
+                    "gulus_gammamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Canoweissmon",
+        "images": [
+            "canoweissmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "canoweissmon_01_animation_1.gif",
+                    "canoweissmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Regulusmon",
+        "images": [
+            "regulusmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "regulusmon_01_animation_1.gif",
+                    "regulusmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dominimon",
+        "images": [
+            "dominimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "dominimon_01_animation_1.gif",
+                    "dominimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Quantumon",
+        "images": [
+            "quantumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "quantumon_01_animation_1.gif",
+                    "quantumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Siriusmon",
+        "images": [
+            "siriusmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "siriusmon_01_animation_1.gif",
+                    "siriusmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Arcturusmon",
+        "images": [
+            "arcturusmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "arcturusmon_01_animation_1.gif",
+                    "arcturusmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Proximamon",
+        "images": [
+            "proximamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC VBu"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "proximamon_01_animation_1.gif",
+                    "proximamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fukamon",
+        "images": [
+            "fukamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "fukamon_01_animation_1.gif",
+                    "fukamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mococomon",
+        "images": [
+            "mococomon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "mococomon_01_animation_1.gif",
+                    "mococomon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kakamon",
+        "images": [
+            "kakamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "kakamon_01_animation_1.gif",
+                    "kakamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kamemon",
+        "images": [
+            "kamemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "kamemon_01_animation_1.gif",
+                    "kamemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fujamon",
+        "images": [
+            "fujamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "fujamon_01_animation_1.gif",
+                    "fujamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Takinmon",
+        "images": [
+            "takinmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "takinmon_01_animation_1.gif",
+                    "takinmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Xiquemon",
+        "images": [
+            "xiquemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "xiquemon_01_animation_1.gif",
+                    "xiquemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gawappamon",
+        "images": [
+            "gawappamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "gawappamon_01_animation_1.gif",
+                    "gawappamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lianpumon",
+        "images": [
+            "lianpumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "lianpumon_01_animation_1.gif",
+                    "lianpumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ginkakumon",
+        "images": [
+            "ginkakumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "ginkakumon_01_animation_1.gif",
+                    "ginkakumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kinkakumon",
+        "images": [
+            "kinkakumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kinkakumon_01_animation_1.gif",
+                    "kinkakumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hakubamon",
+        "images": [
+            "hakubamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "hakubamon_01_animation_1.gif",
+                    "hakubamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sanzomon",
+        "images": [
+            "sanzomon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "sanzomon_01_animation_1.gif",
+                    "sanzomon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Huankunmon",
+        "images": [
+            "huankunmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "huankunmon_01_animation_1.gif",
+                    "huankunmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pandamon",
+        "images": [
+            "pandamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "pandamon_01_animation_1.gif",
+                    "pandamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gokuwmon",
+        "images": [
+            "gokuwmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "gokuwmon_01_animation_1.gif",
+                    "gokuwmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Xingtianmon",
+        "images": [
+            "xingtianmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "xingtianmon_01_animation_1.gif",
+                    "xingtianmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sagomon",
+        "images": [
+            "sagomon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "sagomon_01_animation_1.gif",
+                    "sagomon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Andiramon (Deva)",
+        "images": [
+            "andiramon_deva_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "andiramon_deva_01_animation_1.gif",
+                    "andiramon_deva_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Erlangmon",
+        "images": [
+            "erlangmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "erlangmon_01_animation_1.gif",
+                    "erlangmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Xiangpengmon",
+        "images": [
+            "xiangpengmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "xiangpengmon_01_animation_1.gif",
+                    "xiangpengmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shagaramon",
+        "images": [
+            "shagaramon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "shagaramon_01_animation_1.gif",
+                    "shagaramon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nezhamon",
+        "images": [
+            "nezhamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "nezhamon_01_animation_1.gif",
+                    "nezhamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Seiten Gokuwmon",
+        "images": [
+            "seiten_gokuwmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "seiten_gokuwmon_01_animation_1.gif",
+                    "seiten_gokuwmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dijiangmon",
+        "images": [
+            "dijiangmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "dijiangmon_01_animation_1.gif",
+                    "dijiangmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Takutoumon",
+        "images": [
+            "takutoumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "takutoumon_01_animation_1.gif",
+                    "takutoumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jougamon",
+        "images": [
+            "jougamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "jougamon_01_animation_1.gif",
+                    "jougamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Erlangmon: Blast Mode",
+        "images": [
+            "erlangmon_blast_mode_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "erlangmon_blast_mode_01_animation_1.gif",
+                    "erlangmon_blast_mode_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nezhamon: Crimson Mode",
+        "images": [
+            "nezhamon_crimson_mode_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "nezhamon_crimson_mode_01_animation_1.gif",
+                    "nezhamon_crimson_mode_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shakamon",
+        "images": [
+            "shakamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "shakamon_01_animation_1.gif",
+                    "shakamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Takutoumon: Wrath Mode",
+        "images": [
+            "takutoumon_wrath_mode_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC SWa"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "takutoumon_wrath_mode_01_animation_1.gif",
+                    "takutoumon_wrath_mode_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tomorimon",
+        "images": [
+            "tomorimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "tomorimon_01_animation_1.gif",
+                    "tomorimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Onibimon",
+        "images": [
+            "onibimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "I",
+                "sprites": [
+                    "onibimon_01_animation_1.gif",
+                    "onibimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wankomon",
+        "images": [
+            "wankomon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "wankomon_01_animation_1.gif",
+                    "wankomon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hanimon",
+        "images": [
+            "hanimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "hanimon_01_animation_1.gif",
+                    "hanimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gasamon",
+        "images": [
+            "gasamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "gasamon_01_animation_1.gif",
+                    "gasamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Renamon",
+        "images": [
+            "renamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "III",
+                "sprites": [
+                    "renamon_01_animation_1.gif",
+                    "renamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Siesamon",
+        "images": [
+            "siesamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "siesamon_01_animation_1.gif",
+                    "siesamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kokeshimon",
+        "images": [
+            "kokeshimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "kokeshimon_01_animation_1.gif",
+                    "kokeshimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musyamon",
+        "images": [
+            "musyamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "musyamon_01_animation_1.gif",
+                    "musyamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fugamon",
+        "images": [
+            "fugamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "fugamon_01_animation_1.gif",
+                    "fugamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Manekimon",
+        "images": [
+            "manekimon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "manekimon_01_animation_1.gif",
+                    "manekimon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tenkomon",
+        "images": [
+            "tenkomon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "IV",
+                "sprites": [
+                    "tenkomon_01_animation_1.gif",
+                    "tenkomon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shishimamon",
+        "images": [
+            "shishimamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "shishimamon_01_animation_1.gif",
+                    "shishimamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Karakurumon",
+        "images": [
+            "karakurumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "karakurumon_01_animation_1.gif",
+                    "karakurumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marin Bullmon",
+        "images": [
+            "marin_bullmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "marin_bullmon_01_animation_1.gif",
+                    "marin_bullmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oboromon",
+        "images": [
+            "oboromon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "oboromon_01_animation_1.gif",
+                    "oboromon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Karatenmon",
+        "images": [
+            "karatenmon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "karatenmon_01_animation_1.gif",
+                    "karatenmon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Darumamon",
+        "images": [
+            "darumamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "darumamon_01_animation_1.gif",
+                    "darumamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sekkamon",
+        "images": [
+            "sekkamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "V",
+                "sprites": [
+                    "sekkamon_01_animation_1.gif",
+                    "sekkamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Amaterasumon",
+        "images": [
+            "amaterasumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "amaterasumon_01_animation_1.gif",
+                    "amaterasumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kaguyamon",
+        "images": [
+            "kaguyamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "kaguyamon_01_animation_1.gif",
+                    "kaguyamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ryugumon",
+        "images": [
+            "ryugumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "ryugumon_01_animation_1.gif",
+                    "ryugumon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zanbamon",
+        "images": [
+            "zanbamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "zanbamon_01_animation_1.gif",
+                    "zanbamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tengumon",
+        "images": [
+            "tengumon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "tengumon_01_animation_1.gif",
+                    "tengumon_01_animation_1.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ariemon",
+        "images": [
+            "ariemon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "ariemon_01_animation_1.gif",
+                    "ariemon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Yukinamon",
+        "images": [
+            "yukinamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI",
+                "sprites": [
+                    "yukinamon_01_animation_1.gif",
+                    "yukinamon_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ravmon: Burst Mode",
+        "images": [
+            "ravmon_burst_mode_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "ravmon_burst_mode_01_animation_1.gif",
+                    "ravmon_burst_mode_01_animation_2.gif"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Enmamon",
+        "images": [
+            "enmamon_01.jpg"
+        ],
+        "versions": [
+            {
+                "device": "PenC",
+                "devices": [
+                    "PenC TBr"
+                ],
+                "stage": "VI+",
+                "sprites": [
+                    "enmamon_01_animation_1.gif",
+                    "enmamon_01_animation_2.gif"
                 ]
             }
         ]
