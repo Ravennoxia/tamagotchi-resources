@@ -9,6 +9,7 @@ import {getPortalRoot} from "../../../global/functions.ts"
 
 interface DigiImageRendererParams extends ICellRendererParams {
     deviceVersion: string
+    image: number
 }
 
 
@@ -27,7 +28,7 @@ function DigimonImageRenderer(params: DigiImageRendererParams) {
     })
     const version = params.data.versions.find((v: { device: string }) => v.device === params.deviceVersion)
     const tooltipContent = version?.devices.join(", ") || ""
-    const spriteName = version?.sprites[0] || ""
+    const spriteName = version?.sprites[params.image] || ""
     const portalRoot = getPortalRoot()
     const displayTooltip = showTooltip && tooltipContent.length > 0
 

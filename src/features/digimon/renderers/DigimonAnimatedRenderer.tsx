@@ -10,6 +10,7 @@ import {getPortalRoot} from "../../../global/functions.ts"
 
 interface DigiAnimatedRendererParams extends ICellRendererParams {
     animationsPaused: boolean
+    deviceVersion: string
 }
 
 function DigimonAnimatedRenderer(params: DigiAnimatedRendererParams) {
@@ -26,10 +27,10 @@ function DigimonAnimatedRenderer(params: DigiAnimatedRendererParams) {
         horizontalCenter: true,
         gridDiv: params.eGridCell?.closest(".ag-root-wrapper")
     })
-    const tooltipContent = params.data.versions.map((v: { device: string }) => v.device).join(", ")
 
-
-    const images = params.data.versions.find((v: { device: string }) => v.device === "D3C")?.images ?? []
+    const version = params.data.versions.find((v: { device: string }) => v.device === params.deviceVersion)
+    const tooltipContent = version?.devices.join(", ") || ""
+    const images = version?.sprites ?? []
     const currentImage = params.animationsPaused ? images[1] : images[imageIndex]
 
     React.useEffect(() => {

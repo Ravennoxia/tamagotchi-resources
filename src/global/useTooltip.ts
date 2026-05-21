@@ -4,7 +4,7 @@ import {type RefObject, useCallback, useEffect, useRef, useState} from "react"
 interface TooltipProps {
     elementForListeners: HTMLElement,
     horizontalCenter: boolean,
-    gridDiv?: Element | Window | null,
+    gridDiv?: Element | Window | typeof globalThis | null,
     isHeader?: boolean
 }
 
@@ -21,7 +21,7 @@ export default function useTooltip(
     {
         elementForListeners,
         horizontalCenter,
-        gridDiv = window,
+        gridDiv = globalThis,
         isHeader = false
     }: TooltipProps): TooltipReturn {
     const [intentToShowTooltip, setIntentToShowTooltip] = useState(false)
@@ -30,6 +30,8 @@ export default function useTooltip(
     const [isDragging, setIsDragging] = useState<boolean>(false)
     const targetRef = useRef<HTMLElement>(null)
     const tooltipRef = useRef<HTMLDivElement>(null)
+    const rafIdRef = useRef<number>(0)
+    const prevPositionRef = useRef({top: 0, left: 0})
 
     const getAGGridContainer = useCallback(() => {
         if (gridDiv instanceof Element) {
@@ -38,7 +40,7 @@ export default function useTooltip(
                 return viewport as HTMLElement
             }
         }
-        return window
+        return globalThis
     }, [gridDiv])
 
     const gridContainer = getAGGridContainer()
@@ -51,12 +53,16 @@ export default function useTooltip(
 
             if (targetRect.width > 0 && targetRect.height > 0 &&
                 tooltipRect.width > 0 && tooltipRect.height > 0) {
-                setTooltipPosition({
-                    top: getTopPosition(targetRect, tooltipRect, containerRect, isHeader),
-                    left: getLeftPosition(targetRect, tooltipRect, containerRect, horizontalCenter)
-                })
+                const newTop = getTopPosition(targetRect, tooltipRect, containerRect, isHeader)
+                const newLeft = getLeftPosition(targetRect, tooltipRect, containerRect, horizontalCenter)
+                if (prevPositionRef.current.top !== newTop || prevPositionRef.current.left !== newLeft) {
+                    prevPositionRef.current = {top: newTop, left: newLeft}
+                    setTooltipPosition({top: newTop, left: newLeft})
+                }
+                return true
             }
         }
+        return false
     }, [horizontalCenter, isHeader, gridContainer])
 
     const handleMouseEnter = useCallback((event: React.MouseEvent<HTMLElement>) => {
@@ -105,13 +111,33 @@ export default function useTooltip(
     }, [elementForListeners, handleTouchEnd, handleTouchMove, handleTouchStart])
 
     useEffect(() => {
-        calculatePosition()
-        if (intentToShowTooltip && tooltipPosition.left > 0 && tooltipPosition.top > 0) {
-            setShowTooltip(true)
-        } else {
+        if (!intentToShowTooltip) {
             setShowTooltip(false)
+            return
         }
-    }, [calculatePosition, intentToShowTooltip, tooltipPosition.left, tooltipPosition.top])
+        if (rafIdRef.current) {
+            cancelAnimationFrame(rafIdRef.current)
+        }
+        rafIdRef.current = requestAnimationFrame(() => {
+            const positionCalculated = calculatePosition()
+            if (positionCalculated) {
+                setShowTooltip(true)
+            }
+        })
+        return () => {
+            if (rafIdRef.current) {
+                cancelAnimationFrame(rafIdRef.current)
+            }
+        }
+    }, [intentToShowTooltip, calculatePosition])
+
+    useEffect(() => {
+        return () => {
+            if (rafIdRef.current) {
+                cancelAnimationFrame(rafIdRef.current)
+            }
+        }
+    }, [])
 
     return {
         showTooltip,
@@ -123,7 +149,7 @@ export default function useTooltip(
     }
 }
 
-function getContainerRect(scrollContainer: HTMLElement | (Window & typeof globalThis)) {
+function getContainerRect(scrollContainer: HTMLElement | Window | typeof globalThis) {
     if (scrollContainer instanceof HTMLElement) {
         return scrollContainer.getBoundingClientRect()
     }

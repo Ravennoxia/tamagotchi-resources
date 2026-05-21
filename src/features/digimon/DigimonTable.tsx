@@ -28,9 +28,15 @@ export default function DigimonTable({themeMode, isPhone, animationsPaused}: {
                         name: charData.name,
                         image: charData.images[0],
                         versions: charData.versions,
-                        spriteDM: getSprite(charData, "DM"),
-                        spritePen: getSprite(charData, "Pen"),
-                        spriteDM20: getSprite(charData, "DM20")
+                        spriteDM: getSprite(charData, "DM", 0),
+                        spritePen: getSprite(charData, "Pen", 0),
+                        spriteDM20: getSprite(charData, "DM20", 0),
+                        spritePen20: getSprite(charData, "Pen20", 0),
+                        spriteDMX: getSprite(charData, "DMX", 0),
+                        spriteDMXcloseUp: getSprite(charData, "DMX", 1),
+                        spritePenZ: getSprite(charData, "PenZ", 0),
+                        spritePenZcloseUp: getSprite(charData, "PenZ", 1),
+                        spriteDMC: getSprite(charData, "DMC", 0)
                     }
                 })
                 setRowData(transformedData)
@@ -60,10 +66,15 @@ export default function DigimonTable({themeMode, isPhone, animationsPaused}: {
                     }}
                 />
             </div>
+            <cite style={{textAlign: "right"}}>Images and information are from{" "}
+                <a href={"https://humulos.com/digimon/"} target="_blank" rel="noopener noreferrer">
+                    Digitama Hatchery (Humulos)
+                </a>
+            </cite>
         </div>
     </div>
 }
 
-function getSprite(charData: DigiData, device: string) {
-    return charData.versions.find((v) => v.device === device)?.sprites[0] ?? null
+function getSprite(charData: DigiData, device: string, image: number) {
+    return charData.versions.find((v) => v.device === device)?.sprites[image] ?? null
 }

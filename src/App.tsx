@@ -42,7 +42,6 @@ export default function App() {
     }, [isPhone])
 
     useEffect(() => {
-        console.log("isDarkMode:", isDarkMode)
         if (isDarkMode) {
             setThemeMode("dark")
         } else {
